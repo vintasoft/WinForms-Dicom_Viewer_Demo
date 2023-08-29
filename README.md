@@ -10,7 +10,7 @@ This C# project uses <a href="https://www.vintasoft.com/vsimaging-dotnet-index.h
 
 
 ## Screenshot
-<img src="vintasoft-dicom-viewer-demo.png" alt="VintaSoft DICOM Viewer Demo">
+<img src="vintasoft-dicom-viewer-demo.png" title="VintaSoft DICOM Viewer Demo">
 
 
 ## Usage
