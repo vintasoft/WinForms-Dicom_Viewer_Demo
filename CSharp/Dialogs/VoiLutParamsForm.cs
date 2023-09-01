@@ -314,7 +314,7 @@ namespace DicomViewerDemo
                 DicomImageVoiLookupTable voiLut = new DicomImageVoiLookupTable(
                     resultVoiLut.WindowCenter, resultVoiLut.WindowWidth,
                     resultVoiLut.FunctionType,
-                    string.Format("Calculated {0}", command.VoiLutSearchMode));
+                    string.Format(DicomViewerDemo.Localization.Strings.DICOMVIEWERDEMO_CALCULATED_ARG0, command.VoiLutSearchMode));
 
                 // add VOI LUT to the list of default VOI LUTs
                 _defaultVoiLuts.Add(voiLut);

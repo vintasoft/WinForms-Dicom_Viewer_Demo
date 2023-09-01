@@ -117,4 +117,43 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="$this.Text" xml:space="preserve">
+    <value>PNG Encoder Settings</value>
+  </data>
+  <data name="adam7InterlacingCheckBox.Text" xml:space="preserve">
+    <value>Adam7 Interlace</value>
+  </data>
+  <data name="annotationsTabPage.Text" xml:space="preserve">
+    <value>Annotations Format</value>
+  </data>
+  <data name="compressionTabPage.Text" xml:space="preserve">
+    <value>Compression</value>
+  </data>
+  <data name="bestSpeedRadioButton.Text" xml:space="preserve">
+    <value>Best speed</value>
+  </data>
+  <data name="fastRadioButton.Text" xml:space="preserve">
+    <value>Fast</value>
+  </data>
+  <data name="normalRadioButton.Text" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="bestCompressionRadioButton.Text" xml:space="preserve">
+    <value>Best compression</value>
+  </data>
+  <data name="buttonCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="customRadioButton.Text" xml:space="preserve">
+    <value>Custom</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Compression level</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Filter method</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </metadata>
 </root>

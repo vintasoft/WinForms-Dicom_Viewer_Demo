@@ -134,7 +134,7 @@ namespace DemosCommonCode.Imaging
         public void AddVisualToolAction(VisualToolAction visualToolAction)
         {
             if (_mainVisualTool == null)
-                throw new System.Exception("Add DicomAnnotatedViewerTool first.");
+                throw new System.Exception(DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_ADD_DICOMANNOTATEDVIEWERTOOL_FIRST);
 
             // add action to tool strip
             base.AddAction(visualToolAction);

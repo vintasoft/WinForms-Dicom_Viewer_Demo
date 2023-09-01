@@ -1,4 +1,4 @@
-﻿
+
 namespace DemosCommonCode.Imaging.Codecs.Dialogs
 {
     partial class WebpEncoderSettingsForm
@@ -29,6 +29,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(WebpEncoderSettingsForm));
             this.encodingComboBox = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -83,7 +84,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(57, 15);
             this.label1.TabIndex = 4;
-            this.label1.Text = "Encoding";
+            resources.ApplyResources(this.label1, "label1");
             // 
             // label2
             // 
@@ -92,7 +93,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(45, 15);
             this.label2.TabIndex = 7;
-            this.label2.Text = "Quality";
+            resources.ApplyResources(this.label2, "label2");
             // 
             // qualityNumericUpDown
             // 
@@ -115,7 +116,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.losslessRadioButton.Size = new System.Drawing.Size(67, 19);
             this.losslessRadioButton.TabIndex = 8;
             this.losslessRadioButton.TabStop = true;
-            this.losslessRadioButton.Text = "Lossless";
+            resources.ApplyResources(this.losslessRadioButton, "losslessRadioButton");
             this.losslessRadioButton.UseVisualStyleBackColor = true;
             this.losslessRadioButton.CheckedChanged += new System.EventHandler(this.losslessRadioButton_CheckedChanged);
             // 
@@ -126,7 +127,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.lossyRadioButton.Name = "lossyRadioButton";
             this.lossyRadioButton.Size = new System.Drawing.Size(54, 19);
             this.lossyRadioButton.TabIndex = 9;
-            this.lossyRadioButton.Text = "Lossy";
+            resources.ApplyResources(this.lossyRadioButton, "lossyRadioButton");
             this.lossyRadioButton.UseVisualStyleBackColor = true;
             this.lossyRadioButton.CheckedChanged += new System.EventHandler(this.lossyRadioButton_CheckedChanged);
             // 
@@ -139,7 +140,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.groupBox1.Size = new System.Drawing.Size(148, 54);
             this.groupBox1.TabIndex = 10;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Format";
+            resources.ApplyResources(this.groupBox1, "groupBox1");
             // 
             // losslessGroupBox
             // 
@@ -151,7 +152,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.losslessGroupBox.Size = new System.Drawing.Size(219, 184);
             this.losslessGroupBox.TabIndex = 11;
             this.losslessGroupBox.TabStop = false;
-            this.losslessGroupBox.Text = "Lossless";
+            resources.ApplyResources(this.losslessGroupBox, "losslessGroupBox");
             // 
             // groupBox4
             // 
@@ -163,7 +164,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.groupBox4.Size = new System.Drawing.Size(207, 102);
             this.groupBox4.TabIndex = 8;
             this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "NearLossless";
+            resources.ApplyResources(this.groupBox4, "groupBox4");
             // 
             // nearLosslessQualityNumericUpDown
             // 
@@ -184,7 +185,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(113, 15);
             this.label4.TabIndex = 9;
-            this.label4.Text = "NearLossless quality";
+            resources.ApplyResources(this.label4, "label4");
             // 
             // nearLosslessCheckBox
             // 
@@ -193,7 +194,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.nearLosslessCheckBox.Name = "nearLosslessCheckBox";
             this.nearLosslessCheckBox.Size = new System.Drawing.Size(115, 19);
             this.nearLosslessCheckBox.TabIndex = 0;
-            this.nearLosslessCheckBox.Text = "Use NearLossless";
+            resources.ApplyResources(this.nearLosslessCheckBox, "nearLosslessCheckBox");
             this.nearLosslessCheckBox.UseVisualStyleBackColor = true;
             this.nearLosslessCheckBox.CheckedChanged += new System.EventHandler(this.nearLosslessCheckBox_CheckedChanged);
             // 
@@ -215,7 +216,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(68, 15);
             this.label3.TabIndex = 6;
-            this.label3.Text = "Transparent";
+            resources.ApplyResources(this.label3, "label3");
             // 
             // groupBox3
             // 
@@ -228,7 +229,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.groupBox3.Size = new System.Drawing.Size(211, 100);
             this.groupBox3.TabIndex = 12;
             this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Base";
+            resources.ApplyResources(this.groupBox3, "groupBox3");
             // 
             // lossyGroupBox
             // 
@@ -243,7 +244,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.lossyGroupBox.Size = new System.Drawing.Size(210, 127);
             this.lossyGroupBox.TabIndex = 13;
             this.lossyGroupBox.TabStop = false;
-            this.lossyGroupBox.Text = "Lossy";
+            resources.ApplyResources(this.lossyGroupBox, "lossyGroupBox");
             // 
             // entropyPassesNumericUpDown
             // 
@@ -274,7 +275,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(85, 15);
             this.label7.TabIndex = 15;
-            this.label7.Text = "Entropy passes";
+            resources.ApplyResources(this.label7, "label7");
             // 
             // spatialNoiseShapingNumericUpDown
             // 
@@ -295,7 +296,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(118, 15);
             this.label6.TabIndex = 13;
-            this.label6.Text = "Spatial noise shaping";
+            resources.ApplyResources(this.label6, "label6");
             // 
             // filtersStrengthNumericUpDown
             // 
@@ -316,7 +317,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(85, 15);
             this.label5.TabIndex = 11;
-            this.label5.Text = "Filters strength";
+            resources.ApplyResources(this.label5, "label5");
             // 
             // buttonCancel
             // 
@@ -325,7 +326,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.buttonCancel.Name = "buttonCancel";
             this.buttonCancel.Size = new System.Drawing.Size(75, 23);
             this.buttonCancel.TabIndex = 15;
-            this.buttonCancel.Text = "Cancel";
+            resources.ApplyResources(this.buttonCancel, "buttonCancel");
             this.buttonCancel.UseVisualStyleBackColor = true;
             this.buttonCancel.Click += new System.EventHandler(this.buttonCancel_Click);
             // 
@@ -356,7 +357,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.MinimumSize = new System.Drawing.Size(258, 452);
             this.Name = "WebpEncoderSettingsForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "WEBP Encoder Settings";
+            resources.ApplyResources(this, "$this");
             ((System.ComponentModel.ISupportInitialize)(this.qualityNumericUpDown)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

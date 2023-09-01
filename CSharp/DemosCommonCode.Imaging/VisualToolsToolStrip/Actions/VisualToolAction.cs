@@ -455,7 +455,7 @@ namespace DemosCommonCode.Imaging
         /// </summary>
         private void Tool_ImageLoadingException(object sender, ExceptionEventArgs e)
         {
-            MessageBox.Show(e.Exception.Message, "Visual tool");
+            MessageBox.Show(e.Exception.Message, DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_VISUAL_TOOL);
         }
 
         #endregion

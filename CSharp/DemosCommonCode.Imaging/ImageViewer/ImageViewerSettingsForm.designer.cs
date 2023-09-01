@@ -28,6 +28,7 @@ namespace DemosCommonCode.Imaging
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ImageViewerSettingsForm));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.focusPointAnchorTypeEditor = new DemosCommonCode.CustomControls.AnchorTypeEditorControl();
             this.focusPointIsFixedCheckBox = new System.Windows.Forms.CheckBox();
@@ -108,7 +109,7 @@ namespace DemosCommonCode.Imaging
             this.groupBox1.Size = new System.Drawing.Size(354, 104);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Focus point";
+            resources.ApplyResources(this.groupBox1, "groupBox1");
             // 
             // focusPointAnchorTypeEditor
             // 
@@ -127,7 +128,7 @@ namespace DemosCommonCode.Imaging
             this.focusPointIsFixedCheckBox.Name = "focusPointIsFixedCheckBox";
             this.focusPointIsFixedCheckBox.Size = new System.Drawing.Size(51, 17);
             this.focusPointIsFixedCheckBox.TabIndex = 7;
-            this.focusPointIsFixedCheckBox.Text = "Fixed";
+            resources.ApplyResources(this.focusPointIsFixedCheckBox, "focusPointIsFixedCheckBox");
             this.focusPointIsFixedCheckBox.UseVisualStyleBackColor = true;
             // 
             // label2
@@ -137,7 +138,7 @@ namespace DemosCommonCode.Imaging
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(41, 13);
             this.label2.TabIndex = 6;
-            this.label2.Text = "Anchor";
+            resources.ApplyResources(this.label2, "label2");
             // 
             // groupBox3
             // 
@@ -156,7 +157,7 @@ namespace DemosCommonCode.Imaging
             this.groupBox3.Size = new System.Drawing.Size(389, 81);
             this.groupBox3.TabIndex = 2;
             this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Buffering";
+            resources.ApplyResources(this.groupBox3, "groupBox3");
             // 
             // label10
             // 
@@ -165,7 +166,7 @@ namespace DemosCommonCode.Imaging
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(60, 13);
             this.label10.TabIndex = 14;
-            this.label10.Text = "Megapixels";
+            resources.ApplyResources(this.label10, "label10");
             // 
             // label9
             // 
@@ -174,7 +175,7 @@ namespace DemosCommonCode.Imaging
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(59, 13);
             this.label9.TabIndex = 13;
-            this.label9.Text = "Megabytes";
+            resources.ApplyResources(this.label9, "label9");
             // 
             // label8
             // 
@@ -183,7 +184,7 @@ namespace DemosCommonCode.Imaging
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(60, 13);
             this.label8.TabIndex = 12;
-            this.label8.Text = "Megapixels";
+            resources.ApplyResources(this.label8, "label8");
             // 
             // minImageSizeWhenZoomBufferUsedNumericUpDown
             // 
@@ -238,7 +239,7 @@ namespace DemosCommonCode.Imaging
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(195, 13);
             this.label5.TabIndex = 2;
-            this.label5.Text = "Min Image Size when Zoom Buffer used";
+            resources.ApplyResources(this.label5, "label5");
             // 
             // label4
             // 
@@ -247,7 +248,7 @@ namespace DemosCommonCode.Imaging
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(108, 13);
             this.label4.TabIndex = 1;
-            this.label4.Text = "Renderer Cache Size";
+            resources.ApplyResources(this.label4, "label4");
             // 
             // label3
             // 
@@ -256,7 +257,7 @@ namespace DemosCommonCode.Imaging
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(93, 13);
             this.label3.TabIndex = 0;
-            this.label3.Text = "Viewer Buffer Size";
+            resources.ApplyResources(this.label3, "label3");
             // 
             // label1
             // 
@@ -265,7 +266,7 @@ namespace DemosCommonCode.Imaging
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(73, 13);
             this.label1.TabIndex = 4;
-            this.label1.Text = "Image Anchor";
+            resources.ApplyResources(this.label1, "label1");
             // 
             // label6
             // 
@@ -275,7 +276,7 @@ namespace DemosCommonCode.Imaging
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(89, 13);
             this.label6.TabIndex = 5;
-            this.label6.Text = "Rendering quality";
+            resources.ApplyResources(this.label6, "label6");
             // 
             // renderingQualityComboBox
             // 
@@ -294,7 +295,7 @@ namespace DemosCommonCode.Imaging
             this.renderingSettingsButton.Name = "renderingSettingsButton";
             this.renderingSettingsButton.Size = new System.Drawing.Size(370, 23);
             this.renderingSettingsButton.TabIndex = 7;
-            this.renderingSettingsButton.Text = "Image Rendering Settings...";
+            resources.ApplyResources(this.renderingSettingsButton, "renderingSettingsButton");
             this.renderingSettingsButton.UseVisualStyleBackColor = true;
             this.renderingSettingsButton.Click += new System.EventHandler(this.renderingSettingsButton_Click);
             // 
@@ -317,7 +318,7 @@ namespace DemosCommonCode.Imaging
             this.buttonCancel.Name = "buttonCancel";
             this.buttonCancel.Size = new System.Drawing.Size(81, 23);
             this.buttonCancel.TabIndex = 10;
-            this.buttonCancel.Text = "Cancel";
+            resources.ApplyResources(this.buttonCancel, "buttonCancel");
             this.buttonCancel.UseVisualStyleBackColor = true;
             // 
             // label7
@@ -327,7 +328,7 @@ namespace DemosCommonCode.Imaging
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(89, 13);
             this.label7.TabIndex = 11;
-            this.label7.Text = "Background Color";
+            resources.ApplyResources(this.label7, "label7");
             // 
             // renderingRequirementsButton
             // 
@@ -335,7 +336,7 @@ namespace DemosCommonCode.Imaging
             this.renderingRequirementsButton.Name = "renderingRequirementsButton";
             this.renderingRequirementsButton.Size = new System.Drawing.Size(370, 23);
             this.renderingRequirementsButton.TabIndex = 14;
-            this.renderingRequirementsButton.Text = "Partial/Progressive Rendering Requirements...";
+            resources.ApplyResources(this.renderingRequirementsButton, "renderingRequirementsButton");
             this.renderingRequirementsButton.UseVisualStyleBackColor = true;
             this.renderingRequirementsButton.Click += new System.EventHandler(this.renderingRequirementsButton_Click);
             // 
@@ -361,7 +362,7 @@ namespace DemosCommonCode.Imaging
             this.groupBox2.Size = new System.Drawing.Size(389, 240);
             this.groupBox2.TabIndex = 15;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Rendering";
+            resources.ApplyResources(this.groupBox2, "groupBox2");
             // 
             // renderOnlyVisibleImagesCheckBox
             // 
@@ -370,7 +371,7 @@ namespace DemosCommonCode.Imaging
             this.renderOnlyVisibleImagesCheckBox.Name = "renderOnlyVisibleImagesCheckBox";
             this.renderOnlyVisibleImagesCheckBox.Size = new System.Drawing.Size(151, 17);
             this.renderOnlyVisibleImagesCheckBox.TabIndex = 16;
-            this.renderOnlyVisibleImagesCheckBox.Text = "Render only visible images";
+            resources.ApplyResources(this.renderOnlyVisibleImagesCheckBox, "renderOnlyVisibleImagesCheckBox");
             this.renderOnlyVisibleImagesCheckBox.UseVisualStyleBackColor = true;
             // 
             // label20
@@ -380,7 +381,7 @@ namespace DemosCommonCode.Imaging
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(65, 13);
             this.label20.TabIndex = 24;
-            this.label20.Text = "Max threads";
+            resources.ApplyResources(this.label20, "label20");
             // 
             // maxThreadsNumericUpDown
             // 
@@ -411,7 +412,7 @@ namespace DemosCommonCode.Imaging
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(43, 13);
             this.label16.TabIndex = 22;
-            this.label16.Text = "Highest";
+            resources.ApplyResources(this.label16, "label16");
             // 
             // label15
             // 
@@ -420,7 +421,7 @@ namespace DemosCommonCode.Imaging
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(40, 13);
             this.label15.TabIndex = 21;
-            this.label15.Text = "Normal";
+            resources.ApplyResources(this.label15, "label15");
             // 
             // label13
             // 
@@ -429,7 +430,7 @@ namespace DemosCommonCode.Imaging
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(200, 26);
             this.label13.TabIndex = 18;
-            this.label13.Text = "Rendering quality factor of vector images\r\n(when rendering enabled)";
+            resources.ApplyResources(this.label13, "label13");
             // 
             // label12
             // 
@@ -438,7 +439,7 @@ namespace DemosCommonCode.Imaging
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(167, 26);
             this.label12.TabIndex = 17;
-            this.label12.Text = "Preview interval of loading images\r\n(when rendering enabled)";
+            resources.ApplyResources(this.label12, "label12");
             // 
             // label11
             // 
@@ -447,7 +448,7 @@ namespace DemosCommonCode.Imaging
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(64, 13);
             this.label11.TabIndex = 16;
-            this.label11.Text = "Milliseconds";
+            resources.ApplyResources(this.label11, "label11");
             // 
             // previewIntervalOfVectorImagesNumericUpDown
             // 
@@ -498,7 +499,7 @@ namespace DemosCommonCode.Imaging
             this.imagesDisplayModeGroupBox.Size = new System.Drawing.Size(354, 193);
             this.imagesDisplayModeGroupBox.TabIndex = 16;
             this.imagesDisplayModeGroupBox.TabStop = false;
-            this.imagesDisplayModeGroupBox.Text = "Images Display Mode";
+            resources.ApplyResources(this.imagesDisplayModeGroupBox, "imagesDisplayModeGroupBox");
             // 
             // multipageDisplayModeComboBox
             // 
@@ -517,7 +518,7 @@ namespace DemosCommonCode.Imaging
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(117, 13);
             this.label19.TabIndex = 14;
-            this.label19.Text = "Multipage display mode";
+            resources.ApplyResources(this.label19, "label19");
             // 
             // focusedImageAppearanceButton
             // 
@@ -525,7 +526,7 @@ namespace DemosCommonCode.Imaging
             this.focusedImageAppearanceButton.Name = "focusedImageAppearanceButton";
             this.focusedImageAppearanceButton.Size = new System.Drawing.Size(165, 23);
             this.focusedImageAppearanceButton.TabIndex = 13;
-            this.focusedImageAppearanceButton.Text = "Focused Image Appearance...";
+            resources.ApplyResources(this.focusedImageAppearanceButton, "focusedImageAppearanceButton");
             this.focusedImageAppearanceButton.UseVisualStyleBackColor = true;
             this.focusedImageAppearanceButton.Click += new System.EventHandler(this.focusedImageAppearance_Click);
             // 
@@ -535,7 +536,7 @@ namespace DemosCommonCode.Imaging
             this.imageAppearanceButton.Name = "imageAppearanceButton";
             this.imageAppearanceButton.Size = new System.Drawing.Size(165, 23);
             this.imageAppearanceButton.TabIndex = 12;
-            this.imageAppearanceButton.Text = "Image Appearance...";
+            resources.ApplyResources(this.imageAppearanceButton, "imageAppearanceButton");
             this.imageAppearanceButton.UseVisualStyleBackColor = true;
             this.imageAppearanceButton.Click += new System.EventHandler(this.imageAppearance_Click);
             // 
@@ -546,7 +547,7 @@ namespace DemosCommonCode.Imaging
             this.useImageAppearancesInSinglepageModeCheckBox.Name = "useImageAppearancesInSinglepageModeCheckBox";
             this.useImageAppearancesInSinglepageModeCheckBox.Size = new System.Drawing.Size(238, 17);
             this.useImageAppearancesInSinglepageModeCheckBox.TabIndex = 11;
-            this.useImageAppearancesInSinglepageModeCheckBox.Text = "Use image appearances in single-page mode";
+            resources.ApplyResources(this.useImageAppearancesInSinglepageModeCheckBox, "useImageAppearancesInSinglepageModeCheckBox");
             this.useImageAppearancesInSinglepageModeCheckBox.UseVisualStyleBackColor = true;
             // 
             // imagesPaddingNumericUpDown
@@ -580,7 +581,7 @@ namespace DemosCommonCode.Imaging
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(82, 13);
             this.label18.TabIndex = 4;
-            this.label18.Text = "Images padding";
+            resources.ApplyResources(this.label18, "label18");
             // 
             // label17
             // 
@@ -589,7 +590,7 @@ namespace DemosCommonCode.Imaging
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(111, 13);
             this.label17.TabIndex = 3;
-            this.label17.Text = "Images in row/column";
+            resources.ApplyResources(this.label17, "label17");
             // 
             // layoutDirectionComboBox
             // 
@@ -608,7 +609,7 @@ namespace DemosCommonCode.Imaging
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(82, 13);
             this.label14.TabIndex = 1;
-            this.label14.Text = "Layout direction";
+            resources.ApplyResources(this.label14, "label14");
             // 
             // keyboardNavigationGroupBox
             // 
@@ -629,7 +630,7 @@ namespace DemosCommonCode.Imaging
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(155, 13);
             this.label22.TabIndex = 27;
-            this.label22.Text = "Keyboard navigation zoom step";
+            resources.ApplyResources(this.label22, "label22");
             // 
             // keyboardNavigationZoomStepNumericUpDown
             // 
@@ -655,7 +656,7 @@ namespace DemosCommonCode.Imaging
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(174, 13);
             this.label21.TabIndex = 16;
-            this.label21.Text = "Keyboard navigation scroll step (px)";
+            resources.ApplyResources(this.label21, "label21");
             // 
             // keyboardNavigationScrollStepNumericUpDown
             // 
@@ -681,7 +682,7 @@ namespace DemosCommonCode.Imaging
             this.keyboardNavigationCheckBox.Name = "keyboardNavigationCheckBox";
             this.keyboardNavigationCheckBox.Size = new System.Drawing.Size(123, 17);
             this.keyboardNavigationCheckBox.TabIndex = 25;
-            this.keyboardNavigationCheckBox.Text = "Keyboard navigation";
+            resources.ApplyResources(this.keyboardNavigationCheckBox, "keyboardNavigationCheckBox");
             this.keyboardNavigationCheckBox.UseVisualStyleBackColor = true;
             this.keyboardNavigationCheckBox.CheckedChanged += new System.EventHandler(this.keyboardNavigationCheckBox_CheckedChanged);
             // 
@@ -730,7 +731,7 @@ namespace DemosCommonCode.Imaging
             this.MinimizeBox = false;
             this.Name = "ImageViewerSettingsForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Image Viewer Settings";
+            resources.ApplyResources(this, "$this");
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox3.ResumeLayout(false);

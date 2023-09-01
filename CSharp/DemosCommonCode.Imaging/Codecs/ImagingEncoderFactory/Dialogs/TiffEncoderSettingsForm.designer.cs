@@ -28,6 +28,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TiffEncoderSettingsForm));
             this.addImagesToExistingFileCheckBox = new System.Windows.Forms.CheckBox();
             this.zipCompressionRadioButton = new System.Windows.Forms.RadioButton();
             this.autoCompressionRadioButton = new System.Windows.Forms.RadioButton();
@@ -108,7 +109,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.addImagesToExistingFileCheckBox.Name = "appendCheckBox";
             this.addImagesToExistingFileCheckBox.Size = new System.Drawing.Size(163, 17);
             this.addImagesToExistingFileCheckBox.TabIndex = 9;
-            this.addImagesToExistingFileCheckBox.Text = "Append to existing document";
+            resources.ApplyResources(this.addImagesToExistingFileCheckBox, "addImagesToExistingFileCheckBox");
             this.addImagesToExistingFileCheckBox.UseVisualStyleBackColor = true;
             // 
             // zipCompressionRadioButton
@@ -131,7 +132,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.autoCompressionRadioButton.Size = new System.Drawing.Size(47, 17);
             this.autoCompressionRadioButton.TabIndex = 0;
             this.autoCompressionRadioButton.TabStop = true;
-            this.autoCompressionRadioButton.Text = "Auto";
+            resources.ApplyResources(this.autoCompressionRadioButton, "autoCompressionRadioButton");
             this.autoCompressionRadioButton.UseVisualStyleBackColor = true;
             this.autoCompressionRadioButton.CheckedChanged += new System.EventHandler(this.UpdateUI);
             // 
@@ -189,7 +190,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.jpegCompressionAdvancedSettingsGroupBox.Size = new System.Drawing.Size(243, 65);
             this.jpegCompressionAdvancedSettingsGroupBox.TabIndex = 9;
             this.jpegCompressionAdvancedSettingsGroupBox.TabStop = false;
-            this.jpegCompressionAdvancedSettingsGroupBox.Text = "JPEG Advanced Settings";
+            resources.ApplyResources(this.jpegCompressionAdvancedSettingsGroupBox, "jpegCompressionAdvancedSettingsGroupBox");
             this.jpegCompressionAdvancedSettingsGroupBox.Visible = false;
             // 
             // jpegGrayscaleCheckBox
@@ -199,7 +200,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.jpegGrayscaleCheckBox.Name = "jpegGrayscaleCheckBox";
             this.jpegGrayscaleCheckBox.Size = new System.Drawing.Size(103, 17);
             this.jpegGrayscaleCheckBox.TabIndex = 0;
-            this.jpegGrayscaleCheckBox.Text = "Grayscale JPEG";
+            resources.ApplyResources(this.jpegGrayscaleCheckBox, "jpegGrayscaleCheckBox");
             this.jpegGrayscaleCheckBox.UseVisualStyleBackColor = true;
             // 
             // jpegQualityNumericUpDown
@@ -226,7 +227,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.jpegQualityLabel.Name = "jpegQualityLabel";
             this.jpegQualityLabel.Size = new System.Drawing.Size(69, 13);
             this.jpegQualityLabel.TabIndex = 14;
-            this.jpegQualityLabel.Text = "JPEG Quality";
+            resources.ApplyResources(this.jpegQualityLabel, "jpegQualityLabel");
             // 
             // zipLevelLabel
             // 
@@ -235,7 +236,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.zipLevelLabel.Name = "zipLevelLabel";
             this.zipLevelLabel.Size = new System.Drawing.Size(53, 13);
             this.zipLevelLabel.TabIndex = 16;
-            this.zipLevelLabel.Text = "ZIP Level";
+            resources.ApplyResources(this.zipLevelLabel, "zipLevelLabel");
             // 
             // zipLevelNumericUpDown
             // 
@@ -261,7 +262,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.buttonCancel.Name = "buttonCancel";
             this.buttonCancel.Size = new System.Drawing.Size(75, 23);
             this.buttonCancel.TabIndex = 12;
-            this.buttonCancel.Text = "Cancel";
+            resources.ApplyResources(this.buttonCancel, "buttonCancel");
             this.buttonCancel.UseVisualStyleBackColor = true;
             // 
             // okButton
@@ -306,7 +307,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.compressionTabPage.Padding = new System.Windows.Forms.Padding(3);
             this.compressionTabPage.Size = new System.Drawing.Size(367, 155);
             this.compressionTabPage.TabIndex = 0;
-            this.compressionTabPage.Text = "Compression";
+            resources.ApplyResources(this.compressionTabPage, "compressionTabPage");
             this.compressionTabPage.UseVisualStyleBackColor = true;
             // 
             // binarizationAdvancedSettingsGroupBox
@@ -319,7 +320,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.binarizationAdvancedSettingsGroupBox.Size = new System.Drawing.Size(243, 65);
             this.binarizationAdvancedSettingsGroupBox.TabIndex = 15;
             this.binarizationAdvancedSettingsGroupBox.TabStop = false;
-            this.binarizationAdvancedSettingsGroupBox.Text = "Binarization Advanced Settings";
+            resources.ApplyResources(this.binarizationAdvancedSettingsGroupBox, "binarizationAdvancedSettingsGroupBox");
             this.binarizationAdvancedSettingsGroupBox.Visible = false;
             // 
             // binarizationThresholdNumericUpDown
@@ -343,7 +344,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.binarizationThresholdLabel.Name = "binarizationThresholdLabel";
             this.binarizationThresholdLabel.Size = new System.Drawing.Size(54, 13);
             this.binarizationThresholdLabel.TabIndex = 1;
-            this.binarizationThresholdLabel.Text = "Threshold";
+            resources.ApplyResources(this.binarizationThresholdLabel, "binarizationThresholdLabel");
             this.binarizationThresholdLabel.Visible = false;
             // 
             // binarizationModeComboBox
@@ -373,7 +374,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.stripsAndTilesGroupBox.Size = new System.Drawing.Size(243, 71);
             this.stripsAndTilesGroupBox.TabIndex = 12;
             this.stripsAndTilesGroupBox.TabStop = false;
-            this.stripsAndTilesGroupBox.Text = "Strips and Tiles";
+            resources.ApplyResources(this.stripsAndTilesGroupBox, "stripsAndTilesGroupBox");
             // 
             // tileHeightLabel
             // 
@@ -382,7 +383,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.tileHeightLabel.Name = "tileHeightLabel";
             this.tileHeightLabel.Size = new System.Drawing.Size(56, 13);
             this.tileHeightLabel.TabIndex = 7;
-            this.tileHeightLabel.Text = "Tile height";
+            resources.ApplyResources(this.tileHeightLabel, "tileHeightLabel");
             this.tileHeightLabel.Visible = false;
             // 
             // tileHeightNumericUpDown
@@ -411,7 +412,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.useTilesRadioButton.Name = "useTilesRadioButton";
             this.useTilesRadioButton.Size = new System.Drawing.Size(65, 17);
             this.useTilesRadioButton.TabIndex = 1;
-            this.useTilesRadioButton.Text = "Use tiles";
+            resources.ApplyResources(this.useTilesRadioButton, "useTilesRadioButton");
             this.useTilesRadioButton.UseVisualStyleBackColor = true;
             this.useTilesRadioButton.CheckedChanged += new System.EventHandler(this.UpdateUI);
             // 
@@ -424,7 +425,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.useStripsRadioButton.Size = new System.Drawing.Size(71, 17);
             this.useStripsRadioButton.TabIndex = 0;
             this.useStripsRadioButton.TabStop = true;
-            this.useStripsRadioButton.Text = "Use strips";
+            resources.ApplyResources(this.useStripsRadioButton, "useStripsRadioButton");
             this.useStripsRadioButton.UseVisualStyleBackColor = true;
             this.useStripsRadioButton.CheckedChanged += new System.EventHandler(this.UpdateUI);
             // 
@@ -435,7 +436,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.tileWidthLabel.Name = "tileWidthLabel";
             this.tileWidthLabel.Size = new System.Drawing.Size(52, 13);
             this.tileWidthLabel.TabIndex = 4;
-            this.tileWidthLabel.Text = "Tile width";
+            resources.ApplyResources(this.tileWidthLabel, "tileWidthLabel");
             this.tileWidthLabel.Visible = false;
             // 
             // tileWidthNumericUpDown
@@ -476,7 +477,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.rowsPerStripLabel.Name = "rowsPerStripLabel";
             this.rowsPerStripLabel.Size = new System.Drawing.Size(74, 13);
             this.rowsPerStripLabel.TabIndex = 2;
-            this.rowsPerStripLabel.Text = "Rows per strip";
+            resources.ApplyResources(this.rowsPerStripLabel, "rowsPerStripLabel");
             // 
             // jpeg2000CompressionRadioButton
             // 
@@ -499,7 +500,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.lzwCompressionAdvancedSettingsGroupBox.Size = new System.Drawing.Size(243, 65);
             this.lzwCompressionAdvancedSettingsGroupBox.TabIndex = 13;
             this.lzwCompressionAdvancedSettingsGroupBox.TabStop = false;
-            this.lzwCompressionAdvancedSettingsGroupBox.Text = "LZW Advanced Settings";
+            resources.ApplyResources(this.lzwCompressionAdvancedSettingsGroupBox, "lzwCompressionAdvancedSettingsGroupBox");
             this.lzwCompressionAdvancedSettingsGroupBox.Visible = false;
             // 
             // lzwUsePredictorCheckBox
@@ -509,7 +510,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.lzwUsePredictorCheckBox.Name = "lzwUsePredictorCheckBox";
             this.lzwUsePredictorCheckBox.Size = new System.Drawing.Size(89, 17);
             this.lzwUsePredictorCheckBox.TabIndex = 17;
-            this.lzwUsePredictorCheckBox.Text = "Use predictor";
+            resources.ApplyResources(this.lzwUsePredictorCheckBox, "lzwUsePredictorCheckBox");
             this.lzwUsePredictorCheckBox.UseVisualStyleBackColor = true;
             // 
             // zipCompressionAdvancedSettingsGroupBox
@@ -522,7 +523,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.zipCompressionAdvancedSettingsGroupBox.Size = new System.Drawing.Size(243, 65);
             this.zipCompressionAdvancedSettingsGroupBox.TabIndex = 11;
             this.zipCompressionAdvancedSettingsGroupBox.TabStop = false;
-            this.zipCompressionAdvancedSettingsGroupBox.Text = "ZIP Advanced Settings";
+            resources.ApplyResources(this.zipCompressionAdvancedSettingsGroupBox, "zipCompressionAdvancedSettingsGroupBox");
             this.zipCompressionAdvancedSettingsGroupBox.Visible = false;
             // 
             // zipUsePredictorCheckBox
@@ -532,7 +533,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.zipUsePredictorCheckBox.Name = "zipUsePredictorCheckBox";
             this.zipUsePredictorCheckBox.Size = new System.Drawing.Size(89, 17);
             this.zipUsePredictorCheckBox.TabIndex = 17;
-            this.zipUsePredictorCheckBox.Text = "Use predictor";
+            resources.ApplyResources(this.zipUsePredictorCheckBox, "zipUsePredictorCheckBox");
             this.zipUsePredictorCheckBox.UseVisualStyleBackColor = true;
             // 
             // jpeg2000CompressionAdvancedSettingsGroupBox
@@ -543,7 +544,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.jpeg2000CompressionAdvancedSettingsGroupBox.Size = new System.Drawing.Size(243, 65);
             this.jpeg2000CompressionAdvancedSettingsGroupBox.TabIndex = 10;
             this.jpeg2000CompressionAdvancedSettingsGroupBox.TabStop = false;
-            this.jpeg2000CompressionAdvancedSettingsGroupBox.Text = "JPEG2000 Advanced Settings";
+            resources.ApplyResources(this.jpeg2000CompressionAdvancedSettingsGroupBox, "jpeg2000CompressionAdvancedSettingsGroupBox");
             this.jpeg2000CompressionAdvancedSettingsGroupBox.Visible = false;
             // 
             // jpeg2000SettingsButton
@@ -552,7 +553,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.jpeg2000SettingsButton.Name = "jpeg2000SettingsButton";
             this.jpeg2000SettingsButton.Size = new System.Drawing.Size(131, 23);
             this.jpeg2000SettingsButton.TabIndex = 0;
-            this.jpeg2000SettingsButton.Text = "JPEG2000 Settings...";
+            resources.ApplyResources(this.jpeg2000SettingsButton, "jpeg2000SettingsButton");
             this.jpeg2000SettingsButton.UseVisualStyleBackColor = true;
             this.jpeg2000SettingsButton.Click += new System.EventHandler(this.jpeg2000SettingsButton_Click);
             // 
@@ -566,7 +567,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.annotationsTabPage.Padding = new System.Windows.Forms.Padding(3);
             this.annotationsTabPage.Size = new System.Drawing.Size(367, 155);
             this.annotationsTabPage.TabIndex = 1;
-            this.annotationsTabPage.Text = "Annotations";
+            resources.ApplyResources(this.annotationsTabPage, "annotationsTabPage");
             this.annotationsTabPage.UseVisualStyleBackColor = true;
             // 
             // annotationWangCheckBox
@@ -608,7 +609,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.metadataTabPage.Name = "metadataTabPage";
             this.metadataTabPage.Size = new System.Drawing.Size(367, 155);
             this.metadataTabPage.TabIndex = 2;
-            this.metadataTabPage.Text = "Metadata";
+            resources.ApplyResources(this.metadataTabPage, "metadataTabPage");
             this.metadataTabPage.UseVisualStyleBackColor = true;
             // 
             // copyCommonMetadataCheckBox
@@ -618,7 +619,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.copyCommonMetadataCheckBox.Name = "copyCommonMetadataCheckBox";
             this.copyCommonMetadataCheckBox.Size = new System.Drawing.Size(140, 17);
             this.copyCommonMetadataCheckBox.TabIndex = 2;
-            this.copyCommonMetadataCheckBox.Text = "Copy common metadata";
+            resources.ApplyResources(this.copyCommonMetadataCheckBox, "copyCommonMetadataCheckBox");
             this.copyCommonMetadataCheckBox.UseVisualStyleBackColor = true;
             // 
             // copyGpsMetadataCheckBox
@@ -628,7 +629,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.copyGpsMetadataCheckBox.Name = "copyGpsMetadataCheckBox";
             this.copyGpsMetadataCheckBox.Size = new System.Drawing.Size(119, 17);
             this.copyGpsMetadataCheckBox.TabIndex = 1;
-            this.copyGpsMetadataCheckBox.Text = "Copy Gps metadata";
+            resources.ApplyResources(this.copyGpsMetadataCheckBox, "copyGpsMetadataCheckBox");
             this.copyGpsMetadataCheckBox.UseVisualStyleBackColor = true;
             // 
             // copyExifMetadataCheckBox
@@ -638,7 +639,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.copyExifMetadataCheckBox.Name = "copyExifMetadataCheckBox";
             this.copyExifMetadataCheckBox.Size = new System.Drawing.Size(117, 17);
             this.copyExifMetadataCheckBox.TabIndex = 0;
-            this.copyExifMetadataCheckBox.Text = "Copy Exif metadata";
+            resources.ApplyResources(this.copyExifMetadataCheckBox, "copyExifMetadataCheckBox");
             this.copyExifMetadataCheckBox.UseVisualStyleBackColor = true;
             // 
             // fileTabPage
@@ -649,7 +650,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.fileTabPage.Name = "fileTabPage";
             this.fileTabPage.Size = new System.Drawing.Size(367, 155);
             this.fileTabPage.TabIndex = 3;
-            this.fileTabPage.Text = "File";
+            resources.ApplyResources(this.fileTabPage, "fileTabPage");
             this.fileTabPage.UseVisualStyleBackColor = true;
             // 
             // fileFormatGroupBox
@@ -661,7 +662,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.fileFormatGroupBox.Size = new System.Drawing.Size(107, 70);
             this.fileFormatGroupBox.TabIndex = 3;
             this.fileFormatGroupBox.TabStop = false;
-            this.fileFormatGroupBox.Text = "File format";
+            resources.ApplyResources(this.fileFormatGroupBox, "fileFormatGroupBox");
             // 
             // bigEndianRadioButton
             // 
@@ -694,7 +695,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.fileVersionGroupBox.Size = new System.Drawing.Size(107, 70);
             this.fileVersionGroupBox.TabIndex = 2;
             this.fileVersionGroupBox.TabStop = false;
-            this.fileVersionGroupBox.Text = "File version";
+            resources.ApplyResources(this.fileVersionGroupBox, "fileVersionGroupBox");
             // 
             // bigTiffRadioButton
             // 
@@ -733,7 +734,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.Name = "TiffEncoderSettingsForm";
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "TIFF Encoder Settings";
+            resources.ApplyResources(this, "$this");
             this.jpegCompressionAdvancedSettingsGroupBox.ResumeLayout(false);
             this.jpegCompressionAdvancedSettingsGroupBox.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.jpegQualityNumericUpDown)).EndInit();

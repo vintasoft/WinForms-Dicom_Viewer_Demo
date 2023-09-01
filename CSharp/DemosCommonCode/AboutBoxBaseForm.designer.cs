@@ -179,7 +179,7 @@ namespace DemosCommonCode
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(44, 13);
             this.label2.TabIndex = 33;
-            this.label2.Text = "Forums:";
+            resources.ApplyResources(this.label2, "label2");
             // 
             // forumsLinkLabel
             // 
@@ -214,7 +214,7 @@ namespace DemosCommonCode
             this.decriptionRichTextBox.Size = new System.Drawing.Size(459, 160);
             this.decriptionRichTextBox.TabIndex = 35;
             this.decriptionRichTextBox.Tag = "";
-            this.decriptionRichTextBox.Text = "";
+            resources.ApplyResources(this.decriptionRichTextBox, "decriptionRichTextBox");
             // 
             // AboutBoxBaseForm
             // 
@@ -232,7 +232,7 @@ namespace DemosCommonCode
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "About...";
+            resources.ApplyResources(this, "$this");
             ((System.ComponentModel.ISupportInitialize)(this.vintasoftLogoPictureBox)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

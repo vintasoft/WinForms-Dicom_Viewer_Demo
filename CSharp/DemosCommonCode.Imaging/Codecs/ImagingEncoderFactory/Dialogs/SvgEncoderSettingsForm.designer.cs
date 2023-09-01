@@ -28,6 +28,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SvgEncoderSettingsForm));
             this.okButton = new System.Windows.Forms.Button();
             this.buttonCancel = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
@@ -65,7 +66,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.buttonCancel.Name = "buttonCancel";
             this.buttonCancel.Size = new System.Drawing.Size(75, 23);
             this.buttonCancel.TabIndex = 1;
-            this.buttonCancel.Text = "Cancel";
+            resources.ApplyResources(this.buttonCancel, "buttonCancel");
             this.buttonCancel.UseVisualStyleBackColor = true;
             // 
             // label1
@@ -75,7 +76,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(136, 13);
             this.label1.TabIndex = 2;
-            this.label1.Text = "Embedded images encoder";
+            resources.ApplyResources(this.label1, "label1");
             // 
             // encoderNameComboBox
             // 
@@ -98,7 +99,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.pngEncoderSettingsGroupBox.Size = new System.Drawing.Size(259, 58);
             this.pngEncoderSettingsGroupBox.TabIndex = 4;
             this.pngEncoderSettingsGroupBox.TabStop = false;
-            this.pngEncoderSettingsGroupBox.Text = "PNG settings";
+            resources.ApplyResources(this.pngEncoderSettingsGroupBox, "pngEncoderSettingsGroupBox");
             // 
             // pngSettingsComboBox
             // 
@@ -118,7 +119,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(106, 13);
             this.label2.TabIndex = 0;
-            this.label2.Text = "Compression settings";
+            resources.ApplyResources(this.label2, "label2");
             // 
             // jpegEncoderSettingsGroupBox
             // 
@@ -130,7 +131,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.jpegEncoderSettingsGroupBox.Size = new System.Drawing.Size(251, 58);
             this.jpegEncoderSettingsGroupBox.TabIndex = 5;
             this.jpegEncoderSettingsGroupBox.TabStop = false;
-            this.jpegEncoderSettingsGroupBox.Text = "JPEG settings";
+            resources.ApplyResources(this.jpegEncoderSettingsGroupBox, "jpegEncoderSettingsGroupBox");
             // 
             // jpegGrayscaleCheckBox
             // 
@@ -139,7 +140,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.jpegGrayscaleCheckBox.Name = "jpegGrayscaleCheckBox";
             this.jpegGrayscaleCheckBox.Size = new System.Drawing.Size(109, 17);
             this.jpegGrayscaleCheckBox.TabIndex = 13;
-            this.jpegGrayscaleCheckBox.Text = "Grayscale (8 bpp)";
+            resources.ApplyResources(this.jpegGrayscaleCheckBox, "jpegGrayscaleCheckBox");
             this.jpegGrayscaleCheckBox.UseVisualStyleBackColor = true;
             // 
             // jpegQualityNumericUpDown
@@ -161,7 +162,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(39, 13);
             this.label3.TabIndex = 6;
-            this.label3.Text = "Quality";
+            resources.ApplyResources(this.label3, "label3");
             // 
             // allowExternalFontsCheckBox
             // 
@@ -170,7 +171,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.allowExternalFontsCheckBox.Name = "allowExternalFontsCheckBox";
             this.allowExternalFontsCheckBox.Size = new System.Drawing.Size(121, 17);
             this.allowExternalFontsCheckBox.TabIndex = 6;
-            this.allowExternalFontsCheckBox.Text = "Allow External Fonts";
+            resources.ApplyResources(this.allowExternalFontsCheckBox, "allowExternalFontsCheckBox");
             this.allowExternalFontsCheckBox.UseVisualStyleBackColor = true;
             // 
             // SvgEncoderSettingsForm
@@ -192,7 +193,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.MinimumSize = new System.Drawing.Size(270, 105);
             this.Name = "SvgEncoderSettingsForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "SVG Encoder Settings";
+            resources.ApplyResources(this, "$this");
             this.pngEncoderSettingsGroupBox.ResumeLayout(false);
             this.pngEncoderSettingsGroupBox.PerformLayout();
             this.jpegEncoderSettingsGroupBox.ResumeLayout(false);

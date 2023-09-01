@@ -29,6 +29,7 @@ namespace DemosCommonCode.Imaging
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ColorPickerDialogForm));
             this.buttonOk = new System.Windows.Forms.Button();
             this.buttonCancel = new System.Windows.Forms.Button();
             this.colorPickerControl1 = new DemosCommonCode.CustomControls.ColorPickerControl();
@@ -53,7 +54,7 @@ namespace DemosCommonCode.Imaging
             this.buttonCancel.Name = "buttonCancel";
             this.buttonCancel.Size = new System.Drawing.Size(75, 20);
             this.buttonCancel.TabIndex = 2;
-            this.buttonCancel.Text = "Cancel";
+            resources.ApplyResources(this.buttonCancel, "buttonCancel");
             this.buttonCancel.UseVisualStyleBackColor = true;
             // 
             // colorPickerControl1
@@ -80,7 +81,7 @@ namespace DemosCommonCode.Imaging
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "ColorPickerDialogForm";
-            this.Text = "Color Picker Dialog";
+            resources.ApplyResources(this, "$this");
             this.ResumeLayout(false);
 
         }

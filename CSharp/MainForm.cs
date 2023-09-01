@@ -256,8 +256,8 @@ namespace DicomViewerDemo
             // create action, which allows to magnify of image region in image viewer
             MagnifierToolAction magnifierToolAction = new MagnifierToolAction(
                 magnifierTool,
-                "Magnifier Tool",
-                "Magnifier",
+                DicomViewerDemo.Localization.Strings.DICOMVIEWERDEMO_MAGNIFIER_TOOL,
+                DicomViewerDemo.Localization.Strings.DICOMVIEWERDEMO_MAGNIFIER,
                 DemosResourcesManager.GetResourceAsBitmap("DemosCommonCode.Imaging.VisualToolsToolStrip.VisualTools.ZoomVisualTools.Resources.MagnifierTool.png"));
 
             _dicomViewerTool = new DicomAnnotatedViewerTool(
@@ -297,10 +297,10 @@ namespace DicomViewerDemo
             // init unit of measures for rulers
             InitUnitOfMeasuresForRulers();
 
-            _defaultVoiLutToolStripMenuItem = new ToolStripMenuItem("Default VOI LUT");
+            _defaultVoiLutToolStripMenuItem = new ToolStripMenuItem(DicomViewerDemo.Localization.Strings.DICOMVIEWERDEMO_DEFAULT_VOI_LUT);
             _defaultVoiLutToolStripMenuItem.Click += new EventHandler(voiLutMenuItem_Click);
 
-            this.Text = string.Format(_titlePrefix, "(Untitled)");
+            this.Text = string.Format(_titlePrefix, DicomViewerDemo.Localization.Strings.DICOMVIEWERDEMO_UNTITLED);
 
             // update the UI
             UpdateUI();
@@ -514,12 +514,12 @@ namespace DicomViewerDemo
                 if (AreThereAnnotationsOnImages(images, annotationTool))
                 {
                     DialogResult dialogResult = MessageBox.Show(
-                        "DICOM annotations cannot be converted into Vintasoft annotations but annotations can be burned on image.\r\n" +
-                        "Burn annotations on images?\r\n" +
-                        "Press 'Yes' if you want save images with burned annotations.\r\n" +
-                        "Press 'No' if you want save images without annotations.\r\n" +
-                        "Press 'Cancel' to cancel saving.",
-                        "Annotations",
+                        DicomViewerDemo.Localization.Strings.DICOMVIEWERDEMO_DICOM_ANNOTATIONS_CANNOT_BE_CONVERTED_INTO_VINTASOFT_ANNOTATIONS_BUT_ANNOTATIONS_CAN_BE_BURNED_ON_IMAGERN +
+                        DicomViewerDemo.Localization.Strings.DICOMVIEWERDEMO_BURN_ANNOTATIONS_ON_IMAGESRN +
+                        DicomViewerDemo.Localization.Strings.DICOMVIEWERDEMO_PRESS_YES_IF_YOU_WANT_SAVE_IMAGES_WITH_BURNED_ANNOTATIONSRN +
+                        DicomViewerDemo.Localization.Strings.DICOMVIEWERDEMO_PRESS_NO_IF_YOU_WANT_SAVE_IMAGES_WITHOUT_ANNOTATIONSRN +
+                        DicomViewerDemo.Localization.Strings.DICOMVIEWERDEMO_PRESS_CANCEL_TO_CANCEL_SAVING,
+                        DicomViewerDemo.Localization.Strings.DICOMVIEWERDEMO_ANNOTATIONS,
                         MessageBoxButtons.YesNoCancel,
                         MessageBoxIcon.Warning);
 
@@ -1036,12 +1036,12 @@ namespace DicomViewerDemo
                     if (AreThereAnnotationsOnImages(images, annotationTool))
                     {
                         DialogResult dialogResult = MessageBox.Show(
-                            "DICOM annotations cannot be converted into Vintasoft annotations but annotations can be burned on image.\r\n" +
-                            "Burn annotations on images?\r\n" +
-                            "Press 'Yes' if you want save images with burned annotations.\r\n" +
-                            "Press 'No' if you want save images without annotations.\r\n" +
-                            "Press 'Cancel' to cancel saving.",
-                            "Annotations",
+                            DicomViewerDemo.Localization.Strings.DICOMVIEWERDEMO_DICOM_ANNOTATIONS_CANNOT_BE_CONVERTED_INTO_VINTASOFT_ANNOTATIONS_BUT_ANNOTATIONS_CAN_BE_BURNED_ON_IMAGERN_ALT1 +
+                            DicomViewerDemo.Localization.Strings.DICOMVIEWERDEMO_BURN_ANNOTATIONS_ON_IMAGESRN_ALT1 +
+                            DicomViewerDemo.Localization.Strings.DICOMVIEWERDEMO_PRESS_YES_IF_YOU_WANT_SAVE_IMAGES_WITH_BURNED_ANNOTATIONSRN_ALT1 +
+                            DicomViewerDemo.Localization.Strings.DICOMVIEWERDEMO_PRESS_NO_IF_YOU_WANT_SAVE_IMAGES_WITHOUT_ANNOTATIONSRN_ALT1 +
+                            DicomViewerDemo.Localization.Strings.DICOMVIEWERDEMO_PRESS_CANCEL_TO_CANCEL_SAVING_ALT1,
+                            DicomViewerDemo.Localization.Strings.DICOMVIEWERDEMO_ANNOTATIONS_ALT1,
                             MessageBoxButtons.YesNoCancel,
                             MessageBoxIcon.Warning);
 
@@ -1160,7 +1160,7 @@ namespace DicomViewerDemo
         private void loadToolStripMenuItem_Click(object sender, EventArgs e)
         {
             openDicomAnnotationsFileDialog.FileName = null;
-            openDicomAnnotationsFileDialog.Filter = "Presentation State File(*.pre)|*.pre|All Formats(*.*)|*.*";
+            openDicomAnnotationsFileDialog.Filter = DicomViewerDemo.Localization.Strings.DICOMVIEWERDEMO_PRESENTATION_STATE_FILEPREPREALL_FORMATS;
             openDicomAnnotationsFileDialog.FilterIndex = 1;
 
             if (openDicomAnnotationsFileDialog.ShowDialog() == DialogResult.OK)
@@ -1227,7 +1227,7 @@ namespace DicomViewerDemo
                 _dicomViewerTool.DicomAnnotationTool.AnnotationDataController.UpdateAnnotationDataSets();
                 PresentationStateFile.SaveChanges();
             }
-            MessageBox.Show("Presentation state file is saved.");
+            MessageBox.Show(DicomViewerDemo.Localization.Strings.DICOMVIEWERDEMO_PRESENTATION_STATE_FILE_IS_SAVED);
         }
 
         /// <summary>
@@ -1237,7 +1237,7 @@ namespace DicomViewerDemo
         {
             string dicomFilePath = _dicomSeriesController.GetDicomFilePath(DicomFile);
             saveDicomAnnotationsFileDialog.FileName = Path.GetFileNameWithoutExtension(dicomFilePath) + ".pre";
-            saveDicomAnnotationsFileDialog.Filter = "Presentation State File(*.pre)|*.pre";
+            saveDicomAnnotationsFileDialog.Filter = DicomViewerDemo.Localization.Strings.DICOMVIEWERDEMO_PRESENTATION_STATE_FILEPREPRE;
             saveDicomAnnotationsFileDialog.FilterIndex = 1;
             // show save dialog
             if (saveDicomAnnotationsFileDialog.ShowDialog() == DialogResult.OK)
@@ -1284,7 +1284,7 @@ namespace DicomViewerDemo
         private void binaryFormatSaveToToolStripMenuItem_Click(object sender, EventArgs e)
         {
             saveDicomAnnotationsFileDialog.FileName = null;
-            saveDicomAnnotationsFileDialog.Filter = "Binary Annotations(*.vsab)|*.vsab";
+            saveDicomAnnotationsFileDialog.Filter = DicomViewerDemo.Localization.Strings.DICOMVIEWERDEMO_BINARY_ANNOTATIONSVSABVSAB;
             saveDicomAnnotationsFileDialog.FilterIndex = 1;
 
             if (saveDicomAnnotationsFileDialog.ShowDialog() == DialogResult.OK)
@@ -1321,7 +1321,7 @@ namespace DicomViewerDemo
         private void xmpFormatSaveToToolStripMenuItem_Click(object sender, EventArgs e)
         {
             saveDicomAnnotationsFileDialog.FileName = null;
-            saveDicomAnnotationsFileDialog.Filter = "XMP Annotations(*.xmp)|*.xmp";
+            saveDicomAnnotationsFileDialog.Filter = DicomViewerDemo.Localization.Strings.DICOMVIEWERDEMO_XMP_ANNOTATIONSXMPXMP;
             saveDicomAnnotationsFileDialog.FilterIndex = 1;
 
             if (saveDicomAnnotationsFileDialog.ShowDialog() == DialogResult.OK)
@@ -1436,7 +1436,7 @@ namespace DicomViewerDemo
             if (focusedImage != null)
             {
                 // create information about focused image
-                imageInfo = string.Format("Size={0}x{1}; PixelFormat={2}; Resolution={3}",
+                imageInfo = string.Format(DicomViewerDemo.Localization.Strings.DICOMVIEWERDEMO_SIZEARG0XARG1_PIXELFORMATARG2_RESOLUTIONARG3,
                    focusedImage.Width, focusedImage.Height, focusedImage.PixelFormat, focusedImage.Resolution.ToString());
 
                 // get DICOM frame, which is associated with focused image
@@ -1941,13 +1941,13 @@ namespace DicomViewerDemo
         {
             VisualTool visualTool = imageViewer1.VisualTool;
 
-            UpdateEditMenuItem(cutToolStripMenuItem, DemosTools.GetUIAction<CutItemUIAction>(visualTool), "Cut");
-            UpdateEditMenuItem(copyToolStripMenuItem, DemosTools.GetUIAction<CopyItemUIAction>(visualTool), "Copy");
-            UpdateEditMenuItem(pasteToolStripMenuItem, DemosTools.GetUIAction<PasteItemUIAction>(visualTool), "Paste");
-            UpdateEditMenuItem(deleteToolStripMenuItem, DemosTools.GetUIAction<DeleteItemUIAction>(visualTool), "Delete");
+            UpdateEditMenuItem(cutToolStripMenuItem, DemosTools.GetUIAction<CutItemUIAction>(visualTool), DicomViewerDemo.Localization.Strings.DICOMVIEWERDEMO_CUT);
+            UpdateEditMenuItem(copyToolStripMenuItem, DemosTools.GetUIAction<CopyItemUIAction>(visualTool), DicomViewerDemo.Localization.Strings.DICOMVIEWERDEMO_COPY);
+            UpdateEditMenuItem(pasteToolStripMenuItem, DemosTools.GetUIAction<PasteItemUIAction>(visualTool), DicomViewerDemo.Localization.Strings.DICOMVIEWERDEMO_PASTE);
+            UpdateEditMenuItem(deleteToolStripMenuItem, DemosTools.GetUIAction<DeleteItemUIAction>(visualTool), DicomViewerDemo.Localization.Strings.DICOMVIEWERDEMO_DELETE);
 
             UIAction deleteAllItemsUiAction = DemosTools.GetUIAction<DeleteAllItemsUIAction>(visualTool);
-            UpdateEditMenuItem(deleteAllToolStripMenuItem, deleteAllItemsUiAction, "Delete All");
+            UpdateEditMenuItem(deleteAllToolStripMenuItem, deleteAllItemsUiAction, DicomViewerDemo.Localization.Strings.DICOMVIEWERDEMO_DELETE_ALL);
             if (deleteAllItemsUiAction == null)
                 deleteAllToolStripMenuItem.Visible = false;
             else
@@ -2060,7 +2060,7 @@ namespace DicomViewerDemo
                         dirPath = Path.GetDirectoryName(filePath);
 
                     // set action info
-                    actionLabel.Text = string.Format("Loading {0}", Path.GetFileName(filePath));
+                    actionLabel.Text = string.Format(DicomViewerDemo.Localization.Strings.DICOMVIEWERDEMO_LOADING_ARG0, Path.GetFileName(filePath));
                     // update progress bar
                     progressBar1.Value++;
                     statusStrip1.Update();
@@ -2072,7 +2072,7 @@ namespace DicomViewerDemo
                         // if the series already contains the specified DICOM file
                         if (_dicomSeriesController.Contains(filePath))
                         {
-                            DemosTools.ShowInfoMessage(string.Format("The series already contains DICOM file \"{0}\".", Path.GetFileName(filePath)));
+                            DemosTools.ShowInfoMessage(string.Format(DicomViewerDemo.Localization.Strings.DICOMVIEWERDEMO_THE_SERIES_ALREADY_CONTAINS_DICOM_FILE_ARG0, Path.GetFileName(filePath)));
                             return;
                         }
 
@@ -2088,7 +2088,7 @@ namespace DicomViewerDemo
                             // close the DICOM file
                             _dicomSeriesController.CloseDicomFile(dicomFile);
                             // show the error message
-                            DemosTools.ShowInfoMessage("The DICOM directory cannot be added to the series of DICOM images.");
+                            DemosTools.ShowInfoMessage(DicomViewerDemo.Localization.Strings.DICOMVIEWERDEMO_THE_DICOM_DIRECTORY_CANNOT_BE_ADDED_TO_THE_SERIES_OF_DICOM_IMAGES);
                             return;
                         }
 
@@ -2100,7 +2100,7 @@ namespace DicomViewerDemo
                             // if image viewer contains images
                             if (imageViewer1.Images.Count > 0)
                             {
-                                DemosTools.ShowInfoMessage("The DICOM file cannot be added to the series of DICOM images because the DICOM file does not contain image.");
+                                DemosTools.ShowInfoMessage(DicomViewerDemo.Localization.Strings.DICOMVIEWERDEMO_THE_DICOM_FILE_CANNOT_BE_ADDED_TO_THE_SERIES_OF_DICOM_IMAGES_BECAUSE_THE_DICOM_FILE_DOES_NOT_CONTAIN_IMAGE);
                             }
                             else
                             {
@@ -2108,7 +2108,7 @@ namespace DicomViewerDemo
                                 _dicomFileWithoutImages = dicomFile;
 
                                 // show message for user
-                                DemosTools.ShowInfoMessage("DICOM file does not contain image.");
+                                DemosTools.ShowInfoMessage(DicomViewerDemo.Localization.Strings.DICOMVIEWERDEMO_DICOM_FILE_DOES_NOT_CONTAIN_IMAGE);
                                 // show metadata of DICOM file
                                 ShowCurrentFileMetadata();
                             }
@@ -2175,11 +2175,11 @@ namespace DicomViewerDemo
                             else
                             {
                                 string exceptionMessage = string.Format(
-                                    "The file '{0}' can not be opened:\r\n\"{1}\"\r\nDo you want to continue anyway?",
+                                    DicomViewerDemo.Localization.Strings.DICOMVIEWERDEMO_THE_FILE_ARG0_CAN_NOT_BE_OPENEDRNARG1RNDO_YOU_WANT_TO_CONTINUE_ANYWAY,
                                     Path.GetFileName(filePath), DemosTools.GetFullExceptionMessage(ex).Trim());
                                 if (MessageBox.Show(
                                     exceptionMessage,
-                                    "Error",
+                                    DicomViewerDemo.Localization.Strings.DICOMVIEWERDEMO_ERROR_ALT1,
                                     MessageBoxButtons.YesNo,
                                     MessageBoxIcon.Error) == DialogResult.No)
                                 {
@@ -2311,7 +2311,7 @@ namespace DicomViewerDemo
             _dicomSeriesController.CloseSeries();
             _dicomFileWithoutImages = null;
 
-            this.Text = string.Format(_titlePrefix, "(Untitled)");
+            this.Text = string.Format(_titlePrefix, DicomViewerDemo.Localization.Strings.DICOMVIEWERDEMO_UNTITLED_ALT1);
 
             // update the UI
             UpdateUI();
@@ -2362,9 +2362,9 @@ namespace DicomViewerDemo
         {
             openDicomAnnotationsFileDialog.FileName = null;
             if (binaryFormat)
-                openDicomAnnotationsFileDialog.Filter = "Binary Annotations(*.vsab)|*.vsab";
+                openDicomAnnotationsFileDialog.Filter = DicomViewerDemo.Localization.Strings.DICOMVIEWERDEMO_BINARY_ANNOTATIONSVSABVSAB_ALT1;
             else
-                openDicomAnnotationsFileDialog.Filter = "XMP Annotations(*.xmp)|*.xmp";
+                openDicomAnnotationsFileDialog.Filter = DicomViewerDemo.Localization.Strings.DICOMVIEWERDEMO_XMP_ANNOTATIONSXMPXMP_ALT1;
             openDicomAnnotationsFileDialog.FilterIndex = 1;
 
             if (openDicomAnnotationsFileDialog.ShowDialog() == DialogResult.OK)
@@ -2501,7 +2501,7 @@ namespace DicomViewerDemo
                         continue;
 
                     // set action info
-                    actionLabel.Text = string.Format("Scanning {0}", Path.GetFileName(filePath));
+                    actionLabel.Text = string.Format(DicomViewerDemo.Localization.Strings.DICOMVIEWERDEMO_SCANNING_ARG0, Path.GetFileName(filePath));
                     // update progress bar
                     progressBar1.Value++;
                     statusStrip1.Update();
@@ -2821,12 +2821,12 @@ namespace DicomViewerDemo
                 case DicomFileModality.NM:
                 case DicomFileModality.XA:
                     windowExplanation = new string[] {
-                        "Center 20   Width 40",
-                        "Center 40   Width 80",
-                        "Center 80   Width 160",
-                        "Center 600  Width 1280",
-                        "Center 1280 Width 2560",
-                        "Center 2560 Width 5120"};
+                        DicomViewerDemo.Localization.Strings.DICOMVIEWERDEMO_CENTER_20_WIDTH_40,
+                        DicomViewerDemo.Localization.Strings.DICOMVIEWERDEMO_CENTER_40_WIDTH_80,
+                        DicomViewerDemo.Localization.Strings.DICOMVIEWERDEMO_CENTER_80_WIDTH_160,
+                        DicomViewerDemo.Localization.Strings.DICOMVIEWERDEMO_CENTER_600_WIDTH_1280,
+                        DicomViewerDemo.Localization.Strings.DICOMVIEWERDEMO_CENTER_1280_WIDTH_2560,
+                        DicomViewerDemo.Localization.Strings.DICOMVIEWERDEMO_CENTER_2560_WIDTH_5120};
 
                     voiLuts = new DicomImageVoiLookupTable[] {
                         new DicomImageVoiLookupTable(20,40),
@@ -2840,14 +2840,14 @@ namespace DicomViewerDemo
                 case DicomFileModality.MG:
                 case DicomFileModality.PT:
                     windowExplanation = new string[] {
-                        "Center 30    Width 60",
-                        "Center 125   Width 250",
-                        "Center 500   Width 1000",
-                        "Center 1875  Width 3750",
-                        "Center 3750  Width 7500",
-                        "Center 7500  Width 15000",
-                        "Center 15000 Width 30000",
-                        "Center 30000 Width 60000"};
+                        DicomViewerDemo.Localization.Strings.DICOMVIEWERDEMO_CENTER_30_WIDTH_60,
+                        DicomViewerDemo.Localization.Strings.DICOMVIEWERDEMO_CENTER_125_WIDTH_250,
+                        DicomViewerDemo.Localization.Strings.DICOMVIEWERDEMO_CENTER_500_WIDTH_1000,
+                        DicomViewerDemo.Localization.Strings.DICOMVIEWERDEMO_CENTER_1875_WIDTH_3750,
+                        DicomViewerDemo.Localization.Strings.DICOMVIEWERDEMO_CENTER_3750_WIDTH_7500,
+                        DicomViewerDemo.Localization.Strings.DICOMVIEWERDEMO_CENTER_7500_WIDTH_15000,
+                        DicomViewerDemo.Localization.Strings.DICOMVIEWERDEMO_CENTER_15000_WIDTH_30000,
+                        DicomViewerDemo.Localization.Strings.DICOMVIEWERDEMO_CENTER_30000_WIDTH_60000};
 
                     voiLuts = new DicomImageVoiLookupTable[] {
                         new DicomImageVoiLookupTable(30,60),
@@ -2874,7 +2874,7 @@ namespace DicomViewerDemo
             }
 
             items.Add(new ToolStripSeparator());
-            menuItem = new ToolStripMenuItem("Custom VOI LUT...");
+            menuItem = new ToolStripMenuItem(DicomViewerDemo.Localization.Strings.DICOMVIEWERDEMO_CUSTOM_VOI_LUT);
             menuItem.Click += customVoiLutMenuItem_Click;
             items.Add(menuItem);
         }

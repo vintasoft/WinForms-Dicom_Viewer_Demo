@@ -28,6 +28,7 @@ namespace DicomViewerDemo
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(VoiLutParamsForm));
             this.label1 = new System.Windows.Forms.Label();
             this.voiLutsComboBox = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -71,7 +72,7 @@ namespace DicomViewerDemo
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(89, 15);
             this.label2.TabIndex = 2;
-            this.label2.Text = "Window Center";
+            resources.ApplyResources(this.label2, "label2");
             // 
             // label3
             // 
@@ -80,7 +81,7 @@ namespace DicomViewerDemo
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(86, 15);
             this.label3.TabIndex = 3;
-            this.label3.Text = "Window Width";
+            resources.ApplyResources(this.label3, "label3");
             // 
             // windowCenterNumericUpDown
             // 
@@ -177,7 +178,7 @@ namespace DicomViewerDemo
             this.Name = "VoiLutParamsForm";
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
-            this.Text = "VOI LUT parameters";
+            resources.ApplyResources(this, "$this");
             ((System.ComponentModel.ISupportInitialize)(this.windowCenterNumericUpDown)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.windowWidthNumericUpDown)).EndInit();
             this.voiLutPanel.ResumeLayout(false);

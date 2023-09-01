@@ -28,6 +28,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Jpeg2000EncoderSettingsForm));
             this.label1 = new System.Windows.Forms.Label();
             this.formatComboBox = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -71,7 +72,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(45, 15);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Format";
+            resources.ApplyResources(this.label1, "label1");
             // 
             // formatComboBox
             // 
@@ -89,7 +90,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(39, 15);
             this.label2.TabIndex = 2;
-            this.label2.Text = "Levels";
+            resources.ApplyResources(this.label2, "label2");
             // 
             // waveletLevelsNumericUpDown
             // 
@@ -120,7 +121,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(81, 15);
             this.label3.TabIndex = 4;
-            this.label3.Text = "Quality Layers";
+            resources.ApplyResources(this.label3, "label3");
             // 
             // qualityLayersNumericUpDown
             // 
@@ -151,7 +152,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(102, 15);
             this.label4.TabIndex = 6;
-            this.label4.Text = "Progression Order";
+            resources.ApplyResources(this.label4, "label4");
             // 
             // progressionOrderComboBox
             // 
@@ -169,7 +170,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.useTilesCheckBox.Name = "useTilesCheckBox";
             this.useTilesCheckBox.Size = new System.Drawing.Size(71, 19);
             this.useTilesCheckBox.TabIndex = 8;
-            this.useTilesCheckBox.Text = "Use Tiles";
+            resources.ApplyResources(this.useTilesCheckBox, "useTilesCheckBox");
             this.useTilesCheckBox.UseVisualStyleBackColor = true;
             this.useTilesCheckBox.CheckedChanged += new System.EventHandler(this.useTilesCheckBox_CheckedChanged);
             // 
@@ -256,7 +257,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(42, 15);
             this.label7.TabIndex = 5;
-            this.label7.Text = "KBytes";
+            resources.ApplyResources(this.label7, "label7");
             // 
             // compressionRatioNumericUpDown
             // 
@@ -289,7 +290,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.compressionRatioRadioButton.Size = new System.Drawing.Size(125, 19);
             this.compressionRatioRadioButton.TabIndex = 18;
             this.compressionRatioRadioButton.TabStop = true;
-            this.compressionRatioRadioButton.Text = "Compression Ratio";
+            resources.ApplyResources(this.compressionRatioRadioButton, "compressionRatioRadioButton");
             this.compressionRatioRadioButton.UseVisualStyleBackColor = true;
             this.compressionRatioRadioButton.CheckedChanged += new System.EventHandler(this.compressionRatioRadioButton_CheckedChanged);
             // 
@@ -323,7 +324,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.imageDataSizeRadioButton.Size = new System.Drawing.Size(108, 19);
             this.imageDataSizeRadioButton.TabIndex = 16;
             this.imageDataSizeRadioButton.TabStop = true;
-            this.imageDataSizeRadioButton.Text = "Image Data Size";
+            resources.ApplyResources(this.imageDataSizeRadioButton, "imageDataSizeRadioButton");
             this.imageDataSizeRadioButton.UseVisualStyleBackColor = true;
             this.imageDataSizeRadioButton.CheckedChanged += new System.EventHandler(this.imageDataSizeRadioButton_CheckedChanged);
             // 
@@ -344,7 +345,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.buttonCancel.Name = "buttonCancel";
             this.buttonCancel.Size = new System.Drawing.Size(75, 23);
             this.buttonCancel.TabIndex = 16;
-            this.buttonCancel.Text = "Cancel";
+            resources.ApplyResources(this.buttonCancel, "buttonCancel");
             this.buttonCancel.UseVisualStyleBackColor = true;
             this.buttonCancel.Click += new System.EventHandler(this.buttonCancel_Click);
             // 
@@ -355,7 +356,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.lossyCompressionCheckBox.Name = "lossyCompressionCheckBox";
             this.lossyCompressionCheckBox.Size = new System.Drawing.Size(55, 19);
             this.lossyCompressionCheckBox.TabIndex = 17;
-            this.lossyCompressionCheckBox.Text = "Lossy";
+            resources.ApplyResources(this.lossyCompressionCheckBox, "lossyCompressionCheckBox");
             this.lossyCompressionCheckBox.UseVisualStyleBackColor = true;
             this.lossyCompressionCheckBox.CheckedChanged += new System.EventHandler(this.lossyCompressionCheckBox_CheckedChanged);
             // 
@@ -376,7 +377,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.groupBox1.Size = new System.Drawing.Size(274, 124);
             this.groupBox1.TabIndex = 18;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Structure";
+            resources.ApplyResources(this.groupBox1, "groupBox1");
             // 
             // groupBox2
             // 
@@ -390,7 +391,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.groupBox2.Size = new System.Drawing.Size(274, 120);
             this.groupBox2.TabIndex = 19;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Compression";
+            resources.ApplyResources(this.groupBox2, "groupBox2");
             // 
             // waveletTransformCheckBox
             // 
@@ -399,7 +400,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.waveletTransformCheckBox.Name = "waveletTransformCheckBox";
             this.waveletTransformCheckBox.Size = new System.Drawing.Size(124, 19);
             this.waveletTransformCheckBox.TabIndex = 18;
-            this.waveletTransformCheckBox.Text = "Wavelet Transform";
+            resources.ApplyResources(this.waveletTransformCheckBox, "waveletTransformCheckBox");
             this.waveletTransformCheckBox.UseVisualStyleBackColor = true;
             this.waveletTransformCheckBox.CheckedChanged += new System.EventHandler(this.waveletTransformCheckBox_CheckedChanged);
             // 
@@ -419,7 +420,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.Name = "Jpeg2000EncoderSettingsForm";
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "JPEG 2000 Encoder Settings";
+            resources.ApplyResources(this, "$this");
             ((System.ComponentModel.ISupportInitialize)(this.waveletLevelsNumericUpDown)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.qualityLayersNumericUpDown)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tileWidthNumericUpDown)).EndInit();

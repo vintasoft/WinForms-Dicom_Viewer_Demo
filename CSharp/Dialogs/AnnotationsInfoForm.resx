@@ -117,4 +117,16 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Information about annotations</value>
+  </data>
+  <data name="locationColumnHeader.Text" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="type.Text" xml:space="preserve">
+    <value>Annotation type</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </metadata>
 </root>

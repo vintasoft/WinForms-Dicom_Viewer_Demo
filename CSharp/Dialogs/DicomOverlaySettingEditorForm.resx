@@ -123,4 +123,49 @@
   <metadata name="fontDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Overlay Setting Editor</value>
+  </data>
+  <data name="anchorTypeLabel.Text" xml:space="preserve">
+    <value>Anchor</value>
+  </data>
+  <data name="ungroupButton.ToolTip" xml:space="preserve">
+    <value>Ungroup Selected Element</value>
+  </data>
+  <data name="ungroupButton.Text" xml:space="preserve">
+    <value>Ungroup</value>
+  </data>
+  <data name="groupButton.ToolTip" xml:space="preserve">
+    <value>Group Selected Elements In Single String</value>
+  </data>
+  <data name="groupButton.Text" xml:space="preserve">
+    <value>Group</value>
+  </data>
+  <data name="moveDownButton.ToolTip" xml:space="preserve">
+    <value>Move Down Element</value>
+  </data>
+  <data name="moveDownButton.Text" xml:space="preserve">
+    <value>Move Down</value>
+  </data>
+  <data name="moveUpButton.ToolTip" xml:space="preserve">
+    <value>Move Up Element</value>
+  </data>
+  <data name="moveUpButton.Text" xml:space="preserve">
+    <value>Move Up</value>
+  </data>
+  <data name="removeButton.ToolTip" xml:space="preserve">
+    <value>Remove Element</value>
+  </data>
+  <data name="removeButton.Text" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="addButton.ToolTip" xml:space="preserve">
+    <value>Add Element</value>
+  </data>
+  <data name="addButton.Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </metadata>
 </root>

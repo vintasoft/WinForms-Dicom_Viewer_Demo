@@ -28,6 +28,7 @@ namespace DemosCommonCode.Imaging
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ThumbnailViewerSettingsForm));
             this.buttonOk = new System.Windows.Forms.Button();
             this.buttonCancel = new System.Windows.Forms.Button();
             this.thumbnailSizeComboBox = new System.Windows.Forms.ComboBox();
@@ -112,7 +113,7 @@ namespace DemosCommonCode.Imaging
             this.buttonCancel.Name = "buttonCancel";
             this.buttonCancel.Size = new System.Drawing.Size(81, 23);
             this.buttonCancel.TabIndex = 11;
-            this.buttonCancel.Text = "Cancel";
+            resources.ApplyResources(this.buttonCancel, "buttonCancel");
             this.buttonCancel.UseVisualStyleBackColor = true;
             // 
             // thumbnailSizeComboBox
@@ -138,7 +139,7 @@ namespace DemosCommonCode.Imaging
             this.sizeLabel.Name = "sizeLabel";
             this.sizeLabel.Size = new System.Drawing.Size(27, 13);
             this.sizeLabel.TabIndex = 13;
-            this.sizeLabel.Text = "Size";
+            resources.ApplyResources(this.sizeLabel, "sizeLabel");
             // 
             // generateOnlyVisibleThumbnailsCheckBox
             // 
@@ -147,7 +148,7 @@ namespace DemosCommonCode.Imaging
             this.generateOnlyVisibleThumbnailsCheckBox.Name = "generateOnlyVisibleThumbnailsCheckBox";
             this.generateOnlyVisibleThumbnailsCheckBox.Size = new System.Drawing.Size(177, 17);
             this.generateOnlyVisibleThumbnailsCheckBox.TabIndex = 14;
-            this.generateOnlyVisibleThumbnailsCheckBox.Text = "Generate only visible thumbnails";
+            resources.ApplyResources(this.generateOnlyVisibleThumbnailsCheckBox, "generateOnlyVisibleThumbnailsCheckBox");
             this.generateOnlyVisibleThumbnailsCheckBox.UseVisualStyleBackColor = true;
             // 
             // thumbnailFlowStyleComboBox
@@ -167,7 +168,7 @@ namespace DemosCommonCode.Imaging
             this.flowStyleLabel.Name = "flowStyleLabel";
             this.flowStyleLabel.Size = new System.Drawing.Size(55, 13);
             this.flowStyleLabel.TabIndex = 16;
-            this.flowStyleLabel.Text = "Flow Style";
+            resources.ApplyResources(this.flowStyleLabel, "flowStyleLabel");
             // 
             // thumbnailColumnsCountComboBox
             // 
@@ -194,7 +195,7 @@ namespace DemosCommonCode.Imaging
             this.columnsCountLabel.Name = "columnsCountLabel";
             this.columnsCountLabel.Size = new System.Drawing.Size(78, 13);
             this.columnsCountLabel.TabIndex = 18;
-            this.columnsCountLabel.Text = "Columns Count";
+            resources.ApplyResources(this.columnsCountLabel, "columnsCountLabel");
             // 
             // scaleLabel
             // 
@@ -203,7 +204,7 @@ namespace DemosCommonCode.Imaging
             this.scaleLabel.Name = "scaleLabel";
             this.scaleLabel.Size = new System.Drawing.Size(34, 13);
             this.scaleLabel.TabIndex = 20;
-            this.scaleLabel.Text = "Scale";
+            resources.ApplyResources(this.scaleLabel, "scaleLabel");
             // 
             // thumbnailScaleComboBox
             // 
@@ -232,7 +233,7 @@ namespace DemosCommonCode.Imaging
             this.thumbnailAppearanceGroupBox.Size = new System.Drawing.Size(225, 157);
             this.thumbnailAppearanceGroupBox.TabIndex = 21;
             this.thumbnailAppearanceGroupBox.TabStop = false;
-            this.thumbnailAppearanceGroupBox.Text = "Thumbnail Appearance";
+            resources.ApplyResources(this.thumbnailAppearanceGroupBox, "thumbnailAppearanceGroupBox");
             // 
             // thumbnailAppearanceBorderColorPanelControl
             // 
@@ -278,7 +279,7 @@ namespace DemosCommonCode.Imaging
             this.editThumbnailAppearanceButton.Name = "editThumbnailAppearanceButton";
             this.editThumbnailAppearanceButton.Size = new System.Drawing.Size(103, 23);
             this.editThumbnailAppearanceButton.TabIndex = 27;
-            this.editThumbnailAppearanceButton.Text = "Edit...";
+            resources.ApplyResources(this.editThumbnailAppearanceButton, "editThumbnailAppearanceButton");
             this.editThumbnailAppearanceButton.UseVisualStyleBackColor = true;
             this.editThumbnailAppearanceButton.Click += new System.EventHandler(this.editThumbnailAppearanceButton_Click);
             // 
@@ -289,7 +290,7 @@ namespace DemosCommonCode.Imaging
             this.borderStyleLabel.Name = "borderStyleLabel";
             this.borderStyleLabel.Size = new System.Drawing.Size(64, 13);
             this.borderStyleLabel.TabIndex = 26;
-            this.borderStyleLabel.Text = "Border Style";
+            resources.ApplyResources(this.borderStyleLabel, "borderStyleLabel");
             // 
             // borderWidthLabel
             // 
@@ -298,7 +299,7 @@ namespace DemosCommonCode.Imaging
             this.borderWidthLabel.Name = "borderWidthLabel";
             this.borderWidthLabel.Size = new System.Drawing.Size(69, 13);
             this.borderWidthLabel.TabIndex = 25;
-            this.borderWidthLabel.Text = "Border Width";
+            resources.ApplyResources(this.borderWidthLabel, "borderWidthLabel");
             // 
             // borderColorLabel
             // 
@@ -307,7 +308,7 @@ namespace DemosCommonCode.Imaging
             this.borderColorLabel.Name = "borderColorLabel";
             this.borderColorLabel.Size = new System.Drawing.Size(65, 13);
             this.borderColorLabel.TabIndex = 23;
-            this.borderColorLabel.Text = "Border Color";
+            resources.ApplyResources(this.borderColorLabel, "borderColorLabel");
             // 
             // backColorLabel
             // 
@@ -316,7 +317,7 @@ namespace DemosCommonCode.Imaging
             this.backColorLabel.Name = "backColorLabel";
             this.backColorLabel.Size = new System.Drawing.Size(56, 13);
             this.backColorLabel.TabIndex = 21;
-            this.backColorLabel.Text = "BackColor";
+            resources.ApplyResources(this.backColorLabel, "backColorLabel");
             // 
             // thumbnailAppearanceComboBox
             // 
@@ -345,7 +346,7 @@ namespace DemosCommonCode.Imaging
             this.thumbnailViewerGroupBox.Size = new System.Drawing.Size(262, 157);
             this.thumbnailViewerGroupBox.TabIndex = 22;
             this.thumbnailViewerGroupBox.TabStop = false;
-            this.thumbnailViewerGroupBox.Text = "Thumbnail Viewer";
+            resources.ApplyResources(this.thumbnailViewerGroupBox, "thumbnailViewerGroupBox");
             // 
             // thumbnailViewerBackColorPanelControl
             // 
@@ -389,7 +390,7 @@ namespace DemosCommonCode.Imaging
             this.thumbnailRenderThreadCountLabel.Name = "thumbnailRenderThreadCountLabel";
             this.thumbnailRenderThreadCountLabel.Size = new System.Drawing.Size(176, 13);
             this.thumbnailRenderThreadCountLabel.TabIndex = 25;
-            this.thumbnailRenderThreadCountLabel.Text = "Thumbnail Rendering Thread Count";
+            resources.ApplyResources(this.thumbnailRenderThreadCountLabel, "thumbnailRenderThreadCountLabel");
             // 
             // thumbnailViewerBackColorLabel
             // 
@@ -398,7 +399,7 @@ namespace DemosCommonCode.Imaging
             this.thumbnailViewerBackColorLabel.Name = "thumbnailViewerBackColorLabel";
             this.thumbnailViewerBackColorLabel.Size = new System.Drawing.Size(59, 13);
             this.thumbnailViewerBackColorLabel.TabIndex = 19;
-            this.thumbnailViewerBackColorLabel.Text = "Back Color";
+            resources.ApplyResources(this.thumbnailViewerBackColorLabel, "thumbnailViewerBackColorLabel");
             // 
             // thumbnailsGroupBox
             // 
@@ -414,7 +415,7 @@ namespace DemosCommonCode.Imaging
             this.thumbnailsGroupBox.Size = new System.Drawing.Size(493, 122);
             this.thumbnailsGroupBox.TabIndex = 23;
             this.thumbnailsGroupBox.TabStop = false;
-            this.thumbnailsGroupBox.Text = "Thumbnails";
+            resources.ApplyResources(this.thumbnailsGroupBox, "thumbnailsGroupBox");
             // 
             // imagePaddingGroupBox
             // 
@@ -424,7 +425,7 @@ namespace DemosCommonCode.Imaging
             this.imagePaddingGroupBox.Size = new System.Drawing.Size(141, 102);
             this.imagePaddingGroupBox.TabIndex = 26;
             this.imagePaddingGroupBox.TabStop = false;
-            this.imagePaddingGroupBox.Text = "Image Padding";
+            resources.ApplyResources(this.imagePaddingGroupBox, "imagePaddingGroupBox");
             // 
             // imagePaddingEditorControl
             // 
@@ -489,7 +490,7 @@ namespace DemosCommonCode.Imaging
             this.captionFontlabel.Name = "captionFontlabel";
             this.captionFontlabel.Size = new System.Drawing.Size(67, 13);
             this.captionFontlabel.TabIndex = 31;
-            this.captionFontlabel.Text = "Caption Font";
+            resources.ApplyResources(this.captionFontlabel, "captionFontlabel");
             // 
             // captionFontSelectButton
             // 
@@ -497,7 +498,7 @@ namespace DemosCommonCode.Imaging
             this.captionFontSelectButton.Name = "captionFontSelectButton";
             this.captionFontSelectButton.Size = new System.Drawing.Size(129, 23);
             this.captionFontSelectButton.TabIndex = 30;
-            this.captionFontSelectButton.Text = "Select Font...";
+            resources.ApplyResources(this.captionFontSelectButton, "captionFontSelectButton");
             this.captionFontSelectButton.Click += new System.EventHandler(this.captionFontSelectButton_Click);
             // 
             // captionTextColorPanelControl
@@ -517,7 +518,7 @@ namespace DemosCommonCode.Imaging
             this.captionTextColorLabel.Name = "captionTextColorLabel";
             this.captionTextColorLabel.Size = new System.Drawing.Size(94, 13);
             this.captionTextColorLabel.TabIndex = 21;
-            this.captionTextColorLabel.Text = "Caption Text Color";
+            resources.ApplyResources(this.captionTextColorLabel, "captionTextColorLabel");
             // 
             // captionAnchorLable
             // 
@@ -526,7 +527,7 @@ namespace DemosCommonCode.Imaging
             this.captionAnchorLable.Name = "captionAnchorLable";
             this.captionAnchorLable.Size = new System.Drawing.Size(80, 13);
             this.captionAnchorLable.TabIndex = 21;
-            this.captionAnchorLable.Text = "Caption Anchor";
+            resources.ApplyResources(this.captionAnchorLable, "captionAnchorLable");
             // 
             // captionFormatLabel
             // 
@@ -535,7 +536,7 @@ namespace DemosCommonCode.Imaging
             this.captionFormatLabel.Name = "captionFormatLabel";
             this.captionFormatLabel.Size = new System.Drawing.Size(78, 13);
             this.captionFormatLabel.TabIndex = 21;
-            this.captionFormatLabel.Text = "Caption Format";
+            resources.ApplyResources(this.captionFormatLabel, "captionFormatLabel");
             // 
             // captionPaddingGroupBox
             // 
@@ -545,7 +546,7 @@ namespace DemosCommonCode.Imaging
             this.captionPaddingGroupBox.Size = new System.Drawing.Size(210, 102);
             this.captionPaddingGroupBox.TabIndex = 32;
             this.captionPaddingGroupBox.TabStop = false;
-            this.captionPaddingGroupBox.Text = "Padding";
+            resources.ApplyResources(this.captionPaddingGroupBox, "captionPaddingGroupBox");
             // 
             // captionPaddingFEditorControl
             // 
@@ -566,7 +567,7 @@ namespace DemosCommonCode.Imaging
             this.captionIsVisibleCheckBox.Name = "captionIsVisibleCheckBox";
             this.captionIsVisibleCheckBox.Size = new System.Drawing.Size(114, 17);
             this.captionIsVisibleCheckBox.TabIndex = 0;
-            this.captionIsVisibleCheckBox.Text = "Thumbnail Caption";
+            resources.ApplyResources(this.captionIsVisibleCheckBox, "captionIsVisibleCheckBox");
             this.captionIsVisibleCheckBox.UseVisualStyleBackColor = true;
             this.captionIsVisibleCheckBox.CheckedChanged += new System.EventHandler(this.captionIsVisibleCheckBox_CheckedChanged);
             // 
@@ -582,7 +583,7 @@ namespace DemosCommonCode.Imaging
             this.thumbnailControlGroupBox.Size = new System.Drawing.Size(493, 122);
             this.thumbnailControlGroupBox.TabIndex = 27;
             this.thumbnailControlGroupBox.TabStop = false;
-            this.thumbnailControlGroupBox.Text = "Thumbnail Control";
+            resources.ApplyResources(this.thumbnailControlGroupBox, "thumbnailControlGroupBox");
             // 
             // showThumbnailCheckBoxCheckBox
             // 
@@ -594,7 +595,7 @@ namespace DemosCommonCode.Imaging
             this.showThumbnailCheckBoxCheckBox.Name = "showThumbnailCheckBoxCheckBox";
             this.showThumbnailCheckBoxCheckBox.Size = new System.Drawing.Size(157, 17);
             this.showThumbnailCheckBoxCheckBox.TabIndex = 29;
-            this.showThumbnailCheckBoxCheckBox.Text = "Show Thumbnail CheckBox";
+            resources.ApplyResources(this.showThumbnailCheckBoxCheckBox, "showThumbnailCheckBoxCheckBox");
             this.showThumbnailCheckBoxCheckBox.UseVisualStyleBackColor = true;
             // 
             // thumbnailControlAnchorTypeEditor
@@ -614,7 +615,7 @@ namespace DemosCommonCode.Imaging
             this.thumbnailControlAnchorLabel.Name = "thumbnailControlAnchorLabel";
             this.thumbnailControlAnchorLabel.Size = new System.Drawing.Size(77, 13);
             this.thumbnailControlAnchorLabel.TabIndex = 20;
-            this.thumbnailControlAnchorLabel.Text = "Control Anchor";
+            resources.ApplyResources(this.thumbnailControlAnchorLabel, "thumbnailControlAnchorLabel");
             // 
             // thumbnailControlPaddingGroupBox
             // 
@@ -624,7 +625,7 @@ namespace DemosCommonCode.Imaging
             this.thumbnailControlPaddingGroupBox.Size = new System.Drawing.Size(210, 102);
             this.thumbnailControlPaddingGroupBox.TabIndex = 26;
             this.thumbnailControlPaddingGroupBox.TabStop = false;
-            this.thumbnailControlPaddingGroupBox.Text = "Control Padding";
+            resources.ApplyResources(this.thumbnailControlPaddingGroupBox, "thumbnailControlPaddingGroupBox");
             // 
             // thumbnailControlPaddingFEditorControl
             // 
@@ -653,7 +654,7 @@ namespace DemosCommonCode.Imaging
             this.groupBox1.Size = new System.Drawing.Size(117, 102);
             this.groupBox1.TabIndex = 27;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Thumbnails Anchor";
+            resources.ApplyResources(this.groupBox1, "groupBox1");
             // 
             // ThumbnailViewerSettingsForm
             // 
@@ -674,7 +675,7 @@ namespace DemosCommonCode.Imaging
             this.MinimizeBox = false;
             this.Name = "ThumbnailViewerSettingsForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Thumbnail Viewer Settings";
+            resources.ApplyResources(this, "$this");
             this.thumbnailAppearanceGroupBox.ResumeLayout(false);
             this.thumbnailAppearanceGroupBox.PerformLayout();
             this.thumbnailViewerGroupBox.ResumeLayout(false);

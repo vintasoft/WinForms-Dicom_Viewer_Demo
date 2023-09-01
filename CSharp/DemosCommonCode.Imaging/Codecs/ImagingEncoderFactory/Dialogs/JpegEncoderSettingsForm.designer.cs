@@ -28,6 +28,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(JpegEncoderSettingsForm));
             this.jpegGrayscaleCheckBox = new System.Windows.Forms.CheckBox();
             this.jpegQualityNumericUpDown = new System.Windows.Forms.NumericUpDown();
             this.label1 = new System.Windows.Forms.Label();
@@ -57,7 +58,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.jpegGrayscaleCheckBox.Name = "jpegGrayscaleCheckBox";
             this.jpegGrayscaleCheckBox.Size = new System.Drawing.Size(117, 19);
             this.jpegGrayscaleCheckBox.TabIndex = 12;
-            this.jpegGrayscaleCheckBox.Text = "Grayscale (8 bpp)";
+            resources.ApplyResources(this.jpegGrayscaleCheckBox, "jpegGrayscaleCheckBox");
             this.jpegGrayscaleCheckBox.UseVisualStyleBackColor = true;
             // 
             // jpegQualityNumericUpDown
@@ -84,7 +85,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(45, 15);
             this.label1.TabIndex = 2;
-            this.label1.Text = "Quality";
+            resources.ApplyResources(this.label1, "label1");
             // 
             // disableSubsamplingCheckBox
             // 
@@ -93,7 +94,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.disableSubsamplingCheckBox.Name = "disableSubsamplingCheckBox";
             this.disableSubsamplingCheckBox.Size = new System.Drawing.Size(135, 19);
             this.disableSubsamplingCheckBox.TabIndex = 13;
-            this.disableSubsamplingCheckBox.Text = "Disable subsampling";
+            resources.ApplyResources(this.disableSubsamplingCheckBox, "disableSubsamplingCheckBox");
             this.disableSubsamplingCheckBox.UseVisualStyleBackColor = true;
             // 
             // tabControl1
@@ -123,7 +124,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.compressionTabPage.Padding = new System.Windows.Forms.Padding(3);
             this.compressionTabPage.Size = new System.Drawing.Size(227, 199);
             this.compressionTabPage.TabIndex = 0;
-            this.compressionTabPage.Text = "Compression";
+            resources.ApplyResources(this.compressionTabPage, "compressionTabPage");
             this.compressionTabPage.UseVisualStyleBackColor = true;
             // 
             // saveCommentsCheckBox
@@ -133,7 +134,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.saveCommentsCheckBox.Name = "saveCommentsCheckBox";
             this.saveCommentsCheckBox.Size = new System.Drawing.Size(110, 19);
             this.saveCommentsCheckBox.TabIndex = 18;
-            this.saveCommentsCheckBox.Text = "Save comments";
+            resources.ApplyResources(this.saveCommentsCheckBox, "saveCommentsCheckBox");
             this.saveCommentsCheckBox.UseVisualStyleBackColor = true;
             // 
             // optimizeHuffmanTablesCheckBox
@@ -143,7 +144,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.optimizeHuffmanTablesCheckBox.Name = "optimizeHuffmanTablesCheckBox";
             this.optimizeHuffmanTablesCheckBox.Size = new System.Drawing.Size(159, 19);
             this.optimizeHuffmanTablesCheckBox.TabIndex = 17;
-            this.optimizeHuffmanTablesCheckBox.Text = "Optimize Huffman tables";
+            resources.ApplyResources(this.optimizeHuffmanTablesCheckBox, "optimizeHuffmanTablesCheckBox");
             this.optimizeHuffmanTablesCheckBox.UseVisualStyleBackColor = true;
             // 
             // copyUnkwonwnApplicationMetadataCheckBox
@@ -153,7 +154,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.copyUnkwonwnApplicationMetadataCheckBox.Name = "copyUnkwonwnApplicationMetadataCheckBox";
             this.copyUnkwonwnApplicationMetadataCheckBox.Size = new System.Drawing.Size(222, 19);
             this.copyUnkwonwnApplicationMetadataCheckBox.TabIndex = 16;
-            this.copyUnkwonwnApplicationMetadataCheckBox.Text = "Copy unknown application metadata";
+            resources.ApplyResources(this.copyUnkwonwnApplicationMetadataCheckBox, "copyUnkwonwnApplicationMetadataCheckBox");
             this.copyUnkwonwnApplicationMetadataCheckBox.UseVisualStyleBackColor = true;
             // 
             // createThumbnailCheckBox
@@ -163,7 +164,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.createThumbnailCheckBox.Name = "createThumbnailCheckBox";
             this.createThumbnailCheckBox.Size = new System.Drawing.Size(118, 19);
             this.createThumbnailCheckBox.TabIndex = 15;
-            this.createThumbnailCheckBox.Text = "Create thumbnail";
+            resources.ApplyResources(this.createThumbnailCheckBox, "createThumbnailCheckBox");
             this.createThumbnailCheckBox.UseVisualStyleBackColor = true;
             // 
             // copyExifMetadataCheckBox
@@ -173,7 +174,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.copyExifMetadataCheckBox.Name = "copyExifMetadataCheckBox";
             this.copyExifMetadataCheckBox.Size = new System.Drawing.Size(132, 19);
             this.copyExifMetadataCheckBox.TabIndex = 14;
-            this.copyExifMetadataCheckBox.Text = "Copy EXIF metadata";
+            resources.ApplyResources(this.copyExifMetadataCheckBox, "copyExifMetadataCheckBox");
             this.copyExifMetadataCheckBox.UseVisualStyleBackColor = true;
             // 
             // annotationsTabPage
@@ -185,7 +186,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.annotationsTabPage.Padding = new System.Windows.Forms.Padding(3);
             this.annotationsTabPage.Size = new System.Drawing.Size(227, 199);
             this.annotationsTabPage.TabIndex = 1;
-            this.annotationsTabPage.Text = "Annotations Format";
+            resources.ApplyResources(this.annotationsTabPage, "annotationsTabPage");
             this.annotationsTabPage.UseVisualStyleBackColor = true;
             // 
             // annotationXmpCheckBox
@@ -215,7 +216,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.buttonCancel.Name = "buttonCancel";
             this.buttonCancel.Size = new System.Drawing.Size(75, 23);
             this.buttonCancel.TabIndex = 12;
-            this.buttonCancel.Text = "Cancel";
+            resources.ApplyResources(this.buttonCancel, "buttonCancel");
             this.buttonCancel.UseVisualStyleBackColor = true;
             this.buttonCancel.Click += new System.EventHandler(this.buttonCancel_Click);
             // 
@@ -244,7 +245,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.Name = "JpegEncoderSettingsForm";
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "JPEG Encoder Settings";
+            resources.ApplyResources(this, "$this");
             ((System.ComponentModel.ISupportInitialize)(this.jpegQualityNumericUpDown)).EndInit();
             this.tabControl1.ResumeLayout(false);
             this.compressionTabPage.ResumeLayout(false);

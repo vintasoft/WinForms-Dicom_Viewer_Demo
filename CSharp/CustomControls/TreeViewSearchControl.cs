@@ -162,8 +162,8 @@ namespace DemosCommonCode.CustomControls
             if (isAllNodesSelected)
             {
                 MessageBox.Show(
-                    "Find reached the starting point of the search.",
-                    "Tree View Search Control",
+                    DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_CUSTOMCONTROLS_FIND_REACHED_THE_STARTING_POINT_OF_THE_SEARCH,
+                    DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_CUSTOMCONTROLS_TREE_VIEW_SEARCH_CONTROL,
                     MessageBoxButtons.OK,
                     MessageBoxIcon.Information);
             }
@@ -197,8 +197,8 @@ namespace DemosCommonCode.CustomControls
                 if (_foundTreeNodes.Count == 0)
                 {
                     MessageBox.Show(
-                        string.Format("The specified text was not found:\r\n{0}", searchPattern),
-                        "Tree View Search Control",
+                        string.Format(DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_CUSTOMCONTROLS_THE_SPECIFIED_TEXT_WAS_NOT_FOUNDRNARG0, searchPattern),
+                        DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_CUSTOMCONTROLS_TREE_VIEW_SEARCH_CONTROL_ALT1,
                         MessageBoxButtons.OK,
                         MessageBoxIcon.Information);
                 }

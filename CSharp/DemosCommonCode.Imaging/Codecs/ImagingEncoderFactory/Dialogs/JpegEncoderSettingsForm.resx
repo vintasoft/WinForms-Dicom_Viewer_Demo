@@ -57,4 +57,43 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="$this.Text" xml:space="preserve">
+    <value>JPEG Encoder Settings</value>
+  </data>
+  <data name="buttonCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="annotationsTabPage.Text" xml:space="preserve">
+    <value>Annotations Format</value>
+  </data>
+  <data name="copyExifMetadataCheckBox.Text" xml:space="preserve">
+    <value>Copy EXIF metadata</value>
+  </data>
+  <data name="createThumbnailCheckBox.Text" xml:space="preserve">
+    <value>Create thumbnail</value>
+  </data>
+  <data name="copyUnkwonwnApplicationMetadataCheckBox.Text" xml:space="preserve">
+    <value>Copy unknown application metadata</value>
+  </data>
+  <data name="optimizeHuffmanTablesCheckBox.Text" xml:space="preserve">
+    <value>Optimize Huffman tables</value>
+  </data>
+  <data name="saveCommentsCheckBox.Text" xml:space="preserve">
+    <value>Save comments</value>
+  </data>
+  <data name="compressionTabPage.Text" xml:space="preserve">
+    <value>Compression</value>
+  </data>
+  <data name="disableSubsamplingCheckBox.Text" xml:space="preserve">
+    <value>Disable subsampling</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Quality</value>
+  </data>
+  <data name="jpegGrayscaleCheckBox.Text" xml:space="preserve">
+    <value>Grayscale (8 bpp)</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </metadata>
 </root>

@@ -126,4 +126,25 @@
   <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>267, 17</value>
   </metadata>
+  <data name="$this.Text" xml:space="preserve">
+    <value>OverlayImagesViewer</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>DicomOverlayImage</value>
+  </data>
+  <data name="imageViewerBackColorToolStripMenuItem.Text" xml:space="preserve">
+    <value>Image Viewer Back Color...</value>
+  </data>
+  <data name="viewToolStripMenuItem.Text" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="saveAsImageButton.Text" xml:space="preserve">
+    <value>Save as Image ...</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Overlay Image</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </metadata>
 </root>

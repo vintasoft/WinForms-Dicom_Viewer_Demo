@@ -1,4 +1,4 @@
-﻿<root>
+<root>
   <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
     <xsd:element name="root" msdata:IsDataSet="true">
@@ -57,4 +57,58 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="$this.Text" xml:space="preserve">
+    <value>WEBP Encoder Settings</value>
+  </data>
+  <data name="buttonCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Filters strength</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Spatial noise shaping</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Entropy passes</value>
+  </data>
+  <data name="lossyGroupBox.Text" xml:space="preserve">
+    <value>Lossy</value>
+  </data>
+  <data name="groupBox3.Text" xml:space="preserve">
+    <value>Base</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Transparent</value>
+  </data>
+  <data name="nearLosslessCheckBox.Text" xml:space="preserve">
+    <value>Use NearLossless</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>NearLossless quality</value>
+  </data>
+  <data name="groupBox4.Text" xml:space="preserve">
+    <value>NearLossless</value>
+  </data>
+  <data name="losslessGroupBox.Text" xml:space="preserve">
+    <value>Lossless</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Format</value>
+  </data>
+  <data name="lossyRadioButton.Text" xml:space="preserve">
+    <value>Lossy</value>
+  </data>
+  <data name="losslessRadioButton.Text" xml:space="preserve">
+    <value>Lossless</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Quality</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Encoding</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </metadata>
 </root>

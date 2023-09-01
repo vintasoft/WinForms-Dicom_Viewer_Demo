@@ -328,7 +328,7 @@ namespace DemosCommonCode.Dicom
                 // if study UID is not equal to the DICOM file study UID
                 if (!_studyInstanceUid.Value.Equals(studyInstanceUid.Value))
                 {
-                    string message = "The file can not be added to the series because the file does not belong current study.";
+                    string message = DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_DICOM_THE_FILE_CAN_NOT_BE_ADDED_TO_THE_SERIES_BECAUSE_THE_FILE_DOES_NOT_BELONG_CURRENT_STUDY;
                     throw new InvalidOperationException(message);
                 }
 
@@ -336,7 +336,7 @@ namespace DemosCommonCode.Dicom
                 if (!_seriesInstanceUid.Value.Equals(seriesInstanceUid.Value) ||
                     _seriesNumber != seriesNumber)
                 {
-                    string message = "The file can not be added to the series because the file does not belong current series.";
+                    string message = DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_DICOM_THE_FILE_CAN_NOT_BE_ADDED_TO_THE_SERIES_BECAUSE_THE_FILE_DOES_NOT_BELONG_CURRENT_SERIES;
                     throw new InvalidOperationException(message);
                 }
             }

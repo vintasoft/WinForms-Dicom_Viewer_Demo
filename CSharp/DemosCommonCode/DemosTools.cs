@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Diagnostics;
@@ -46,7 +46,7 @@ namespace DemosCommonCode
         {
             if (ParseFloat(text, out value))
                 return true;
-            ShowErrorMessage(string.Format("{0} has invalid format.", fieldName));
+            ShowErrorMessage(string.Format(DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_ARG0_HAS_INVALID_FORMAT, fieldName));
             return false;
         }
 
@@ -137,7 +137,7 @@ namespace DemosCommonCode
         /// <param name="message">The text of error.</param>
         public static void ShowErrorMessage(string message)
         {
-            ShowErrorMessage("Error", message);
+            ShowErrorMessage(DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_ERROR, message);
         }
 
         /// <summary>
@@ -146,7 +146,7 @@ namespace DemosCommonCode
         /// <param name="ex">The exception.</param>
         public static void ShowErrorMessage(Exception ex)
         {
-            ShowErrorMessage("Error", ex);
+            ShowErrorMessage(DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_ERROR_ALT1, ex);
         }
 
         /// <summary>
@@ -156,7 +156,7 @@ namespace DemosCommonCode
         /// <param name="filename">A filename.</param>
         public static void ShowErrorMessage(Exception ex, string filename)
         {
-            MessageBox.Show(string.Format("{0} ({1})", ex.Message, Path.GetFileName(filename)), "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            MessageBox.Show(string.Format("{0} ({1})", ex.Message, Path.GetFileName(filename)), DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_ERROR_ALT2, MessageBoxButtons.OK, MessageBoxIcon.Error);
         }
 
         /// <summary>
@@ -175,7 +175,7 @@ namespace DemosCommonCode
         /// <param name="message">The message.</param>
         public static void ShowWarningMessage(string message)
         {
-            ShowWarningMessage("Warning", message);
+            ShowWarningMessage(DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_WARNING, message);
         }
 
         /// <summary>
@@ -194,7 +194,7 @@ namespace DemosCommonCode
         /// <param name="message">The message.</param>
         public static void ShowInfoMessage(string message)
         {
-            ShowInfoMessage("Information", message);
+            ShowInfoMessage(DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_INFORMATION, message);
         }
 
 
@@ -318,7 +318,7 @@ namespace DemosCommonCode
             while (innerException != null)
             {
                 if (ex.Message != innerException.Message)
-                    sb.AppendLine(string.Format("Inner exception: {0}", innerException.Message));
+                    sb.AppendLine(string.Format(DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_INNER_EXCEPTION_ARG0, innerException.Message));
                 innerException = innerException.InnerException;
             }
 
@@ -334,6 +334,37 @@ namespace DemosCommonCode
         {
             imageViewer.CatchVisualToolExceptions = true;
             imageViewer.VisualToolException += new EventHandler<ExceptionEventArgs>(imageViewer_VisualToolException);
+        }
+
+        /// <summary>
+        /// Auto fit toolstrip buttons. 
+        /// </summary>
+        /// <param name="toolStrip">Toolstrip.</param>
+        public static void AutoFitToolstripButtons(ToolStrip toolStrip)
+        {
+            // for each item in toolstrip
+            foreach(ToolStripItem item in toolStrip.Items)
+            {
+                // if item is button
+                if (item is ToolStripButton || item is ToolStripSplitButton)
+                {
+                    using (System.Drawing.Graphics g = System.Drawing.Graphics.FromHwnd(toolStrip.Handle))
+                    {
+                        // get size of button text
+                        System.Drawing.SizeF textSize = g.MeasureString(item.Text, item.Font);
+                        // button has dropdown button
+                        if (item is ToolStripSplitButton)
+                        {
+                            // add dropdown button width to the width of button text
+                            textSize.Width += ((ToolStripSplitButton)item).DropDownButtonWidth;
+                        }
+                        // if button width is less than width of button text
+                        if (item.Width < textSize.Width)
+                            // increase the button width
+                            item.Width = (int)textSize.Width;
+                    }
+                }
+            }
         }
 
         /// <summary>
@@ -417,7 +448,7 @@ namespace DemosCommonCode
             if (licenseException != null)
             {
                 // show information about licensing exception
-                MessageBox.Show(string.Format("{0}: {1}", licenseException.GetType().Name, licenseException.Message), "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(string.Format("{0}: {1}", licenseException.GetType().Name, licenseException.Message), DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_ERROR_ALT3, MessageBoxButtons.OK, MessageBoxIcon.Error);
 
                 // open article with information about usage of evaluation license
                 System.Diagnostics.Process process = new System.Diagnostics.Process();

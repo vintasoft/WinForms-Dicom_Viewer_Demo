@@ -28,6 +28,7 @@ namespace DemosCommonCode.Imaging
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ImageRenderingRequirementsForm));
             this.label1 = new System.Windows.Forms.Label();
             this.codecComboBox = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -46,7 +47,7 @@ namespace DemosCommonCode.Imaging
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(41, 15);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Codec";
+            resources.ApplyResources(this.label1, "label1");
             // 
             // codecComboBox
             // 
@@ -65,7 +66,7 @@ namespace DemosCommonCode.Imaging
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(128, 15);
             this.label2.TabIndex = 2;
-            this.label2.Text = "Enable Rendering from";
+            resources.ApplyResources(this.label2, "label2");
             // 
             // megapixelsComboBox
             // 
@@ -91,7 +92,7 @@ namespace DemosCommonCode.Imaging
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(67, 15);
             this.label3.TabIndex = 4;
-            this.label3.Text = "Megapixels";
+            resources.ApplyResources(this.label3, "label3");
             // 
             // buttonOk
             // 
@@ -112,7 +113,7 @@ namespace DemosCommonCode.Imaging
             this.buttonCancel.Name = "buttonCancel";
             this.buttonCancel.Size = new System.Drawing.Size(75, 23);
             this.buttonCancel.TabIndex = 6;
-            this.buttonCancel.Text = "Cancel";
+            resources.ApplyResources(this.buttonCancel, "buttonCancel");
             this.buttonCancel.UseVisualStyleBackColor = true;
             // 
             // removeButton
@@ -121,7 +122,7 @@ namespace DemosCommonCode.Imaging
             this.removeButton.Name = "removeButton";
             this.removeButton.Size = new System.Drawing.Size(60, 23);
             this.removeButton.TabIndex = 7;
-            this.removeButton.Text = "Remove";
+            resources.ApplyResources(this.removeButton, "removeButton");
             this.removeButton.UseVisualStyleBackColor = true;
             this.removeButton.Click += new System.EventHandler(this.removeButton_Click);
             // 
@@ -131,7 +132,7 @@ namespace DemosCommonCode.Imaging
             this.addButton.Name = "addButton";
             this.addButton.Size = new System.Drawing.Size(60, 23);
             this.addButton.TabIndex = 8;
-            this.addButton.Text = "Add...";
+            resources.ApplyResources(this.addButton, "addButton");
             this.addButton.UseVisualStyleBackColor = true;
             this.addButton.Click += new System.EventHandler(this.addButton_Click);
             // 
@@ -157,7 +158,7 @@ namespace DemosCommonCode.Imaging
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Image Rendering Requirements";
+            resources.ApplyResources(this, "$this");
             this.ResumeLayout(false);
             this.PerformLayout();
 

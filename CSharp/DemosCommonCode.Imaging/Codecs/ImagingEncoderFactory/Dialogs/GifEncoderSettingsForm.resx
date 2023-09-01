@@ -57,4 +57,43 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="$this.Text" xml:space="preserve">
+    <value>GIF Encoder Settings</value>
+  </data>
+  <data name="autoSizeCheckBox.Text" xml:space="preserve">
+    <value>Auto (max of images)</value>
+  </data>
+  <data name="groupBox4.Text" xml:space="preserve">
+    <value>Logical screen size (px)</value>
+  </data>
+  <data name="infiniteAnimationCheckBox.Text" xml:space="preserve">
+    <value>Infinite</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Cycles</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Delay</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>1/100 sec</value>
+  </data>
+  <data name="groupBox3.Text" xml:space="preserve">
+    <value>Animation</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>Create page method</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Images align</value>
+  </data>
+  <data name="buttonCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="addImagesToExistingFileCheckBox.Text" xml:space="preserve">
+    <value>Append to existing file</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </metadata>
 </root>

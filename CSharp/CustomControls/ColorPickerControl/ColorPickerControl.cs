@@ -37,7 +37,7 @@ namespace DemosCommonCode.CustomControls
             Color = Color.White;
             CanEditAlphaChannel = true;
 
-            colorSampleControl.ToolTip = "Click on the panel if current color must be changed.";
+            colorSampleControl.ToolTip = DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_CUSTOMCONTROLS_CLICK_ON_THE_PANEL_IF_CURRENT_COLOR_MUST_BE_CHANGED;
         }
 
         #endregion

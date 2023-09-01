@@ -26,8 +26,8 @@ namespace DemosCommonCode.Imaging
             // create action, which allows to measure objects on image in image viewer
             ImageMeasureToolAction imageMeasureToolAction = new ImageMeasureToolAction(
                  new ImageMeasureTool(),
-                 "Image Measure Tool",
-                 "Image Measure Tool",
+                 DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_IMAGE_MEASURE_TOOL,
+                 DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_IMAGE_MEASURE_TOOL_ALT1,
                  GetIcon("ImageMeasureTool.png"));
             // add the action to the toolstrip
             toolStrip.AddAction(imageMeasureToolAction);

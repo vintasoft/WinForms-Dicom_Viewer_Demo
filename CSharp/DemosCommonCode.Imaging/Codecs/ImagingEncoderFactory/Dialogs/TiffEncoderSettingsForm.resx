@@ -117,4 +117,100 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="$this.Text" xml:space="preserve">
+    <value>TIFF Encoder Settings</value>
+  </data>
+  <data name="fileVersionGroupBox.Text" xml:space="preserve">
+    <value>File version</value>
+  </data>
+  <data name="fileFormatGroupBox.Text" xml:space="preserve">
+    <value>File format</value>
+  </data>
+  <data name="fileTabPage.Text" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="copyExifMetadataCheckBox.Text" xml:space="preserve">
+    <value>Copy Exif metadata</value>
+  </data>
+  <data name="copyGpsMetadataCheckBox.Text" xml:space="preserve">
+    <value>Copy Gps metadata</value>
+  </data>
+  <data name="copyCommonMetadataCheckBox.Text" xml:space="preserve">
+    <value>Copy common metadata</value>
+  </data>
+  <data name="metadataTabPage.Text" xml:space="preserve">
+    <value>Metadata</value>
+  </data>
+  <data name="annotationsTabPage.Text" xml:space="preserve">
+    <value>Annotations</value>
+  </data>
+  <data name="jpeg2000SettingsButton.Text" xml:space="preserve">
+    <value>JPEG2000 Settings...</value>
+  </data>
+  <data name="jpeg2000CompressionAdvancedSettingsGroupBox.Text" xml:space="preserve">
+    <value>JPEG2000 Advanced Settings</value>
+  </data>
+  <data name="zipUsePredictorCheckBox.Text" xml:space="preserve">
+    <value>Use predictor</value>
+  </data>
+  <data name="zipCompressionAdvancedSettingsGroupBox.Text" xml:space="preserve">
+    <value>ZIP Advanced Settings</value>
+  </data>
+  <data name="lzwUsePredictorCheckBox.Text" xml:space="preserve">
+    <value>Use predictor</value>
+  </data>
+  <data name="lzwCompressionAdvancedSettingsGroupBox.Text" xml:space="preserve">
+    <value>LZW Advanced Settings</value>
+  </data>
+  <data name="rowsPerStripLabel.Text" xml:space="preserve">
+    <value>Rows per strip</value>
+  </data>
+  <data name="tileWidthLabel.Text" xml:space="preserve">
+    <value>Tile width</value>
+  </data>
+  <data name="useStripsRadioButton.Text" xml:space="preserve">
+    <value>Use strips</value>
+  </data>
+  <data name="useTilesRadioButton.Text" xml:space="preserve">
+    <value>Use tiles</value>
+  </data>
+  <data name="tileHeightLabel.Text" xml:space="preserve">
+    <value>Tile height</value>
+  </data>
+  <data name="stripsAndTilesGroupBox.Text" xml:space="preserve">
+    <value>Strips and Tiles</value>
+  </data>
+  <data name="binarizationThresholdLabel.Text" xml:space="preserve">
+    <value>Threshold</value>
+  </data>
+  <data name="binarizationAdvancedSettingsGroupBox.Text" xml:space="preserve">
+    <value>Binarization Advanced Settings</value>
+  </data>
+  <data name="compressionTabPage.Text" xml:space="preserve">
+    <value>Compression</value>
+  </data>
+  <data name="buttonCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="zipLevelLabel.Text" xml:space="preserve">
+    <value>ZIP Level</value>
+  </data>
+  <data name="jpegQualityLabel.Text" xml:space="preserve">
+    <value>JPEG Quality</value>
+  </data>
+  <data name="jpegGrayscaleCheckBox.Text" xml:space="preserve">
+    <value>Grayscale JPEG</value>
+  </data>
+  <data name="jpegCompressionAdvancedSettingsGroupBox.Text" xml:space="preserve">
+    <value>JPEG Advanced Settings</value>
+  </data>
+  <data name="autoCompressionRadioButton.Text" xml:space="preserve">
+    <value>Auto</value>
+  </data>
+  <data name="addImagesToExistingFileCheckBox.Text" xml:space="preserve">
+    <value>Append to existing document</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </metadata>
 </root>

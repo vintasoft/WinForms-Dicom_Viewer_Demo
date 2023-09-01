@@ -117,4 +117,34 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="$this.Text" xml:space="preserve">
+    <value>SVG Encoder Settings</value>
+  </data>
+  <data name="allowExternalFontsCheckBox.Text" xml:space="preserve">
+    <value>Allow External Fonts</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Quality</value>
+  </data>
+  <data name="jpegGrayscaleCheckBox.Text" xml:space="preserve">
+    <value>Grayscale (8 bpp)</value>
+  </data>
+  <data name="jpegEncoderSettingsGroupBox.Text" xml:space="preserve">
+    <value>JPEG settings</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Compression settings</value>
+  </data>
+  <data name="pngEncoderSettingsGroupBox.Text" xml:space="preserve">
+    <value>PNG settings</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Embedded images encoder</value>
+  </data>
+  <data name="buttonCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </metadata>
 </root>

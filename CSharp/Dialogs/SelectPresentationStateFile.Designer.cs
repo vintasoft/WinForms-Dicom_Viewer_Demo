@@ -28,6 +28,7 @@ namespace DicomViewerDemo
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SelectPresentationStateFile));
             this.okButton = new System.Windows.Forms.Button();
             this.buttonCancel = new System.Windows.Forms.Button();
             this.filenamesComboBox = new System.Windows.Forms.ComboBox();
@@ -52,7 +53,7 @@ namespace DicomViewerDemo
             this.buttonCancel.Name = "buttonCancel";
             this.buttonCancel.Size = new System.Drawing.Size(75, 23);
             this.buttonCancel.TabIndex = 1;
-            this.buttonCancel.Text = "Cancel";
+            resources.ApplyResources(this.buttonCancel, "buttonCancel");
             this.buttonCancel.UseVisualStyleBackColor = true;
             // 
             // filenamesComboBox
@@ -80,7 +81,7 @@ namespace DicomViewerDemo
             this.MinimumSize = new System.Drawing.Size(405, 100);
             this.Name = "SelectPresentationStateFile";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Select Presentation State File";
+            resources.ApplyResources(this, "$this");
             this.ResumeLayout(false);
 
         }

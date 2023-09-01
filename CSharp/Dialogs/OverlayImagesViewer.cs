@@ -49,7 +49,7 @@ namespace DicomViewerDemo
 
             if (metadata == null)
             {
-                MessageBox.Show("Current image is not DICOM frame.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(DicomViewerDemo.Localization.Strings.DICOMVIEWERDEMO_CURRENT_IMAGE_IS_NOT_DICOM_FRAME, DicomViewerDemo.Localization.Strings.DICOMVIEWERDEMO_ERROR, MessageBoxButtons.OK, MessageBoxIcon.Error);
                 this.Close();
             }
 
@@ -73,7 +73,7 @@ namespace DicomViewerDemo
             for (int overlayImageIndex = 0; overlayImageIndex < metadata.OverlayImages.Length; overlayImageIndex++)
             {
                 // get the image name
-                string imageName = string.Format("OverlayImage: {0}", overlayImageIndex + 1);
+                string imageName = string.Format(DicomViewerDemo.Localization.Strings.DICOMVIEWERDEMO_OVERLAYIMAGE_ARG0, overlayImageIndex + 1);
 
                 bool error = false;
                 // get the information about overlay image
@@ -97,7 +97,7 @@ namespace DicomViewerDemo
             }
 
             if (overlayImages.Count == 0)
-                DemosTools.ShowErrorMessage("Overlay images are damaged.");
+                DemosTools.ShowErrorMessage(DicomViewerDemo.Localization.Strings.DICOMVIEWERDEMO_OVERLAY_IMAGES_ARE_DAMAGED);
 
             if (overlayImagesComboBox.Items.Count > 0)
                 overlayImagesComboBox.SelectedIndex = 0;
@@ -133,7 +133,7 @@ namespace DicomViewerDemo
                 string key = (string)overlayImagesComboBox.Items[overlayImagesComboBox.SelectedIndex];
                 using (SaveFileDialog saveFileDialog = new SaveFileDialog())
                 {
-                    saveFileDialog.Filter = "TIFF Files|*.tif;*.tiff|JPEG Files|*.jpg;*.jpeg|PNG Files|.png";
+                    saveFileDialog.Filter = DicomViewerDemo.Localization.Strings.DICOMVIEWERDEMO_TIFF_FILESTIFTIFFJPEG_FILESJPGJPEGPNG_FILESPNG;
                     saveFileDialog.DefaultExt = ".tiff";
                     if (saveFileDialog.ShowDialog() == DialogResult.OK)
                     {

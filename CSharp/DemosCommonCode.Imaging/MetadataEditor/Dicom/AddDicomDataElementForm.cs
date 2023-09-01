@@ -84,7 +84,7 @@ namespace DemosCommonCode.Imaging
             // reset the user interface
 
             valueLabel.Visible = true;
-            valueLabel.Text = "Value";
+            valueLabel.Text = DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_VALUE;
 
             valueTextBox.Visible = false;
             valueTextBox.Text = string.Empty;
@@ -136,7 +136,7 @@ namespace DemosCommonCode.Imaging
 
                 default:
                     valueTextBox.Visible = true;
-                    valueLabel.Text = "Enter string values (value per line)";
+                    valueLabel.Text = DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_ENTER_STRING_VALUES_VALUE_PER_LINE;
                     break;
 
             }
@@ -333,7 +333,7 @@ namespace DemosCommonCode.Imaging
             }
             catch (Exception exc)
             {
-                MessageBox.Show(exc.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(exc.Message, DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_ERROR, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 #endif
         }

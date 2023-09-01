@@ -28,6 +28,7 @@ namespace DemosCommonCode.Imaging
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ThumbnailAppearanceSettingsForm));
             this.borderStyleLabel = new System.Windows.Forms.Label();
             this.borderWidthLabel = new System.Windows.Forms.Label();
             this.borderColorLabel = new System.Windows.Forms.Label();
@@ -49,7 +50,7 @@ namespace DemosCommonCode.Imaging
             this.borderStyleLabel.Name = "borderStyleLabel";
             this.borderStyleLabel.Size = new System.Drawing.Size(70, 15);
             this.borderStyleLabel.TabIndex = 35;
-            this.borderStyleLabel.Text = "Border Style";
+            resources.ApplyResources(this.borderStyleLabel, "borderStyleLabel");
             // 
             // borderWidthLabel
             // 
@@ -58,7 +59,7 @@ namespace DemosCommonCode.Imaging
             this.borderWidthLabel.Name = "borderWidthLabel";
             this.borderWidthLabel.Size = new System.Drawing.Size(77, 15);
             this.borderWidthLabel.TabIndex = 34;
-            this.borderWidthLabel.Text = "Border Width";
+            resources.ApplyResources(this.borderWidthLabel, "borderWidthLabel");
             // 
             // borderColorLabel
             // 
@@ -67,7 +68,7 @@ namespace DemosCommonCode.Imaging
             this.borderColorLabel.Name = "borderColorLabel";
             this.borderColorLabel.Size = new System.Drawing.Size(74, 15);
             this.borderColorLabel.TabIndex = 32;
-            this.borderColorLabel.Text = "Border Color";
+            resources.ApplyResources(this.borderColorLabel, "borderColorLabel");
             // 
             // backColorLabel
             // 
@@ -76,7 +77,7 @@ namespace DemosCommonCode.Imaging
             this.backColorLabel.Name = "backColorLabel";
             this.backColorLabel.Size = new System.Drawing.Size(64, 15);
             this.backColorLabel.TabIndex = 30;
-            this.backColorLabel.Text = "Back Color";
+            resources.ApplyResources(this.backColorLabel, "backColorLabel");
             // 
             // borderWidthNumericUpDown
             // 
@@ -106,7 +107,7 @@ namespace DemosCommonCode.Imaging
             this.buttonCancel.Name = "buttonCancel";
             this.buttonCancel.Size = new System.Drawing.Size(81, 23);
             this.buttonCancel.TabIndex = 43;
-            this.buttonCancel.Text = "Cancel";
+            resources.ApplyResources(this.buttonCancel, "buttonCancel");
             this.buttonCancel.UseVisualStyleBackColor = true;
             // 
             // buttonOk
@@ -172,7 +173,7 @@ namespace DemosCommonCode.Imaging
             this.MinimizeBox = false;
             this.Name = "ThumbnailAppearanceSettingsForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Thumbnail Appearance Settings";
+            resources.ApplyResources(this, "$this");
             ((System.ComponentModel.ISupportInitialize)(this.borderWidthNumericUpDown)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

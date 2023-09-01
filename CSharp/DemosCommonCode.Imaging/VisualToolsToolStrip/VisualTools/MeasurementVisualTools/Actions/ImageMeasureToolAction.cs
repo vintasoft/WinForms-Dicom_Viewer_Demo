@@ -337,19 +337,19 @@ namespace DemosCommonCode.Imaging
             _measureTypeActionToMeasurementType = new Dictionary<VisualToolAction, MeasurementType>();
 
             VisualToolAction lineMeasureAction = new VisualToolAction(
-                "Line Measure", "Starts the measurement using line", null, true);
+                DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_LINE_MEASURE, DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_STARTS_THE_MEASUREMENT_USING_LINE, null, true);
             _measureTypeActionToMeasurementType.Add(lineMeasureAction, MeasurementType.Line);
 
             VisualToolAction linesMeasureAction = new VisualToolAction(
-                "Lines Measure", "Starts the measurement using lines", null, true);
+                DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_LINES_MEASURE, DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_STARTS_THE_MEASUREMENT_USING_LINES, null, true);
             _measureTypeActionToMeasurementType.Add(linesMeasureAction, MeasurementType.Lines);
 
             VisualToolAction ellipseMeasureAction = new VisualToolAction(
-                "Ellipse Measure", "Starts the measurement using ellipse", null, true);
+                DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_ELLIPSE_MEASURE, DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_STARTS_THE_MEASUREMENT_USING_ELLIPSE, null, true);
             _measureTypeActionToMeasurementType.Add(ellipseMeasureAction, MeasurementType.Ellipse);
 
             VisualToolAction angleMeasureAction = new VisualToolAction(
-                "Angle Measure", "Starts the measurement using angle", null, true);
+                DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_ANGLE_MEASURE, DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_STARTS_THE_MEASUREMENT_USING_ANGLE, null, true);
             _measureTypeActionToMeasurementType.Add(angleMeasureAction, MeasurementType.Angle);
 
             foreach (VisualToolAction action in _measureTypeActionToMeasurementType.Keys)
@@ -430,21 +430,21 @@ namespace DemosCommonCode.Imaging
                 unitsOfMeasureSubActions.Add(unitsOfMeasureAction);
             }
 
-            actions.Add(new VisualToolAction("Units Of Measure",
-                    "Units Of Measure", null, false,
+            actions.Add(new VisualToolAction(DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_UNITS_OF_MEASURE,
+                    DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_UNITS_OF_MEASURE_ALT1, null, false,
                     unitsOfMeasureSubActions.ToArray()));
 
 
             VisualToolAction propertiesAction =
-                new VisualToolAction("Properties...",
-                    "Show properties form for image measure tool", null, false);
+                new VisualToolAction(DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_PROPERTIES,
+                    DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_SHOW_PROPERTIES_FORM_FOR_IMAGE_MEASURE_TOOL, null, false);
             propertiesAction.Clicked += new EventHandler(propertiesAction_Clicked);
             actions.Add(propertiesAction);
 
 
             VisualToolAction measurementPropertiesAction =
-                new VisualToolAction("Measurement Properties...",
-                    "Show properties form for focused measurement annotation", null, false);
+                new VisualToolAction(DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_MEASUREMENT_PROPERTIES,
+                    DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_SHOW_PROPERTIES_FORM_FOR_FOCUSED_MEASUREMENT_ANNOTATION, null, false);
             measurementPropertiesAction.Clicked += new EventHandler(measurementPropertiesAction_Clicked);
             actions.Add(measurementPropertiesAction);
         }
@@ -458,7 +458,7 @@ namespace DemosCommonCode.Imaging
         {
             ImageMeasureTool visualTool = (ImageMeasureTool)VisualTool;
 
-            using (PropertyGridForm dlg = new PropertyGridForm(visualTool, "Image measure tool settings"))
+            using (PropertyGridForm dlg = new PropertyGridForm(visualTool, DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_IMAGE_MEASURE_TOOL_SETTINGS))
             {
                 dlg.ShowDialog();
             }
@@ -476,7 +476,7 @@ namespace DemosCommonCode.Imaging
             if (visualTool.FocusedAnnotationView == null)
                 return;
 
-            using (PropertyGridForm dlg = new PropertyGridForm(visualTool.FocusedAnnotationView, "Measurement settings"))
+            using (PropertyGridForm dlg = new PropertyGridForm(visualTool.FocusedAnnotationView, DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_MEASUREMENT_SETTINGS))
             {
                 dlg.ShowDialog();
             }
@@ -514,14 +514,14 @@ namespace DemosCommonCode.Imaging
         private void AddLoadAndSaveActions(List<VisualToolAction> actions)
         {
             VisualToolAction loadMeasurementsAction =
-                new VisualToolAction("Load Measurements...",
-                    "Load the measurement annotations from a file", null, false);
+                new VisualToolAction(DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_LOAD_MEASUREMENTS,
+                    DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_LOAD_THE_MEASUREMENT_ANNOTATIONS_FROM_A_FILE, null, false);
             loadMeasurementsAction.Clicked += new EventHandler(loadMeasurementsAction_Clicked);
             actions.Add(loadMeasurementsAction);
 
             VisualToolAction saveMeasurementsAction =
-                new VisualToolAction("Save Measurements...",
-                    " Save the measurement annotations to a file", null, false);
+                new VisualToolAction(DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_SAVE_MEASUREMENTS,
+                    DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING__SAVE_THE_MEASUREMENT_ANNOTATIONS_TO_A_FILE, null, false);
             saveMeasurementsAction.Clicked += new EventHandler(saveMeasurementsAction_Clicked);
             actions.Add(saveMeasurementsAction);
         }
@@ -537,7 +537,7 @@ namespace DemosCommonCode.Imaging
             {
                 openFileDialog.FileName = null;
                 openFileDialog.Filter =
-                    "Binary Annotations(*.vsabm)|*.vsabm|XMP Annotations(*.xmpm)|*.xmpm|All Formats(*.vsabm;*.xmpm)|*.vsabm;*.xmpm";
+                    DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_BINARY_ANNOTATIONSVSABMVSABMXMP_ANNOTATIONSXMPMXMPMALL_FORMATSVSABMXMPMVSABMXMPM;
                 openFileDialog.FilterIndex = 3;
 
                 if (openFileDialog.ShowDialog() == DialogResult.OK)
@@ -573,7 +573,7 @@ namespace DemosCommonCode.Imaging
             using (SaveFileDialog saveFileDialog = new SaveFileDialog())
             {
                 saveFileDialog.FileName = null;
-                saveFileDialog.Filter = "Binary Annotations|*.vsabm|XMP Annotations|*.xmpm";
+                saveFileDialog.Filter = DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_BINARY_ANNOTATIONSVSABMXMP_ANNOTATIONSXMPM;
                 saveFileDialog.FilterIndex = 1;
 
                 if (saveFileDialog.ShowDialog() == DialogResult.OK)
@@ -614,8 +614,8 @@ namespace DemosCommonCode.Imaging
         private void AddRefreshActions(List<VisualToolAction> actions)
         {
             VisualToolAction refreshAction =
-                new VisualToolAction("Refresh Measurements",
-                      "Refresh all measurements of focused image", null, false);
+                new VisualToolAction(DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_REFRESH_MEASUREMENTS,
+                      DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_REFRESH_ALL_MEASUREMENTS_OF_FOCUSED_IMAGE, null, false);
             refreshAction.Clicked += new EventHandler(refreshAction_Clicked);
             actions.Add(refreshAction);
         }

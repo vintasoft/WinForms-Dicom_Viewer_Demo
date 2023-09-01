@@ -28,6 +28,7 @@ namespace DemosCommonCode.Imaging
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AddDicomDataElementForm));
             this.label1 = new System.Windows.Forms.Label();
             this.groupNumberNumericUpDown = new System.Windows.Forms.NumericUpDown();
             this.label2 = new System.Windows.Forms.Label();
@@ -54,7 +55,7 @@ namespace DemosCommonCode.Imaging
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(76, 13);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Group Number";
+            resources.ApplyResources(this.label1, "label1");
             // 
             // groupNumberNumericUpDown
             // 
@@ -85,7 +86,7 @@ namespace DemosCommonCode.Imaging
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(85, 13);
             this.label2.TabIndex = 2;
-            this.label2.Text = "Element Number";
+            resources.ApplyResources(this.label2, "label2");
             // 
             // valueRepresentationComboBox
             // 
@@ -105,7 +106,7 @@ namespace DemosCommonCode.Imaging
             this.valueLabel.Name = "valueLabel";
             this.valueLabel.Size = new System.Drawing.Size(34, 13);
             this.valueLabel.TabIndex = 5;
-            this.valueLabel.Text = "Value";
+            resources.ApplyResources(this.valueLabel, "valueLabel");
             // 
             // valueTextBox
             // 
@@ -128,7 +129,7 @@ namespace DemosCommonCode.Imaging
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(109, 13);
             this.label4.TabIndex = 7;
-            this.label4.Text = "Value Representation";
+            resources.ApplyResources(this.label4, "label4");
             // 
             // valueTimePicker
             // 
@@ -159,7 +160,7 @@ namespace DemosCommonCode.Imaging
             this.cancelButton1.Name = "cancelButton1";
             this.cancelButton1.Size = new System.Drawing.Size(75, 23);
             this.cancelButton1.TabIndex = 11;
-            this.cancelButton1.Text = "Cancel";
+            resources.ApplyResources(this.cancelButton1, "cancelButton1");
             this.cancelButton1.UseVisualStyleBackColor = true;
             // 
             // valueDatePicker
@@ -211,10 +212,10 @@ namespace DemosCommonCode.Imaging
             this.valueAgeComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.valueAgeComboBox.FormattingEnabled = true;
             this.valueAgeComboBox.Items.AddRange(new object[] {
-            "Day",
-            "Week",
-            "Month",
-            "Year"});
+            resources.GetString("valueAgeComboBox.Items"),
+            resources.GetString("valueAgeComboBox.Items1"),
+            resources.GetString("valueAgeComboBox.Items2"),
+            resources.GetString("valueAgeComboBox.Items3")});
             this.valueAgeComboBox.Location = new System.Drawing.Point(210, 61);
             this.valueAgeComboBox.Name = "valueAgeComboBox";
             this.valueAgeComboBox.Size = new System.Drawing.Size(85, 21);
@@ -246,7 +247,7 @@ namespace DemosCommonCode.Imaging
             this.MinimizeBox = false;
             this.MinimumSize = new System.Drawing.Size(320, 190);
             this.Name = "AddDicomDataElementForm";
-            this.Text = "Add Dicom Data Element";
+            resources.ApplyResources(this, "$this");
             ((System.ComponentModel.ISupportInitialize)(this.groupNumberNumericUpDown)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.elementNumberNumericUpDown)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.valueAgeNumericUpDown)).EndInit();

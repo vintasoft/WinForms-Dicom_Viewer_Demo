@@ -29,6 +29,7 @@ namespace DemosCommonCode.CustomControls
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ColorPickerControl));
             this.lockRgbCheckBox = new System.Windows.Forms.CheckBox();
             this.colorSampleControl = new DemosCommonCode.CustomControls.ColorSampleControl();
             this.channelRedValueEditorControl = new DemosCommonCode.CustomControls.ValueEditorControl();
@@ -47,7 +48,7 @@ namespace DemosCommonCode.CustomControls
             this.lockRgbCheckBox.Name = "lockRgbCheckBox";
             this.lockRgbCheckBox.Size = new System.Drawing.Size(123, 17);
             this.lockRgbCheckBox.TabIndex = 30;
-            this.lockRgbCheckBox.Text = "Lock RGB Channels";
+            resources.ApplyResources(this.lockRgbCheckBox, "lockRgbCheckBox");
             this.lockRgbCheckBox.UseVisualStyleBackColor = true;
             // 
             // colorSampleControl
@@ -70,8 +71,8 @@ namespace DemosCommonCode.CustomControls
             this.channelRedValueEditorControl.Name = "channelRedValueEditorControl";
             this.channelRedValueEditorControl.Size = new System.Drawing.Size(364, 76);
             this.channelRedValueEditorControl.TabIndex = 42;
-            this.channelRedValueEditorControl.ValueName = "Red";
-            this.channelRedValueEditorControl.ValueUnitOfMeasure = "";
+            resources.ApplyResources(this.channelRedValueEditorControl, "channelRedValueEditorControl");
+            
             this.channelRedValueEditorControl.ValueChanged += new System.EventHandler(this.channelValueEditorControl_ValueChanged);
             // 
             // channelGreenValueEditorControl
@@ -83,8 +84,8 @@ namespace DemosCommonCode.CustomControls
             this.channelGreenValueEditorControl.Name = "channelGreenValueEditorControl";
             this.channelGreenValueEditorControl.Size = new System.Drawing.Size(364, 76);
             this.channelGreenValueEditorControl.TabIndex = 43;
-            this.channelGreenValueEditorControl.ValueName = "Green";
-            this.channelGreenValueEditorControl.ValueUnitOfMeasure = "";
+            resources.ApplyResources(this.channelGreenValueEditorControl, "channelGreenValueEditorControl");
+            
             this.channelGreenValueEditorControl.ValueChanged += new System.EventHandler(this.channelValueEditorControl_ValueChanged);
             // 
             // channelBlueValueEditorControl
@@ -96,8 +97,8 @@ namespace DemosCommonCode.CustomControls
             this.channelBlueValueEditorControl.Name = "channelBlueValueEditorControl";
             this.channelBlueValueEditorControl.Size = new System.Drawing.Size(364, 76);
             this.channelBlueValueEditorControl.TabIndex = 44;
-            this.channelBlueValueEditorControl.ValueName = "Blue";
-            this.channelBlueValueEditorControl.ValueUnitOfMeasure = "";
+            resources.ApplyResources(this.channelBlueValueEditorControl, "channelBlueValueEditorControl");
+            
             this.channelBlueValueEditorControl.ValueChanged += new System.EventHandler(this.channelValueEditorControl_ValueChanged);
             // 
             // channelAlphaValueEditorControl
@@ -109,8 +110,8 @@ namespace DemosCommonCode.CustomControls
             this.channelAlphaValueEditorControl.Name = "channelAlphaValueEditorControl";
             this.channelAlphaValueEditorControl.Size = new System.Drawing.Size(364, 76);
             this.channelAlphaValueEditorControl.TabIndex = 45;
-            this.channelAlphaValueEditorControl.ValueName = "Alpha";
-            this.channelAlphaValueEditorControl.ValueUnitOfMeasure = "";
+            resources.ApplyResources(this.channelAlphaValueEditorControl, "channelAlphaValueEditorControl");
+            
             this.channelAlphaValueEditorControl.ValueChanged += new System.EventHandler(this.channelValueEditorControl_ValueChanged);
             // 
             // hexValueTextBox

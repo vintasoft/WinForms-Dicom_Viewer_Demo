@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Windows.Forms;
 
 using Vintasoft.Imaging;
@@ -62,7 +62,7 @@ namespace DemosCommonCode.Imaging
                     }
                     catch (Exception e)
                     {
-                        MessageBox.Show(e.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        MessageBox.Show(e.Message, DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_ERROR_ALT2, MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }
                     return DialogResult.OK;
                 }
@@ -104,7 +104,7 @@ namespace DemosCommonCode.Imaging
                     }
                     catch (Exception e)
                     {
-                        MessageBox.Show(e.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        MessageBox.Show(e.Message, DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_ERROR_ALT3, MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }
                     return DialogResult.OK;
                 }

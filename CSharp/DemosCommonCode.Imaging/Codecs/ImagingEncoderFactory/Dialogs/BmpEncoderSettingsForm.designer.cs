@@ -28,6 +28,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(BmpEncoderSettingsForm));
             this.okButton = new System.Windows.Forms.Button();
             this.buttonCancel = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
@@ -54,7 +55,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.buttonCancel.Name = "buttonCancel";
             this.buttonCancel.Size = new System.Drawing.Size(75, 23);
             this.buttonCancel.TabIndex = 1;
-            this.buttonCancel.Text = "Cancel";
+            resources.ApplyResources(this.buttonCancel, "buttonCancel");
             this.buttonCancel.UseVisualStyleBackColor = true;
             // 
             // label1
@@ -64,7 +65,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(77, 15);
             this.label1.TabIndex = 2;
-            this.label1.Text = "Compression";
+            resources.ApplyResources(this.label1, "label1");
             // 
             // compressionComboBox
             // 
@@ -93,7 +94,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.MinimumSize = new System.Drawing.Size(281, 105);
             this.Name = "BmpEncoderSettingsForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Bmp Encoder Settings";
+            resources.ApplyResources(this, "$this");
             this.ResumeLayout(false);
             this.PerformLayout();
 

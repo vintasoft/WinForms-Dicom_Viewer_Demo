@@ -468,4 +468,196 @@
         gB///wAA///AH///AAD//8B///8AAA==
 </value>
   </data>
+  <data name="voiLutsToolStripSplitButton.Text" xml:space="preserve">
+    <value>Value of interest lookup tables</value>
+  </data>
+  <data name="toolStripLabel1.Text" xml:space="preserve">
+    <value>Annotation Interaction Mode</value>
+  </data>
+  <data name="actionLabel.Text" xml:space="preserve">
+    <value>Action Label</value>
+  </data>
+  <data name="aboutToolStripMenuItem.Text" xml:space="preserve">
+    <value>About...</value>
+  </data>
+  <data name="helpToolStripMenuItem.Text" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="crosshairToolStripMenuItem.Text" xml:space="preserve">
+    <value>Crosshair</value>
+  </data>
+  <data name="rulerToolStripMenuItem.Text" xml:space="preserve">
+    <value>Ruler</value>
+  </data>
+  <data name="axisToolStripMenuItem.Text" xml:space="preserve">
+    <value>Axis</value>
+  </data>
+  <data name="multilineToolStripMenuItem.Text" xml:space="preserve">
+    <value>Multiline</value>
+  </data>
+  <data name="addToolStripMenuItem.Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="xmpFormatSaveToToolStripMenuItem.Text" xml:space="preserve">
+    <value>Save To...</value>
+  </data>
+  <data name="xmpFormatLoadToolStripMenuItem.Text" xml:space="preserve">
+    <value>Load...</value>
+  </data>
+  <data name="xmpFormatToolStripMenuItem.Text" xml:space="preserve">
+    <value>XMP Format</value>
+  </data>
+  <data name="binaryFormatSaveToToolStripMenuItem.Text" xml:space="preserve">
+    <value>Save To...</value>
+  </data>
+  <data name="binaryFormatLoadToolStripMenuItem.Text" xml:space="preserve">
+    <value>Load...</value>
+  </data>
+  <data name="binaryFormatToolStripMenuItem.Text" xml:space="preserve">
+    <value>Binary Format</value>
+  </data>
+  <data name="presentationStateLoadAutomaticallyToolStripMenuItem.Text" xml:space="preserve">
+    <value>Load Automatically</value>
+  </data>
+  <data name="presentationStateSaveToToolStripMenuItem.Text" xml:space="preserve">
+    <value>Save To...</value>
+  </data>
+  <data name="presentationStateSaveToolStripMenuItem.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="presentationStateInfoToolStripMenuItem.Text" xml:space="preserve">
+    <value>Info...</value>
+  </data>
+  <data name="presentationStateLoadToolStripMenuItem.Text" xml:space="preserve">
+    <value>Load...</value>
+  </data>
+  <data name="presentationStateToolStripMenuItem.Text" xml:space="preserve">
+    <value>Presentation State</value>
+  </data>
+  <data name="interactionMode_authorToolStripMenuItem.Text" xml:space="preserve">
+    <value>Author</value>
+  </data>
+  <data name="interactionMode_viewToolStripMenuItem.Text" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="interactionModeToolStripMenuItem.Text" xml:space="preserve">
+    <value>Interaction Mode</value>
+  </data>
+  <data name="infoToolStripMenuItem.Text" xml:space="preserve">
+    <value>Info...</value>
+  </data>
+  <data name="annotationsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Annotations</value>
+  </data>
+  <data name="saveAsGifFileToolStripMenuItem.Text" xml:space="preserve">
+    <value>Save as GIF file...</value>
+  </data>
+  <data name="animationRepeatToolStripMenuItem.Text" xml:space="preserve">
+    <value>Animation Repeat</value>
+  </data>
+  <data name="animationDelayToolStripMenuItem.Text" xml:space="preserve">
+    <value>Animation Delay</value>
+  </data>
+  <data name="showAnimationToolStripMenuItem.Text" xml:space="preserve">
+    <value>Show Animation</value>
+  </data>
+  <data name="toolsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Animation</value>
+  </data>
+  <data name="overlayImagesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Overlay Images...</value>
+  </data>
+  <data name="pageToolStripMenuItem.Text" xml:space="preserve">
+    <value>Page</value>
+  </data>
+  <data name="fileMetadataToolStripMenuItem.Text" xml:space="preserve">
+    <value>File Metadata...</value>
+  </data>
+  <data name="metadataToolStripMenuItem.Text" xml:space="preserve">
+    <value>Metadata</value>
+  </data>
+  <data name="magnifierSettingsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Magnifier Settings...</value>
+  </data>
+  <data name="widthVerticalCenterHorizontalToolStripMenuItem.Text" xml:space="preserve">
+    <value>Width Vertical, Center Horizontal</value>
+  </data>
+  <data name="widthHorizontalCenterVerticalToolStripMenuItem.Text" xml:space="preserve">
+    <value>Width Horizontal, Center Vertical</value>
+  </data>
+  <data name="rulersUnitOfMeasureToolStripMenuItem.Text" xml:space="preserve">
+    <value>Rulers Unit Of Measure</value>
+  </data>
+  <data name="rulersColorToolStripMenuItem.Text" xml:space="preserve">
+    <value>Rulers Color...</value>
+  </data>
+  <data name="showRulersInViewerToolStripMenuItem.Text" xml:space="preserve">
+    <value>Show Rulers In Viewer</value>
+  </data>
+  <data name="textOverlaySettingsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Text Overlay Settings...</value>
+  </data>
+  <data name="showMetadataInViewerToolStripMenuItem.Text" xml:space="preserve">
+    <value>Show Metadata In Viewer</value>
+  </data>
+  <data name="overlayColorToolStripMenuItem.Text" xml:space="preserve">
+    <value>Overlay Color...</value>
+  </data>
+  <data name="showOverlayImagesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Show Overlay Images</value>
+  </data>
+  <data name="counterclockwiseToolStripMenuItem.Text" xml:space="preserve">
+    <value>Counterclockwise</value>
+  </data>
+  <data name="clockwiseToolStripMenuItem.Text" xml:space="preserve">
+    <value>Clockwise</value>
+  </data>
+  <data name="rotateViewToolStripMenuItem.Text" xml:space="preserve">
+    <value>Rotate View</value>
+  </data>
+  <data name="imageViewerSettingsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Image Viewer Settings...</value>
+  </data>
+  <data name="thumbnailViewerSettingsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Thumbnail Viewer Settings...</value>
+  </data>
+  <data name="viewToolStripMenuItem.Text" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="deleteAllToolStripMenuItem.Text" xml:space="preserve">
+    <value>Delete All</value>
+  </data>
+  <data name="deleteToolStripMenuItem.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="pasteToolStripMenuItem.Text" xml:space="preserve">
+    <value>Paste</value>
+  </data>
+  <data name="copyToolStripMenuItem.Text" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="cutToolStripMenuItem.Text" xml:space="preserve">
+    <value>Cut</value>
+  </data>
+  <data name="editToolStripMenuItem.Text" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="exitToolStripMenuItem.Text" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="closeDicomFileToolStripMenuItem.Text" xml:space="preserve">
+    <value>Close DICOM File</value>
+  </data>
+  <data name="saveDicomFileToImageFileToolStripMenuItem.Text" xml:space="preserve">
+    <value>Save DICOM File To Image File...</value>
+  </data>
+  <data name="openDicomFilesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Open DICOM File...</value>
+  </data>
+  <data name="fileToolStripMenuItem.Text" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </metadata>
 </root>

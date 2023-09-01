@@ -315,21 +315,21 @@ namespace DicomViewerDemo
             this.exitToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
             this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
-            this.fileToolStripMenuItem.Text = "File";
+            resources.ApplyResources(this.fileToolStripMenuItem, "fileToolStripMenuItem");
             // 
             // openDicomFilesToolStripMenuItem
             // 
             this.openDicomFilesToolStripMenuItem.Name = "openDicomFilesToolStripMenuItem";
             this.openDicomFilesToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.O)));
             this.openDicomFilesToolStripMenuItem.Size = new System.Drawing.Size(242, 22);
-            this.openDicomFilesToolStripMenuItem.Text = "Open DICOM File...";
+            resources.ApplyResources(this.openDicomFilesToolStripMenuItem, "openDicomFilesToolStripMenuItem");
             this.openDicomFilesToolStripMenuItem.Click += new System.EventHandler(this.openDicomFilesToolStripMenuItem_Click);
             // 
             // saveDicomFileToImageFileToolStripMenuItem
             // 
             this.saveDicomFileToImageFileToolStripMenuItem.Name = "saveDicomFileToImageFileToolStripMenuItem";
             this.saveDicomFileToImageFileToolStripMenuItem.Size = new System.Drawing.Size(242, 22);
-            this.saveDicomFileToImageFileToolStripMenuItem.Text = "Save DICOM File To Image File...";
+            resources.ApplyResources(this.saveDicomFileToImageFileToolStripMenuItem, "saveDicomFileToImageFileToolStripMenuItem");
             this.saveDicomFileToImageFileToolStripMenuItem.Click += new System.EventHandler(this.saveDicomFileToImageFileToolStripMenuItem_Click);
             // 
             // closeDicomFileToolStripMenuItem
@@ -337,7 +337,7 @@ namespace DicomViewerDemo
             this.closeDicomFileToolStripMenuItem.Name = "closeDicomFileToolStripMenuItem";
             this.closeDicomFileToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.W)));
             this.closeDicomFileToolStripMenuItem.Size = new System.Drawing.Size(242, 22);
-            this.closeDicomFileToolStripMenuItem.Text = "Close DICOM File";
+            resources.ApplyResources(this.closeDicomFileToolStripMenuItem, "closeDicomFileToolStripMenuItem");
             this.closeDicomFileToolStripMenuItem.Click += new System.EventHandler(this.closeDicomFileToolStripMenuItem_Click);
             // 
             // toolStripSeparator2
@@ -350,7 +350,7 @@ namespace DicomViewerDemo
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
             this.exitToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.X)));
             this.exitToolStripMenuItem.Size = new System.Drawing.Size(242, 22);
-            this.exitToolStripMenuItem.Text = "Exit";
+            resources.ApplyResources(this.exitToolStripMenuItem, "exitToolStripMenuItem");
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
             // editToolStripMenuItem
@@ -363,7 +363,7 @@ namespace DicomViewerDemo
             this.deleteAllToolStripMenuItem});
             this.editToolStripMenuItem.Name = "editToolStripMenuItem";
             this.editToolStripMenuItem.Size = new System.Drawing.Size(39, 20);
-            this.editToolStripMenuItem.Text = "Edit";
+            resources.ApplyResources(this.editToolStripMenuItem, "editToolStripMenuItem");
             this.editToolStripMenuItem.DropDownClosed += new System.EventHandler(this.editToolStripMenuItem_DropDownClosed);
             this.editToolStripMenuItem.DropDownOpened += new System.EventHandler(this.editToolStripMenuItem_DropDownOpened);
             // 
@@ -372,7 +372,7 @@ namespace DicomViewerDemo
             this.cutToolStripMenuItem.Name = "cutToolStripMenuItem";
             this.cutToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.X)));
             this.cutToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
-            this.cutToolStripMenuItem.Text = "Cut";
+            resources.ApplyResources(this.cutToolStripMenuItem, "cutToolStripMenuItem");
             this.cutToolStripMenuItem.Click += new System.EventHandler(this.cutToolStripMenuItem_Click);
             // 
             // copyToolStripMenuItem
@@ -380,7 +380,7 @@ namespace DicomViewerDemo
             this.copyToolStripMenuItem.Name = "copyToolStripMenuItem";
             this.copyToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.C)));
             this.copyToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
-            this.copyToolStripMenuItem.Text = "Copy";
+            resources.ApplyResources(this.copyToolStripMenuItem, "copyToolStripMenuItem");
             this.copyToolStripMenuItem.Click += new System.EventHandler(this.copyToolStripMenuItem_Click);
             // 
             // pasteToolStripMenuItem
@@ -388,7 +388,7 @@ namespace DicomViewerDemo
             this.pasteToolStripMenuItem.Name = "pasteToolStripMenuItem";
             this.pasteToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.V)));
             this.pasteToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
-            this.pasteToolStripMenuItem.Text = "Paste";
+            resources.ApplyResources(this.pasteToolStripMenuItem, "pasteToolStripMenuItem");
             this.pasteToolStripMenuItem.Click += new System.EventHandler(this.pasteToolStripMenuItem_Click);
             // 
             // deleteToolStripMenuItem
@@ -396,7 +396,7 @@ namespace DicomViewerDemo
             this.deleteToolStripMenuItem.Name = "deleteToolStripMenuItem";
             this.deleteToolStripMenuItem.ShortcutKeyDisplayString = "Del";
             this.deleteToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
-            this.deleteToolStripMenuItem.Text = "Delete";
+            resources.ApplyResources(this.deleteToolStripMenuItem, "deleteToolStripMenuItem");
             this.deleteToolStripMenuItem.Click += new System.EventHandler(this.deleteToolStripMenuItem_Click);
             // 
             // deleteAllToolStripMenuItem
@@ -404,7 +404,7 @@ namespace DicomViewerDemo
             this.deleteAllToolStripMenuItem.Name = "deleteAllToolStripMenuItem";
             this.deleteAllToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.Delete)));
             this.deleteAllToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
-            this.deleteAllToolStripMenuItem.Text = "Delete All";
+            resources.ApplyResources(this.deleteAllToolStripMenuItem, "deleteAllToolStripMenuItem");
             this.deleteAllToolStripMenuItem.Click += new System.EventHandler(this.deleteAllToolStripMenuItem_Click);
             // 
             // viewToolStripMenuItem
@@ -432,13 +432,13 @@ namespace DicomViewerDemo
             this.magnifierSettingsToolStripMenuItem});
             this.viewToolStripMenuItem.Name = "viewToolStripMenuItem";
             this.viewToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
-            this.viewToolStripMenuItem.Text = "View";
+            resources.ApplyResources(this.viewToolStripMenuItem, "viewToolStripMenuItem");
             // 
             // thumbnailViewerSettingsToolStripMenuItem
             // 
             this.thumbnailViewerSettingsToolStripMenuItem.Name = "thumbnailViewerSettingsToolStripMenuItem";
             this.thumbnailViewerSettingsToolStripMenuItem.Size = new System.Drawing.Size(239, 22);
-            this.thumbnailViewerSettingsToolStripMenuItem.Text = "Thumbnail Viewer Settings...";
+            resources.ApplyResources(this.thumbnailViewerSettingsToolStripMenuItem, "thumbnailViewerSettingsToolStripMenuItem");
             this.thumbnailViewerSettingsToolStripMenuItem.Click += new System.EventHandler(this.thumbnailViewerSettingsToolStripMenuItem_Click);
             // 
             // toolStripSeparator3
@@ -450,7 +450,7 @@ namespace DicomViewerDemo
             // 
             this.imageViewerSettingsToolStripMenuItem.Name = "imageViewerSettingsToolStripMenuItem";
             this.imageViewerSettingsToolStripMenuItem.Size = new System.Drawing.Size(239, 22);
-            this.imageViewerSettingsToolStripMenuItem.Text = "Image Viewer Settings...";
+            resources.ApplyResources(this.imageViewerSettingsToolStripMenuItem, "imageViewerSettingsToolStripMenuItem");
             this.imageViewerSettingsToolStripMenuItem.Click += new System.EventHandler(this.imageViewerSettingsToolStripMenuItem_Click);
             // 
             // rotateViewToolStripMenuItem
@@ -460,7 +460,7 @@ namespace DicomViewerDemo
             this.counterclockwiseToolStripMenuItem});
             this.rotateViewToolStripMenuItem.Name = "rotateViewToolStripMenuItem";
             this.rotateViewToolStripMenuItem.Size = new System.Drawing.Size(239, 22);
-            this.rotateViewToolStripMenuItem.Text = "Rotate View";
+            resources.ApplyResources(this.rotateViewToolStripMenuItem, "rotateViewToolStripMenuItem");
             // 
             // clockwiseToolStripMenuItem
             // 
@@ -469,7 +469,7 @@ namespace DicomViewerDemo
             this.clockwiseToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Shift) 
             | System.Windows.Forms.Keys.Oemplus)));
             this.clockwiseToolStripMenuItem.Size = new System.Drawing.Size(267, 22);
-            this.clockwiseToolStripMenuItem.Text = "Clockwise";
+            resources.ApplyResources(this.clockwiseToolStripMenuItem, "clockwiseToolStripMenuItem");
             this.clockwiseToolStripMenuItem.Click += new System.EventHandler(this.clockwiseToolStripMenuItem_Click);
             // 
             // counterclockwiseToolStripMenuItem
@@ -479,7 +479,7 @@ namespace DicomViewerDemo
             this.counterclockwiseToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Shift) 
             | System.Windows.Forms.Keys.OemMinus)));
             this.counterclockwiseToolStripMenuItem.Size = new System.Drawing.Size(267, 22);
-            this.counterclockwiseToolStripMenuItem.Text = "Counterclockwise";
+            resources.ApplyResources(this.counterclockwiseToolStripMenuItem, "counterclockwiseToolStripMenuItem");
             this.counterclockwiseToolStripMenuItem.Click += new System.EventHandler(this.counterclockwiseToolStripMenuItem_Click);
             // 
             // toolStripSeparator4
@@ -492,14 +492,14 @@ namespace DicomViewerDemo
             this.showOverlayImagesToolStripMenuItem.CheckOnClick = true;
             this.showOverlayImagesToolStripMenuItem.Name = "showOverlayImagesToolStripMenuItem";
             this.showOverlayImagesToolStripMenuItem.Size = new System.Drawing.Size(239, 22);
-            this.showOverlayImagesToolStripMenuItem.Text = "Show Overlay Images";
+            resources.ApplyResources(this.showOverlayImagesToolStripMenuItem, "showOverlayImagesToolStripMenuItem");
             this.showOverlayImagesToolStripMenuItem.Click += new System.EventHandler(this.showOverlayImagesToolStripMenuItem_Click);
             // 
             // overlayColorToolStripMenuItem
             // 
             this.overlayColorToolStripMenuItem.Name = "overlayColorToolStripMenuItem";
             this.overlayColorToolStripMenuItem.Size = new System.Drawing.Size(239, 22);
-            this.overlayColorToolStripMenuItem.Text = "Overlay Color...";
+            resources.ApplyResources(this.overlayColorToolStripMenuItem, "overlayColorToolStripMenuItem");
             this.overlayColorToolStripMenuItem.Click += new System.EventHandler(this.overlayColorToolStripMenuItem_Click);
             // 
             // toolStripSeparator6
@@ -513,14 +513,14 @@ namespace DicomViewerDemo
             this.showMetadataInViewerToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked;
             this.showMetadataInViewerToolStripMenuItem.Name = "showMetadataInViewerToolStripMenuItem";
             this.showMetadataInViewerToolStripMenuItem.Size = new System.Drawing.Size(239, 22);
-            this.showMetadataInViewerToolStripMenuItem.Text = "Show Metadata In Viewer";
+            resources.ApplyResources(this.showMetadataInViewerToolStripMenuItem, "showMetadataInViewerToolStripMenuItem");
             this.showMetadataInViewerToolStripMenuItem.Click += new System.EventHandler(this.showMetadataOnViewerToolStripMenuItem_Click);
             // 
             // textOverlaySettingsToolStripMenuItem
             // 
             this.textOverlaySettingsToolStripMenuItem.Name = "textOverlaySettingsToolStripMenuItem";
             this.textOverlaySettingsToolStripMenuItem.Size = new System.Drawing.Size(239, 22);
-            this.textOverlaySettingsToolStripMenuItem.Text = "Text Overlay Settings...";
+            resources.ApplyResources(this.textOverlaySettingsToolStripMenuItem, "textOverlaySettingsToolStripMenuItem");
             this.textOverlaySettingsToolStripMenuItem.Click += new System.EventHandler(this.textOverlaySettingsToolStripMenuItem_Click);
             // 
             // toolStripSeparator8
@@ -534,21 +534,21 @@ namespace DicomViewerDemo
             this.showRulersInViewerToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked;
             this.showRulersInViewerToolStripMenuItem.Name = "showRulersInViewerToolStripMenuItem";
             this.showRulersInViewerToolStripMenuItem.Size = new System.Drawing.Size(239, 22);
-            this.showRulersInViewerToolStripMenuItem.Text = "Show Rulers In Viewer";
+            resources.ApplyResources(this.showRulersInViewerToolStripMenuItem, "showRulersInViewerToolStripMenuItem");
             this.showRulersInViewerToolStripMenuItem.Click += new System.EventHandler(this.showRulersOnViewerToolStripMenuItem_Click);
             // 
             // rulersColorToolStripMenuItem
             // 
             this.rulersColorToolStripMenuItem.Name = "rulersColorToolStripMenuItem";
             this.rulersColorToolStripMenuItem.Size = new System.Drawing.Size(239, 22);
-            this.rulersColorToolStripMenuItem.Text = "Rulers Color...";
+            resources.ApplyResources(this.rulersColorToolStripMenuItem, "rulersColorToolStripMenuItem");
             this.rulersColorToolStripMenuItem.Click += new System.EventHandler(this.rulersColorToolStripMenuItem_Click);
             // 
             // rulersUnitOfMeasureToolStripMenuItem
             // 
             this.rulersUnitOfMeasureToolStripMenuItem.Name = "rulersUnitOfMeasureToolStripMenuItem";
             this.rulersUnitOfMeasureToolStripMenuItem.Size = new System.Drawing.Size(239, 22);
-            this.rulersUnitOfMeasureToolStripMenuItem.Text = "Rulers Unit Of Measure";
+            resources.ApplyResources(this.rulersUnitOfMeasureToolStripMenuItem, "rulersUnitOfMeasureToolStripMenuItem");
             // 
             // toolStripSeparator7
             // 
@@ -585,14 +585,14 @@ namespace DicomViewerDemo
             this.widthHorizontalCenterVerticalToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked;
             this.widthHorizontalCenterVerticalToolStripMenuItem.Name = "widthHorizontalCenterVerticalToolStripMenuItem";
             this.widthHorizontalCenterVerticalToolStripMenuItem.Size = new System.Drawing.Size(246, 22);
-            this.widthHorizontalCenterVerticalToolStripMenuItem.Text = "Width Horizontal, Center Vertical";
+            resources.ApplyResources(this.widthHorizontalCenterVerticalToolStripMenuItem, "widthHorizontalCenterVerticalToolStripMenuItem");
             this.widthHorizontalCenterVerticalToolStripMenuItem.Click += new System.EventHandler(this.voiLutMouseMoveDirectionMenuItem_Click);
             // 
             // widthVerticalCenterHorizontalToolStripMenuItem
             // 
             this.widthVerticalCenterHorizontalToolStripMenuItem.Name = "widthVerticalCenterHorizontalToolStripMenuItem";
             this.widthVerticalCenterHorizontalToolStripMenuItem.Size = new System.Drawing.Size(246, 22);
-            this.widthVerticalCenterHorizontalToolStripMenuItem.Text = "Width Vertical, Center Horizontal";
+            resources.ApplyResources(this.widthVerticalCenterHorizontalToolStripMenuItem, "widthVerticalCenterHorizontalToolStripMenuItem");
             this.widthVerticalCenterHorizontalToolStripMenuItem.Click += new System.EventHandler(this.voiLutMouseMoveDirectionMenuItem_Click);
             // 
             // toolStripSeparator23
@@ -604,7 +604,7 @@ namespace DicomViewerDemo
             // 
             this.magnifierSettingsToolStripMenuItem.Name = "magnifierSettingsToolStripMenuItem";
             this.magnifierSettingsToolStripMenuItem.Size = new System.Drawing.Size(239, 22);
-            this.magnifierSettingsToolStripMenuItem.Text = "Magnifier Settings...";
+            resources.ApplyResources(this.magnifierSettingsToolStripMenuItem, "magnifierSettingsToolStripMenuItem");
             this.magnifierSettingsToolStripMenuItem.Click += new System.EventHandler(this.magnifierSettingsToolStripMenuItem_Click);
             // 
             // metadataToolStripMenuItem
@@ -613,13 +613,13 @@ namespace DicomViewerDemo
             this.fileMetadataToolStripMenuItem});
             this.metadataToolStripMenuItem.Name = "metadataToolStripMenuItem";
             this.metadataToolStripMenuItem.Size = new System.Drawing.Size(69, 20);
-            this.metadataToolStripMenuItem.Text = "Metadata";
+            resources.ApplyResources(this.metadataToolStripMenuItem, "metadataToolStripMenuItem");
             // 
             // fileMetadataToolStripMenuItem
             // 
             this.fileMetadataToolStripMenuItem.Name = "fileMetadataToolStripMenuItem";
             this.fileMetadataToolStripMenuItem.Size = new System.Drawing.Size(154, 22);
-            this.fileMetadataToolStripMenuItem.Text = "File Metadata...";
+            resources.ApplyResources(this.fileMetadataToolStripMenuItem, "fileMetadataToolStripMenuItem");
             this.fileMetadataToolStripMenuItem.Click += new System.EventHandler(this.metadata_fileMetadataToolStripMenuItem_Click);
             // 
             // pageToolStripMenuItem
@@ -628,13 +628,13 @@ namespace DicomViewerDemo
             this.overlayImagesToolStripMenuItem});
             this.pageToolStripMenuItem.Name = "pageToolStripMenuItem";
             this.pageToolStripMenuItem.Size = new System.Drawing.Size(45, 20);
-            this.pageToolStripMenuItem.Text = "Page";
+            resources.ApplyResources(this.pageToolStripMenuItem, "pageToolStripMenuItem");
             // 
             // overlayImagesToolStripMenuItem
             // 
             this.overlayImagesToolStripMenuItem.Name = "overlayImagesToolStripMenuItem";
             this.overlayImagesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.overlayImagesToolStripMenuItem.Text = "Overlay Images...";
+            resources.ApplyResources(this.overlayImagesToolStripMenuItem, "overlayImagesToolStripMenuItem");
             this.overlayImagesToolStripMenuItem.Click += new System.EventHandler(this.overlayImagesToolStripMenuItem_Click);
             // 
             // toolsToolStripMenuItem
@@ -646,14 +646,14 @@ namespace DicomViewerDemo
             this.saveAsGifFileToolStripMenuItem});
             this.toolsToolStripMenuItem.Name = "toolsToolStripMenuItem";
             this.toolsToolStripMenuItem.Size = new System.Drawing.Size(75, 20);
-            this.toolsToolStripMenuItem.Text = "Animation";
+            resources.ApplyResources(this.toolsToolStripMenuItem, "toolsToolStripMenuItem");
             // 
             // showAnimationToolStripMenuItem
             // 
             this.showAnimationToolStripMenuItem.CheckOnClick = true;
             this.showAnimationToolStripMenuItem.Name = "showAnimationToolStripMenuItem";
             this.showAnimationToolStripMenuItem.Size = new System.Drawing.Size(169, 22);
-            this.showAnimationToolStripMenuItem.Text = "Show Animation";
+            resources.ApplyResources(this.showAnimationToolStripMenuItem, "showAnimationToolStripMenuItem");
             this.showAnimationToolStripMenuItem.Click += new System.EventHandler(this.showAnimationToolStripMenuItem_Click);
             // 
             // animationDelayToolStripMenuItem
@@ -662,7 +662,7 @@ namespace DicomViewerDemo
             this.animationDelay_valueToolStripComboBox});
             this.animationDelayToolStripMenuItem.Name = "animationDelayToolStripMenuItem";
             this.animationDelayToolStripMenuItem.Size = new System.Drawing.Size(169, 22);
-            this.animationDelayToolStripMenuItem.Text = "Animation Delay";
+            resources.ApplyResources(this.animationDelayToolStripMenuItem, "animationDelayToolStripMenuItem");
             // 
             // animationDelay_valueToolStripComboBox
             // 
@@ -683,14 +683,14 @@ namespace DicomViewerDemo
             this.animationRepeatToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked;
             this.animationRepeatToolStripMenuItem.Name = "animationRepeatToolStripMenuItem";
             this.animationRepeatToolStripMenuItem.Size = new System.Drawing.Size(169, 22);
-            this.animationRepeatToolStripMenuItem.Text = "Animation Repeat";
+            resources.ApplyResources(this.animationRepeatToolStripMenuItem, "animationRepeatToolStripMenuItem");
             this.animationRepeatToolStripMenuItem.Click += new System.EventHandler(this.animationRepeatToolStripMenuItem_Click);
             // 
             // saveAsGifFileToolStripMenuItem
             // 
             this.saveAsGifFileToolStripMenuItem.Name = "saveAsGifFileToolStripMenuItem";
             this.saveAsGifFileToolStripMenuItem.Size = new System.Drawing.Size(169, 22);
-            this.saveAsGifFileToolStripMenuItem.Text = "Save as GIF file...";
+            resources.ApplyResources(this.saveAsGifFileToolStripMenuItem, "saveAsGifFileToolStripMenuItem");
             this.saveAsGifFileToolStripMenuItem.Click += new System.EventHandler(this.saveAsGifFileToolStripMenuItem_Click);
             // 
             // annotationsToolStripMenuItem
@@ -707,13 +707,13 @@ namespace DicomViewerDemo
             this.addToolStripMenuItem});
             this.annotationsToolStripMenuItem.Name = "annotationsToolStripMenuItem";
             this.annotationsToolStripMenuItem.Size = new System.Drawing.Size(84, 20);
-            this.annotationsToolStripMenuItem.Text = "Annotations";
+            resources.ApplyResources(this.annotationsToolStripMenuItem, "annotationsToolStripMenuItem");
             // 
             // infoToolStripMenuItem
             // 
             this.infoToolStripMenuItem.Name = "infoToolStripMenuItem";
             this.infoToolStripMenuItem.Size = new System.Drawing.Size(169, 22);
-            this.infoToolStripMenuItem.Text = "Info...";
+            resources.ApplyResources(this.infoToolStripMenuItem, "infoToolStripMenuItem");
             this.infoToolStripMenuItem.Click += new System.EventHandler(this.infoToolStripMenuItem_Click);
             // 
             // toolStripSeparator9
@@ -729,7 +729,7 @@ namespace DicomViewerDemo
             this.interactionMode_authorToolStripMenuItem});
             this.interactionModeToolStripMenuItem.Name = "interactionModeToolStripMenuItem";
             this.interactionModeToolStripMenuItem.Size = new System.Drawing.Size(169, 22);
-            this.interactionModeToolStripMenuItem.Text = "Interaction Mode";
+            resources.ApplyResources(this.interactionModeToolStripMenuItem, "interactionModeToolStripMenuItem");
             // 
             // interactionMode_noneToolStripMenuItem
             // 
@@ -742,7 +742,7 @@ namespace DicomViewerDemo
             // 
             this.interactionMode_viewToolStripMenuItem.Name = "interactionMode_viewToolStripMenuItem";
             this.interactionMode_viewToolStripMenuItem.Size = new System.Drawing.Size(111, 22);
-            this.interactionMode_viewToolStripMenuItem.Text = "View";
+            resources.ApplyResources(this.interactionMode_viewToolStripMenuItem, "interactionMode_viewToolStripMenuItem");
             this.interactionMode_viewToolStripMenuItem.Click += new System.EventHandler(this.viewToolStripMenuItem_Click);
             // 
             // interactionMode_authorToolStripMenuItem
@@ -751,7 +751,7 @@ namespace DicomViewerDemo
             this.interactionMode_authorToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked;
             this.interactionMode_authorToolStripMenuItem.Name = "interactionMode_authorToolStripMenuItem";
             this.interactionMode_authorToolStripMenuItem.Size = new System.Drawing.Size(111, 22);
-            this.interactionMode_authorToolStripMenuItem.Text = "Author";
+            resources.ApplyResources(this.interactionMode_authorToolStripMenuItem, "interactionMode_authorToolStripMenuItem");
             this.interactionMode_authorToolStripMenuItem.Click += new System.EventHandler(this.authorToolStripMenuItem_Click);
             // 
             // toolStripSeparator10
@@ -770,34 +770,34 @@ namespace DicomViewerDemo
             this.presentationStateLoadAutomaticallyToolStripMenuItem});
             this.presentationStateToolStripMenuItem.Name = "presentationStateToolStripMenuItem";
             this.presentationStateToolStripMenuItem.Size = new System.Drawing.Size(169, 22);
-            this.presentationStateToolStripMenuItem.Text = "Presentation State";
+            resources.ApplyResources(this.presentationStateToolStripMenuItem, "presentationStateToolStripMenuItem");
             // 
             // presentationStateLoadToolStripMenuItem
             // 
             this.presentationStateLoadToolStripMenuItem.Name = "presentationStateLoadToolStripMenuItem";
             this.presentationStateLoadToolStripMenuItem.Size = new System.Drawing.Size(177, 22);
-            this.presentationStateLoadToolStripMenuItem.Text = "Load...";
+            resources.ApplyResources(this.presentationStateLoadToolStripMenuItem, "presentationStateLoadToolStripMenuItem");
             this.presentationStateLoadToolStripMenuItem.Click += new System.EventHandler(this.loadToolStripMenuItem_Click);
             // 
             // presentationStateInfoToolStripMenuItem
             // 
             this.presentationStateInfoToolStripMenuItem.Name = "presentationStateInfoToolStripMenuItem";
             this.presentationStateInfoToolStripMenuItem.Size = new System.Drawing.Size(177, 22);
-            this.presentationStateInfoToolStripMenuItem.Text = "Info...";
+            resources.ApplyResources(this.presentationStateInfoToolStripMenuItem, "presentationStateInfoToolStripMenuItem");
             this.presentationStateInfoToolStripMenuItem.Click += new System.EventHandler(this.presentationStateInfoToolStripMenuItem_Click);
             // 
             // presentationStateSaveToolStripMenuItem
             // 
             this.presentationStateSaveToolStripMenuItem.Name = "presentationStateSaveToolStripMenuItem";
             this.presentationStateSaveToolStripMenuItem.Size = new System.Drawing.Size(177, 22);
-            this.presentationStateSaveToolStripMenuItem.Text = "Save";
+            resources.ApplyResources(this.presentationStateSaveToolStripMenuItem, "presentationStateSaveToolStripMenuItem");
             this.presentationStateSaveToolStripMenuItem.Click += new System.EventHandler(this.presentationStateSaveToolStripMenuItem_Click);
             // 
             // presentationStateSaveToToolStripMenuItem
             // 
             this.presentationStateSaveToToolStripMenuItem.Name = "presentationStateSaveToToolStripMenuItem";
             this.presentationStateSaveToToolStripMenuItem.Size = new System.Drawing.Size(177, 22);
-            this.presentationStateSaveToToolStripMenuItem.Text = "Save To...";
+            resources.ApplyResources(this.presentationStateSaveToToolStripMenuItem, "presentationStateSaveToToolStripMenuItem");
             this.presentationStateSaveToToolStripMenuItem.Click += new System.EventHandler(this.presentationStatesSaveToToolStripMenuItem_Click);
             // 
             // toolStripSeparator17
@@ -810,7 +810,7 @@ namespace DicomViewerDemo
             this.presentationStateLoadAutomaticallyToolStripMenuItem.CheckOnClick = true;
             this.presentationStateLoadAutomaticallyToolStripMenuItem.Name = "presentationStateLoadAutomaticallyToolStripMenuItem";
             this.presentationStateLoadAutomaticallyToolStripMenuItem.Size = new System.Drawing.Size(177, 22);
-            this.presentationStateLoadAutomaticallyToolStripMenuItem.Text = "Load Automatically";
+            resources.ApplyResources(this.presentationStateLoadAutomaticallyToolStripMenuItem, "presentationStateLoadAutomaticallyToolStripMenuItem");
             // 
             // binaryFormatToolStripMenuItem
             // 
@@ -819,20 +819,20 @@ namespace DicomViewerDemo
             this.binaryFormatSaveToToolStripMenuItem});
             this.binaryFormatToolStripMenuItem.Name = "binaryFormatToolStripMenuItem";
             this.binaryFormatToolStripMenuItem.Size = new System.Drawing.Size(169, 22);
-            this.binaryFormatToolStripMenuItem.Text = "Binary Format";
+            resources.ApplyResources(this.binaryFormatToolStripMenuItem, "binaryFormatToolStripMenuItem");
             // 
             // binaryFormatLoadToolStripMenuItem
             // 
             this.binaryFormatLoadToolStripMenuItem.Name = "binaryFormatLoadToolStripMenuItem";
             this.binaryFormatLoadToolStripMenuItem.Size = new System.Drawing.Size(122, 22);
-            this.binaryFormatLoadToolStripMenuItem.Text = "Load...";
+            resources.ApplyResources(this.binaryFormatLoadToolStripMenuItem, "binaryFormatLoadToolStripMenuItem");
             this.binaryFormatLoadToolStripMenuItem.Click += new System.EventHandler(this.binaryFormatLoadToolStripMenuItem_Click);
             // 
             // binaryFormatSaveToToolStripMenuItem
             // 
             this.binaryFormatSaveToToolStripMenuItem.Name = "binaryFormatSaveToToolStripMenuItem";
             this.binaryFormatSaveToToolStripMenuItem.Size = new System.Drawing.Size(122, 22);
-            this.binaryFormatSaveToToolStripMenuItem.Text = "Save To...";
+            resources.ApplyResources(this.binaryFormatSaveToToolStripMenuItem, "binaryFormatSaveToToolStripMenuItem");
             this.binaryFormatSaveToToolStripMenuItem.Click += new System.EventHandler(this.binaryFormatSaveToToolStripMenuItem_Click);
             // 
             // xmpFormatToolStripMenuItem
@@ -842,20 +842,20 @@ namespace DicomViewerDemo
             this.xmpFormatSaveToToolStripMenuItem});
             this.xmpFormatToolStripMenuItem.Name = "xmpFormatToolStripMenuItem";
             this.xmpFormatToolStripMenuItem.Size = new System.Drawing.Size(169, 22);
-            this.xmpFormatToolStripMenuItem.Text = "XMP Format";
+            resources.ApplyResources(this.xmpFormatToolStripMenuItem, "xmpFormatToolStripMenuItem");
             // 
             // xmpFormatLoadToolStripMenuItem
             // 
             this.xmpFormatLoadToolStripMenuItem.Name = "xmpFormatLoadToolStripMenuItem";
             this.xmpFormatLoadToolStripMenuItem.Size = new System.Drawing.Size(122, 22);
-            this.xmpFormatLoadToolStripMenuItem.Text = "Load...";
+            resources.ApplyResources(this.xmpFormatLoadToolStripMenuItem, "xmpFormatLoadToolStripMenuItem");
             this.xmpFormatLoadToolStripMenuItem.Click += new System.EventHandler(this.xmpFormatLoadToolStripMenuItem_Click);
             // 
             // xmpFormatSaveToToolStripMenuItem
             // 
             this.xmpFormatSaveToToolStripMenuItem.Name = "xmpFormatSaveToToolStripMenuItem";
             this.xmpFormatSaveToToolStripMenuItem.Size = new System.Drawing.Size(122, 22);
-            this.xmpFormatSaveToToolStripMenuItem.Text = "Save To...";
+            resources.ApplyResources(this.xmpFormatSaveToToolStripMenuItem, "xmpFormatSaveToToolStripMenuItem");
             this.xmpFormatSaveToToolStripMenuItem.Click += new System.EventHandler(this.xmpFormatSaveToToolStripMenuItem_Click);
             // 
             // toolStripSeparator11
@@ -885,7 +885,7 @@ namespace DicomViewerDemo
             this.textToolStripMenuItem});
             this.addToolStripMenuItem.Name = "addToolStripMenuItem";
             this.addToolStripMenuItem.Size = new System.Drawing.Size(169, 22);
-            this.addToolStripMenuItem.Text = "Add";
+            resources.ApplyResources(this.addToolStripMenuItem, "addToolStripMenuItem");
             // 
             // pointToolStripMenuItem
             // 
@@ -938,7 +938,7 @@ namespace DicomViewerDemo
             // 
             this.multilineToolStripMenuItem.Name = "multilineToolStripMenuItem";
             this.multilineToolStripMenuItem.Size = new System.Drawing.Size(138, 22);
-            this.multilineToolStripMenuItem.Text = "Multiline";
+            resources.ApplyResources(this.multilineToolStripMenuItem, "multilineToolStripMenuItem");
             this.multilineToolStripMenuItem.Click += new System.EventHandler(this.addToolStripMenuItem_Click);
             // 
             // rangelineToolStripMenuItem
@@ -973,21 +973,21 @@ namespace DicomViewerDemo
             // 
             this.axisToolStripMenuItem.Name = "axisToolStripMenuItem";
             this.axisToolStripMenuItem.Size = new System.Drawing.Size(138, 22);
-            this.axisToolStripMenuItem.Text = "Axis";
+            resources.ApplyResources(this.axisToolStripMenuItem, "axisToolStripMenuItem");
             this.axisToolStripMenuItem.Click += new System.EventHandler(this.addToolStripMenuItem_Click);
             // 
             // rulerToolStripMenuItem
             // 
             this.rulerToolStripMenuItem.Name = "rulerToolStripMenuItem";
             this.rulerToolStripMenuItem.Size = new System.Drawing.Size(138, 22);
-            this.rulerToolStripMenuItem.Text = "Ruler";
+            resources.ApplyResources(this.rulerToolStripMenuItem, "rulerToolStripMenuItem");
             this.rulerToolStripMenuItem.Click += new System.EventHandler(this.addToolStripMenuItem_Click);
             // 
             // crosshairToolStripMenuItem
             // 
             this.crosshairToolStripMenuItem.Name = "crosshairToolStripMenuItem";
             this.crosshairToolStripMenuItem.Size = new System.Drawing.Size(138, 22);
-            this.crosshairToolStripMenuItem.Text = "Crosshair";
+            resources.ApplyResources(this.crosshairToolStripMenuItem, "crosshairToolStripMenuItem");
             this.crosshairToolStripMenuItem.Click += new System.EventHandler(this.addToolStripMenuItem_Click);
             // 
             // toolStripSeparator16
@@ -1008,14 +1008,14 @@ namespace DicomViewerDemo
             this.aboutToolStripMenuItem});
             this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
             this.helpToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
-            this.helpToolStripMenuItem.Text = "Help";
+            resources.ApplyResources(this.helpToolStripMenuItem, "helpToolStripMenuItem");
             // 
             // aboutToolStripMenuItem
             // 
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
             this.aboutToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F1;
             this.aboutToolStripMenuItem.Size = new System.Drawing.Size(135, 22);
-            this.aboutToolStripMenuItem.Text = "About...";
+            resources.ApplyResources(this.aboutToolStripMenuItem, "aboutToolStripMenuItem");
             this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
             // 
             // statusStrip1
@@ -1041,7 +1041,7 @@ namespace DicomViewerDemo
             // 
             this.actionLabel.Name = "actionLabel";
             this.actionLabel.Size = new System.Drawing.Size(73, 17);
-            this.actionLabel.Text = "Action Label";
+            resources.ApplyResources(this.actionLabel, "actionLabel");
             this.actionLabel.Visible = false;
             // 
             // toolStripStatusLabel1
@@ -1102,7 +1102,7 @@ namespace DicomViewerDemo
             // 
             this.toolStripLabel1.Name = "toolStripLabel1";
             this.toolStripLabel1.Size = new System.Drawing.Size(161, 22);
-            this.toolStripLabel1.Text = "Annotation Interaction Mode";
+            resources.ApplyResources(this.toolStripLabel1, "toolStripLabel1");
             // 
             // annotationInteractionModeToolStripComboBox
             // 
@@ -1172,7 +1172,7 @@ namespace DicomViewerDemo
             this.voiLutsToolStripSplitButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.voiLutsToolStripSplitButton.Name = "voiLutsToolStripSplitButton";
             this.voiLutsToolStripSplitButton.Size = new System.Drawing.Size(32, 22);
-            this.voiLutsToolStripSplitButton.Text = "Value of interest lookup tables";
+            resources.ApplyResources(this.voiLutsToolStripSplitButton, "voiLutsToolStripSplitButton");
             // 
             // annotationsToolStrip1
             // 

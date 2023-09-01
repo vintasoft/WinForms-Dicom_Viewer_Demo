@@ -28,6 +28,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PngEncoderSettingsForm));
             this.customGroupBox = new System.Windows.Forms.GroupBox();
             this.filterMethodComboBox = new System.Windows.Forms.ComboBox();
             this.compressionLevelComboBox = new System.Windows.Forms.ComboBox();
@@ -88,7 +89,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(67, 13);
             this.label2.TabIndex = 2;
-            this.label2.Text = "Filter method";
+            resources.ApplyResources(this.label2, "label2");
             // 
             // label1
             // 
@@ -97,7 +98,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(92, 13);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Compression level";
+            resources.ApplyResources(this.label1, "label1");
             // 
             // customRadioButton
             // 
@@ -107,7 +108,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.customRadioButton.Size = new System.Drawing.Size(60, 17);
             this.customRadioButton.TabIndex = 4;
             this.customRadioButton.TabStop = true;
-            this.customRadioButton.Text = "Custom";
+            resources.ApplyResources(this.customRadioButton, "customRadioButton");
             this.customRadioButton.UseVisualStyleBackColor = true;
             this.customRadioButton.CheckedChanged += new System.EventHandler(this.customRadioButton_CheckedChanged);
             // 
@@ -118,7 +119,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.buttonCancel.Name = "buttonCancel";
             this.buttonCancel.Size = new System.Drawing.Size(75, 23);
             this.buttonCancel.TabIndex = 8;
-            this.buttonCancel.Text = "Cancel";
+            resources.ApplyResources(this.buttonCancel, "buttonCancel");
             this.buttonCancel.UseVisualStyleBackColor = true;
             this.buttonCancel.Click += new System.EventHandler(this.buttonCancel_Click);
             // 
@@ -139,7 +140,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.bestCompressionRadioButton.Name = "bestCompressionRadioButton";
             this.bestCompressionRadioButton.Size = new System.Drawing.Size(108, 17);
             this.bestCompressionRadioButton.TabIndex = 3;
-            this.bestCompressionRadioButton.Text = "Best compression";
+            resources.ApplyResources(this.bestCompressionRadioButton, "bestCompressionRadioButton");
             this.bestCompressionRadioButton.UseVisualStyleBackColor = true;
             this.bestCompressionRadioButton.CheckedChanged += new System.EventHandler(this.bestCompressionRadioButton_CheckedChanged);
             // 
@@ -150,7 +151,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.normalRadioButton.Name = "normalRadioButton";
             this.normalRadioButton.Size = new System.Drawing.Size(58, 17);
             this.normalRadioButton.TabIndex = 2;
-            this.normalRadioButton.Text = "Normal";
+            resources.ApplyResources(this.normalRadioButton, "normalRadioButton");
             this.normalRadioButton.UseVisualStyleBackColor = true;
             this.normalRadioButton.CheckedChanged += new System.EventHandler(this.normalRadioButton_CheckedChanged);
             // 
@@ -161,7 +162,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.fastRadioButton.Name = "fastRadioButton";
             this.fastRadioButton.Size = new System.Drawing.Size(45, 17);
             this.fastRadioButton.TabIndex = 1;
-            this.fastRadioButton.Text = "Fast";
+            resources.ApplyResources(this.fastRadioButton, "fastRadioButton");
             this.fastRadioButton.UseVisualStyleBackColor = true;
             this.fastRadioButton.CheckedChanged += new System.EventHandler(this.fastRadioButton_CheckedChanged);
             // 
@@ -172,7 +173,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.bestSpeedRadioButton.Name = "bestSpeedRadioButton";
             this.bestSpeedRadioButton.Size = new System.Drawing.Size(78, 17);
             this.bestSpeedRadioButton.TabIndex = 0;
-            this.bestSpeedRadioButton.Text = "Best speed";
+            resources.ApplyResources(this.bestSpeedRadioButton, "bestSpeedRadioButton");
             this.bestSpeedRadioButton.UseVisualStyleBackColor = true;
             this.bestSpeedRadioButton.CheckedChanged += new System.EventHandler(this.bestSpeedRadioButton_CheckedChanged);
             // 
@@ -200,7 +201,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.compressionTabPage.Padding = new System.Windows.Forms.Padding(3);
             this.compressionTabPage.Size = new System.Drawing.Size(342, 121);
             this.compressionTabPage.TabIndex = 0;
-            this.compressionTabPage.Text = "Compression";
+            resources.ApplyResources(this.compressionTabPage, "compressionTabPage");
             this.compressionTabPage.UseVisualStyleBackColor = true;
             // 
             // annotationsTabPage
@@ -211,7 +212,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.annotationsTabPage.Padding = new System.Windows.Forms.Padding(3);
             this.annotationsTabPage.Size = new System.Drawing.Size(342, 101);
             this.annotationsTabPage.TabIndex = 1;
-            this.annotationsTabPage.Text = "Annotations Format";
+            resources.ApplyResources(this.annotationsTabPage, "annotationsTabPage");
             this.annotationsTabPage.UseVisualStyleBackColor = true;
             // 
             // annotationsBinaryCheckBox
@@ -231,7 +232,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.adam7InterlacingCheckBox.Name = "adam7InterlacingCheckBox";
             this.adam7InterlacingCheckBox.Size = new System.Drawing.Size(110, 17);
             this.adam7InterlacingCheckBox.TabIndex = 12;
-            this.adam7InterlacingCheckBox.Text = "Adam7 Interlace";
+            resources.ApplyResources(this.adam7InterlacingCheckBox, "adam7InterlacingCheckBox");
             this.adam7InterlacingCheckBox.UseVisualStyleBackColor = true;
             // 
             // PngEncoderSettingsForm
@@ -249,7 +250,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.Name = "PngEncoderSettingsForm";
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "PNG Encoder Settings";
+            resources.ApplyResources(this, "$this");
             this.customGroupBox.ResumeLayout(false);
             this.customGroupBox.PerformLayout();
             this.settingsTabControl.ResumeLayout(false);

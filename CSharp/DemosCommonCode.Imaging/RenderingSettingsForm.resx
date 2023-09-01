@@ -57,4 +57,37 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Rendering Settings</value>
+  </data>
+  <data name="buttonCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Horizontal Resolution</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Smoothing Mode</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Vertical Resolution</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Interpolation Mode</value>
+  </data>
+  <data name="optimizeImageDrawingCheckBox.Text" xml:space="preserve">
+    <value>Optimize Image Drawing</value>
+  </data>
+  <data name="drawSharpImageBordersCheckBox.Text" xml:space="preserve">
+    <value>Draw Sharp Image Borders</value>
+  </data>
+  <data name="customSettingsGroupBox.Text" xml:space="preserve">
+    <value>Custom Settings</value>
+  </data>
+  <data name="defaultCheckBox.Text" xml:space="preserve">
+    <value>Default Settings</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </metadata>
 </root>

@@ -60,7 +60,7 @@ namespace DicomViewerDemo
         /// </returns>
         public override string ToString()
         {
-            return "Compression Info";
+            return DicomViewerDemo.Localization.Strings.DICOMVIEWERDEMO_COMPRESSION_INFO;
         }
 
         #endregion
@@ -80,9 +80,9 @@ namespace DicomViewerDemo
             string compressionAlgorithm;
 
             if (frameMetadata.IsLosslessCompression)
-                compressionAlgorithm = "Lossless";
+                compressionAlgorithm = DicomViewerDemo.Localization.Strings.DICOMVIEWERDEMO_LOSSLESS;
             else
-                compressionAlgorithm = "Lossy";
+                compressionAlgorithm = DicomViewerDemo.Localization.Strings.DICOMVIEWERDEMO_LOSSY;
 
             return string.Format("{0} ({1})", compressionAlgorithm,
                 GetCompressionName(frameMetadata.Compression));
@@ -105,7 +105,7 @@ namespace DicomViewerDemo
             switch (compression)
             {
                 case DicomImageCompressionType.Uncompressed:
-                    return "Uncompressed";
+                    return DicomViewerDemo.Localization.Strings.DICOMVIEWERDEMO_UNCOMPRESSED;
 
                 case DicomImageCompressionType.JpegLossy:
                 case DicomImageCompressionType.JpegLossless:
@@ -123,7 +123,7 @@ namespace DicomViewerDemo
                     return "RLE";
 
                 default:
-                    return "Unknown";
+                    return DicomViewerDemo.Localization.Strings.DICOMVIEWERDEMO_UNKNOWN;
             }
         }
 

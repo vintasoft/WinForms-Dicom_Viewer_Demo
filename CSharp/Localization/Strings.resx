@@ -1,0 +1,679 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DEMOSCOMMONCODE_CUSTOMCONTROLS_CLICK_THE_BUTTON_IF_THE_CURRENT_COLOR_MUST_BE_CHANGED" xml:space="preserve">
+    <value>Click the button if the current color must be changed.</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_CUSTOMCONTROLS_CLICK_THE_BUTTON_IF_THE_CURRENT_COLOR_MUST_BE_SET_TO_THE_DEFAULT_COLOR" xml:space="preserve">
+    <value>Click the button if the current color must be set to the default color.</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_CUSTOMCONTROLS_DOUBLE_CLICK_ON_THE_PANEL_IF_THE_CURRENT_COLOR_MUST_BE_CHANGED" xml:space="preserve">
+    <value>Double click on the panel if the current color must be changed.</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_CUSTOMCONTROLS_CLICK_ON_THE_PANEL_IF_CURRENT_COLOR_MUST_BE_CHANGED" xml:space="preserve">
+    <value>Click on the panel if current color must be changed.</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_CUSTOMCONTROLS_FIND_REACHED_THE_STARTING_POINT_OF_THE_SEARCH" xml:space="preserve">
+    <value>Find reached the starting point of the search.</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_CUSTOMCONTROLS_TREE_VIEW_SEARCH_CONTROL" xml:space="preserve">
+    <value>Tree View Search Control</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_CUSTOMCONTROLS_THE_SPECIFIED_TEXT_WAS_NOT_FOUNDRNARG0" xml:space="preserve">
+    <value>The specified text was not found:
+{0}</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_CUSTOMCONTROLS_TREE_VIEW_SEARCH_CONTROL_ALT1" xml:space="preserve">
+    <value>Tree View Search Control</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_CUSTOMCONTROLS_VALUE_NAME" xml:space="preserve">
+    <value>Value Name</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_DICOM_THE_FILE_CAN_NOT_BE_ADDED_TO_THE_SERIES_BECAUSE_THE_FILE_DOES_NOT_BELONG_CURRENT_STUDY" xml:space="preserve">
+    <value>The file can not be added to the series because the file does not belong current study.</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_DICOM_THE_FILE_CAN_NOT_BE_ADDED_TO_THE_SERIES_BECAUSE_THE_FILE_DOES_NOT_BELONG_CURRENT_SERIES" xml:space="preserve">
+    <value>The file can not be added to the series because the file does not belong current series.</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_VALUE" xml:space="preserve">
+    <value>value</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_VALUE_ALT1" xml:space="preserve">
+    <value>value</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_FAST" xml:space="preserve">
+    <value>Fast</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_BEST_SPEED" xml:space="preserve">
+    <value>Best Speed</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_NORMAL" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_BEST_COMPRESSION" xml:space="preserve">
+    <value>Best Compression</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_VALUE_ALT2" xml:space="preserve">
+    <value>value</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_NORMAL_ALT1" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_NORMAL_ALT2" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_VALUE_ALT3" xml:space="preserve">
+    <value>value</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_TILE_WIDTH_MUST_BE_MULTIPLE_16" xml:space="preserve">
+    <value>Tile width must be multiple 16.</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_TILE_HEIGHT_MUST_BE_MULTIPLE_16" xml:space="preserve">
+    <value>Tile height must be multiple 16.</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_IMPORTANT_SOME_DATA_FROM_ANNOTATIONS_WILL_BE_LOST_DO_YOU_WANT_TO_CONTINUE_ANYWAY" xml:space="preserve">
+    <value>Important: some data from annotations will be lost. Do you want to continue anyway?</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_WARNING" xml:space="preserve">
+    <value>Warning</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_VALUE_ALT4" xml:space="preserve">
+    <value>value</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_CODECS_CAN_NOT_FIND_ENCODER_FOR_ARG0" xml:space="preserve">
+    <value>Can not find encoder for '{0}'.</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_CODECS_CAN_NOT_FIND_ENCODER_FOR_ARG0_ALT1" xml:space="preserve">
+    <value>Can not find encoder for '{0}'.</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_CODECS_FILE_ARG0_ALREADY_EXISTS_OVERWRITE_IT" xml:space="preserve">
+    <value>File '{0}' already exists. Overwrite it?</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_CODECS_CONFIRM_OVERWRITE" xml:space="preserve">
+    <value>Confirm overwrite</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_NOT_FOCUSED_IMAGE_APPEARANCE_SETTINGS" xml:space="preserve">
+    <value>Not Focused Image Appearance Settings</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_FOCUSED_IMAGE_APPEARANCE_SETTINGS" xml:space="preserve">
+    <value>Focused Image Appearance Settings</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_VALUE" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_ENTER_STRING_VALUES_VALUE_PER_LINE" xml:space="preserve">
+    <value>Enter string values (value per line)</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_ERROR" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_SEQUENCE" xml:space="preserve">
+    <value>Sequence</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_THIS_DEMO_APPLICATION_CAN_EDIT_ARRAY_ONLY_IF_ARRAY_LENGTH_DOES_NOT_EXCEED_ARG0" xml:space="preserve">
+    <value>This demo application can edit array only if array length does not exceed {0}.</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_THIS_NODE_IS_READONLY" xml:space="preserve">
+    <value>This node is read-only.</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_INVALID_DICOMDATETIME_FORMAT" xml:space="preserve">
+    <value>Invalid DicomDateTime format.</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_ERROR_ALT1" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_ADD_DICOM_DATA_ELEMENT" xml:space="preserve">
+    <value>Add DICOM Data Element...</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_ADD_DICOM_SEQUENCE_ITEM" xml:space="preserve">
+    <value>Add DICOM Sequence Item</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_DICOM_METADATA_EDITOR" xml:space="preserve">
+    <value>DICOM Metadata Editor</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_DICOM_METADATA_VIEWER" xml:space="preserve">
+    <value>DICOM Metadata Viewer</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_RESOURCE_ARG0_WAS_NOT_FOUND" xml:space="preserve">
+    <value>Resource '{0}' was not found.</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_ERROR_ALT2" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_ERROR_ALT3" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_NORMAL" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_FOCUSED" xml:space="preserve">
+    <value>Focused</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_HOVERED" xml:space="preserve">
+    <value>Hovered</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_SELECTED" xml:space="preserve">
+    <value>Selected</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_NOT_READY" xml:space="preserve">
+    <value>Not ready</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_EXAMPLESRN" xml:space="preserve">
+    <value>Examples:
+</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_FILE_FILENAME_PAGE_PAGENUMBERRN" xml:space="preserve">
+    <value>'File {Filename}, page {PageNumber}'
+</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_LIST_OF_PREDEFINED_FORMAT_VARIABLESRN" xml:space="preserve">
+    <value>List of predefined format variables:
+</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_PAGELABEL_PAGE_LABELRN" xml:space="preserve">
+    <value>{PageLabel} - page label
+</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_PAGENUMBER_PAGE_NUMBER_IN_SOURCE_IMAGE_FILERN" xml:space="preserve">
+    <value>{PageNumber} - page number, in source image file
+</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_PAGEINDEX_PAGE_INDEX_IN_SOURCE_IMAGE_FILERN" xml:space="preserve">
+    <value>{PageIndex} - page index, in source image file
+</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_IMAGENUMBER_IMAGE_NUMBER_IN_IMAGE_COLLECTIONRN" xml:space="preserve">
+    <value>{ImageNumber} - image number, in image collection
+</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_IMAGEINDEX_IMAGE_INDEX_IN_IMAGE_COLLECTIONRN" xml:space="preserve">
+    <value>{ImageIndex} - image index, in image collection
+</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_FILENAME_FILENAME_WITHOUT_DIRECTORYRN" xml:space="preserve">
+    <value>{Filename} - filename without directory
+</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_FULLFILENAME_FULL_FILENAMERN" xml:space="preserve">
+    <value>{FullFilename} - full filename
+</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_DIRECTORYNAME_DIRECTORY_NAMERN" xml:space="preserve">
+    <value>{DirectoryName} - directory name
+</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_DECODERNAME_DECODER_NAMERN" xml:space="preserve">
+    <value>{DecoderName} - decoder name
+</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_IMAGEWIDTHPX_SOURCE_IMAGE_WIDTH_IN_PIXELSRN" xml:space="preserve">
+    <value>{ImageWidthPx} - source image width, in pixels
+</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_IMAGEHEIGHTPX_SOURCE_IMAGE_HEIGHT_IN_PIXELSRN" xml:space="preserve">
+    <value>{ImageHeightPx} - source image height, in pixels
+</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_IMAGESIZEMPX_SOURCE_IMAGE_SIZE_IN_MEGAPIXELSRN" xml:space="preserve">
+    <value>{ImageSizeMpx} - source image size, in megapixels
+</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_IMAGEHRES_SOURCE_IMAGE_HORIZONTAL_RESOLUTION_IN_DPIRN" xml:space="preserve">
+    <value>{ImageHRes} - source image horizontal resolution, in DPI
+</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_IMAGEVRES_SOURCE_IMAGE_VERTICAL_RESOLUTION_IN_DPIRN" xml:space="preserve">
+    <value>{ImageVRes} - source image vertical resolution, in DPI
+</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_IMAGEBITSPERPIXEL_SOURCE_IMAGE_BITS_PER_PIXEL" xml:space="preserve">
+    <value>{ImageBitsPerPixel} - source image bits per pixel</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_THUMBNAILCAPTIONCAPTIONFORMAT_PROPERTY" xml:space="preserve">
+    <value>ThumbnailCaption.CaptionFormat property</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_VISUAL_TOOL" xml:space="preserve">
+    <value>Visual tool</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_LINE_MEASURE" xml:space="preserve">
+    <value>Line Measure</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_STARTS_THE_MEASUREMENT_USING_LINE" xml:space="preserve">
+    <value>Starts the measurement using line</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_LINES_MEASURE" xml:space="preserve">
+    <value>Lines Measure</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_STARTS_THE_MEASUREMENT_USING_LINES" xml:space="preserve">
+    <value>Starts the measurement using lines</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_ELLIPSE_MEASURE" xml:space="preserve">
+    <value>Ellipse Measure</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_STARTS_THE_MEASUREMENT_USING_ELLIPSE" xml:space="preserve">
+    <value>Starts the measurement using ellipse</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_ANGLE_MEASURE" xml:space="preserve">
+    <value>Angle Measure</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_STARTS_THE_MEASUREMENT_USING_ANGLE" xml:space="preserve">
+    <value>Starts the measurement using angle</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_UNITS_OF_MEASURE" xml:space="preserve">
+    <value>Units Of Measure</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_UNITS_OF_MEASURE_ALT1" xml:space="preserve">
+    <value>Units Of Measure</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_PROPERTIES" xml:space="preserve">
+    <value>Properties...</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_SHOW_PROPERTIES_FORM_FOR_IMAGE_MEASURE_TOOL" xml:space="preserve">
+    <value>Show properties form for image measure tool</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_MEASUREMENT_PROPERTIES" xml:space="preserve">
+    <value>Measurement Properties...</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_SHOW_PROPERTIES_FORM_FOR_FOCUSED_MEASUREMENT_ANNOTATION" xml:space="preserve">
+    <value>Show properties form for focused measurement annotation</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_IMAGE_MEASURE_TOOL_SETTINGS" xml:space="preserve">
+    <value>Image measure tool settings</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_MEASUREMENT_SETTINGS" xml:space="preserve">
+    <value>Measurement settings</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_LOAD_MEASUREMENTS" xml:space="preserve">
+    <value>Load Measurements...</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_LOAD_THE_MEASUREMENT_ANNOTATIONS_FROM_A_FILE" xml:space="preserve">
+    <value>Load the measurement annotations from a file</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_SAVE_MEASUREMENTS" xml:space="preserve">
+    <value>Save Measurements...</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING__SAVE_THE_MEASUREMENT_ANNOTATIONS_TO_A_FILE" xml:space="preserve">
+    <value> Save the measurement annotations to a file</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_BINARY_ANNOTATIONSVSABMVSABMXMP_ANNOTATIONSXMPMXMPMALL_FORMATSVSABMXMPMVSABMXMPM" xml:space="preserve">
+    <value>Binary Annotations(*.vsabm)|*.vsabm|XMP Annotations(*.xmpm)|*.xmpm|All Formats(*.vsabm;*.xmpm)|*.vsabm;*.xmpm</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_BINARY_ANNOTATIONSVSABMXMP_ANNOTATIONSXMPM" xml:space="preserve">
+    <value>Binary Annotations|*.vsabm|XMP Annotations|*.xmpm</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_REFRESH_MEASUREMENTS" xml:space="preserve">
+    <value>Refresh Measurements</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_REFRESH_ALL_MEASUREMENTS_OF_FOCUSED_IMAGE" xml:space="preserve">
+    <value>Refresh all measurements of focused image</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_IMAGE_MEASURE_TOOL" xml:space="preserve">
+    <value>Image Measure Tool</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_IMAGE_MEASURE_TOOL_ALT1" xml:space="preserve">
+    <value>Image Measure Tool</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_ABOUT" xml:space="preserve">
+    <value>About...</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_ARG0_HAS_INVALID_FORMAT" xml:space="preserve">
+    <value>{0} has invalid format.</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_ERROR" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_ERROR_ALT1" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_ERROR_ALT2" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_WARNING" xml:space="preserve">
+    <value>Warning</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_INFORMATION" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_INNER_EXCEPTION_ARG0" xml:space="preserve">
+    <value>Inner exception: {0}</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_ERROR_ALT3" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="DICOMVIEWERDEMO_BUILDING_ANNOTATION" xml:space="preserve">
+    <value>Building annotation</value>
+  </data>
+  <data name="DICOMVIEWERDEMO_COMPRESSION_INFO" xml:space="preserve">
+    <value>Compression Info</value>
+  </data>
+  <data name="DICOMVIEWERDEMO_LOSSLESS" xml:space="preserve">
+    <value>Lossless</value>
+  </data>
+  <data name="DICOMVIEWERDEMO_LOSSY" xml:space="preserve">
+    <value>Lossy</value>
+  </data>
+  <data name="DICOMVIEWERDEMO_UNCOMPRESSED" xml:space="preserve">
+    <value>Uncompressed</value>
+  </data>
+  <data name="DICOMVIEWERDEMO_UNKNOWN" xml:space="preserve">
+    <value>Unknown</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_ADD_DICOMANNOTATEDVIEWERTOOL_FIRST" xml:space="preserve">
+    <value>Add DicomAnnotatedViewerTool first.</value>
+  </data>
+  <data name="DICOMVIEWERDEMO_PAGE" xml:space="preserve">
+    <value>Page </value>
+  </data>
+  <data name="DICOMVIEWERDEMO_CURRENT_IMAGE_IS_NOT_DICOM_FRAME" xml:space="preserve">
+    <value>Current image is not DICOM frame.</value>
+  </data>
+  <data name="DICOMVIEWERDEMO_ERROR" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="DICOMVIEWERDEMO_OVERLAYIMAGE_ARG0" xml:space="preserve">
+    <value>OverlayImage: {0}</value>
+  </data>
+  <data name="DICOMVIEWERDEMO_OVERLAY_IMAGES_ARE_DAMAGED" xml:space="preserve">
+    <value>Overlay images are damaged.</value>
+  </data>
+  <data name="DICOMVIEWERDEMO_TIFF_FILESTIFTIFFJPEG_FILESJPGJPEGPNG_FILESPNG" xml:space="preserve">
+    <value>TIFF Files|*.tif;*.tiff|JPEG Files|*.jpg;*.jpeg|PNG Files|.png</value>
+  </data>
+  <data name="DICOMVIEWERDEMO_ANNOTATION_DATA_COLLECTION_NARG0" xml:space="preserve">
+    <value>Annotation Data Collection N{0}</value>
+  </data>
+  <data name="DICOMVIEWERDEMO_UNKNOWN_ALT1" xml:space="preserve">
+    <value>Unknown</value>
+  </data>
+  <data name="DICOMVIEWERDEMO_UNKNOWN_ALT2" xml:space="preserve">
+    <value>Unknown</value>
+  </data>
+  <data name="DICOMVIEWERDEMO_CALCULATED_ARG0" xml:space="preserve">
+    <value>Calculated {0}</value>
+  </data>
+  <data name="DICOMVIEWERDEMO_MAGNIFIER_TOOL" xml:space="preserve">
+    <value>Magnifier Tool</value>
+  </data>
+  <data name="DICOMVIEWERDEMO_MAGNIFIER" xml:space="preserve">
+    <value>Magnifier</value>
+  </data>
+  <data name="DICOMVIEWERDEMO_DEFAULT_VOI_LUT" xml:space="preserve">
+    <value>Default VOI LUT</value>
+  </data>
+  <data name="DICOMVIEWERDEMO_UNTITLED" xml:space="preserve">
+    <value>(Untitled)</value>
+  </data>
+  <data name="DICOMVIEWERDEMO_DICOM_ANNOTATIONS_CANNOT_BE_CONVERTED_INTO_VINTASOFT_ANNOTATIONS_BUT_ANNOTATIONS_CAN_BE_BURNED_ON_IMAGERN" xml:space="preserve">
+    <value>DICOM annotations cannot be converted into Vintasoft annotations but annotations can be burned on image.
+</value>
+  </data>
+  <data name="DICOMVIEWERDEMO_BURN_ANNOTATIONS_ON_IMAGESRN" xml:space="preserve">
+    <value>Burn annotations on images?
+</value>
+  </data>
+  <data name="DICOMVIEWERDEMO_PRESS_YES_IF_YOU_WANT_SAVE_IMAGES_WITH_BURNED_ANNOTATIONSRN" xml:space="preserve">
+    <value>Press 'Yes' if you want save images with burned annotations.
+</value>
+  </data>
+  <data name="DICOMVIEWERDEMO_PRESS_NO_IF_YOU_WANT_SAVE_IMAGES_WITHOUT_ANNOTATIONSRN" xml:space="preserve">
+    <value>Press 'No' if you want save images without annotations.
+</value>
+  </data>
+  <data name="DICOMVIEWERDEMO_PRESS_CANCEL_TO_CANCEL_SAVING" xml:space="preserve">
+    <value>Press 'Cancel' to cancel saving.</value>
+  </data>
+  <data name="DICOMVIEWERDEMO_ANNOTATIONS" xml:space="preserve">
+    <value>Annotations</value>
+  </data>
+  <data name="DICOMVIEWERDEMO_DICOM_ANNOTATIONS_CANNOT_BE_CONVERTED_INTO_VINTASOFT_ANNOTATIONS_BUT_ANNOTATIONS_CAN_BE_BURNED_ON_IMAGERN_ALT1" xml:space="preserve">
+    <value>DICOM annotations cannot be converted into Vintasoft annotations but annotations can be burned on image.
+</value>
+  </data>
+  <data name="DICOMVIEWERDEMO_BURN_ANNOTATIONS_ON_IMAGESRN_ALT1" xml:space="preserve">
+    <value>Burn annotations on images?
+</value>
+  </data>
+  <data name="DICOMVIEWERDEMO_PRESS_YES_IF_YOU_WANT_SAVE_IMAGES_WITH_BURNED_ANNOTATIONSRN_ALT1" xml:space="preserve">
+    <value>Press 'Yes' if you want save images with burned annotations.
+</value>
+  </data>
+  <data name="DICOMVIEWERDEMO_PRESS_NO_IF_YOU_WANT_SAVE_IMAGES_WITHOUT_ANNOTATIONSRN_ALT1" xml:space="preserve">
+    <value>Press 'No' if you want save images without annotations.
+</value>
+  </data>
+  <data name="DICOMVIEWERDEMO_PRESS_CANCEL_TO_CANCEL_SAVING_ALT1" xml:space="preserve">
+    <value>Press 'Cancel' to cancel saving.</value>
+  </data>
+  <data name="DICOMVIEWERDEMO_ANNOTATIONS_ALT1" xml:space="preserve">
+    <value>Annotations</value>
+  </data>
+  <data name="DICOMVIEWERDEMO_PRESENTATION_STATE_FILEPREPREALL_FORMATS" xml:space="preserve">
+    <value>Presentation State File(*.pre)|*.pre|All Formats(*.*)|*.*</value>
+  </data>
+  <data name="DICOMVIEWERDEMO_PRESENTATION_STATE_FILE_IS_SAVED" xml:space="preserve">
+    <value>Presentation state file is saved.</value>
+  </data>
+  <data name="DICOMVIEWERDEMO_PRESENTATION_STATE_FILEPREPRE" xml:space="preserve">
+    <value>Presentation State File(*.pre)|*.pre</value>
+  </data>
+  <data name="DICOMVIEWERDEMO_BINARY_ANNOTATIONSVSABVSAB" xml:space="preserve">
+    <value>Binary Annotations(*.vsab)|*.vsab</value>
+  </data>
+  <data name="DICOMVIEWERDEMO_XMP_ANNOTATIONSXMPXMP" xml:space="preserve">
+    <value>XMP Annotations(*.xmp)|*.xmp</value>
+  </data>
+  <data name="DICOMVIEWERDEMO_SIZEARG0XARG1_PIXELFORMATARG2_RESOLUTIONARG3" xml:space="preserve">
+    <value>Size={0}x{1}; PixelFormat={2}; Resolution={3}</value>
+  </data>
+  <data name="DICOMVIEWERDEMO_CUT" xml:space="preserve">
+    <value>Cut</value>
+  </data>
+  <data name="DICOMVIEWERDEMO_COPY" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="DICOMVIEWERDEMO_PASTE" xml:space="preserve">
+    <value>Paste</value>
+  </data>
+  <data name="DICOMVIEWERDEMO_DELETE" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="DICOMVIEWERDEMO_DELETE_ALL" xml:space="preserve">
+    <value>Delete All</value>
+  </data>
+  <data name="DICOMVIEWERDEMO_LOADING_ARG0" xml:space="preserve">
+    <value>Loading {0}</value>
+  </data>
+  <data name="DICOMVIEWERDEMO_THE_SERIES_ALREADY_CONTAINS_DICOM_FILE_ARG0" xml:space="preserve">
+    <value>The series already contains DICOM file \"{0}\".</value>
+  </data>
+  <data name="DICOMVIEWERDEMO_THE_DICOM_DIRECTORY_CANNOT_BE_ADDED_TO_THE_SERIES_OF_DICOM_IMAGES" xml:space="preserve">
+    <value>The DICOM directory cannot be added to the series of DICOM images.</value>
+  </data>
+  <data name="DICOMVIEWERDEMO_THE_DICOM_FILE_CANNOT_BE_ADDED_TO_THE_SERIES_OF_DICOM_IMAGES_BECAUSE_THE_DICOM_FILE_DOES_NOT_CONTAIN_IMAGE" xml:space="preserve">
+    <value>The DICOM file cannot be added to the series of DICOM images because the DICOM file does not contain image.</value>
+  </data>
+  <data name="DICOMVIEWERDEMO_DICOM_FILE_DOES_NOT_CONTAIN_IMAGE" xml:space="preserve">
+    <value>DICOM file does not contain image.</value>
+  </data>
+  <data name="DICOMVIEWERDEMO_THE_FILE_ARG0_CAN_NOT_BE_OPENEDRNARG1RNDO_YOU_WANT_TO_CONTINUE_ANYWAY" xml:space="preserve">
+    <value>The file '{0}' can not be opened:
+\"{1}\"
+Do you want to continue anyway?</value>
+  </data>
+  <data name="DICOMVIEWERDEMO_ERROR_ALT1" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="DICOMVIEWERDEMO_UNTITLED_ALT1" xml:space="preserve">
+    <value>(Untitled)</value>
+  </data>
+  <data name="DICOMVIEWERDEMO_BINARY_ANNOTATIONSVSABVSAB_ALT1" xml:space="preserve">
+    <value>Binary Annotations(*.vsab)|*.vsab</value>
+  </data>
+  <data name="DICOMVIEWERDEMO_XMP_ANNOTATIONSXMPXMP_ALT1" xml:space="preserve">
+    <value>XMP Annotations(*.xmp)|*.xmp</value>
+  </data>
+  <data name="DICOMVIEWERDEMO_SCANNING_ARG0" xml:space="preserve">
+    <value>Scanning {0}</value>
+  </data>
+  <data name="DICOMVIEWERDEMO_CENTER_20_WIDTH_40" xml:space="preserve">
+    <value>Center 20   Width 40</value>
+  </data>
+  <data name="DICOMVIEWERDEMO_CENTER_40_WIDTH_80" xml:space="preserve">
+    <value>Center 40   Width 80</value>
+  </data>
+  <data name="DICOMVIEWERDEMO_CENTER_80_WIDTH_160" xml:space="preserve">
+    <value>Center 80   Width 160</value>
+  </data>
+  <data name="DICOMVIEWERDEMO_CENTER_600_WIDTH_1280" xml:space="preserve">
+    <value>Center 600  Width 1280</value>
+  </data>
+  <data name="DICOMVIEWERDEMO_CENTER_1280_WIDTH_2560" xml:space="preserve">
+    <value>Center 1280 Width 2560</value>
+  </data>
+  <data name="DICOMVIEWERDEMO_CENTER_2560_WIDTH_5120" xml:space="preserve">
+    <value>Center 2560 Width 5120</value>
+  </data>
+  <data name="DICOMVIEWERDEMO_CENTER_30_WIDTH_60" xml:space="preserve">
+    <value>Center 30    Width 60</value>
+  </data>
+  <data name="DICOMVIEWERDEMO_CENTER_125_WIDTH_250" xml:space="preserve">
+    <value>Center 125   Width 250</value>
+  </data>
+  <data name="DICOMVIEWERDEMO_CENTER_500_WIDTH_1000" xml:space="preserve">
+    <value>Center 500   Width 1000</value>
+  </data>
+  <data name="DICOMVIEWERDEMO_CENTER_1875_WIDTH_3750" xml:space="preserve">
+    <value>Center 1875  Width 3750</value>
+  </data>
+  <data name="DICOMVIEWERDEMO_CENTER_3750_WIDTH_7500" xml:space="preserve">
+    <value>Center 3750  Width 7500</value>
+  </data>
+  <data name="DICOMVIEWERDEMO_CENTER_7500_WIDTH_15000" xml:space="preserve">
+    <value>Center 7500  Width 15000</value>
+  </data>
+  <data name="DICOMVIEWERDEMO_CENTER_15000_WIDTH_30000" xml:space="preserve">
+    <value>Center 15000 Width 30000</value>
+  </data>
+  <data name="DICOMVIEWERDEMO_CENTER_30000_WIDTH_60000" xml:space="preserve">
+    <value>Center 30000 Width 60000</value>
+  </data>
+  <data name="DICOMVIEWERDEMO_CUSTOM_VOI_LUT" xml:space="preserve">
+    <value>Custom VOI LUT...</value>
+  </data>
+</root>

@@ -97,11 +97,11 @@ namespace DemosCommonCode.Imaging
 
             if (CanEdit)
             {
-                this.Text = "DICOM Metadata Editor";
+                this.Text = DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_DICOM_METADATA_EDITOR;
             }
             else
             {
-                this.Text = "DICOM Metadata Viewer";
+                this.Text = DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_DICOM_METADATA_VIEWER;
             }
         }
 

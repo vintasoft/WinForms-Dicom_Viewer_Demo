@@ -27,10 +27,10 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             encoderNameComboBox.Items.Add("PNG");
             encoderNameComboBox.Items.Add("JPEG");
 
-            pngSettingsComboBox.Items.Add("Fast");
-            pngSettingsComboBox.Items.Add("Best Speed");
-            pngSettingsComboBox.Items.Add("Normal");
-            pngSettingsComboBox.Items.Add("Best Compression");
+            pngSettingsComboBox.Items.Add(DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_FAST);
+            pngSettingsComboBox.Items.Add(DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_BEST_SPEED);
+            pngSettingsComboBox.Items.Add(DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_NORMAL);
+            pngSettingsComboBox.Items.Add(DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_BEST_COMPRESSION);
         }
 
         #endregion
@@ -52,7 +52,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             set
             {
                 if (value == null)
-                    throw new ArgumentNullException("value");
+                    throw new ArgumentNullException(DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_VALUE_ALT2);
 
                 if (_encoderSettings != value)
                 {
@@ -133,7 +133,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             {
                 pngEncoderSettingsGroupBox.Visible = true;
                 jpegEncoderSettingsGroupBox.Visible = false;
-                pngSettingsComboBox.SelectedItem = "Normal";
+                pngSettingsComboBox.SelectedItem = DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_NORMAL_ALT1;
             }
             else if (selectedEncoder == "JPEG")
             {
@@ -185,7 +185,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
                     return PngEncoderSettings.BestCompression;
             }
 
-            encoderNameComboBox.SelectedItem = "Normal";
+            encoderNameComboBox.SelectedItem = DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_NORMAL_ALT2;
             return PngEncoderSettings.Normal;
         }
 

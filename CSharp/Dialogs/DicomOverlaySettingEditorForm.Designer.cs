@@ -28,6 +28,7 @@ namespace DicomViewerDemo
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DicomOverlaySettingEditorForm));
             this.components = new System.ComponentModel.Container();
             this.supportedItemsListBox = new System.Windows.Forms.ListBox();
             this.addButton = new System.Windows.Forms.Button();
@@ -64,8 +65,8 @@ namespace DicomViewerDemo
             this.addButton.Name = "addButton";
             this.addButton.Size = new System.Drawing.Size(275, 30);
             this.addButton.TabIndex = 2;
-            this.addButton.Text = "Add";
-            this.buttonToolTip.SetToolTip(this.addButton, "Add Element");
+            resources.ApplyResources(this.addButton, "addButton");
+            this.buttonToolTip.SetToolTip(this.addButton, resources.GetString("addButton.ToolTip"));
             this.addButton.UseVisualStyleBackColor = true;
             this.addButton.Click += new System.EventHandler(this.addButton_Click);
             // 
@@ -77,8 +78,8 @@ namespace DicomViewerDemo
             this.removeButton.Name = "removeButton";
             this.removeButton.Size = new System.Drawing.Size(73, 30);
             this.removeButton.TabIndex = 3;
-            this.removeButton.Text = "Remove";
-            this.buttonToolTip.SetToolTip(this.removeButton, "Remove Element");
+            resources.ApplyResources(this.removeButton, "removeButton");
+            this.buttonToolTip.SetToolTip(this.removeButton, resources.GetString("removeButton.ToolTip"));
             this.removeButton.UseVisualStyleBackColor = true;
             this.removeButton.Click += new System.EventHandler(this.removeButton_Click);
             // 
@@ -114,8 +115,8 @@ namespace DicomViewerDemo
             this.moveUpButton.Name = "moveUpButton";
             this.moveUpButton.Size = new System.Drawing.Size(73, 30);
             this.moveUpButton.TabIndex = 9;
-            this.moveUpButton.Text = "Move Up";
-            this.buttonToolTip.SetToolTip(this.moveUpButton, "Move Up Element");
+            resources.ApplyResources(this.moveUpButton, "moveUpButton");
+            this.buttonToolTip.SetToolTip(this.moveUpButton, resources.GetString("moveUpButton.ToolTip"));
             this.moveUpButton.UseVisualStyleBackColor = true;
             this.moveUpButton.Click += new System.EventHandler(this.moveUpButton_Click);
             // 
@@ -126,8 +127,8 @@ namespace DicomViewerDemo
             this.moveDownButton.Name = "moveDownButton";
             this.moveDownButton.Size = new System.Drawing.Size(73, 30);
             this.moveDownButton.TabIndex = 10;
-            this.moveDownButton.Text = "Move Down";
-            this.buttonToolTip.SetToolTip(this.moveDownButton, "Move Down Element");
+            resources.ApplyResources(this.moveDownButton, "moveDownButton");
+            this.buttonToolTip.SetToolTip(this.moveDownButton, resources.GetString("moveDownButton.ToolTip"));
             this.moveDownButton.UseVisualStyleBackColor = true;
             this.moveDownButton.Click += new System.EventHandler(this.moveDownButton_Click);
             // 
@@ -138,8 +139,8 @@ namespace DicomViewerDemo
             this.groupButton.Name = "groupButton";
             this.groupButton.Size = new System.Drawing.Size(73, 30);
             this.groupButton.TabIndex = 11;
-            this.groupButton.Text = "Group";
-            this.buttonToolTip.SetToolTip(this.groupButton, "Group Selected Elements In Single String");
+            resources.ApplyResources(this.groupButton, "groupButton");
+            this.buttonToolTip.SetToolTip(this.groupButton, resources.GetString("groupButton.ToolTip"));
             this.groupButton.UseVisualStyleBackColor = true;
             this.groupButton.Click += new System.EventHandler(this.groupButton_Click);
             // 
@@ -150,8 +151,8 @@ namespace DicomViewerDemo
             this.ungroupButton.Name = "ungroupButton";
             this.ungroupButton.Size = new System.Drawing.Size(73, 30);
             this.ungroupButton.TabIndex = 12;
-            this.ungroupButton.Text = "Ungroup";
-            this.buttonToolTip.SetToolTip(this.ungroupButton, "Ungroup Selected Element");
+            resources.ApplyResources(this.ungroupButton, "ungroupButton");
+            this.buttonToolTip.SetToolTip(this.ungroupButton, resources.GetString("ungroupButton.ToolTip"));
             this.ungroupButton.UseVisualStyleBackColor = true;
             this.ungroupButton.Click += new System.EventHandler(this.ungroupButton_Click);
             // 
@@ -162,7 +163,7 @@ namespace DicomViewerDemo
             this.anchorTypeLabel.Name = "anchorTypeLabel";
             this.anchorTypeLabel.Size = new System.Drawing.Size(41, 13);
             this.anchorTypeLabel.TabIndex = 14;
-            this.anchorTypeLabel.Text = "Anchor";
+            resources.ApplyResources(this.anchorTypeLabel, "anchorTypeLabel");
             // 
             // anchorTypeEditor
             // 
@@ -191,7 +192,7 @@ namespace DicomViewerDemo
             this.MinimumSize = new System.Drawing.Size(705, 545);
             this.Name = "DicomOverlaySettingEditorForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Overlay Setting Editor";
+            resources.ApplyResources(this, "$this");
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.DicomOverlaySettingEditorForm_FormClosing);
             this.ResumeLayout(false);
             this.PerformLayout();

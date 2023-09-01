@@ -28,6 +28,7 @@ namespace DemosCommonCode.Imaging
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(RenderingSettingsForm));
             this.defaultCheckBox = new System.Windows.Forms.CheckBox();
             this.customSettingsGroupBox = new System.Windows.Forms.GroupBox();
             this.drawSharpImageBordersCheckBox = new System.Windows.Forms.CheckBox();
@@ -56,7 +57,7 @@ namespace DemosCommonCode.Imaging
             this.defaultCheckBox.Name = "defaultCheckBox";
             this.defaultCheckBox.Size = new System.Drawing.Size(109, 19);
             this.defaultCheckBox.TabIndex = 0;
-            this.defaultCheckBox.Text = "Default Settings";
+            resources.ApplyResources(this.defaultCheckBox, "defaultCheckBox");
             this.defaultCheckBox.UseVisualStyleBackColor = true;
             this.defaultCheckBox.CheckedChanged += new System.EventHandler(this.defaultCheckBox_CheckedChanged);
             // 
@@ -82,7 +83,7 @@ namespace DemosCommonCode.Imaging
             this.customSettingsGroupBox.Size = new System.Drawing.Size(275, 164);
             this.customSettingsGroupBox.TabIndex = 1;
             this.customSettingsGroupBox.TabStop = false;
-            this.customSettingsGroupBox.Text = "Custom Settings";
+            resources.ApplyResources(this.customSettingsGroupBox, "customSettingsGroupBox");
             // 
             // drawSharpImageBordersCheckBox
             // 
@@ -91,7 +92,7 @@ namespace DemosCommonCode.Imaging
             this.drawSharpImageBordersCheckBox.Name = "drawSharpImageBordersCheckBox";
             this.drawSharpImageBordersCheckBox.Size = new System.Drawing.Size(165, 19);
             this.drawSharpImageBordersCheckBox.TabIndex = 11;
-            this.drawSharpImageBordersCheckBox.Text = "Draw Sharp Image Borders";
+            resources.ApplyResources(this.drawSharpImageBordersCheckBox, "drawSharpImageBordersCheckBox");
             this.drawSharpImageBordersCheckBox.UseVisualStyleBackColor = true;
             // 
             // optimizeImageDrawingCheckBox
@@ -101,7 +102,7 @@ namespace DemosCommonCode.Imaging
             this.optimizeImageDrawingCheckBox.Name = "optimizeImageDrawingCheckBox";
             this.optimizeImageDrawingCheckBox.Size = new System.Drawing.Size(157, 19);
             this.optimizeImageDrawingCheckBox.TabIndex = 10;
-            this.optimizeImageDrawingCheckBox.Text = "Optimize Image Drawing";
+            resources.ApplyResources(this.optimizeImageDrawingCheckBox, "optimizeImageDrawingCheckBox");
             this.optimizeImageDrawingCheckBox.UseVisualStyleBackColor = true;
             // 
             // label6
@@ -111,7 +112,7 @@ namespace DemosCommonCode.Imaging
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(109, 15);
             this.label6.TabIndex = 9;
-            this.label6.Text = "Interpolation Mode";
+            resources.ApplyResources(this.label6, "label6");
             // 
             // interpolationModeComboBox
             // 
@@ -192,7 +193,7 @@ namespace DemosCommonCode.Imaging
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(104, 15);
             this.label4.TabIndex = 3;
-            this.label4.Text = "Vertical Resolution";
+            resources.ApplyResources(this.label4, "label4");
             // 
             // label3
             // 
@@ -201,7 +202,7 @@ namespace DemosCommonCode.Imaging
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(100, 15);
             this.label3.TabIndex = 2;
-            this.label3.Text = "Smoothing Mode";
+            resources.ApplyResources(this.label3, "label3");
             // 
             // label2
             // 
@@ -219,7 +220,7 @@ namespace DemosCommonCode.Imaging
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(121, 15);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Horizontal Resolution";
+            resources.ApplyResources(this.label1, "label1");
             // 
             // okButton
             // 
@@ -240,7 +241,7 @@ namespace DemosCommonCode.Imaging
             this.buttonCancel.Name = "buttonCancel";
             this.buttonCancel.Size = new System.Drawing.Size(75, 27);
             this.buttonCancel.TabIndex = 3;
-            this.buttonCancel.Text = "Cancel";
+            resources.ApplyResources(this.buttonCancel, "buttonCancel");
             this.buttonCancel.UseVisualStyleBackColor = true;
             // 
             // RenderingSettingsForm
@@ -259,7 +260,7 @@ namespace DemosCommonCode.Imaging
             this.Name = "RenderingSettingsForm";
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Rendering Settings";
+            resources.ApplyResources(this, "$this");
             this.customSettingsGroupBox.ResumeLayout(false);
             this.customSettingsGroupBox.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.verticalResolutionNumericUpDown)).EndInit();

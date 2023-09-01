@@ -117,4 +117,117 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Image Viewer Settings</value>
+  </data>
+  <data name="keyboardNavigationCheckBox.Text" xml:space="preserve">
+    <value>Keyboard navigation</value>
+  </data>
+  <data name="label21.Text" xml:space="preserve">
+    <value>Keyboard navigation scroll step (px)</value>
+  </data>
+  <data name="label22.Text" xml:space="preserve">
+    <value>Keyboard navigation zoom step</value>
+  </data>
+  <data name="label14.Text" xml:space="preserve">
+    <value>Layout direction</value>
+  </data>
+  <data name="label17.Text" xml:space="preserve">
+    <value>Images in row/column</value>
+  </data>
+  <data name="label18.Text" xml:space="preserve">
+    <value>Images padding</value>
+  </data>
+  <data name="useImageAppearancesInSinglepageModeCheckBox.Text" xml:space="preserve">
+    <value>Use image appearances in single-page mode</value>
+  </data>
+  <data name="imageAppearanceButton.Text" xml:space="preserve">
+    <value>Image Appearance...</value>
+  </data>
+  <data name="focusedImageAppearanceButton.Text" xml:space="preserve">
+    <value>Focused Image Appearance...</value>
+  </data>
+  <data name="label19.Text" xml:space="preserve">
+    <value>Multipage display mode</value>
+  </data>
+  <data name="imagesDisplayModeGroupBox.Text" xml:space="preserve">
+    <value>Images Display Mode</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>Milliseconds</value>
+  </data>
+  <data name="label12.Text" xml:space="preserve">
+    <value>Preview interval of loading images
+(when rendering enabled)</value>
+  </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value>Rendering quality factor of vector images
+(when rendering enabled)</value>
+  </data>
+  <data name="label15.Text" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="label16.Text" xml:space="preserve">
+    <value>Highest</value>
+  </data>
+  <data name="label20.Text" xml:space="preserve">
+    <value>Max threads</value>
+  </data>
+  <data name="renderOnlyVisibleImagesCheckBox.Text" xml:space="preserve">
+    <value>Render only visible images</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>Rendering</value>
+  </data>
+  <data name="renderingRequirementsButton.Text" xml:space="preserve">
+    <value>Partial/Progressive Rendering Requirements...</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Background Color</value>
+  </data>
+  <data name="buttonCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="renderingSettingsButton.Text" xml:space="preserve">
+    <value>Image Rendering Settings...</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Rendering quality</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Image Anchor</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Viewer Buffer Size</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Renderer Cache Size</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Min Image Size when Zoom Buffer used</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>Megapixels</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>Megabytes</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>Megapixels</value>
+  </data>
+  <data name="groupBox3.Text" xml:space="preserve">
+    <value>Buffering</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Anchor</value>
+  </data>
+  <data name="focusPointIsFixedCheckBox.Text" xml:space="preserve">
+    <value>Fixed</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Focus point</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </metadata>
 </root>

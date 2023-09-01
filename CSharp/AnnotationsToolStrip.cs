@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.ComponentModel;
 using System.Drawing;
 using System.Windows.Forms;
@@ -279,7 +279,7 @@ namespace DicomViewerDemo
             }
             catch (InvalidOperationException ex)
             {
-                MessageBox.Show(ex.Message, "Building annotation", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(ex.Message, DicomViewerDemo.Localization.Strings.DICOMVIEWERDEMO_BUILDING_ANNOTATION, MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return null;
             }
 

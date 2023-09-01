@@ -28,6 +28,7 @@ namespace DicomViewerDemo
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AnnotationsInfoForm));
             this.okButton = new System.Windows.Forms.Button();
             this.annoInfoListView = new System.Windows.Forms.ListView();
             this.type = new System.Windows.Forms.ColumnHeader();
@@ -62,12 +63,12 @@ namespace DicomViewerDemo
             // 
             // type
             // 
-            this.type.Text = "Annotation type";
+            resources.ApplyResources(this.type, "type");
             this.type.Width = 273;
             // 
             // locationColumnHeader
             // 
-            this.locationColumnHeader.Text = "Location";
+            resources.ApplyResources(this.locationColumnHeader, "locationColumnHeader");
             this.locationColumnHeader.Width = 183;
             // 
             // AnnotationsInfoForm
@@ -79,7 +80,7 @@ namespace DicomViewerDemo
             this.MinimumSize = new System.Drawing.Size(300, 280);
             this.Name = "AnnotationsInfoForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Information about annotations";
+            resources.ApplyResources(this, "$this");
             this.ResumeLayout(false);
 
         }

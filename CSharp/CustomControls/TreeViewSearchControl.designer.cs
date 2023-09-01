@@ -28,6 +28,7 @@ namespace DemosCommonCode.CustomControls
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TreeViewSearchControl));
             this.findPatternTextBox = new System.Windows.Forms.TextBox();
             this.findButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -52,7 +53,7 @@ namespace DemosCommonCode.CustomControls
             this.findButton.Name = "findButton";
             this.findButton.Size = new System.Drawing.Size(75, 23);
             this.findButton.TabIndex = 2;
-            this.findButton.Text = "Find";
+            resources.ApplyResources(this.findButton, "findButton");
             this.findButton.UseVisualStyleBackColor = true;
             this.findButton.Click += new System.EventHandler(this.findButton_Click);
             // 

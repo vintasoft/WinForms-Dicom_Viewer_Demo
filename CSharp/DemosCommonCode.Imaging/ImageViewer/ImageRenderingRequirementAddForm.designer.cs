@@ -28,6 +28,7 @@ namespace DemosCommonCode.Imaging
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ImageRenderingRequirementAddForm));
             this.okButton = new System.Windows.Forms.Button();
             this.buttonCancel = new System.Windows.Forms.Button();
             this.codecComboBox = new System.Windows.Forms.ComboBox();
@@ -54,7 +55,7 @@ namespace DemosCommonCode.Imaging
             this.buttonCancel.Name = "buttonCancel";
             this.buttonCancel.Size = new System.Drawing.Size(75, 23);
             this.buttonCancel.TabIndex = 1;
-            this.buttonCancel.Text = "Cancel";
+            resources.ApplyResources(this.buttonCancel, "buttonCancel");
             this.buttonCancel.UseVisualStyleBackColor = true;
             // 
             // codecComboBox
@@ -91,7 +92,7 @@ namespace DemosCommonCode.Imaging
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(41, 15);
             this.label1.TabIndex = 4;
-            this.label1.Text = "Codec";
+            resources.ApplyResources(this.label1, "label1");
             // 
             // label2
             // 
@@ -100,7 +101,7 @@ namespace DemosCommonCode.Imaging
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(128, 15);
             this.label2.TabIndex = 5;
-            this.label2.Text = "Enable Rendering from";
+            resources.ApplyResources(this.label2, "label2");
             // 
             // label3
             // 
@@ -109,7 +110,7 @@ namespace DemosCommonCode.Imaging
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(67, 15);
             this.label3.TabIndex = 6;
-            this.label3.Text = "Megapixels";
+            resources.ApplyResources(this.label3, "label3");
             // 
             // ImageRenderingRequirementAddForm
             // 
@@ -129,7 +130,7 @@ namespace DemosCommonCode.Imaging
             this.MinimizeBox = false;
             this.Name = "ImageRenderingRequirementAddForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Image Rendering Requirement Add";
+            resources.ApplyResources(this, "$this");
             this.ResumeLayout(false);
             this.PerformLayout();
 

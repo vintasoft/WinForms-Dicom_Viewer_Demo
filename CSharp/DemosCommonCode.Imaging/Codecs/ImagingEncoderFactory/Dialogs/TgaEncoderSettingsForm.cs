@@ -52,7 +52,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             set
             {
                 if (value == null)
-                    throw new ArgumentNullException("value");
+                    throw new ArgumentNullException(DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_VALUE_ALT3);
 
                 if (_encoderSettings != value)
                 {

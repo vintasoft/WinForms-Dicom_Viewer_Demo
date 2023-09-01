@@ -169,7 +169,7 @@ namespace DemosCommonCode.Imaging
 
             // create image appearance settings form
             using (ThumbnailAppearanceSettingsForm dialog =
-                new ThumbnailAppearanceSettingsForm(_imageAppearance, "Not Focused Image Appearance Settings"))
+                new ThumbnailAppearanceSettingsForm(_imageAppearance, DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_NOT_FOCUSED_IMAGE_APPEARANCE_SETTINGS))
             {
                 // show dialog
                 dialog.ShowDialog();
@@ -188,7 +188,7 @@ namespace DemosCommonCode.Imaging
 
             // create image appearance settings form
             using (ThumbnailAppearanceSettingsForm dialog =
-                new ThumbnailAppearanceSettingsForm(_focusedImageAppearance, "Focused Image Appearance Settings"))
+                new ThumbnailAppearanceSettingsForm(_focusedImageAppearance, DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_FOCUSED_IMAGE_APPEARANCE_SETTINGS))
             {
                 // show dialog
                 dialog.ShowDialog();

@@ -332,4 +332,58 @@
   <metadata name="$this.TrayLargeIcon" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>False</value>
   </metadata>
+  <data name="captureFromCameraButton.ToolTipText" xml:space="preserve">
+    <value>Capture from camera ...</value>
+  </data>
+  <data name="scanButton.ToolTipText" xml:space="preserve">
+    <value>Scan...</value>
+  </data>
+  <data name="scaleToolStripMenuItem.Text" xml:space="preserve">
+    <value>Scale</value>
+  </data>
+  <data name="pixelToPixelToolStripMenuItem.Text" xml:space="preserve">
+    <value>Pixel to pixel</value>
+  </data>
+  <data name="fitToHeightToolStripMenuItem.Text" xml:space="preserve">
+    <value>Fit to height</value>
+  </data>
+  <data name="fitToWidthToolStripMenuItem.Text" xml:space="preserve">
+    <value>Fit to width</value>
+  </data>
+  <data name="bestFitToolStripMenuItem.Text" xml:space="preserve">
+    <value>Best fit</value>
+  </data>
+  <data name="normalToolStripMenuItem.Text" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="zoomInButton.Text" xml:space="preserve">
+    <value>Zoom in</value>
+  </data>
+  <data name="zoomOutButton.Text" xml:space="preserve">
+    <value>Zoom out</value>
+  </data>
+  <data name="lastPageButton.Text" xml:space="preserve">
+    <value>Last page</value>
+  </data>
+  <data name="nextPageButton.Text" xml:space="preserve">
+    <value>Next page</value>
+  </data>
+  <data name="previousPageButton.Text" xml:space="preserve">
+    <value>Previous page</value>
+  </data>
+  <data name="firstPageButton.Text" xml:space="preserve">
+    <value>First page</value>
+  </data>
+  <data name="printButton.Text" xml:space="preserve">
+    <value>Print...</value>
+  </data>
+  <data name="saveButton.Text" xml:space="preserve">
+    <value>Save...</value>
+  </data>
+  <data name="openButton.Text" xml:space="preserve">
+    <value>Open...</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </metadata>
 </root>

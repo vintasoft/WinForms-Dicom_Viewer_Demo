@@ -28,6 +28,7 @@ namespace DicomViewerDemo
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SelectAnnotationDataCollectionForm));
             this.okButton = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.sopClassLabel = new System.Windows.Forms.Label();
@@ -70,7 +71,7 @@ namespace DicomViewerDemo
             this.groupBox1.Size = new System.Drawing.Size(463, 80);
             this.groupBox1.TabIndex = 7;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Collection Info";
+            resources.ApplyResources(this.groupBox1, "groupBox1");
             // 
             // sopClassLabel
             // 
@@ -103,7 +104,7 @@ namespace DicomViewerDemo
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(79, 13);
             this.label4.TabIndex = 2;
-            this.label4.Text = "Frame Number:";
+            resources.ApplyResources(this.label4, "label4");
             // 
             // label3
             // 
@@ -140,12 +141,12 @@ namespace DicomViewerDemo
             // 
             // type
             // 
-            this.type.Text = "Annotation type";
+            resources.ApplyResources(this.type, "type");
             this.type.Width = 273;
             // 
             // locationColumnHeader
             // 
-            this.locationColumnHeader.Text = "Location";
+            resources.ApplyResources(this.locationColumnHeader, "locationColumnHeader");
             this.locationColumnHeader.Width = 183;
             // 
             // selectedAnnotationDataCollectionComboBox
@@ -166,7 +167,7 @@ namespace DicomViewerDemo
             this.cancelButton1.Name = "cancelButton1";
             this.cancelButton1.Size = new System.Drawing.Size(75, 23);
             this.cancelButton1.TabIndex = 10;
-            this.cancelButton1.Text = "Cancel";
+            resources.ApplyResources(this.cancelButton1, "cancelButton1");
             this.cancelButton1.UseVisualStyleBackColor = true;
             // 
             // SelectAnnotationDataCollectionForm

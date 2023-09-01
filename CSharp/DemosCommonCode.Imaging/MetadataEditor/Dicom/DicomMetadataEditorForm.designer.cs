@@ -28,6 +28,7 @@ namespace DemosCommonCode.Imaging
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DicomMetadataEditorForm));
             this.dicomMetadataEditorControl1 = new DemosCommonCode.Imaging.DicomMetadataEditorControl();
             this.SuspendLayout();
             // 
@@ -49,7 +50,7 @@ namespace DemosCommonCode.Imaging
             this.Controls.Add(this.dicomMetadataEditorControl1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Name = "DicomMetadataEditorForm";
-            this.Text = "DICOM Metadata Editor";
+            resources.ApplyResources(this, "$this");
             this.ResumeLayout(false);
 
         }

@@ -77,7 +77,7 @@ namespace DemosCommonCode.Imaging
             this.openButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.openButton.Name = "openButton";
             this.openButton.Size = new System.Drawing.Size(23, 22);
-            this.openButton.Text = "Open...";
+            resources.ApplyResources(this.openButton, "openButton");
             this.openButton.Click += new System.EventHandler(this.openButton_Click);
             // 
             // saveButton
@@ -87,7 +87,7 @@ namespace DemosCommonCode.Imaging
             this.saveButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.saveButton.Name = "saveButton";
             this.saveButton.Size = new System.Drawing.Size(23, 22);
-            this.saveButton.Text = "Save...";
+            resources.ApplyResources(this.saveButton, "saveButton");
             this.saveButton.Click += new System.EventHandler(this.saveButton_Click);
             // 
             // scanCaptureSeparator
@@ -103,7 +103,7 @@ namespace DemosCommonCode.Imaging
             this.printButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.printButton.Name = "printButton";
             this.printButton.Size = new System.Drawing.Size(23, 20);
-            this.printButton.Text = "Print...";
+            resources.ApplyResources(this.printButton, "printButton");
             this.printButton.Click += new System.EventHandler(this.printButton_Click);
             // 
             // printSeparator
@@ -125,7 +125,7 @@ namespace DemosCommonCode.Imaging
             this.firstPageButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.firstPageButton.Name = "firstPageButton";
             this.firstPageButton.Size = new System.Drawing.Size(23, 20);
-            this.firstPageButton.Text = "First page";
+            resources.ApplyResources(this.firstPageButton, "firstPageButton");
             this.firstPageButton.Click += new System.EventHandler(this.firstPageButton_Click);
             // 
             // previousPageButton
@@ -136,7 +136,7 @@ namespace DemosCommonCode.Imaging
             this.previousPageButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.previousPageButton.Name = "previousPageButton";
             this.previousPageButton.Size = new System.Drawing.Size(23, 20);
-            this.previousPageButton.Text = "Previous page";
+            resources.ApplyResources(this.previousPageButton, "previousPageButton");
             this.previousPageButton.Click += new System.EventHandler(this.previousPageButton_Click);
             // 
             // selectedPageIndexTextBox
@@ -169,7 +169,7 @@ namespace DemosCommonCode.Imaging
             this.nextPageButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.nextPageButton.Name = "nextPageButton";
             this.nextPageButton.Size = new System.Drawing.Size(23, 20);
-            this.nextPageButton.Text = "Next page";
+            resources.ApplyResources(this.nextPageButton, "nextPageButton");
             this.nextPageButton.Click += new System.EventHandler(this.nextPageButton_Click);
             // 
             // lastPageButton
@@ -180,7 +180,7 @@ namespace DemosCommonCode.Imaging
             this.lastPageButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.lastPageButton.Name = "lastPageButton";
             this.lastPageButton.Size = new System.Drawing.Size(23, 20);
-            this.lastPageButton.Text = "Last page";
+            resources.ApplyResources(this.lastPageButton, "lastPageButton");
             this.lastPageButton.Click += new System.EventHandler(this.lastPageButton_Click);
             // 
             // navigationSeparator
@@ -208,7 +208,7 @@ namespace DemosCommonCode.Imaging
             this.zoomOutButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.zoomOutButton.Name = "zoomOutButton";
             this.zoomOutButton.Size = new System.Drawing.Size(23, 20);
-            this.zoomOutButton.Text = "Zoom out";
+            resources.ApplyResources(this.zoomOutButton, "zoomOutButton");
             this.zoomOutButton.Click += new System.EventHandler(this.zoomOutButton_Click);
             // 
             // zoomValueTextBox
@@ -229,7 +229,7 @@ namespace DemosCommonCode.Imaging
             this.zoomInButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.zoomInButton.Name = "zoomInButton";
             this.zoomInButton.Size = new System.Drawing.Size(23, 20);
-            this.zoomInButton.Text = "Zoom in";
+            resources.ApplyResources(this.zoomInButton, "zoomInButton");
             this.zoomInButton.Click += new System.EventHandler(this.zoomInButton_Click);
             // 
             // zoomModesButton
@@ -257,42 +257,42 @@ namespace DemosCommonCode.Imaging
             // 
             this.normalToolStripMenuItem.Name = "normalToolStripMenuItem";
             this.normalToolStripMenuItem.Size = new System.Drawing.Size(139, 22);
-            this.normalToolStripMenuItem.Text = "Normal";
+            resources.ApplyResources(this.normalToolStripMenuItem, "normalToolStripMenuItem");
             this.normalToolStripMenuItem.Click += new System.EventHandler(this.ImageScale_Click);
             // 
             // bestFitToolStripMenuItem
             // 
             this.bestFitToolStripMenuItem.Name = "bestFitToolStripMenuItem";
             this.bestFitToolStripMenuItem.Size = new System.Drawing.Size(139, 22);
-            this.bestFitToolStripMenuItem.Text = "Best fit";
+            resources.ApplyResources(this.bestFitToolStripMenuItem, "bestFitToolStripMenuItem");
             this.bestFitToolStripMenuItem.Click += new System.EventHandler(this.ImageScale_Click);
             // 
             // fitToWidthToolStripMenuItem
             // 
             this.fitToWidthToolStripMenuItem.Name = "fitToWidthToolStripMenuItem";
             this.fitToWidthToolStripMenuItem.Size = new System.Drawing.Size(139, 22);
-            this.fitToWidthToolStripMenuItem.Text = "Fit to width";
+            resources.ApplyResources(this.fitToWidthToolStripMenuItem, "fitToWidthToolStripMenuItem");
             this.fitToWidthToolStripMenuItem.Click += new System.EventHandler(this.ImageScale_Click);
             // 
             // fitToHeightToolStripMenuItem
             // 
             this.fitToHeightToolStripMenuItem.Name = "fitToHeightToolStripMenuItem";
             this.fitToHeightToolStripMenuItem.Size = new System.Drawing.Size(139, 22);
-            this.fitToHeightToolStripMenuItem.Text = "Fit to height";
+            resources.ApplyResources(this.fitToHeightToolStripMenuItem, "fitToHeightToolStripMenuItem");
             this.fitToHeightToolStripMenuItem.Click += new System.EventHandler(this.ImageScale_Click);
             // 
             // pixelToPixelToolStripMenuItem
             // 
             this.pixelToPixelToolStripMenuItem.Name = "pixelToPixelToolStripMenuItem";
             this.pixelToPixelToolStripMenuItem.Size = new System.Drawing.Size(139, 22);
-            this.pixelToPixelToolStripMenuItem.Text = "Pixel to pixel";
+            resources.ApplyResources(this.pixelToPixelToolStripMenuItem, "pixelToPixelToolStripMenuItem");
             this.pixelToPixelToolStripMenuItem.Click += new System.EventHandler(this.ImageScale_Click);
             // 
             // scaleToolStripMenuItem
             // 
             this.scaleToolStripMenuItem.Name = "scaleToolStripMenuItem";
             this.scaleToolStripMenuItem.Size = new System.Drawing.Size(139, 22);
-            this.scaleToolStripMenuItem.Text = "Scale";
+            resources.ApplyResources(this.scaleToolStripMenuItem, "scaleToolStripMenuItem");
             this.scaleToolStripMenuItem.Click += new System.EventHandler(this.ImageScale_Click);
             // 
             // zoomModesSeparator
@@ -342,7 +342,7 @@ namespace DemosCommonCode.Imaging
             this.scanButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.scanButton.Name = "scanButton";
             this.scanButton.Size = new System.Drawing.Size(23, 20);
-            this.scanButton.ToolTipText = "Scan...";
+            resources.ApplyResources(this.scanButton, "scanButton");
             this.scanButton.Visible = false;
             this.scanButton.Click += new System.EventHandler(this.scanButton_Click);
             // 
@@ -359,7 +359,7 @@ namespace DemosCommonCode.Imaging
             this.captureFromCameraButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.captureFromCameraButton.Name = "captureFromCameraButton";
             this.captureFromCameraButton.Size = new System.Drawing.Size(23, 22);
-            this.captureFromCameraButton.ToolTipText = "Capture from camera ...";
+            resources.ApplyResources(this.captureFromCameraButton, "captureFromCameraButton");
             this.captureFromCameraButton.Visible = false;
             this.captureFromCameraButton.Click += new System.EventHandler(this.captureFromCameraButton_Click);
             // 

@@ -29,6 +29,7 @@ namespace DemosCommonCode.Imaging
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DicomMetadataEditorControl));
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.metadataTreeView = new DemosCommonCode.Imaging.DicomMetadataTreeView();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
@@ -88,7 +89,7 @@ namespace DemosCommonCode.Imaging
             this.groupBox1.Size = new System.Drawing.Size(412, 52);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Search Data Element";
+            resources.ApplyResources(this.groupBox1, "groupBox1");
             // 
             // treeViewSearchControl1
             // 
@@ -113,7 +114,7 @@ namespace DemosCommonCode.Imaging
             this.selectedNodeGroupBox.Size = new System.Drawing.Size(412, 455);
             this.selectedNodeGroupBox.TabIndex = 1;
             this.selectedNodeGroupBox.TabStop = false;
-            this.selectedNodeGroupBox.Text = "<selected node>";
+            resources.ApplyResources(this.selectedNodeGroupBox, "selectedNodeGroupBox");
             // 
             // tableLayoutPanel1
             // 
@@ -140,7 +141,7 @@ namespace DemosCommonCode.Imaging
             this.removeButton.Name = "removeButton";
             this.removeButton.Size = new System.Drawing.Size(194, 23);
             this.removeButton.TabIndex = 2;
-            this.removeButton.Text = "Delete This Node";
+            resources.ApplyResources(this.removeButton, "removeButton");
             this.removeButton.UseVisualStyleBackColor = true;
             this.removeButton.Click += new System.EventHandler(this.removeButton_Click);
             // 
@@ -153,7 +154,7 @@ namespace DemosCommonCode.Imaging
             this.addButton.Name = "addButton";
             this.addButton.Size = new System.Drawing.Size(194, 23);
             this.addButton.TabIndex = 1;
-            this.addButton.Text = "Add DICOM Data Element...";
+            resources.ApplyResources(this.addButton, "addButton");
             this.addButton.UseVisualStyleBackColor = true;
             this.addButton.Click += new System.EventHandler(this.addButton_Click);
             // 

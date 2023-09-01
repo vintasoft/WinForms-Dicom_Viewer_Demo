@@ -28,6 +28,7 @@ namespace DemosCommonCode.Imaging
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MagnifierToolSettingsForm));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.widthNumericUpDown = new System.Windows.Forms.NumericUpDown();
@@ -66,7 +67,7 @@ namespace DemosCommonCode.Imaging
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(39, 15);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Width";
+            resources.ApplyResources(this.label1, "label1");
             // 
             // label2
             // 
@@ -75,7 +76,7 @@ namespace DemosCommonCode.Imaging
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(39, 15);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Zoom";
+            resources.ApplyResources(this.label2, "label2");
             // 
             // widthNumericUpDown
             // 
@@ -154,7 +155,7 @@ namespace DemosCommonCode.Imaging
             this.groupBox1.Size = new System.Drawing.Size(171, 77);
             this.groupBox1.TabIndex = 6;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Border";
+            resources.ApplyResources(this.groupBox1, "groupBox1");
             // 
             // borderColorPanelControl
             // 
@@ -179,7 +180,7 @@ namespace DemosCommonCode.Imaging
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(39, 15);
             this.label4.TabIndex = 2;
-            this.label4.Text = "Width";
+            resources.ApplyResources(this.label4, "label4");
             // 
             // label3
             // 
@@ -188,7 +189,7 @@ namespace DemosCommonCode.Imaging
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(36, 15);
             this.label3.TabIndex = 1;
-            this.label3.Text = "Color";
+            resources.ApplyResources(this.label3, "label3");
             // 
             // ellipticalOutlineCheckBox
             // 
@@ -197,7 +198,7 @@ namespace DemosCommonCode.Imaging
             this.ellipticalOutlineCheckBox.Name = "ellipticalOutlineCheckBox";
             this.ellipticalOutlineCheckBox.Size = new System.Drawing.Size(112, 19);
             this.ellipticalOutlineCheckBox.TabIndex = 7;
-            this.ellipticalOutlineCheckBox.Text = "Elliptical Outline";
+            resources.ApplyResources(this.ellipticalOutlineCheckBox, "ellipticalOutlineCheckBox");
             this.ellipticalOutlineCheckBox.UseVisualStyleBackColor = true;
             // 
             // groupBox2
@@ -211,7 +212,7 @@ namespace DemosCommonCode.Imaging
             this.groupBox2.Size = new System.Drawing.Size(336, 69);
             this.groupBox2.TabIndex = 8;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Processing ";
+            resources.ApplyResources(this.groupBox2, "groupBox2");
             // 
             // grayscaleCheckBox
             // 
@@ -230,7 +231,7 @@ namespace DemosCommonCode.Imaging
             this.oilPaintingCheckBox.Name = "oilPaintingCheckBox";
             this.oilPaintingCheckBox.Size = new System.Drawing.Size(88, 19);
             this.oilPaintingCheckBox.TabIndex = 2;
-            this.oilPaintingCheckBox.Text = "Oil Painting";
+            resources.ApplyResources(this.oilPaintingCheckBox, "oilPaintingCheckBox");
             this.oilPaintingCheckBox.UseVisualStyleBackColor = true;
             // 
             // posterizeCheckBox
@@ -240,7 +241,7 @@ namespace DemosCommonCode.Imaging
             this.posterizeCheckBox.Name = "posterizeCheckBox";
             this.posterizeCheckBox.Size = new System.Drawing.Size(73, 19);
             this.posterizeCheckBox.TabIndex = 1;
-            this.posterizeCheckBox.Text = "Posterize";
+            resources.ApplyResources(this.posterizeCheckBox, "posterizeCheckBox");
             this.posterizeCheckBox.UseVisualStyleBackColor = true;
             // 
             // invertCheckBox
@@ -250,7 +251,7 @@ namespace DemosCommonCode.Imaging
             this.invertCheckBox.Name = "invertCheckBox";
             this.invertCheckBox.Size = new System.Drawing.Size(56, 19);
             this.invertCheckBox.TabIndex = 0;
-            this.invertCheckBox.Text = "Invert";
+            resources.ApplyResources(this.invertCheckBox, "invertCheckBox");
             this.invertCheckBox.UseVisualStyleBackColor = true;
             // 
             // buttonOk
@@ -270,7 +271,7 @@ namespace DemosCommonCode.Imaging
             this.buttonCancel.Name = "buttonCancel";
             this.buttonCancel.Size = new System.Drawing.Size(75, 23);
             this.buttonCancel.TabIndex = 10;
-            this.buttonCancel.Text = "Cancel";
+            resources.ApplyResources(this.buttonCancel, "buttonCancel");
             this.buttonCancel.UseVisualStyleBackColor = true;
             this.buttonCancel.Click += new System.EventHandler(this.cancelButton_Click);
             // 
@@ -281,7 +282,7 @@ namespace DemosCommonCode.Imaging
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(43, 15);
             this.label5.TabIndex = 11;
-            this.label5.Text = "Height";
+            resources.ApplyResources(this.label5, "label5");
             // 
             // label6
             // 
@@ -317,7 +318,7 @@ namespace DemosCommonCode.Imaging
             this.showVisualToolsCheckBox.Name = "showVisualToolsCheckBox";
             this.showVisualToolsCheckBox.Size = new System.Drawing.Size(119, 19);
             this.showVisualToolsCheckBox.TabIndex = 15;
-            this.showVisualToolsCheckBox.Text = "Show Visual Tools";
+            resources.ApplyResources(this.showVisualToolsCheckBox, "showVisualToolsCheckBox");
             this.showVisualToolsCheckBox.UseVisualStyleBackColor = true;
             // 
             // MagnifierToolSettingsForm
@@ -347,7 +348,7 @@ namespace DemosCommonCode.Imaging
             this.Name = "MagnifierToolSettingsForm";
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Magnifier Tool Settings";
+            resources.ApplyResources(this, "$this");
             ((System.ComponentModel.ISupportInitialize)(this.widthNumericUpDown)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.heightNumericUpDown)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.zoomNumericUpDown)).EndInit();

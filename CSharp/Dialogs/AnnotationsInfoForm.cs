@@ -18,7 +18,7 @@ namespace DicomViewerDemo
 
             for (int i = 0; i < annotations.Images.Count; i++)
             {
-                ListViewGroup group = annoInfoListView.Groups.Add("pageNumber", "Page " + (i + 1));
+                ListViewGroup group = annoInfoListView.Groups.Add("pageNumber", DicomViewerDemo.Localization.Strings.DICOMVIEWERDEMO_PAGE + (i + 1));
                 for (int j = 0; j < annotations[i].Count; j++)
                 {
                     AnnotationData annot = annotations[i][j];

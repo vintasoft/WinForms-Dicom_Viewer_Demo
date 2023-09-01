@@ -28,6 +28,7 @@ namespace DicomViewerDemo
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(OverlayImagesViewer));
             this.imageViewer = new Vintasoft.Imaging.UI.ImageViewer();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.propertyGrid = new System.Windows.Forms.PropertyGrid();
@@ -104,7 +105,7 @@ namespace DicomViewerDemo
             this.groupBox1.Size = new System.Drawing.Size(165, 76);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Overlay Image";
+            resources.ApplyResources(this.groupBox1, "groupBox1");
             // 
             // saveAsImageButton
             // 
@@ -113,7 +114,7 @@ namespace DicomViewerDemo
             this.saveAsImageButton.Name = "saveAsImageButton";
             this.saveAsImageButton.Size = new System.Drawing.Size(110, 23);
             this.saveAsImageButton.TabIndex = 1;
-            this.saveAsImageButton.Text = "Save as Image ...";
+            resources.ApplyResources(this.saveAsImageButton, "saveAsImageButton");
             this.saveAsImageButton.UseVisualStyleBackColor = true;
             this.saveAsImageButton.Click += new System.EventHandler(this.saveAsImageButton_Click);
             // 
@@ -145,13 +146,13 @@ namespace DicomViewerDemo
             this.imageViewerBackColorToolStripMenuItem});
             this.viewToolStripMenuItem.Name = "viewToolStripMenuItem";
             this.viewToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
-            this.viewToolStripMenuItem.Text = "View";
+            resources.ApplyResources(this.viewToolStripMenuItem, "viewToolStripMenuItem");
             // 
             // imageViewerBackColorToolStripMenuItem
             // 
             this.imageViewerBackColorToolStripMenuItem.Name = "imageViewerBackColorToolStripMenuItem";
             this.imageViewerBackColorToolStripMenuItem.Size = new System.Drawing.Size(214, 22);
-            this.imageViewerBackColorToolStripMenuItem.Text = "Image Viewer Back Color...";
+            resources.ApplyResources(this.imageViewerBackColorToolStripMenuItem, "imageViewerBackColorToolStripMenuItem");
             this.imageViewerBackColorToolStripMenuItem.Click += new System.EventHandler(this.imageViewerBackColorToolStripMenuItem_Click);
             // 
             // groupBox2
@@ -165,7 +166,7 @@ namespace DicomViewerDemo
             this.groupBox2.Size = new System.Drawing.Size(165, 376);
             this.groupBox2.TabIndex = 2;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "DicomOverlayImage";
+            resources.ApplyResources(this.groupBox2, "groupBox2");
             // 
             // OverlayImagesViewer
             // 
@@ -177,7 +178,7 @@ namespace DicomViewerDemo
             this.MinimumSize = new System.Drawing.Size(400, 300);
             this.Name = "OverlayImagesViewer";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "OverlayImagesViewer";
+            resources.ApplyResources(this, "$this");
             this.splitContainer1.Panel1.ResumeLayout(false);
             this.splitContainer1.Panel2.ResumeLayout(false);
             this.splitContainer1.ResumeLayout(false);

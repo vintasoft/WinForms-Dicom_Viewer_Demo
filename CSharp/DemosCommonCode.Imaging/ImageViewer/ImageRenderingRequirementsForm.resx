@@ -57,4 +57,28 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Image Rendering Requirements</value>
+  </data>
+  <data name="addButton.Text" xml:space="preserve">
+    <value>Add...</value>
+  </data>
+  <data name="removeButton.Text" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="buttonCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Megapixels</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Enable Rendering from</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Codec</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </metadata>
 </root>

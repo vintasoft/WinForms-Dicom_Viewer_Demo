@@ -41,7 +41,7 @@ namespace DicomViewerDemo
             {
                 for (int i = 0; i < _collections.Length; i++)
                 {
-                    string title = string.Format("Annotation Data Collection N{0}", i + 1);
+                    string title = string.Format(DicomViewerDemo.Localization.Strings.DICOMVIEWERDEMO_ANNOTATION_DATA_COLLECTION_NARG0, i + 1);
 
                     selectedAnnotationDataCollectionComboBox.Items.Add(title);
                 }
@@ -79,11 +79,11 @@ namespace DicomViewerDemo
                     selectedAnnotationDataCollectionComboBox.SelectedIndex = collectionIndex;
 
                     DicomReferencedImage referencedImage = _selectedAnnotationDataCollection.ReferencedImage;
-                    sopClassLabel.Text = "Unknown";
+                    sopClassLabel.Text = DicomViewerDemo.Localization.Strings.DICOMVIEWERDEMO_UNKNOWN_ALT1;
                     if (referencedImage.SopClass != null)
                         sopClassLabel.Text = referencedImage.SopClass.Value;
 
-                    sopInstanceLabel.Text = "Unknown";
+                    sopInstanceLabel.Text = DicomViewerDemo.Localization.Strings.DICOMVIEWERDEMO_UNKNOWN_ALT2;
                     if (referencedImage.SopInstance != null)
                         sopInstanceLabel.Text = referencedImage.SopInstance.Value;
 

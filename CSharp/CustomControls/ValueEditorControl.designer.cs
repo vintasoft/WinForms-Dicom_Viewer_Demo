@@ -28,6 +28,7 @@ namespace DemosCommonCode.CustomControls
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ValueEditorControl));
             this.valueGroupBox = new System.Windows.Forms.GroupBox();
             this.maxValueLabel = new System.Windows.Forms.Label();
             this.minValueLabel = new System.Windows.Forms.Label();
@@ -95,7 +96,7 @@ namespace DemosCommonCode.CustomControls
             this.resetButton.Name = "resetButton";
             this.resetButton.Size = new System.Drawing.Size(75, 22);
             this.resetButton.TabIndex = 54;
-            this.resetButton.Text = "Reset";
+            resources.ApplyResources(this.resetButton, "resetButton");
             this.resetButton.UseVisualStyleBackColor = true;
             this.resetButton.Click += new System.EventHandler(this.resetButton_Click);
             // 

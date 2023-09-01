@@ -28,6 +28,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GifEncoderSettingsForm));
             this.addImagesToExistingFileCheckBox = new System.Windows.Forms.CheckBox();
             this.buttonCancel = new System.Windows.Forms.Button();
             this.buttonOk = new System.Windows.Forms.Button();
@@ -72,7 +73,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.addImagesToExistingFileCheckBox.Name = "addImagesToExistingFileCheckBox";
             this.addImagesToExistingFileCheckBox.Size = new System.Drawing.Size(145, 19);
             this.addImagesToExistingFileCheckBox.TabIndex = 10;
-            this.addImagesToExistingFileCheckBox.Text = "Append to existing file";
+            resources.ApplyResources(this.addImagesToExistingFileCheckBox, "addImagesToExistingFileCheckBox");
             this.addImagesToExistingFileCheckBox.UseVisualStyleBackColor = true;
             // 
             // buttonCancel
@@ -82,7 +83,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.buttonCancel.Name = "buttonCancel";
             this.buttonCancel.Size = new System.Drawing.Size(75, 23);
             this.buttonCancel.TabIndex = 13;
-            this.buttonCancel.Text = "Cancel";
+            resources.ApplyResources(this.buttonCancel, "buttonCancel");
             this.buttonCancel.UseVisualStyleBackColor = true;
             this.buttonCancel.Click += new System.EventHandler(this.buttonCancel_Click);
             // 
@@ -112,7 +113,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.groupBox1.Size = new System.Drawing.Size(88, 79);
             this.groupBox1.TabIndex = 14;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Images align";
+            resources.ApplyResources(this.groupBox1, "groupBox1");
             // 
             // rightPositionRadioButton
             // 
@@ -215,7 +216,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.groupBox2.Size = new System.Drawing.Size(253, 46);
             this.groupBox2.TabIndex = 16;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Create page method";
+            resources.ApplyResources(this.groupBox2, "groupBox2");
             // 
             // groupBox3
             // 
@@ -230,7 +231,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.groupBox3.Size = new System.Drawing.Size(253, 71);
             this.groupBox3.TabIndex = 17;
             this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Animation";
+            resources.ApplyResources(this.groupBox3, "groupBox3");
             // 
             // label4
             // 
@@ -239,7 +240,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(56, 15);
             this.label4.TabIndex = 5;
-            this.label4.Text = "1/100 sec";
+            resources.ApplyResources(this.label4, "label4");
             // 
             // label3
             // 
@@ -248,7 +249,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(36, 15);
             this.label3.TabIndex = 4;
-            this.label3.Text = "Delay";
+            resources.ApplyResources(this.label3, "label3");
             // 
             // animationDelayNumericUpDown
             // 
@@ -264,7 +265,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(41, 15);
             this.label2.TabIndex = 2;
-            this.label2.Text = "Cycles";
+            resources.ApplyResources(this.label2, "label2");
             // 
             // animationCyclesNumericUpDown
             // 
@@ -280,7 +281,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.infiniteAnimationCheckBox.Name = "infiniteAnimationCheckBox";
             this.infiniteAnimationCheckBox.Size = new System.Drawing.Size(63, 19);
             this.infiniteAnimationCheckBox.TabIndex = 0;
-            this.infiniteAnimationCheckBox.Text = "Infinite";
+            resources.ApplyResources(this.infiniteAnimationCheckBox, "infiniteAnimationCheckBox");
             this.infiniteAnimationCheckBox.UseVisualStyleBackColor = true;
             this.infiniteAnimationCheckBox.CheckedChanged += new System.EventHandler(this.infiniteAnimationCheckBox_CheckedChanged);
             // 
@@ -295,7 +296,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.groupBox4.Size = new System.Drawing.Size(159, 79);
             this.groupBox4.TabIndex = 18;
             this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "Logical screen size (px)";
+            resources.ApplyResources(this.groupBox4, "groupBox4");
             // 
             // label1
             // 
@@ -337,7 +338,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.autoSizeCheckBox.Name = "autoSizeCheckBox";
             this.autoSizeCheckBox.Size = new System.Drawing.Size(141, 19);
             this.autoSizeCheckBox.TabIndex = 0;
-            this.autoSizeCheckBox.Text = "Auto (max of images)";
+            resources.ApplyResources(this.autoSizeCheckBox, "autoSizeCheckBox");
             this.autoSizeCheckBox.UseVisualStyleBackColor = true;
             this.autoSizeCheckBox.CheckedChanged += new System.EventHandler(this.autoSizeCheckBox_CheckedChanged);
             // 
@@ -360,7 +361,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.Name = "GifEncoderSettingsForm";
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "GIF Encoder Settings";
+            resources.ApplyResources(this, "$this");
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);

@@ -25,8 +25,8 @@ namespace DemosCommonCode.CustomControls
             InitializeComponent();
 
             CanSetColor = true;
-            toolTip1.SetToolTip(colorButton, "Click the button if the current color must be changed.");
-            toolTip1.SetToolTip(defaultColorButton, "Click the button if the current color must be set to the default color.");
+            toolTip1.SetToolTip(colorButton, DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_CUSTOMCONTROLS_CLICK_THE_BUTTON_IF_THE_CURRENT_COLOR_MUST_BE_CHANGED);
+            toolTip1.SetToolTip(defaultColorButton, DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_CUSTOMCONTROLS_CLICK_THE_BUTTON_IF_THE_CURRENT_COLOR_MUST_BE_SET_TO_THE_DEFAULT_COLOR);
         }
 
         #endregion
@@ -100,7 +100,7 @@ namespace DemosCommonCode.CustomControls
                 string toolTip = string.Empty;
                 if (value)
                 {
-                    toolTip = "Double click on the panel if the current color must be changed.";
+                    toolTip = DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_CUSTOMCONTROLS_DOUBLE_CLICK_ON_THE_PANEL_IF_THE_CURRENT_COLOR_MUST_BE_CHANGED;
                     cursor = Cursors.Hand;
                 }
 

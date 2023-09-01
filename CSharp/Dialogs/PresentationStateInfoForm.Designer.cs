@@ -28,6 +28,7 @@ namespace DicomViewerDemo
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PresentationStateInfoForm));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.presentationCreationDateTextBox = new System.Windows.Forms.TextBox();
@@ -52,7 +53,7 @@ namespace DicomViewerDemo
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(134, 13);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Presentation Creation Date";
+            resources.ApplyResources(this.label1, "label1");
             // 
             // label2
             // 
@@ -61,7 +62,7 @@ namespace DicomViewerDemo
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(134, 13);
             this.label2.TabIndex = 2;
-            this.label2.Text = "Presentation Creation Time";
+            resources.ApplyResources(this.label2, "label2");
             // 
             // presentationCreationDateTextBox
             // 
@@ -90,7 +91,7 @@ namespace DicomViewerDemo
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(88, 13);
             this.label3.TabIndex = 5;
-            this.label3.Text = "Instance Number";
+            resources.ApplyResources(this.label3, "label3");
             // 
             // presentationCreatorTextBox
             // 
@@ -109,7 +110,7 @@ namespace DicomViewerDemo
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(103, 13);
             this.label4.TabIndex = 7;
-            this.label4.Text = "Presentation Creator";
+            resources.ApplyResources(this.label4, "label4");
             // 
             // presentationDescriptionTextBox
             // 
@@ -128,7 +129,7 @@ namespace DicomViewerDemo
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(122, 13);
             this.label5.TabIndex = 9;
-            this.label5.Text = "Presentation Description";
+            resources.ApplyResources(this.label5, "label5");
             // 
             // presentationLabelTextBox
             // 
@@ -147,7 +148,7 @@ namespace DicomViewerDemo
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(95, 13);
             this.label6.TabIndex = 11;
-            this.label6.Text = "Presentation Label";
+            resources.ApplyResources(this.label6, "label6");
             // 
             // okButton
             // 
@@ -169,7 +170,7 @@ namespace DicomViewerDemo
             this.buttonCancel.Name = "buttonCancel";
             this.buttonCancel.Size = new System.Drawing.Size(75, 23);
             this.buttonCancel.TabIndex = 14;
-            this.buttonCancel.Text = "Cancel";
+            resources.ApplyResources(this.buttonCancel, "buttonCancel");
             this.buttonCancel.UseVisualStyleBackColor = true;
             // 
             // instanceNumberNumericUpDown
@@ -206,7 +207,7 @@ namespace DicomViewerDemo
             this.MinimumSize = new System.Drawing.Size(430, 229);
             this.Name = "PresentationStateInfoForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Information about presentation state file";
+            resources.ApplyResources(this, "$this");
             ((System.ComponentModel.ISupportInitialize)(this.instanceNumberNumericUpDown)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

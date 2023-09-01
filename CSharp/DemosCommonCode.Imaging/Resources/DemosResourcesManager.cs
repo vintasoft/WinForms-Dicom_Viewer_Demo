@@ -77,7 +77,7 @@ namespace DemosCommonCode
 
             // if resource is not found
             if (stream == null)
-                throw new FileNotFoundException(string.Format("Resource '{0}' was not found.", filename));
+                throw new FileNotFoundException(string.Format(DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_RESOURCE_ARG0_WAS_NOT_FOUND, filename));
 
             return stream;
         }

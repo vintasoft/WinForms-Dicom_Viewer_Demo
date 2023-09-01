@@ -57,4 +57,49 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Magnifier Tool Settings</value>
+  </data>
+  <data name="showVisualToolsCheckBox.Text" xml:space="preserve">
+    <value>Show Visual Tools</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Height</value>
+  </data>
+  <data name="buttonCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="invertCheckBox.Text" xml:space="preserve">
+    <value>Invert</value>
+  </data>
+  <data name="posterizeCheckBox.Text" xml:space="preserve">
+    <value>Posterize</value>
+  </data>
+  <data name="oilPaintingCheckBox.Text" xml:space="preserve">
+    <value>Oil Painting</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>Processing </value>
+  </data>
+  <data name="ellipticalOutlineCheckBox.Text" xml:space="preserve">
+    <value>Elliptical Outline</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Width</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Border</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Zoom</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Width</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </metadata>
 </root>

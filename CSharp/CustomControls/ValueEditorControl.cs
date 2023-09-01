@@ -29,7 +29,7 @@ namespace DemosCommonCode.CustomControls
 
         #region Properties
 
-        string _valueName = "Value Name";
+        string _valueName = DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_CUSTOMCONTROLS_VALUE_NAME;
         /// <summary>
         /// Gets or sets name of the value.
         /// </summary>

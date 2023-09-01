@@ -127,7 +127,7 @@ namespace DemosCommonCode.Imaging
             ShowMetadataNodeProperties(metadataNode);
 
             string selectedNodeDescription = string.Empty;
-            string addButtonText = "Add DICOM Data Element...";
+            string addButtonText = DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_ADD_DICOM_DATA_ELEMENT;
 
             // if metadata node is selected
             if (metadataNode != null)
@@ -138,7 +138,7 @@ namespace DemosCommonCode.Imaging
 #if !REMOVE_DICOM_PLUGIN
                 if (metadataNode is DicomDataElementMetadata &&
                            ((DicomDataElementMetadata)metadataNode).ValueRepresentation == DicomValueRepresentation.SQ)
-                    addButtonText = "Add DICOM Sequence Item";
+                    addButtonText = DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_ADD_DICOM_SEQUENCE_ITEM;
 #endif
             }
 

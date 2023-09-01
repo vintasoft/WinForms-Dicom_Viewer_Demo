@@ -123,4 +123,97 @@
   <metadata name="captionFontDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>251, 17</value>
   </metadata>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Thumbnail Viewer Settings</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Thumbnails Anchor</value>
+  </data>
+  <data name="thumbnailControlPaddingGroupBox.Text" xml:space="preserve">
+    <value>Control Padding</value>
+  </data>
+  <data name="thumbnailControlAnchorLabel.Text" xml:space="preserve">
+    <value>Control Anchor</value>
+  </data>
+  <data name="showThumbnailCheckBoxCheckBox.Text" xml:space="preserve">
+    <value>Show Thumbnail CheckBox</value>
+  </data>
+  <data name="thumbnailControlGroupBox.Text" xml:space="preserve">
+    <value>Thumbnail Control</value>
+  </data>
+  <data name="captionIsVisibleCheckBox.Text" xml:space="preserve">
+    <value>Thumbnail Caption</value>
+  </data>
+  <data name="captionPaddingGroupBox.Text" xml:space="preserve">
+    <value>Padding</value>
+  </data>
+  <data name="captionFormatLabel.Text" xml:space="preserve">
+    <value>Caption Format</value>
+  </data>
+  <data name="captionAnchorLable.Text" xml:space="preserve">
+    <value>Caption Anchor</value>
+  </data>
+  <data name="captionTextColorLabel.Text" xml:space="preserve">
+    <value>Caption Text Color</value>
+  </data>
+  <data name="captionFontSelectButton.Text" xml:space="preserve">
+    <value>Select Font...</value>
+  </data>
+  <data name="captionFontlabel.Text" xml:space="preserve">
+    <value>Caption Font</value>
+  </data>
+  <data name="imagePaddingGroupBox.Text" xml:space="preserve">
+    <value>Image Padding</value>
+  </data>
+  <data name="thumbnailsGroupBox.Text" xml:space="preserve">
+    <value>Thumbnails</value>
+  </data>
+  <data name="thumbnailViewerBackColorLabel.Text" xml:space="preserve">
+    <value>Back Color</value>
+  </data>
+  <data name="thumbnailRenderThreadCountLabel.Text" xml:space="preserve">
+    <value>Thumbnail Rendering Thread Count</value>
+  </data>
+  <data name="thumbnailViewerGroupBox.Text" xml:space="preserve">
+    <value>Thumbnail Viewer</value>
+  </data>
+  <data name="backColorLabel.Text" xml:space="preserve">
+    <value>BackColor</value>
+  </data>
+  <data name="borderColorLabel.Text" xml:space="preserve">
+    <value>Border Color</value>
+  </data>
+  <data name="borderWidthLabel.Text" xml:space="preserve">
+    <value>Border Width</value>
+  </data>
+  <data name="borderStyleLabel.Text" xml:space="preserve">
+    <value>Border Style</value>
+  </data>
+  <data name="editThumbnailAppearanceButton.Text" xml:space="preserve">
+    <value>Edit...</value>
+  </data>
+  <data name="thumbnailAppearanceGroupBox.Text" xml:space="preserve">
+    <value>Thumbnail Appearance</value>
+  </data>
+  <data name="scaleLabel.Text" xml:space="preserve">
+    <value>Scale</value>
+  </data>
+  <data name="columnsCountLabel.Text" xml:space="preserve">
+    <value>Columns Count</value>
+  </data>
+  <data name="flowStyleLabel.Text" xml:space="preserve">
+    <value>Flow Style</value>
+  </data>
+  <data name="generateOnlyVisibleThumbnailsCheckBox.Text" xml:space="preserve">
+    <value>Generate only visible thumbnails</value>
+  </data>
+  <data name="sizeLabel.Text" xml:space="preserve">
+    <value>Size</value>
+  </data>
+  <data name="buttonCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </metadata>
 </root>

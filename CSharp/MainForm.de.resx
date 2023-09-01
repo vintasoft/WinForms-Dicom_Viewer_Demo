@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="voiLutsToolStripSplitButton.Text" xml:space="preserve">
+    <value>Wert der interessierenden Nachschlagetabellen</value>
+  </data>
+  <data name="toolStripLabel1.Text" xml:space="preserve">
+    <value>Anmerkungsinteraktionsmodus</value>
+  </data>
+  <data name="actionLabel.Text" xml:space="preserve">
+    <value>Aktionsbezeichnung</value>
+  </data>
+  <data name="aboutToolStripMenuItem.Text" xml:space="preserve">
+    <value>Über das Programm...</value>
+  </data>
+  <data name="helpToolStripMenuItem.Text" xml:space="preserve">
+    <value>Hilfe</value>
+  </data>
+  <data name="crosshairToolStripMenuItem.Text" xml:space="preserve">
+    <value>Fadenkreuz</value>
+  </data>
+  <data name="rulerToolStripMenuItem.Text" xml:space="preserve">
+    <value>Herrscher</value>
+  </data>
+  <data name="axisToolStripMenuItem.Text" xml:space="preserve">
+    <value>Achse</value>
+  </data>
+  <data name="multilineToolStripMenuItem.Text" xml:space="preserve">
+    <value>Mehrzeilig</value>
+  </data>
+  <data name="addToolStripMenuItem.Text" xml:space="preserve">
+    <value>Hinzufügen</value>
+  </data>
+  <data name="xmpFormatSaveToToolStripMenuItem.Text" xml:space="preserve">
+    <value>Speichern unter...</value>
+  </data>
+  <data name="xmpFormatLoadToolStripMenuItem.Text" xml:space="preserve">
+    <value>Laden...</value>
+  </data>
+  <data name="xmpFormatToolStripMenuItem.Text" xml:space="preserve">
+    <value>XMP-Format</value>
+  </data>
+  <data name="binaryFormatSaveToToolStripMenuItem.Text" xml:space="preserve">
+    <value>Speichern unter...</value>
+  </data>
+  <data name="binaryFormatLoadToolStripMenuItem.Text" xml:space="preserve">
+    <value>Laden...</value>
+  </data>
+  <data name="binaryFormatToolStripMenuItem.Text" xml:space="preserve">
+    <value>Binärformat</value>
+  </data>
+  <data name="presentationStateLoadAutomaticallyToolStripMenuItem.Text" xml:space="preserve">
+    <value>Automatisch laden</value>
+  </data>
+  <data name="presentationStateSaveToToolStripMenuItem.Text" xml:space="preserve">
+    <value>Speichern unter...</value>
+  </data>
+  <data name="presentationStateSaveToolStripMenuItem.Text" xml:space="preserve">
+    <value>Speichern</value>
+  </data>
+  <data name="presentationStateInfoToolStripMenuItem.Text" xml:space="preserve">
+    <value>Info...</value>
+  </data>
+  <data name="presentationStateLoadToolStripMenuItem.Text" xml:space="preserve">
+    <value>Laden...</value>
+  </data>
+  <data name="presentationStateToolStripMenuItem.Text" xml:space="preserve">
+    <value>Präsentationsstatus</value>
+  </data>
+  <data name="interactionMode_authorToolStripMenuItem.Text" xml:space="preserve">
+    <value>Autor</value>
+  </data>
+  <data name="interactionMode_viewToolStripMenuItem.Text" xml:space="preserve">
+    <value>Anzeigen</value>
+  </data>
+  <data name="interactionModeToolStripMenuItem.Text" xml:space="preserve">
+    <value>Interaktionsmodus</value>
+  </data>
+  <data name="infoToolStripMenuItem.Text" xml:space="preserve">
+    <value>Info...</value>
+  </data>
+  <data name="annotationsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Anmerkungen</value>
+  </data>
+  <data name="saveAsGifFileToolStripMenuItem.Text" xml:space="preserve">
+    <value>Als GIF-Datei speichern...</value>
+  </data>
+  <data name="animationRepeatToolStripMenuItem.Text" xml:space="preserve">
+    <value>Animation wiederholen</value>
+  </data>
+  <data name="animationDelayToolStripMenuItem.Text" xml:space="preserve">
+    <value>Animationsverzögerung</value>
+  </data>
+  <data name="showAnimationToolStripMenuItem.Text" xml:space="preserve">
+    <value>Animation anzeigen</value>
+  </data>
+  <data name="toolsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Animation</value>
+  </data>
+  <data name="overlayImagesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Bilder überlagern...</value>
+  </data>
+  <data name="pageToolStripMenuItem.Text" xml:space="preserve">
+    <value>Seite</value>
+  </data>
+  <data name="fileMetadataToolStripMenuItem.Text" xml:space="preserve">
+    <value>Dateimetadaten...</value>
+  </data>
+  <data name="metadataToolStripMenuItem.Text" xml:space="preserve">
+    <value>Metadaten</value>
+  </data>
+  <data name="magnifierSettingsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Lupeneinstellungen...</value>
+  </data>
+  <data name="widthVerticalCenterHorizontalToolStripMenuItem.Text" xml:space="preserve">
+    <value>Breite vertikal, Mitte horizontal</value>
+  </data>
+  <data name="widthHorizontalCenterVerticalToolStripMenuItem.Text" xml:space="preserve">
+    <value>Breite horizontal, Mitte vertikal</value>
+  </data>
+  <data name="rulersUnitOfMeasureToolStripMenuItem.Text" xml:space="preserve">
+    <value>Maßeinheit des Lineals</value>
+  </data>
+  <data name="rulersColorToolStripMenuItem.Text" xml:space="preserve">
+    <value>Farbe der Lineale...</value>
+  </data>
+  <data name="showRulersInViewerToolStripMenuItem.Text" xml:space="preserve">
+    <value>Lineale im Viewer anzeigen</value>
+  </data>
+  <data name="textOverlaySettingsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Textüberlagerungseinstellungen...</value>
+  </data>
+  <data name="showMetadataInViewerToolStripMenuItem.Text" xml:space="preserve">
+    <value>Metadaten im Viewer anzeigen</value>
+  </data>
+  <data name="overlayColorToolStripMenuItem.Text" xml:space="preserve">
+    <value>Overlay-Farbe...</value>
+  </data>
+  <data name="showOverlayImagesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Overlay-Bilder anzeigen</value>
+  </data>
+  <data name="counterclockwiseToolStripMenuItem.Text" xml:space="preserve">
+    <value>Gegen den Uhrzeigersinn</value>
+  </data>
+  <data name="clockwiseToolStripMenuItem.Text" xml:space="preserve">
+    <value>Im Uhrzeigersinn</value>
+  </data>
+  <data name="rotateViewToolStripMenuItem.Text" xml:space="preserve">
+    <value>Ansicht drehen</value>
+  </data>
+  <data name="imageViewerSettingsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Bildbetrachter-Einstellungen...</value>
+  </data>
+  <data name="thumbnailViewerSettingsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Einstellungen für die Miniaturansichtsansicht...</value>
+  </data>
+  <data name="viewToolStripMenuItem.Text" xml:space="preserve">
+    <value>Anzeigen</value>
+  </data>
+  <data name="deleteAllToolStripMenuItem.Text" xml:space="preserve">
+    <value>Alle löschen</value>
+  </data>
+  <data name="deleteToolStripMenuItem.Text" xml:space="preserve">
+    <value>Löschen</value>
+  </data>
+  <data name="pasteToolStripMenuItem.Text" xml:space="preserve">
+    <value>Einfügen</value>
+  </data>
+  <data name="copyToolStripMenuItem.Text" xml:space="preserve">
+    <value>Kopieren</value>
+  </data>
+  <data name="cutToolStripMenuItem.Text" xml:space="preserve">
+    <value>Ausschneiden</value>
+  </data>
+  <data name="editToolStripMenuItem.Text" xml:space="preserve">
+    <value>Bearbeiten</value>
+  </data>
+  <data name="exitToolStripMenuItem.Text" xml:space="preserve">
+    <value>Beenden</value>
+  </data>
+  <data name="closeDicomFileToolStripMenuItem.Text" xml:space="preserve">
+    <value>DICOM-Datei schließen</value>
+  </data>
+  <data name="saveDicomFileToImageFileToolStripMenuItem.Text" xml:space="preserve">
+    <value>DICOM-Datei in Bilddatei speichern...</value>
+  </data>
+  <data name="openDicomFilesToolStripMenuItem.Text" xml:space="preserve">
+    <value>DICOM-Datei öffnen...</value>
+  </data>
+  <data name="fileToolStripMenuItem.Text" xml:space="preserve">
+    <value>Datei</value>
+  </data>
+</root>
