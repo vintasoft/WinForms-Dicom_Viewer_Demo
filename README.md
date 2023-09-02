@@ -7,6 +7,7 @@ This C# project uses <a href="https://www.vintasoft.com/vsimaging-dotnet-index.h
 * Animate DICOM images.
 * View metadata of DICOM file.
 * Annotate DICOM images.
+* Application contains German localization as an example how to translate application UI to any language.
 
 
 ## Screenshot
