@@ -60,6 +60,9 @@
   <data name="$this.Text" xml:space="preserve">
     <value>VOI LUT parameters</value>
   </data>
+  <data name="textBox1.Text" xml:space="preserve">
+    <value>Press left mouse button on image for changing VOI LUT.</value>
+  </data>
   <data name="label3.Text" xml:space="preserve">
     <value>Window Width</value>
   </data>

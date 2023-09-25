@@ -122,7 +122,7 @@ namespace DicomViewerDemo
             this.textBox1.Size = new System.Drawing.Size(340, 43);
             this.textBox1.TabIndex = 6;
             this.textBox1.TabStop = false;
-            this.textBox1.Text = "Press left mouse button on image for changing VOI LUT.";
+            resources.ApplyResources(this.textBox1, "textBox1");
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // voiLutPanel
