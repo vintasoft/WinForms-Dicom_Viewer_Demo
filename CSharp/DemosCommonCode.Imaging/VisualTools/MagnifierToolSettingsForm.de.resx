@@ -129,14 +129,14 @@
   <data name="buttonCancel.Text" xml:space="preserve">
     <value>Abbrechen</value>
   </data>
-  <data name="invertCheckBox.Text" xml:space="preserve">
-    <value>Invertieren</value>
+  <data name="oilPaintingCheckBox.Text" xml:space="preserve">
+    <value>Ölgemälde</value>
   </data>
   <data name="posterizeCheckBox.Text" xml:space="preserve">
     <value>Posterisieren</value>
   </data>
-  <data name="oilPaintingCheckBox.Text" xml:space="preserve">
-    <value>Ölgemälde</value>
+  <data name="invertCheckBox.Text" xml:space="preserve">
+    <value>Invertieren</value>
   </data>
   <data name="groupBox2.Text" xml:space="preserve">
     <value>Verarbeitung</value>

@@ -1341,6 +1341,16 @@ namespace DicomViewerDemo.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to DemosCommonCode.Imaging.VisualToolsToolStrip.VisualTools.ZoomVisualTools.Resources.PanTool.png.
+        /// </summary>
+        internal static string DICOMVIEWERDEMO_DEMOSCOMMONCODEIMAGINGVISUALTOOLSTOOLSTRIPVISUALTOOLSZOOMVISUALTOOLSRESOURCESPANTOOLPNG {
+            get {
+                return ResourceManager.GetString("DICOMVIEWERDEMO_DEMOSCOMMONCODEIMAGINGVISUALTOOLSTOOLSTRIPVISUALTOOLSZOOMVISUALTO" +
+                        "OLSRESOURCESPANTOOLPNG", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to DICOM annotations cannot be converted into Vintasoft annotations but annotations can be burned on image.
         ///.
         /// </summary>
@@ -1458,6 +1468,24 @@ namespace DicomViewerDemo.Localization {
         internal static string DICOMVIEWERDEMO_PAGE {
             get {
                 return ResourceManager.GetString("DICOMVIEWERDEMO_PAGE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Pan.
+        /// </summary>
+        internal static string DICOMVIEWERDEMO_PAN {
+            get {
+                return ResourceManager.GetString("DICOMVIEWERDEMO_PAN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Pan Tool.
+        /// </summary>
+        internal static string DICOMVIEWERDEMO_PAN_TOOL {
+            get {
+                return ResourceManager.GetString("DICOMVIEWERDEMO_PAN_TOOL", resourceCulture);
             }
         }
         

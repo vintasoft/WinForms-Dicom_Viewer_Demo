@@ -112,6 +112,11 @@ namespace DicomViewerDemo
         /// </summary>
         bool _isVisualToolChanging = false;
 
+        /// <summary>
+        /// Current application window state.
+        /// </summary>
+        FormWindowState _windowState;
+
 
         #region DICOM file
 
@@ -260,6 +265,14 @@ namespace DicomViewerDemo
                 DicomViewerDemo.Localization.Strings.DICOMVIEWERDEMO_MAGNIFIER,
                 DemosResourcesManager.GetResourceAsBitmap("DemosCommonCode.Imaging.VisualToolsToolStrip.VisualTools.ZoomVisualTools.Resources.MagnifierTool.png"));
 
+            // create action, which allows to pan an image in image viewer
+            VisualToolAction panToolAction = new VisualToolAction(
+                new PanTool(),
+                DicomViewerDemo.Localization.Strings.DICOMVIEWERDEMO_PAN_TOOL,
+                DicomViewerDemo.Localization.Strings.DICOMVIEWERDEMO_PAN,
+                DemosResourcesManager.GetResourceAsBitmap(DicomViewerDemo.Localization.Strings.DICOMVIEWERDEMO_DEMOSCOMMONCODEIMAGINGVISUALTOOLSTOOLSTRIPVISUALTOOLSZOOMVISUALTOOLSRESOURCESPANTOOLPNG));
+
+
             _dicomViewerTool = new DicomAnnotatedViewerTool(
                 new DicomViewerTool(),
                 new DicomAnnotationTool(),
@@ -268,9 +281,11 @@ namespace DicomViewerDemo
             // add visual tools to tool strip
             dicomAnnotatedViewerToolStrip1.DicomAnnotatedViewerTool = _dicomViewerTool;
             dicomAnnotatedViewerToolStrip1.AddVisualToolAction(magnifierToolAction);
+            dicomAnnotatedViewerToolStrip1.AddVisualToolAction(panToolAction);
             dicomAnnotatedViewerToolStrip1.MainVisualTool.ActiveTool = _dicomViewerTool;
 
             magnifierToolAction.Activated += new EventHandler(magnifierToolAction_Activated);
+            panToolAction.Activated += PanToolAction_Activated;
 
             _dicomViewerTool.DicomViewerTool.TextOverlay.Add(
                 new CompressionInfoTextOverlay(AnchorType.Top | AnchorType.Left));
@@ -697,6 +712,54 @@ namespace DicomViewerDemo
         private void counterclockwiseToolStripMenuItem_Click(object sender, EventArgs e)
         {
             RotateViewCounterClockwise();
+        }
+
+        /// <summary>
+        /// Handles the CheckedChanged event of FullScreenToolStripMenuItem object.
+        /// </summary>
+        private void fullScreenToolStripMenuItem_CheckedChanged(object sender, EventArgs e)
+        {
+            if (fullScreenToolStripMenuItem.Checked)
+            {
+                // enable full screen mode
+                splitContainer1.Panel2Collapsed = true;
+                toolStripPanel1.Visible = false;
+                menuStrip1.Visible = false;
+                thumbnailViewer1.BackColor = Color.Black;
+                statusStrip1.Visible = false;
+
+                TopMost = true;
+                _windowState = WindowState;
+                FormBorderStyle = FormBorderStyle.None;
+                if (WindowState == FormWindowState.Maximized)
+                    WindowState = FormWindowState.Normal;
+
+                WindowState = FormWindowState.Maximized;
+            }
+            else
+            {
+                // disable full screen mode
+                splitContainer1.Panel2Collapsed = false;
+                toolStripPanel1.Visible = true;
+                menuStrip1.Visible = true;
+                thumbnailViewer1.BackColor = SystemColors.Control;
+                statusStrip1.Visible = true;
+
+                TopMost = false;
+                FormBorderStyle = FormBorderStyle.Sizable;
+                WindowState = FormWindowState.Normal;
+                if (WindowState != _windowState)
+                    WindowState = _windowState;
+            }
+        }
+
+        /// <summary>
+        /// Handles the CheckedChanged event of ShowScrollbarsToolStripMenuItem object.
+        /// </summary>
+        private void showScrollbarsToolStripMenuItem_CheckedChanged(object sender, EventArgs e)
+        {
+            // show/hide scrollbars in image viewer
+            imageViewer1.AutoScroll = showScrollbarsToolStripMenuItem.Checked;
         }
 
         #endregion
@@ -1523,6 +1586,18 @@ namespace DicomViewerDemo
             _isVisualToolChanging = true;
             dicomAnnotatedViewerToolStrip1.MainVisualTool.ActiveTool =
                 dicomAnnotatedViewerToolStrip1.MainVisualTool.FindVisualTool<MagnifierTool>();
+            _dicomViewerTool.DicomAnnotationTool.AnnotationInteractionMode = AnnotationInteractionMode.None;
+            _isVisualToolChanging = false;
+        }
+
+        /// <summary>
+        /// Handles the Activated event of PanToolAction object.
+        /// </summary>
+        private void PanToolAction_Activated(object sender, EventArgs e)
+        {
+            _isVisualToolChanging = true;
+            dicomAnnotatedViewerToolStrip1.MainVisualTool.ActiveTool =
+                dicomAnnotatedViewerToolStrip1.MainVisualTool.FindVisualTool<PanTool>();
             _dicomViewerTool.DicomAnnotationTool.AnnotationInteractionMode = AnnotationInteractionMode.None;
             _isVisualToolChanging = false;
         }

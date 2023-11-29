@@ -112,10 +112,10 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="$this.Text" xml:space="preserve">
     <value>TIFF Encoder Settings</value>
@@ -162,17 +162,17 @@
   <data name="lzwCompressionAdvancedSettingsGroupBox.Text" xml:space="preserve">
     <value>LZW Advanced Settings</value>
   </data>
+  <data name="useTilesRadioButton.Text" xml:space="preserve">
+    <value>Use tiles</value>
+  </data>
+  <data name="useStripsRadioButton.Text" xml:space="preserve">
+    <value>Use strips</value>
+  </data>
   <data name="rowsPerStripLabel.Text" xml:space="preserve">
     <value>Rows per strip</value>
   </data>
   <data name="tileWidthLabel.Text" xml:space="preserve">
     <value>Tile width</value>
-  </data>
-  <data name="useStripsRadioButton.Text" xml:space="preserve">
-    <value>Use strips</value>
-  </data>
-  <data name="useTilesRadioButton.Text" xml:space="preserve">
-    <value>Use tiles</value>
   </data>
   <data name="tileHeightLabel.Text" xml:space="preserve">
     <value>Tile height</value>

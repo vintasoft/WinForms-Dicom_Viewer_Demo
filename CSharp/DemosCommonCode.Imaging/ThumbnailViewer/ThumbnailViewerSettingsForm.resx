@@ -126,17 +126,14 @@
   <data name="$this.Text" xml:space="preserve">
     <value>Thumbnail Viewer Settings</value>
   </data>
-  <data name="groupBox1.Text" xml:space="preserve">
-    <value>Thumbnails Anchor</value>
-  </data>
   <data name="thumbnailControlPaddingGroupBox.Text" xml:space="preserve">
     <value>Control Padding</value>
   </data>
-  <data name="thumbnailControlAnchorLabel.Text" xml:space="preserve">
-    <value>Control Anchor</value>
-  </data>
   <data name="showThumbnailCheckBoxCheckBox.Text" xml:space="preserve">
     <value>Show Thumbnail CheckBox</value>
+  </data>
+  <data name="thumbnailControlAnchorLabel.Text" xml:space="preserve">
+    <value>Control Anchor</value>
   </data>
   <data name="thumbnailControlGroupBox.Text" xml:space="preserve">
     <value>Thumbnail Control</value>
@@ -147,38 +144,44 @@
   <data name="captionPaddingGroupBox.Text" xml:space="preserve">
     <value>Padding</value>
   </data>
-  <data name="captionFormatLabel.Text" xml:space="preserve">
-    <value>Caption Format</value>
-  </data>
-  <data name="captionAnchorLable.Text" xml:space="preserve">
-    <value>Caption Anchor</value>
-  </data>
-  <data name="captionTextColorLabel.Text" xml:space="preserve">
-    <value>Caption Text Color</value>
+  <data name="captionFontlabel.Text" xml:space="preserve">
+    <value>Caption Font</value>
   </data>
   <data name="captionFontSelectButton.Text" xml:space="preserve">
     <value>Select Font...</value>
   </data>
-  <data name="captionFontlabel.Text" xml:space="preserve">
-    <value>Caption Font</value>
+  <data name="captionTextColorLabel.Text" xml:space="preserve">
+    <value>Caption Text Color</value>
+  </data>
+  <data name="captionAnchorLable.Text" xml:space="preserve">
+    <value>Caption Anchor</value>
+  </data>
+  <data name="captionFormatLabel.Text" xml:space="preserve">
+    <value>Caption Format</value>
   </data>
   <data name="imagePaddingGroupBox.Text" xml:space="preserve">
     <value>Image Padding</value>
   </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Thumbnails Anchor</value>
+  </data>
   <data name="thumbnailsGroupBox.Text" xml:space="preserve">
     <value>Thumbnails</value>
-  </data>
-  <data name="thumbnailViewerBackColorLabel.Text" xml:space="preserve">
-    <value>Back Color</value>
   </data>
   <data name="thumbnailRenderThreadCountLabel.Text" xml:space="preserve">
     <value>Thumbnail Rendering Thread Count</value>
   </data>
+  <data name="thumbnailViewerBackColorLabel.Text" xml:space="preserve">
+    <value>Back Color</value>
+  </data>
   <data name="thumbnailViewerGroupBox.Text" xml:space="preserve">
     <value>Thumbnail Viewer</value>
   </data>
-  <data name="backColorLabel.Text" xml:space="preserve">
-    <value>BackColor</value>
+  <data name="borderStyleLabel.Text" xml:space="preserve">
+    <value>Border Style</value>
+  </data>
+  <data name="editThumbnailAppearanceButton.Text" xml:space="preserve">
+    <value>Edit...</value>
   </data>
   <data name="borderColorLabel.Text" xml:space="preserve">
     <value>Border Color</value>
@@ -186,11 +189,8 @@
   <data name="borderWidthLabel.Text" xml:space="preserve">
     <value>Border Width</value>
   </data>
-  <data name="borderStyleLabel.Text" xml:space="preserve">
-    <value>Border Style</value>
-  </data>
-  <data name="editThumbnailAppearanceButton.Text" xml:space="preserve">
-    <value>Edit...</value>
+  <data name="backColorLabel.Text" xml:space="preserve">
+    <value>BackColor</value>
   </data>
   <data name="thumbnailAppearanceGroupBox.Text" xml:space="preserve">
     <value>Thumbnail Appearance</value>

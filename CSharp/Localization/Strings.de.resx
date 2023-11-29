@@ -513,6 +513,15 @@
   <data name="DICOMVIEWERDEMO_MAGNIFIER" xml:space="preserve">
     <value>Lupe</value>
   </data>
+  <data name="DICOMVIEWERDEMO_PAN_TOOL" xml:space="preserve">
+    <value>Pan-Werkzeug</value>
+  </data>
+  <data name="DICOMVIEWERDEMO_PAN" xml:space="preserve">
+    <value>Schwenken</value>
+  </data>
+  <data name="DICOMVIEWERDEMO_DEMOSCOMMONCODEIMAGINGVISUALTOOLSTOOLSTRIPVISUALTOOLSZOOMVISUALTOOLSRESOURCESPANTOOLPNG" xml:space="preserve">
+    <value>DemosCommonCode.Imaging.VisualToolsToolStrip.VisualTools.ZoomVisualTools.Resources.PanTool.png</value>
+  </data>
   <data name="DICOMVIEWERDEMO_DEFAULT_VOI_LUT" xml:space="preserve">
     <value>Standard-VOI-LUT</value>
   </data>

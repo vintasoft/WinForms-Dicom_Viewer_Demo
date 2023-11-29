@@ -255,6 +255,12 @@
   <data name="showOverlayImagesToolStripMenuItem.Text" xml:space="preserve">
     <value>Overlay-Bilder anzeigen</value>
   </data>
+  <data name="showScrollbarsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Bildlaufleisten anzeigen</value>
+  </data>
+  <data name="fullScreenToolStripMenuItem.Text" xml:space="preserve">
+    <value>Vollbild</value>
+  </data>
   <data name="counterclockwiseToolStripMenuItem.Text" xml:space="preserve">
     <value>Gegen den Uhrzeigersinn</value>
   </data>

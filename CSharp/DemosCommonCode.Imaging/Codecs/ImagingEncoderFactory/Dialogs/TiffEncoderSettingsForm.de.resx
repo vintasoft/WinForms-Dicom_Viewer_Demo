@@ -162,17 +162,17 @@
   <data name="lzwCompressionAdvancedSettingsGroupBox.Text" xml:space="preserve">
     <value>Erweiterte LZW-Einstellungen</value>
   </data>
+  <data name="useTilesRadioButton.Text" xml:space="preserve">
+    <value>Kacheln verwenden</value>
+  </data>
+  <data name="useStripsRadioButton.Text" xml:space="preserve">
+    <value>Streifen verwenden</value>
+  </data>
   <data name="rowsPerStripLabel.Text" xml:space="preserve">
     <value>Zeilen pro Streifen</value>
   </data>
   <data name="tileWidthLabel.Text" xml:space="preserve">
     <value>Kachelbreite</value>
-  </data>
-  <data name="useStripsRadioButton.Text" xml:space="preserve">
-    <value>Streifen verwenden</value>
-  </data>
-  <data name="useTilesRadioButton.Text" xml:space="preserve">
-    <value>Kacheln verwenden</value>
   </data>
   <data name="tileHeightLabel.Text" xml:space="preserve">
     <value>Kachelhöhe</value>

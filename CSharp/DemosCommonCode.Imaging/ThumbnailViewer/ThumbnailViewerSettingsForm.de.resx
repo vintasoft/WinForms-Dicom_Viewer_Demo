@@ -120,17 +120,14 @@
   <data name="$this.Text" xml:space="preserve">
     <value>Einstellungen für die Miniaturansichtsansicht</value>
   </data>
-  <data name="groupBox1.Text" xml:space="preserve">
-    <value>Thumbnails-Anker</value>
-  </data>
   <data name="thumbnailControlPaddingGroupBox.Text" xml:space="preserve">
     <value>Kontrollpolsterung</value>
   </data>
-  <data name="thumbnailControlAnchorLabel.Text" xml:space="preserve">
-    <value>Anker steuern</value>
-  </data>
   <data name="showThumbnailCheckBoxCheckBox.Text" xml:space="preserve">
     <value>Kontrollkästchen Miniaturansicht anzeigen</value>
+  </data>
+  <data name="thumbnailControlAnchorLabel.Text" xml:space="preserve">
+    <value>Anker steuern</value>
   </data>
   <data name="thumbnailControlGroupBox.Text" xml:space="preserve">
     <value>Thumbnail-Steuerung</value>
@@ -141,38 +138,44 @@
   <data name="captionPaddingGroupBox.Text" xml:space="preserve">
     <value>Auffüllen</value>
   </data>
-  <data name="captionFormatLabel.Text" xml:space="preserve">
-    <value>Untertitelformat</value>
-  </data>
-  <data name="captionAnchorLable.Text" xml:space="preserve">
-    <value>Beschriftungsanker</value>
-  </data>
-  <data name="captionTextColorLabel.Text" xml:space="preserve">
-    <value>Textfarbe der Beschriftung</value>
+  <data name="captionFontlabel.Text" xml:space="preserve">
+    <value>Schriftart der Beschriftung</value>
   </data>
   <data name="captionFontSelectButton.Text" xml:space="preserve">
     <value>Schriftart auswählen...</value>
   </data>
-  <data name="captionFontlabel.Text" xml:space="preserve">
-    <value>Schriftart der Beschriftung</value>
+  <data name="captionTextColorLabel.Text" xml:space="preserve">
+    <value>Textfarbe der Beschriftung</value>
+  </data>
+  <data name="captionAnchorLable.Text" xml:space="preserve">
+    <value>Beschriftungsanker</value>
+  </data>
+  <data name="captionFormatLabel.Text" xml:space="preserve">
+    <value>Untertitelformat</value>
   </data>
   <data name="imagePaddingGroupBox.Text" xml:space="preserve">
     <value>Bildauffüllung</value>
   </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Thumbnails-Anker</value>
+  </data>
   <data name="thumbnailsGroupBox.Text" xml:space="preserve">
     <value>Miniaturansichten</value>
-  </data>
-  <data name="thumbnailViewerBackColorLabel.Text" xml:space="preserve">
-    <value>Hintergrundfarbe</value>
   </data>
   <data name="thumbnailRenderThreadCountLabel.Text" xml:space="preserve">
     <value>Thumbnail-Rendering-Thread-Anzahl</value>
   </data>
+  <data name="thumbnailViewerBackColorLabel.Text" xml:space="preserve">
+    <value>Hintergrundfarbe</value>
+  </data>
   <data name="thumbnailViewerGroupBox.Text" xml:space="preserve">
     <value>Thumbnail-Viewer</value>
   </data>
-  <data name="backColorLabel.Text" xml:space="preserve">
-    <value>BackColor</value>
+  <data name="borderStyleLabel.Text" xml:space="preserve">
+    <value>Rahmenstil</value>
+  </data>
+  <data name="editThumbnailAppearanceButton.Text" xml:space="preserve">
+    <value>Bearbeiten...</value>
   </data>
   <data name="borderColorLabel.Text" xml:space="preserve">
     <value>Rahmenfarbe</value>
@@ -180,11 +183,8 @@
   <data name="borderWidthLabel.Text" xml:space="preserve">
     <value>Rahmenbreite</value>
   </data>
-  <data name="borderStyleLabel.Text" xml:space="preserve">
-    <value>Rahmenstil</value>
-  </data>
-  <data name="editThumbnailAppearanceButton.Text" xml:space="preserve">
-    <value>Bearbeiten...</value>
+  <data name="backColorLabel.Text" xml:space="preserve">
+    <value>BackColor</value>
   </data>
   <data name="thumbnailAppearanceGroupBox.Text" xml:space="preserve">
     <value>Darstellung der Miniaturansicht</value>

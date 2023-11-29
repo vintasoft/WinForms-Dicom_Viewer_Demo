@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
-    <TargetFramework>net7.0-windows</TargetFramework>
+    <TargetFramework>net8.0-windows</TargetFramework>
     <UseWindowsForms>true</UseWindowsForms>
     <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
     <GenerateAssemblyFileVersionAttribute>false</GenerateAssemblyFileVersionAttribute>
@@ -30,12 +30,12 @@
   </PropertyGroup>
   
   <ItemGroup>
-    <PackageReference Include="System.Text.Encoding.CodePages" Version="7.0.0" />
+    <PackageReference Include="System.Text.Encoding.CodePages" Version="8.0.0" />
   </ItemGroup>
 
   <ItemGroup>
     <Reference Include="NHunspell">
-      <HintPath>.\NHunspell\DotNet7\NHunspell.dll</HintPath>
+      <HintPath>.\NHunspell\DotNet8\NHunspell.dll</HintPath>
     </Reference>
     <PackageReference Include="Vintasoft.Imaging" Version="12.3.0.1" />
     <PackageReference Include="Vintasoft.Imaging.Gdi" Version="12.3.0.1" />

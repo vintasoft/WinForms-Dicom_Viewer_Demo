@@ -126,15 +126,6 @@
   <metadata name="openDicomFileDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>253, 56</value>
   </metadata>
-  <metadata name="colorDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>836, 24</value>
-  </metadata>
-  <metadata name="openDicomAnnotationsFileDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>689, 56</value>
-  </metadata>
-  <metadata name="annotationInteractionModeToolStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>599, 23</value>
-  </metadata>
   <metadata name="imageViewerToolStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>127, 20</value>
   </metadata>
@@ -145,19 +136,28 @@
   <data name="voiLutsToolStripSplitButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHHSURBVDhPhZI/SBxBFMYnCrc7Cmnt/dOEFIEQjETRQkyp
-        zSVc0ES560yTJooSgp2lINhaCBLlvJ0lRDwIQbgihBTxT6UptNGIXM7jdPVO3fecGZ+3o3uHH3zsvOF9
-        v5mdGfb42SusZi3BkRlCZA9oeC0z8Prt6L0AWGYPwbWaqQwAf9a38MQ7xYHEp6oAcO0XvuBfzpJWjqYC
-        wNrGlu73fV/XscExbO18h+DWN6BjdaneS8EzCngprF+4yGpvAZTT33/i+MQMdvQkMHdUkDDAbcH9oohk
-        wbHiICKPzgXfhZTdiZ9ZTQig/GZoHD3vTO9GS65YtsP7wLE7bh3kXcD/XJ6SJANwIvgxxQJRm5YCAABV
-        JAOgLVc36xAgJKM5L/gpLDBuzoV+4d9BlpIko/liif+ljQcyw9H+j/pbKp1TWorC8iYOMWk1olP3lKLX
-        ugk/aYvht5WMdnRgBI/yBX0eO7P8Ql0dpux237GnvXleAJc/p3gA2Nnd0wvu7R/qur07rr/wNdICKatJ
-        9UrAlNpNdo4Xy1d5A/ix+hvXN7fxZe97XStryYBuJMm3sCifc7riSxz+MFkeK1cCKIHgraEdVHI1QCDG
-        rgBdvQVc36erhQAAAABJRU5ErkJggg==
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHISURBVDhPhZJPSFRBHMfHgn1vCrx6z7yIByFki1bWQ9Sx
+        LhqKZrF7s4uXlCSiW8cg6NohiBLbN0soCiKChwgPpp22DruXtVjW3WV1/be+36+Znz/3jb1d/MKXN7/h
+        9/3MvJkRPX1D2MokJVFYQhRtPDyVHXj4aPpCACyIdkg717kMABubGdyr7eNY8kVLAKTd276Snw7mnBJP
+        BYAfWxnq932f6uHHzzEaH0dIX+1AzxkwvSdKrhngiXK+46y4fA5gvLT8DWdevcP+u0kslasaBrilpH+o
+        IkXwnASoSPexkjlIuXF8KS6FAMYjT2awVjug3ZD0ig178gF4bv+5g/wfsFOqcJJlAfaU3OVYIG4jGQAA
+        cMWyAGS9ul2HACFZzRUl9+GzkPZc6Bf+/C1ykmU117/I37zxQHZ4cPQZfY+OjjmtxWF9EwWcc66hd+UG
+        R091Fu69NYzzi2vkwbEpLFeqdB7Z97Jurg5Tbsz33Le1j7IKaXmT4wEgm8vTgvntAtWxOwn6wtdIF6Sc
+        TtOrAW/Mboof5GHjKs8AK6vruPnzF967/5RqY5IOUCNLv4VZ/ZyXmr7EicnXjbFxM4ARKBkN7aCZWwEC
+        CfEPRmUFVJbFCjIAAAAASUVORK5CYII=
 </value>
   </data>
   <metadata name="annotationsToolStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>310, 19</value>
+  </metadata>
+  <metadata name="annotationInteractionModeToolStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>599, 23</value>
+  </metadata>
+  <metadata name="colorDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>836, 24</value>
+  </metadata>
+  <metadata name="openDicomAnnotationsFileDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>689, 56</value>
   </metadata>
   <metadata name="saveDicomAnnotationsFileDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>919, 57</value>
@@ -605,6 +605,12 @@
   </data>
   <data name="showOverlayImagesToolStripMenuItem.Text" xml:space="preserve">
     <value>Show Overlay Images</value>
+  </data>
+  <data name="showScrollbarsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Show Scrollbars</value>
+  </data>
+  <data name="fullScreenToolStripMenuItem.Text" xml:space="preserve">
+    <value>Full Screen</value>
   </data>
   <data name="counterclockwiseToolStripMenuItem.Text" xml:space="preserve">
     <value>Counterclockwise</value>

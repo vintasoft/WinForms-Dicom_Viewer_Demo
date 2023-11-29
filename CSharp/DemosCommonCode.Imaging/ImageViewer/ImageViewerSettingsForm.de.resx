@@ -123,14 +123,11 @@
   <data name="keyboardNavigationCheckBox.Text" xml:space="preserve">
     <value>Tastaturnavigation</value>
   </data>
-  <data name="label21.Text" xml:space="preserve">
-    <value>Scrollschritt der Tastaturnavigation (px)</value>
-  </data>
   <data name="label22.Text" xml:space="preserve">
     <value>Zoomschritt der Tastaturnavigation</value>
   </data>
-  <data name="label14.Text" xml:space="preserve">
-    <value>Layoutrichtung</value>
+  <data name="label21.Text" xml:space="preserve">
+    <value>Scrollschritt der Tastaturnavigation (px)</value>
   </data>
   <data name="label17.Text" xml:space="preserve">
     <value>Bilder in Zeile/Spalte</value>
@@ -138,23 +135,23 @@
   <data name="label18.Text" xml:space="preserve">
     <value>Bilder auffüllen</value>
   </data>
-  <data name="useImageAppearancesInSinglepageModeCheckBox.Text" xml:space="preserve">
-    <value>Bilddarstellungen im Einzelseitenmodus verwenden</value>
-  </data>
-  <data name="imageAppearanceButton.Text" xml:space="preserve">
-    <value>Bilddarstellung...</value>
-  </data>
-  <data name="focusedImageAppearanceButton.Text" xml:space="preserve">
-    <value>Fokussierte Bilddarstellung...</value>
+  <data name="label14.Text" xml:space="preserve">
+    <value>Layoutrichtung</value>
   </data>
   <data name="label19.Text" xml:space="preserve">
     <value>Mehrseitiger Anzeigemodus</value>
   </data>
+  <data name="useImageAppearancesInSinglepageModeCheckBox.Text" xml:space="preserve">
+    <value>Bilddarstellungen im Einzelseitenmodus verwenden</value>
+  </data>
+  <data name="focusedImageAppearanceButton.Text" xml:space="preserve">
+    <value>Fokussierte Bilddarstellung...</value>
+  </data>
+  <data name="imageAppearanceButton.Text" xml:space="preserve">
+    <value>Bilddarstellung...</value>
+  </data>
   <data name="imagesDisplayModeGroupBox.Text" xml:space="preserve">
     <value>Bildanzeigemodus</value>
-  </data>
-  <data name="label11.Text" xml:space="preserve">
-    <value>Millisekunden</value>
   </data>
   <data name="label12.Text" xml:space="preserve">
     <value>Vorschauintervall für das Laden von Bildern
@@ -164,14 +161,17 @@
     <value>Rendering-Qualitätsfaktor von Vektorbildern
 (wenn Rendering aktiviert ist)</value>
   </data>
-  <data name="label15.Text" xml:space="preserve">
-    <value>Normal</value>
+  <data name="label20.Text" xml:space="preserve">
+    <value>Max. Threads</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>Millisekunden</value>
   </data>
   <data name="label16.Text" xml:space="preserve">
     <value>Höchste</value>
   </data>
-  <data name="label20.Text" xml:space="preserve">
-    <value>Max. Threads</value>
+  <data name="label15.Text" xml:space="preserve">
+    <value>Normal</value>
   </data>
   <data name="renderOnlyVisibleImagesCheckBox.Text" xml:space="preserve">
     <value>Nur sichtbare Bilder rendern</value>
@@ -197,23 +197,23 @@
   <data name="label1.Text" xml:space="preserve">
     <value>Bildanker</value>
   </data>
-  <data name="label3.Text" xml:space="preserve">
-    <value>Viewer-Puffergröße</value>
-  </data>
-  <data name="label4.Text" xml:space="preserve">
-    <value>Renderer-Cache-Größe</value>
-  </data>
   <data name="label5.Text" xml:space="preserve">
     <value>Mindestbildgröße bei Verwendung des Zoompuffers</value>
   </data>
-  <data name="label8.Text" xml:space="preserve">
-    <value>Megapixel</value>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Viewer-Puffergröße</value>
   </data>
   <data name="label9.Text" xml:space="preserve">
     <value>Megabyte</value>
   </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>Megapixel</value>
+  </data>
   <data name="label10.Text" xml:space="preserve">
     <value>Megapixel</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Renderer-Cache-Größe</value>
   </data>
   <data name="groupBox3.Text" xml:space="preserve">
     <value>Pufferung</value>

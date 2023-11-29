@@ -62,6 +62,9 @@ namespace DicomViewerDemo
             this.rotateViewToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.clockwiseToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.counterclockwiseToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.fullScreenToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.showScrollbarsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
             this.showOverlayImagesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.overlayColorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -153,6 +156,7 @@ namespace DicomViewerDemo
             this.saveDicomAnnotationsFileDialog = new System.Windows.Forms.SaveFileDialog();
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
             this.saveFileDialog2 = new System.Windows.Forms.SaveFileDialog();
+            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
             this.splitContainer1.SuspendLayout();
@@ -165,12 +169,14 @@ namespace DicomViewerDemo
             this.toolStripPanel1.SuspendLayout();
             this.imageViewerToolStrip1.SuspendLayout();
             this.dicomAnnotatedViewerToolStrip1.SuspendLayout();
+            this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // splitContainer1
             // 
             this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.splitContainer1.Location = new System.Drawing.Point(0, 0);
+            this.splitContainer1.Location = new System.Drawing.Point(0, 50);
+            this.splitContainer1.Margin = new System.Windows.Forms.Padding(0);
             this.splitContainer1.Name = "splitContainer1";
             // 
             // splitContainer1.Panel1
@@ -181,7 +187,7 @@ namespace DicomViewerDemo
             // 
             this.splitContainer1.Panel2.Controls.Add(this.annotationComboBox);
             this.splitContainer1.Panel2.Controls.Add(this.propertyGrid1);
-            this.splitContainer1.Size = new System.Drawing.Size(810, 399);
+            this.splitContainer1.Size = new System.Drawing.Size(810, 391);
             this.splitContainer1.SplitterDistance = 571;
             this.splitContainer1.TabIndex = 3;
             // 
@@ -203,7 +209,7 @@ namespace DicomViewerDemo
             this.imageViewer1.ShortcutDelete = System.Windows.Forms.Shortcut.None;
             this.imageViewer1.ShortcutInsert = System.Windows.Forms.Shortcut.None;
             this.imageViewer1.ShortcutSelectAll = System.Windows.Forms.Shortcut.None;
-            this.imageViewer1.Size = new System.Drawing.Size(571, 399);
+            this.imageViewer1.Size = new System.Drawing.Size(571, 391);
             this.imageViewer1.SizeMode = Vintasoft.Imaging.UI.ImageSizeMode.BestFit;
             this.imageViewer1.TabIndex = 3;
             this.imageViewer1.Text = "imageViewer1";
@@ -232,6 +238,7 @@ namespace DicomViewerDemo
             this.thumbnailViewer1.HoveredThumbnailAppearance = thumbnailAppearance2;
             this.thumbnailViewer1.ImageRotationAngle = 0;
             this.thumbnailViewer1.Location = new System.Drawing.Point(0, 0);
+            this.thumbnailViewer1.Margin = new System.Windows.Forms.Padding(0);
             this.thumbnailViewer1.MultiSelect = false;
             this.thumbnailViewer1.Name = "thumbnailViewer1";
             thumbnailAppearance3.BackColor = System.Drawing.Color.Black;
@@ -249,7 +256,7 @@ namespace DicomViewerDemo
             this.thumbnailViewer1.ShortcutDelete = System.Windows.Forms.Shortcut.None;
             this.thumbnailViewer1.ShortcutInsert = System.Windows.Forms.Shortcut.None;
             this.thumbnailViewer1.ShortcutSelectAll = System.Windows.Forms.Shortcut.None;
-            this.thumbnailViewer1.Size = new System.Drawing.Size(810, 126);
+            this.thumbnailViewer1.Size = new System.Drawing.Size(810, 140);
             this.thumbnailViewer1.TabIndex = 0;
             this.thumbnailViewer1.Text = "thumbnailViewer1";
             thumbnailAppearance5.BackColor = System.Drawing.Color.Transparent;
@@ -260,6 +267,7 @@ namespace DicomViewerDemo
             thumbnailCaption1.Padding = new Vintasoft.Imaging.PaddingF(0F, 0F, 0F, 0F);
             thumbnailCaption1.TextColor = System.Drawing.Color.Black;
             this.thumbnailViewer1.ThumbnailCaption = thumbnailCaption1;
+            this.thumbnailViewer1.ThumbnailControlPadding = new Vintasoft.Imaging.PaddingF(0F, 0F, 0F, 0F);
             this.thumbnailViewer1.ThumbnailFlowStyle = Vintasoft.Imaging.UI.ThumbnailFlowStyle.SingleRow;
             this.thumbnailViewer1.ThumbnailImagePadding = new Vintasoft.Imaging.PaddingF(0F, 0F, 0F, 0F);
             this.thumbnailViewer1.ThumbnailMargin = new System.Windows.Forms.Padding(3);
@@ -285,7 +293,7 @@ namespace DicomViewerDemo
             | System.Windows.Forms.AnchorStyles.Right)));
             this.propertyGrid1.Location = new System.Drawing.Point(3, 30);
             this.propertyGrid1.Name = "propertyGrid1";
-            this.propertyGrid1.Size = new System.Drawing.Size(229, 366);
+            this.propertyGrid1.Size = new System.Drawing.Size(229, 358);
             this.propertyGrid1.TabIndex = 0;
             // 
             // menuStrip1
@@ -414,6 +422,9 @@ namespace DicomViewerDemo
             this.toolStripSeparator3,
             this.imageViewerSettingsToolStripMenuItem,
             this.rotateViewToolStripMenuItem,
+            this.toolStripSeparator1,
+            this.fullScreenToolStripMenuItem,
+            this.showScrollbarsToolStripMenuItem,
             this.toolStripSeparator4,
             this.showOverlayImagesToolStripMenuItem,
             this.overlayColorToolStripMenuItem,
@@ -481,6 +492,31 @@ namespace DicomViewerDemo
             this.counterclockwiseToolStripMenuItem.Size = new System.Drawing.Size(267, 22);
             resources.ApplyResources(this.counterclockwiseToolStripMenuItem, "counterclockwiseToolStripMenuItem");
             this.counterclockwiseToolStripMenuItem.Click += new System.EventHandler(this.counterclockwiseToolStripMenuItem_Click);
+            // 
+            // toolStripSeparator1
+            // 
+            this.toolStripSeparator1.Name = "toolStripSeparator1";
+            this.toolStripSeparator1.Size = new System.Drawing.Size(236, 6);
+            // 
+            // fullScreenToolStripMenuItem
+            // 
+            this.fullScreenToolStripMenuItem.CheckOnClick = true;
+            this.fullScreenToolStripMenuItem.Name = "fullScreenToolStripMenuItem";
+            this.fullScreenToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F5;
+            this.fullScreenToolStripMenuItem.Size = new System.Drawing.Size(239, 22);
+            resources.ApplyResources(this.fullScreenToolStripMenuItem, "fullScreenToolStripMenuItem");
+            this.fullScreenToolStripMenuItem.CheckedChanged += new System.EventHandler(this.fullScreenToolStripMenuItem_CheckedChanged);
+            // 
+            // showScrollbarsToolStripMenuItem
+            // 
+            this.showScrollbarsToolStripMenuItem.Checked = true;
+            this.showScrollbarsToolStripMenuItem.CheckOnClick = true;
+            this.showScrollbarsToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.showScrollbarsToolStripMenuItem.Name = "showScrollbarsToolStripMenuItem";
+            this.showScrollbarsToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F6;
+            this.showScrollbarsToolStripMenuItem.Size = new System.Drawing.Size(239, 22);
+            resources.ApplyResources(this.showScrollbarsToolStripMenuItem, "showScrollbarsToolStripMenuItem");
+            this.showScrollbarsToolStripMenuItem.CheckedChanged += new System.EventHandler(this.showScrollbarsToolStripMenuItem_CheckedChanged);
             // 
             // toolStripSeparator4
             // 
@@ -633,7 +669,7 @@ namespace DicomViewerDemo
             // overlayImagesToolStripMenuItem
             // 
             this.overlayImagesToolStripMenuItem.Name = "overlayImagesToolStripMenuItem";
-            this.overlayImagesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.overlayImagesToolStripMenuItem.Size = new System.Drawing.Size(164, 22);
             resources.ApplyResources(this.overlayImagesToolStripMenuItem, "overlayImagesToolStripMenuItem");
             this.overlayImagesToolStripMenuItem.Click += new System.EventHandler(this.overlayImagesToolStripMenuItem_Click);
             // 
@@ -1061,23 +1097,21 @@ namespace DicomViewerDemo
             // 
             // splitContainerMain
             // 
-            this.splitContainerMain.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.splitContainerMain.Location = new System.Drawing.Point(0, 77);
+            this.splitContainerMain.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.splitContainerMain.Location = new System.Drawing.Point(0, 24);
             this.splitContainerMain.Name = "splitContainerMain";
             this.splitContainerMain.Orientation = System.Windows.Forms.Orientation.Horizontal;
             // 
             // splitContainerMain.Panel1
             // 
-            this.splitContainerMain.Panel1.Controls.Add(this.splitContainer1);
+            this.splitContainerMain.Panel1.Controls.Add(this.tableLayoutPanel1);
             // 
             // splitContainerMain.Panel2
             // 
             this.splitContainerMain.Panel2.Controls.Add(this.thumbnailViewer1);
             this.splitContainerMain.Panel2MinSize = 50;
-            this.splitContainerMain.Size = new System.Drawing.Size(810, 529);
-            this.splitContainerMain.SplitterDistance = 399;
+            this.splitContainerMain.Size = new System.Drawing.Size(810, 585);
+            this.splitContainerMain.SplitterDistance = 441;
             this.splitContainerMain.TabIndex = 4;
             // 
             // openDicomAnnotationsFileDialog
@@ -1092,7 +1126,7 @@ namespace DicomViewerDemo
             this.annotationInteractionModeToolStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripLabel1,
             this.annotationInteractionModeToolStripComboBox});
-            this.annotationInteractionModeToolStrip.Location = new System.Drawing.Point(375, 25);
+            this.annotationInteractionModeToolStrip.Location = new System.Drawing.Point(372, 25);
             this.annotationInteractionModeToolStrip.Name = "annotationInteractionModeToolStrip";
             this.annotationInteractionModeToolStrip.Size = new System.Drawing.Size(296, 25);
             this.annotationInteractionModeToolStrip.TabIndex = 6;
@@ -1117,8 +1151,8 @@ namespace DicomViewerDemo
             this.toolStripPanel1.Controls.Add(this.dicomAnnotatedViewerToolStrip1);
             this.toolStripPanel1.Controls.Add(this.annotationsToolStrip1);
             this.toolStripPanel1.Controls.Add(this.annotationInteractionModeToolStrip);
-            this.toolStripPanel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.toolStripPanel1.Location = new System.Drawing.Point(0, 24);
+            this.toolStripPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.toolStripPanel1.Location = new System.Drawing.Point(0, 0);
             this.toolStripPanel1.Name = "toolStripPanel1";
             this.toolStripPanel1.Orientation = System.Windows.Forms.Orientation.Horizontal;
             this.toolStripPanel1.RowMargin = new System.Windows.Forms.Padding(3, 0, 0, 0);
@@ -1129,16 +1163,16 @@ namespace DicomViewerDemo
             this.imageViewerToolStrip1.AssociatedZoomTrackBar = null;
             this.imageViewerToolStrip1.CanPrint = false;
             this.imageViewerToolStrip1.CanSaveFile = false;
+            this.imageViewerToolStrip1.CaptureFromCameraButtonEnabled = true;
             this.imageViewerToolStrip1.Dock = System.Windows.Forms.DockStyle.None;
             this.imageViewerToolStrip1.ImageViewer = null;
-            this.imageViewerToolStrip1.ScanButtonEnabled = true;
             this.imageViewerToolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripSeparator12});
             this.imageViewerToolStrip1.Location = new System.Drawing.Point(3, 0);
             this.imageViewerToolStrip1.Name = "imageViewerToolStrip1";
             this.imageViewerToolStrip1.PageCount = 0;
             this.imageViewerToolStrip1.PrintButtonEnabled = true;
-            this.imageViewerToolStrip1.SaveButtonEnabled = true;
+            this.imageViewerToolStrip1.ScanButtonEnabled = true;
             this.imageViewerToolStrip1.Size = new System.Drawing.Size(316, 25);
             this.imageViewerToolStrip1.TabIndex = 2;
             this.imageViewerToolStrip1.Text = "imageViewerToolStrip1";
@@ -1194,11 +1228,25 @@ namespace DicomViewerDemo
             this.saveFileDialog2.DefaultExt = "gif";
             this.saveFileDialog2.Filter = "GIF files|*.gif";
             // 
+            // tableLayoutPanel1
+            // 
+            this.tableLayoutPanel1.ColumnCount = 1;
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel1.Controls.Add(this.splitContainer1, 0, 1);
+            this.tableLayoutPanel1.Controls.Add(this.toolStripPanel1, 0, 0);
+            this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
+            this.tableLayoutPanel1.RowCount = 2;
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(810, 441);
+            this.tableLayoutPanel1.TabIndex = 4;
+            // 
             // MainForm
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.ClientSize = new System.Drawing.Size(810, 631);
-            this.Controls.Add(this.toolStripPanel1);
             this.Controls.Add(this.splitContainerMain);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.menuStrip1);
@@ -1227,6 +1275,8 @@ namespace DicomViewerDemo
             this.imageViewerToolStrip1.PerformLayout();
             this.dicomAnnotatedViewerToolStrip1.ResumeLayout(false);
             this.dicomAnnotatedViewerToolStrip1.PerformLayout();
+            this.tableLayoutPanel1.ResumeLayout(false);
+            this.tableLayoutPanel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1350,5 +1400,9 @@ namespace DicomViewerDemo
         private System.Windows.Forms.SaveFileDialog saveFileDialog1;
         private System.Windows.Forms.ToolStripMenuItem saveAsGifFileToolStripMenuItem;
         private System.Windows.Forms.SaveFileDialog saveFileDialog2;
+        private System.Windows.Forms.ToolStripMenuItem fullScreenToolStripMenuItem;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
+        private System.Windows.Forms.ToolStripMenuItem showScrollbarsToolStripMenuItem;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
     }
 }

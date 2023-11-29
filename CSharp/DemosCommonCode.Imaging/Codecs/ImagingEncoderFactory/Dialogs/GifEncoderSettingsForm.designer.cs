@@ -71,7 +71,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.addImagesToExistingFileCheckBox.AutoSize = true;
             this.addImagesToExistingFileCheckBox.Location = new System.Drawing.Point(8, 12);
             this.addImagesToExistingFileCheckBox.Name = "addImagesToExistingFileCheckBox";
-            this.addImagesToExistingFileCheckBox.Size = new System.Drawing.Size(145, 19);
+            this.addImagesToExistingFileCheckBox.Size = new System.Drawing.Size(129, 17);
             this.addImagesToExistingFileCheckBox.TabIndex = 10;
             resources.ApplyResources(this.addImagesToExistingFileCheckBox, "addImagesToExistingFileCheckBox");
             this.addImagesToExistingFileCheckBox.UseVisualStyleBackColor = true;
@@ -205,7 +205,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.createPageMethodComboBox.FormattingEnabled = true;
             this.createPageMethodComboBox.Location = new System.Drawing.Point(6, 15);
             this.createPageMethodComboBox.Name = "createPageMethodComboBox";
-            this.createPageMethodComboBox.Size = new System.Drawing.Size(241, 23);
+            this.createPageMethodComboBox.Size = new System.Drawing.Size(241, 21);
             this.createPageMethodComboBox.TabIndex = 15;
             // 
             // groupBox2
@@ -238,7 +238,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(145, 18);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(56, 15);
+            this.label4.Size = new System.Drawing.Size(56, 13);
             this.label4.TabIndex = 5;
             resources.ApplyResources(this.label4, "label4");
             // 
@@ -247,7 +247,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(6, 18);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(36, 15);
+            this.label3.Size = new System.Drawing.Size(34, 13);
             this.label3.TabIndex = 4;
             resources.ApplyResources(this.label3, "label3");
             // 
@@ -255,7 +255,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             // 
             this.animationDelayNumericUpDown.Location = new System.Drawing.Point(79, 16);
             this.animationDelayNumericUpDown.Name = "animationDelayNumericUpDown";
-            this.animationDelayNumericUpDown.Size = new System.Drawing.Size(55, 23);
+            this.animationDelayNumericUpDown.Size = new System.Drawing.Size(55, 20);
             this.animationDelayNumericUpDown.TabIndex = 3;
             // 
             // label2
@@ -263,7 +263,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(6, 44);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(41, 15);
+            this.label2.Size = new System.Drawing.Size(38, 13);
             this.label2.TabIndex = 2;
             resources.ApplyResources(this.label2, "label2");
             // 
@@ -271,7 +271,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             // 
             this.animationCyclesNumericUpDown.Location = new System.Drawing.Point(79, 42);
             this.animationCyclesNumericUpDown.Name = "animationCyclesNumericUpDown";
-            this.animationCyclesNumericUpDown.Size = new System.Drawing.Size(55, 23);
+            this.animationCyclesNumericUpDown.Size = new System.Drawing.Size(55, 20);
             this.animationCyclesNumericUpDown.TabIndex = 1;
             // 
             // infiniteAnimationCheckBox
@@ -279,7 +279,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.infiniteAnimationCheckBox.AutoSize = true;
             this.infiniteAnimationCheckBox.Location = new System.Drawing.Point(148, 45);
             this.infiniteAnimationCheckBox.Name = "infiniteAnimationCheckBox";
-            this.infiniteAnimationCheckBox.Size = new System.Drawing.Size(63, 19);
+            this.infiniteAnimationCheckBox.Size = new System.Drawing.Size(57, 17);
             this.infiniteAnimationCheckBox.TabIndex = 0;
             resources.ApplyResources(this.infiniteAnimationCheckBox, "infiniteAnimationCheckBox");
             this.infiniteAnimationCheckBox.UseVisualStyleBackColor = true;
@@ -303,7 +303,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(63, 52);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(14, 15);
+            this.label1.Size = new System.Drawing.Size(14, 13);
             this.label1.TabIndex = 4;
             this.label1.Text = "X";
             // 
@@ -316,7 +316,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             0,
             0});
             this.logicalScreenHeightNumericUpDown.Name = "logicalScreenHeightNumericUpDown";
-            this.logicalScreenHeightNumericUpDown.Size = new System.Drawing.Size(57, 23);
+            this.logicalScreenHeightNumericUpDown.Size = new System.Drawing.Size(57, 20);
             this.logicalScreenHeightNumericUpDown.TabIndex = 3;
             // 
             // logicalScreenWidthNumericUpDown
@@ -328,7 +328,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             0,
             0});
             this.logicalScreenWidthNumericUpDown.Name = "logicalScreenWidthNumericUpDown";
-            this.logicalScreenWidthNumericUpDown.Size = new System.Drawing.Size(55, 23);
+            this.logicalScreenWidthNumericUpDown.Size = new System.Drawing.Size(55, 20);
             this.logicalScreenWidthNumericUpDown.TabIndex = 2;
             // 
             // autoSizeCheckBox
@@ -336,7 +336,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             this.autoSizeCheckBox.AutoSize = true;
             this.autoSizeCheckBox.Location = new System.Drawing.Point(6, 26);
             this.autoSizeCheckBox.Name = "autoSizeCheckBox";
-            this.autoSizeCheckBox.Size = new System.Drawing.Size(141, 19);
+            this.autoSizeCheckBox.Size = new System.Drawing.Size(124, 17);
             this.autoSizeCheckBox.TabIndex = 0;
             resources.ApplyResources(this.autoSizeCheckBox, "autoSizeCheckBox");
             this.autoSizeCheckBox.UseVisualStyleBackColor = true;

@@ -123,8 +123,8 @@
   <data name="buttonCancel.Text" xml:space="preserve">
     <value>Abbrechen</value>
   </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>Horizontale Auflösung</value>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Interpolationsmodus</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
     <value>Glättungsmodus</value>
@@ -132,14 +132,14 @@
   <data name="label4.Text" xml:space="preserve">
     <value>Vertikale Auflösung</value>
   </data>
-  <data name="label6.Text" xml:space="preserve">
-    <value>Interpolationsmodus</value>
-  </data>
-  <data name="optimizeImageDrawingCheckBox.Text" xml:space="preserve">
-    <value>Bildzeichnung optimieren</value>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Horizontale Auflösung</value>
   </data>
   <data name="drawSharpImageBordersCheckBox.Text" xml:space="preserve">
     <value>Zeichnen Sie scharfe Bildränder</value>
+  </data>
+  <data name="optimizeImageDrawingCheckBox.Text" xml:space="preserve">
+    <value>Bildzeichnung optimieren</value>
   </data>
   <data name="customSettingsGroupBox.Text" xml:space="preserve">
     <value>Benutzerdefinierte Einstellungen</value>
