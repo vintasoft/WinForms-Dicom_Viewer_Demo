@@ -505,7 +505,7 @@ namespace DicomViewerDemo
         #region 'File' menu
 
         /// <summary>
-        /// Handles the Click event of OpenDicomFilesToolStripMenuItem object.
+        /// Handles the Click event of openDicomFilesToolStripMenuItem object.
         /// </summary>
         private void openDicomFilesToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -513,7 +513,7 @@ namespace DicomViewerDemo
         }
 
         /// <summary>
-        /// Handles the Click event of SaveDicomFileToImageFileToolStripMenuItem object.
+        /// Handles the Click event of saveDicomFileToImageFileToolStripMenuItem object.
         /// </summary>
         private void saveDicomFileToImageFileToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -586,7 +586,7 @@ namespace DicomViewerDemo
         }
 
         /// <summary>
-        /// Handles the Click event of CloseDicomFileToolStripMenuItem object.
+        /// Handles the Click event of closeDicomFileToolStripMenuItem object.
         /// </summary>
         private void closeDicomFileToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -595,7 +595,7 @@ namespace DicomViewerDemo
         }
 
         /// <summary>
-        /// Handles the Click event of ExitToolStripMenuItem object.
+        /// Handles the Click event of exitToolStripMenuItem object.
         /// </summary>
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -608,7 +608,7 @@ namespace DicomViewerDemo
         #region 'Edit' menu
 
         /// <summary>
-        /// Handles the DropDownOpened event of EditToolStripMenuItem object.
+        /// Handles the DropDownOpened event of editToolStripMenuItem object.
         /// </summary>
         private void editToolStripMenuItem_DropDownOpened(object sender, EventArgs e)
         {
@@ -616,7 +616,7 @@ namespace DicomViewerDemo
         }
 
         /// <summary>
-        /// Handles the DropDownClosed event of EditToolStripMenuItem object.
+        /// Handles the DropDownClosed event of editToolStripMenuItem object.
         /// </summary>
         private void editToolStripMenuItem_DropDownClosed(object sender, EventArgs e)
         {
@@ -624,7 +624,7 @@ namespace DicomViewerDemo
         }
 
         /// <summary>
-        /// Handles the Click event of CutToolStripMenuItem object.
+        /// Handles the Click event of cutToolStripMenuItem object.
         /// </summary>
         private void cutToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -632,7 +632,7 @@ namespace DicomViewerDemo
         }
 
         /// <summary>
-        /// Handles the Click event of CopyToolStripMenuItem object.
+        /// Handles the Click event of copyToolStripMenuItem object.
         /// </summary>
         private void copyToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -640,7 +640,7 @@ namespace DicomViewerDemo
         }
 
         /// <summary>
-        /// Handles the Click event of PasteToolStripMenuItem object.
+        /// Handles the Click event of pasteToolStripMenuItem object.
         /// </summary>
         private void pasteToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -648,7 +648,7 @@ namespace DicomViewerDemo
         }
 
         /// <summary>
-        /// Handles the Click event of DeleteToolStripMenuItem object.
+        /// Handles the Click event of deleteToolStripMenuItem object.
         /// </summary>
         private void deleteToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -656,7 +656,7 @@ namespace DicomViewerDemo
         }
 
         /// <summary>
-        /// Handles the Click event of DeleteAllToolStripMenuItem object.
+        /// Handles the Click event of deleteAllToolStripMenuItem object.
         /// </summary>
         private void deleteAllToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -671,7 +671,7 @@ namespace DicomViewerDemo
         #region Thumbnail viewer settings
 
         /// <summary>
-        /// Handles the Click event of ThumbnailViewerSettingsToolStripMenuItem object.
+        /// Handles the Click event of thumbnailViewerSettingsToolStripMenuItem object.
         /// </summary>
         private void thumbnailViewerSettingsToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -687,7 +687,7 @@ namespace DicomViewerDemo
         #region Image viewer settings
 
         /// <summary>
-        /// Handles the Click event of ImageViewerSettingsToolStripMenuItem object.
+        /// Handles the Click event of imageViewerSettingsToolStripMenuItem object.
         /// </summary>
         private void imageViewerSettingsToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -699,7 +699,7 @@ namespace DicomViewerDemo
         }
 
         /// <summary>
-        /// Handles the Click event of ClockwiseToolStripMenuItem object.
+        /// Handles the Click event of clockwiseToolStripMenuItem object.
         /// </summary>
         private void clockwiseToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -707,7 +707,7 @@ namespace DicomViewerDemo
         }
 
         /// <summary>
-        /// Handles the Click event of CounterclockwiseToolStripMenuItem object.
+        /// Handles the Click event of counterclockwiseToolStripMenuItem object.
         /// </summary>
         private void counterclockwiseToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -715,7 +715,7 @@ namespace DicomViewerDemo
         }
 
         /// <summary>
-        /// Handles the CheckedChanged event of FullScreenToolStripMenuItem object.
+        /// Handles the CheckedChanged event of fullScreenToolStripMenuItem object.
         /// </summary>
         private void fullScreenToolStripMenuItem_CheckedChanged(object sender, EventArgs e)
         {
@@ -754,7 +754,7 @@ namespace DicomViewerDemo
         }
 
         /// <summary>
-        /// Handles the CheckedChanged event of ShowScrollbarsToolStripMenuItem object.
+        /// Handles the CheckedChanged event of showScrollbarsToolStripMenuItem object.
         /// </summary>
         private void showScrollbarsToolStripMenuItem_CheckedChanged(object sender, EventArgs e)
         {
@@ -768,7 +768,7 @@ namespace DicomViewerDemo
         #region Overlay images
 
         /// <summary>
-        /// Handles the Click event of ShowOverlayImagesToolStripMenuItem object.
+        /// Handles the Click event of showOverlayImagesToolStripMenuItem object.
         /// </summary>
         private void showOverlayImagesToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -780,7 +780,7 @@ namespace DicomViewerDemo
         }
 
         /// <summary>
-        /// Handles the Click event of OverlayColorToolStripMenuItem object.
+        /// Handles the Click event of overlayColorToolStripMenuItem object.
         /// </summary>
         private void overlayColorToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -804,7 +804,7 @@ namespace DicomViewerDemo
         #region Metadata
 
         /// <summary>
-        /// Handles the Click event of ShowMetadataOnViewerToolStripMenuItem object.
+        /// Handles the Click event of showMetadataOnViewerToolStripMenuItem object.
         /// </summary>
         private void showMetadataOnViewerToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -813,7 +813,7 @@ namespace DicomViewerDemo
         }
 
         /// <summary>
-        /// Handles the Click event of TextOverlaySettingsToolStripMenuItem object.
+        /// Handles the Click event of textOverlaySettingsToolStripMenuItem object.
         /// </summary>
         private void textOverlaySettingsToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -836,7 +836,7 @@ namespace DicomViewerDemo
         #region Rulers
 
         /// <summary>
-        /// Handles the Click event of ShowRulersOnViewerToolStripMenuItem object.
+        /// Handles the Click event of showRulersOnViewerToolStripMenuItem object.
         /// </summary>
         private void showRulersOnViewerToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -845,7 +845,7 @@ namespace DicomViewerDemo
         }
 
         /// <summary>
-        /// Handles the Click event of RulersColorToolStripMenuItem object.
+        /// Handles the Click event of rulersColorToolStripMenuItem object.
         /// </summary>
         private void rulersColorToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -864,7 +864,7 @@ namespace DicomViewerDemo
         }
 
         /// <summary>
-        /// Handles the Click event of RulersUnitOfMeasureToolStripMenuItem object.
+        /// Handles the Click event of rulersUnitOfMeasureToolStripMenuItem object.
         /// </summary>
         private void rulersUnitOfMeasureToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -881,7 +881,7 @@ namespace DicomViewerDemo
         #region VOI LUT
 
         /// <summary>
-        /// Handles the Click event of VoiLutToolStripMenuItem object.
+        /// Handles the Click event of voiLutToolStripMenuItem object.
         /// </summary>
         private void voiLutToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -889,7 +889,7 @@ namespace DicomViewerDemo
         }
 
         /// <summary>
-        /// Handles the FormClosing event of VoiLutParamsForm object.
+        /// Handles the FormClosing event of voiLutParamsForm object.
         /// </summary>
         private void voiLutParamsForm_FormClosing(object sender, FormClosingEventArgs e)
         {
@@ -918,7 +918,7 @@ namespace DicomViewerDemo
         }
 
         /// <summary>
-        /// Handles the Click event of NegativeImageToolStripMenuItem object.
+        /// Handles the Click event of negativeImageToolStripMenuItem object.
         /// </summary>
         private void negativeImageToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -927,7 +927,7 @@ namespace DicomViewerDemo
         }
 
         /// <summary>
-        /// Handles the DicomImageVoiLutChanged event of DicomViewerTool object.
+        /// Handles the DicomImageVoiLutChanged event of dicomViewerTool object.
         /// </summary>
         private void dicomViewerTool_DicomImageVoiLutChanged(object sender, VoiLutChangedEventArgs e)
         {
@@ -986,7 +986,7 @@ namespace DicomViewerDemo
         }
 
         /// <summary>
-        /// Handles the Click event of VoiLutMouseMoveDirectionMenuItem object.
+        /// Handles the Click event of voiLutMouseMoveDirectionMenuItem object.
         /// </summary>
         private void voiLutMouseMoveDirectionMenuItem_Click(object sender, EventArgs e)
         {
@@ -1006,7 +1006,7 @@ namespace DicomViewerDemo
         #region Magnifier
 
         /// <summary>
-        /// Handles the Click event of MagnifierSettingsToolStripMenuItem object.
+        /// Handles the Click event of magnifierSettingsToolStripMenuItem object.
         /// </summary>
         private void magnifierSettingsToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -1024,7 +1024,7 @@ namespace DicomViewerDemo
         #region 'Metadata' menu
 
         /// <summary>
-        /// Handles the Click event of fileMetadataToolStripMenuItem property of Metadata object.
+        /// Handles the fileMetadataToolStripMenuItem_Click event of metadata object.
         /// </summary>
         private void metadata_fileMetadataToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -1037,7 +1037,7 @@ namespace DicomViewerDemo
         #region 'Page' menu
 
         /// <summary>
-        /// Handles the Click event of OverlayImagesToolStripMenuItem object.
+        /// Handles the Click event of overlayImagesToolStripMenuItem object.
         /// </summary>
         private void overlayImagesToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -1056,7 +1056,7 @@ namespace DicomViewerDemo
         #region 'Animation' menu
 
         /// <summary>
-        /// Handles the Click event of ShowAnimationToolStripMenuItem object.
+        /// Handles the Click event of showAnimationToolStripMenuItem object.
         /// </summary>
         private void showAnimationToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -1064,7 +1064,7 @@ namespace DicomViewerDemo
         }
 
         /// <summary>
-        /// Handles the Click event of AnimationRepeatToolStripMenuItem object.
+        /// Handles the Click event of animationRepeatToolStripMenuItem object.
         /// </summary>
         private void animationRepeatToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -1072,7 +1072,7 @@ namespace DicomViewerDemo
         }
 
         /// <summary>
-        /// Handles the TextChanged event of AnimationDelayToolStripComboBox object.
+        /// Handles the TextChanged event of animationDelayToolStripComboBox object.
         /// </summary>
         private void animationDelayToolStripComboBox_TextChanged(object sender, EventArgs e)
         {
@@ -1084,7 +1084,7 @@ namespace DicomViewerDemo
         }
 
         /// <summary>
-        /// Handles the Click event of SaveAsGifFileToolStripMenuItem object.
+        /// Handles the Click event of saveAsGifFileToolStripMenuItem object.
         /// </summary>
         private void saveAsGifFileToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -1182,7 +1182,7 @@ namespace DicomViewerDemo
         #region 'Annotation' menu
 
         /// <summary>
-        /// Handles the Click event of InfoToolStripMenuItem object.
+        /// Handles the Click event of infoToolStripMenuItem object.
         /// </summary>
         private void infoToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -1194,7 +1194,7 @@ namespace DicomViewerDemo
         }
 
         /// <summary>
-        /// Handles the Click event of NoneToolStripMenuItem object.
+        /// Handles the Click event of noneToolStripMenuItem object.
         /// </summary>
         private void noneToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -1202,7 +1202,7 @@ namespace DicomViewerDemo
         }
 
         /// <summary>
-        /// Handles the Click event of ViewToolStripMenuItem object.
+        /// Handles the Click event of viewToolStripMenuItem object.
         /// </summary>
         private void viewToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -1210,7 +1210,7 @@ namespace DicomViewerDemo
         }
 
         /// <summary>
-        /// Handles the Click event of AuthorToolStripMenuItem object.
+        /// Handles the Click event of authorToolStripMenuItem object.
         /// </summary>
         private void authorToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -1218,7 +1218,7 @@ namespace DicomViewerDemo
         }
 
         /// <summary>
-        /// Handles the Click event of LoadToolStripMenuItem object.
+        /// Handles the Click event of loadToolStripMenuItem object.
         /// </summary>
         private void loadToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -1261,7 +1261,7 @@ namespace DicomViewerDemo
         }
 
         /// <summary>
-        /// Handles the Click event of PresentationStateInfoToolStripMenuItem object.
+        /// Handles the Click event of presentationStateInfoToolStripMenuItem object.
         /// </summary>
         private void presentationStateInfoToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -1273,7 +1273,7 @@ namespace DicomViewerDemo
         }
 
         /// <summary>
-        /// Handles the Click event of PresentationStateSaveToolStripMenuItem object.
+        /// Handles the Click event of presentationStateSaveToolStripMenuItem object.
         /// </summary>
         private void presentationStateSaveToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -1294,7 +1294,7 @@ namespace DicomViewerDemo
         }
 
         /// <summary>
-        /// Handles the Click event of PresentationStatesSaveToToolStripMenuItem object.
+        /// Handles the Click event of presentationStatesSaveToToolStripMenuItem object.
         /// </summary>
         private void presentationStatesSaveToToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -1334,7 +1334,7 @@ namespace DicomViewerDemo
         }
 
         /// <summary>
-        /// Handles the Click event of BinaryFormatLoadToolStripMenuItem object.
+        /// Handles the Click event of binaryFormatLoadToolStripMenuItem object.
         /// </summary>
         private void binaryFormatLoadToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -1342,7 +1342,7 @@ namespace DicomViewerDemo
         }
 
         /// <summary>
-        /// Handles the Click event of BinaryFormatSaveToToolStripMenuItem object.
+        /// Handles the Click event of binaryFormatSaveToToolStripMenuItem object.
         /// </summary>
         private void binaryFormatSaveToToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -1371,7 +1371,7 @@ namespace DicomViewerDemo
         }
 
         /// <summary>
-        /// Handles the Click event of XmpFormatLoadToolStripMenuItem object.
+        /// Handles the Click event of xmpFormatLoadToolStripMenuItem object.
         /// </summary>
         private void xmpFormatLoadToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -1379,7 +1379,7 @@ namespace DicomViewerDemo
         }
 
         /// <summary>
-        /// Handles the Click event of XmpFormatSaveToToolStripMenuItem object.
+        /// Handles the Click event of xmpFormatSaveToToolStripMenuItem object.
         /// </summary>
         private void xmpFormatSaveToToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -1410,7 +1410,7 @@ namespace DicomViewerDemo
         }
 
         /// <summary>
-        /// Handles the Click event of AddToolStripMenuItem object.
+        /// Handles the Click event of addToolStripMenuItem object.
         /// </summary>
         private void addToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -1428,7 +1428,7 @@ namespace DicomViewerDemo
         #region 'Help' menu
 
         /// <summary>
-        /// Handles the Click event of AboutToolStripMenuItem object.
+        /// Handles the Click event of aboutToolStripMenuItem object.
         /// </summary>
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -1444,7 +1444,7 @@ namespace DicomViewerDemo
         #region File manipulation
 
         /// <summary>
-        /// Handles the OpenFile event of ImageViewerToolStrip1 object.
+        /// Handles the OpenFile event of imageViewerToolStrip1 object.
         /// </summary>
         private void imageViewerToolStrip1_OpenFile(object sender, EventArgs e)
         {
@@ -1457,7 +1457,7 @@ namespace DicomViewerDemo
         #region Image Viewer
 
         /// <summary>
-        /// Handles the KeyDown event of ImageViewer1 object.
+        /// Handles the KeyDown event of imageViewer1 object.
         /// </summary>
         private void imageViewer1_KeyDown(object sender, KeyEventArgs e)
         {
@@ -1474,7 +1474,7 @@ namespace DicomViewerDemo
         }
 
         /// <summary>
-        /// Handles the ImageLoadingProgress event of ImageViewer1 object.
+        /// Handles the ImageLoadingProgress event of imageViewer1 object.
         /// </summary>
         private void imageViewer1_ImageLoadingProgress(object sender, ProgressEventArgs e)
         {
@@ -1486,7 +1486,7 @@ namespace DicomViewerDemo
         }
 
         /// <summary>
-        /// Handles the FocusedIndexChanged event of ImageViewer1 object.
+        /// Handles the FocusedIndexChanged event of imageViewer1 object.
         /// </summary>
         private void imageViewer1_FocusedIndexChanged(object sender, FocusedIndexChangedEventArgs e)
         {
@@ -1545,7 +1545,7 @@ namespace DicomViewerDemo
         }
 
         /// <summary>
-        /// Handles the Activated event of NoneAction object.
+        /// Handles the Activated event of noneAction object.
         /// </summary>
         private void noneAction_Activated(object sender, EventArgs e)
         {
@@ -1556,7 +1556,7 @@ namespace DicomViewerDemo
         }
 
         /// <summary>
-        /// Handles the Deactivated event of NoneAction object.
+        /// Handles the Deactivated event of noneAction object.
         /// </summary>
         private void noneAction_Deactivated(object sender, EventArgs e)
         {
@@ -1567,7 +1567,7 @@ namespace DicomViewerDemo
         }
 
         /// <summary>
-        /// Handles the Activated event of ImageMeasureToolAction object.
+        /// Handles the Activated event of imageMeasureToolAction object.
         /// </summary>
         private void imageMeasureToolAction_Activated(object sender, EventArgs e)
         {
@@ -1579,7 +1579,7 @@ namespace DicomViewerDemo
         }
 
         /// <summary>
-        /// Handles the Activated event of MagnifierToolAction object.
+        /// Handles the Activated event of magnifierToolAction object.
         /// </summary>
         private void magnifierToolAction_Activated(object sender, EventArgs e)
         {
@@ -1603,7 +1603,7 @@ namespace DicomViewerDemo
         }
 
         /// <summary>
-        /// Handles the PageIndexChanged event of ImageViewerToolStrip1 object.
+        /// Handles the PageIndexChanged event of imageViewerToolStrip1 object.
         /// </summary>
         private void imageViewerToolStrip1_PageIndexChanged(object sender, PageIndexChangedEventArgs e)
         {
@@ -1619,7 +1619,7 @@ namespace DicomViewerDemo
         #region Annotations UI
 
         /// <summary>
-        /// Handles the DropDown event of AnnotationComboBox object.
+        /// Handles the DropDown event of annotationComboBox object.
         /// </summary>
         private void annotationComboBox_DropDown(object sender, EventArgs e)
         {
@@ -1627,7 +1627,7 @@ namespace DicomViewerDemo
         }
 
         /// <summary>
-        /// Handles the SelectedIndexChanged event of AnnotationComboBox object.
+        /// Handles the SelectedIndexChanged event of annotationComboBox object.
         /// </summary>
         private void annotationComboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -1639,7 +1639,7 @@ namespace DicomViewerDemo
         }
 
         /// <summary>
-        /// Handles the SelectedIndexChanged event of AnnotationInteractionModeToolStripComboBox object.
+        /// Handles the SelectedIndexChanged event of annotationInteractionModeToolStripComboBox object.
         /// </summary>
         private void annotationInteractionModeToolStripComboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -1648,7 +1648,7 @@ namespace DicomViewerDemo
         }
 
         /// <summary>
-        /// Handles the AnnotationInteractionModeChanged event of AnnotationTool object.
+        /// Handles the AnnotationInteractionModeChanged event of annotationTool object.
         /// </summary>
         private void annotationTool_AnnotationInteractionModeChanged(object sender, AnnotationInteractionModeChangedEventArgs e)
         {
@@ -1697,7 +1697,7 @@ namespace DicomViewerDemo
         #region Annotation visual tool
 
         /// <summary>
-        /// Handles the FocusedAnnotationViewChanged event of AnnotationTool object.
+        /// Handles the FocusedAnnotationViewChanged event of annotationTool object.
         /// </summary>
         private void annotationTool_FocusedAnnotationViewChanged(object sender, AnnotationViewChangedEventArgs e)
         {
@@ -1714,7 +1714,7 @@ namespace DicomViewerDemo
         }
 
         /// <summary>
-        /// Handles the AnnotationBuildingFinished event of AnnotationTool object.
+        /// Handles the AnnotationBuildingFinished event of annotationTool object.
         /// </summary>
         private void annotationTool_AnnotationBuildingFinished(object sender, AnnotationViewEventArgs e)
         {
@@ -1722,7 +1722,7 @@ namespace DicomViewerDemo
         }
 
         /// <summary>
-        /// Handles the AnnotationTransformingStarted event of AnnotationTool object.
+        /// Handles the AnnotationTransformingStarted event of annotationTool object.
         /// </summary>
         private void annotationTool_AnnotationTransformingStarted(object sender, AnnotationViewEventArgs e)
         {
@@ -1730,7 +1730,7 @@ namespace DicomViewerDemo
         }
 
         /// <summary>
-        /// Handles the AnnotationTransformingFinished event of AnnotationTool object.
+        /// Handles the AnnotationTransformingFinished event of annotationTool object.
         /// </summary>
         private void annotationTool_AnnotationTransformingFinished(object sender, AnnotationViewEventArgs e)
         {
@@ -1753,7 +1753,7 @@ namespace DicomViewerDemo
         #region VOI LUT
 
         /// <summary>
-        /// Handles the Click event of VoiLutMenuItem object.
+        /// Handles the Click event of voiLutMenuItem object.
         /// </summary>
         private void voiLutMenuItem_Click(object sender, EventArgs e)
         {
@@ -1769,7 +1769,7 @@ namespace DicomViewerDemo
         }
 
         /// <summary>
-        /// Handles the ButtonClick event of VoiLutsToolStripSplitButton object.
+        /// Handles the ButtonClick event of voiLutsToolStripSplitButton object.
         /// </summary>
         private void voiLutsToolStripSplitButton_ButtonClick(object sender, EventArgs e)
         {
@@ -1777,7 +1777,7 @@ namespace DicomViewerDemo
         }
 
         /// <summary>
-        /// Handles the Click event of CustomVoiLutMenuItem object.
+        /// Handles the Click event of customVoiLutMenuItem object.
         /// </summary>
         private void customVoiLutMenuItem_Click(object sender, EventArgs e)
         {
@@ -3362,6 +3362,53 @@ namespace DicomViewerDemo
 
         #endregion
 
+        
+        #region Drag&Drop
+      
+        /// <summary>
+        /// Handles the Dragging event of imageViewer1 object.
+        /// </summary>
+        private void imageViewer1_Dragging(object sender, DragEventArgs e)
+        {
+            // if image files are dragging
+            if (e.Data.GetDataPresent("FileNameW"))
+            {
+                e.Effect = DragDropEffects.Move;
+            }
+            else
+            {
+                e.Effect = DragDropEffects.None;
+            }
+        }
+
+        /// <summary>
+        /// Handles the DragDrop event of imageViewer1 object.
+        /// </summary>
+        private void imageViewer1_DragDrop(object sender, DragEventArgs e)
+        {
+            // if image viewer allows to drop image files and image files are dropped
+            if (e.Data.GetDataPresent("FileDrop"))
+            {
+                // get image file names
+                string[] filenames = (string[])e.Data.GetData("FileDrop");
+
+                // close the previously opened DICOM files
+                ClosePreviouslyOpenedFile();
+
+                // if is single directory
+                if (filenames.Length == 1 && Directory.Exists(filenames[0]))
+                {
+                    // get files from directory
+                    filenames = Directory.GetFiles(filenames[0]);
+                }
+
+                // add DICOM files to the DICOM series
+                AddDicomFilesToSeries(filenames);
+                _dicomViewerTool.DicomViewerTool.DicomImageVoiLut = _dicomViewerTool.DicomViewerTool.DefaultDicomImageVoiLut;
+            }
+        }
+     
+        #endregion
 
         /// <summary>
         /// Subscribes to the event of image collection.
@@ -3402,6 +3449,8 @@ namespace DicomViewerDemo
                 }
             }
         }
+
+
 
         #endregion
 

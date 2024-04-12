@@ -151,6 +151,9 @@
   <data name="DEMOSCOMMONCODE_DICOM_THE_FILE_CAN_NOT_BE_ADDED_TO_THE_SERIES_BECAUSE_THE_FILE_DOES_NOT_BELONG_CURRENT_SERIES" xml:space="preserve">
     <value>The file can not be added to the series because the file does not belong current series.</value>
   </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_CODECS_NDPI" xml:space="preserve">
+    <value>Ndpi</value>
+  </data>
   <data name="DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_VALUE" xml:space="preserve">
     <value>value</value>
   </data>

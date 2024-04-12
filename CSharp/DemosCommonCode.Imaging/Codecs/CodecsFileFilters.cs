@@ -1,4 +1,4 @@
-using System.Windows.Forms;
+﻿using System.Windows.Forms;
 
 using Vintasoft.Imaging.Codecs.Decoders;
 using Vintasoft.Imaging.Codecs.Encoders;
@@ -119,6 +119,16 @@ namespace DemosCommonCode.Imaging.Codecs
         /// </summary>
         const string WEBP_FILE_DIALOG_FILTER = "WEBP Image Files|" + WEBP_FILE_EXTENSIONS;
 #endif
+
+        /// <summary>
+        /// The WSI file extensions.
+        /// </summary>
+        const string WSI_FILE_EXTENSIONS = "*.ndpi;*.vms";
+        /// <summary>
+        /// The file filter for DICOM files.
+        /// </summary>
+        const string WSI_FILE_DIALOG_FILTER = "WSI (Whole-Slide image) files|" + WSI_FILE_EXTENSIONS;
+
 
         /// <summary>
         /// The DICOM file extensions.
@@ -529,6 +539,14 @@ namespace DemosCommonCode.Imaging.Codecs
             {
                 filter1 += "|" + DICOM_FILE_DIALOG_FILTER;
                 filter2 += DICOM_FILE_EXTENSIONS + ";";
+                _imageDecoderFilterDefaultIndex++;
+            }
+
+            // if WSI decoders (NDPI) is available
+            if (AvailableDecoders.IsDecoderAvailable(DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_CODECS_NDPI))
+            {
+                filter1 += "|" + WSI_FILE_DIALOG_FILTER;
+                filter2 += WSI_FILE_EXTENSIONS + ";";
                 _imageDecoderFilterDefaultIndex++;
             }
 

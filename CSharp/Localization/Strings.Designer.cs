@@ -457,6 +457,15 @@ namespace DicomViewerDemo.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Ndpi.
+        /// </summary>
+        internal static string DEMOSCOMMONCODE_IMAGING_CODECS_NDPI {
+            get {
+                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_CODECS_NDPI", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to {DecoderName} - decoder name
         ///.
         /// </summary>

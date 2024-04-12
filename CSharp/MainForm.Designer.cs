@@ -213,9 +213,13 @@ namespace DicomViewerDemo
             this.imageViewer1.SizeMode = Vintasoft.Imaging.UI.ImageSizeMode.BestFit;
             this.imageViewer1.TabIndex = 3;
             this.imageViewer1.Text = "imageViewer1";
+            this.imageViewer1.AllowDrop = true;            
             this.imageViewer1.ImageLoadingProgress += new System.EventHandler<Vintasoft.Imaging.ProgressEventArgs>(this.imageViewer1_ImageLoadingProgress);
             this.imageViewer1.FocusedIndexChanged += new System.EventHandler<Vintasoft.Imaging.UI.FocusedIndexChangedEventArgs>(this.imageViewer1_FocusedIndexChanged);
             this.imageViewer1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.imageViewer1_KeyDown);
+            this.imageViewer1.DragEnter += new System.Windows.Forms.DragEventHandler(this.imageViewer1_Dragging);
+            this.imageViewer1.DragOver += new System.Windows.Forms.DragEventHandler(this.imageViewer1_Dragging);
+            this.imageViewer1.DragDrop += new System.Windows.Forms.DragEventHandler(this.imageViewer1_DragDrop);
             // 
             // thumbnailViewer1
             // 
