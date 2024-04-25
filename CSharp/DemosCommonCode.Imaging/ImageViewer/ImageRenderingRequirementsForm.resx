@@ -129,7 +129,7 @@
   <data name="buttonCancel.Text" xml:space="preserve">
     <value>Cancel</value>
   </data>
-  <data name="label3.Text" xml:space="preserve">
+  <data name="sizeTypeLabel.Text" xml:space="preserve">
     <value>Megapixels</value>
   </data>
   <data name="label2.Text" xml:space="preserve">

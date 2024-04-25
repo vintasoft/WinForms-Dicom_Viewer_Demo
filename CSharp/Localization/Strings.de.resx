@@ -211,6 +211,12 @@
   <data name="DEMOSCOMMONCODE_IMAGING_CODECS_CONFIRM_OVERWRITE" xml:space="preserve">
     <value>Überschreiben bestätigen</value>
   </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_MEGAPIXELS" xml:space="preserve">
+    <value>Megapixel</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_MEGABYTES" xml:space="preserve">
+    <value>Megabyte</value>
+  </data>
   <data name="DEMOSCOMMONCODE_IMAGING_NOT_FOCUSED_IMAGE_APPEARANCE_SETTINGS" xml:space="preserve">
     <value>Einstellungen für das Erscheinungsbild nicht fokussierter Bilder</value>
   </data>
