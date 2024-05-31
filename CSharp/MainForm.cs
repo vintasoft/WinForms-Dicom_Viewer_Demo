@@ -96,12 +96,6 @@ namespace DicomViewerDemo
             new Dictionary<ToolStripMenuItem, UnitOfMeasure>();
 
         /// <summary>
-        /// Dictionary: the tool strip menu item => <see cref="DicomImageVoiLutMouseMoveDirection"/>.
-        /// </summary>
-        Dictionary<ToolStripMenuItem, DicomImageVoiLutMouseMoveDirection> _toolStripMenuItemToMouseMoveDirection =
-            new Dictionary<ToolStripMenuItem, DicomImageVoiLutMouseMoveDirection>();
-
-        /// <summary>
         /// Dictionary: the tool strip item => VOI LUT.
         /// </summary>
         Dictionary<ToolStripItem, DicomImageVoiLookupTable> _toolStripItemToVoiLut =
@@ -289,8 +283,6 @@ namespace DicomViewerDemo
 
             _dicomViewerTool.DicomViewerTool.TextOverlay.Add(
                 new CompressionInfoTextOverlay(AnchorType.Top | AnchorType.Left));
-
-            InitVoiLutMouseMoveDirection();
 
             DemosTools.SetTestFilesFolder(openDicomFileDialog);
 
@@ -986,18 +978,42 @@ namespace DicomViewerDemo
         }
 
         /// <summary>
-        /// Handles the Click event of voiLutMouseMoveDirectionMenuItem object.
+        /// Handles the Click event of widthHorizontalInvertedCenterVerticalToolStripMenuItem object.
         /// </summary>
-        private void voiLutMouseMoveDirectionMenuItem_Click(object sender, EventArgs e)
+        private void widthHorizontalInvertedCenterVerticalToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            widthHorizontalInvertedCenterVerticalToolStripMenuItem.Checked = true;
             widthHorizontalCenterVerticalToolStripMenuItem.Checked = false;
             widthVerticalCenterHorizontalToolStripMenuItem.Checked = false;
-            ToolStripMenuItem voiLutMouseMoveDirectionMenuItem = (ToolStripMenuItem)sender;
-            voiLutMouseMoveDirectionMenuItem.Checked = true;
 
-            DicomImageVoiLutMouseMoveDirection direction =
-                _toolStripMenuItemToMouseMoveDirection[voiLutMouseMoveDirectionMenuItem];
-            _dicomViewerTool.DicomViewerTool.DicomImageVoiLutMouseMoveDirection = direction;
+            _dicomViewerTool.DicomViewerTool.DicomImageVoiLutCenterDirection = DicomInteractionDirection.BottomToTop;
+            _dicomViewerTool.DicomViewerTool.DicomImageVoiLutWidthDirection = DicomInteractionDirection.LeftToRight;
+        }
+
+        /// <summary>
+        /// Handles the Click event of widthHorizontalCenterVerticalToolStripMenuItem object.
+        /// </summary>
+        private void widthHorizontalCenterVerticalToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            widthHorizontalInvertedCenterVerticalToolStripMenuItem.Checked = false;
+            widthHorizontalCenterVerticalToolStripMenuItem.Checked = true;
+            widthVerticalCenterHorizontalToolStripMenuItem.Checked = false;
+
+            _dicomViewerTool.DicomViewerTool.DicomImageVoiLutCenterDirection = DicomInteractionDirection.BottomToTop;
+            _dicomViewerTool.DicomViewerTool.DicomImageVoiLutWidthDirection = DicomInteractionDirection.RightToLeft;
+        }
+
+        /// <summary>
+        /// Handles the Click event of widthVerticalCenterHorizontalToolStripMenuItem object.
+        /// </summary>
+        private void widthVerticalCenterHorizontalToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            widthHorizontalInvertedCenterVerticalToolStripMenuItem.Checked = false;
+            widthHorizontalCenterVerticalToolStripMenuItem.Checked = false;
+            widthVerticalCenterHorizontalToolStripMenuItem.Checked = true;
+
+            _dicomViewerTool.DicomViewerTool.DicomImageVoiLutCenterDirection = DicomInteractionDirection.RightToLeft;
+            _dicomViewerTool.DicomViewerTool.DicomImageVoiLutWidthDirection = DicomInteractionDirection.BottomToTop;
         }
 
         #endregion
@@ -3343,21 +3359,6 @@ namespace DicomViewerDemo
                 }
                 rulersUnitOfMeasureToolStripMenuItem.DropDownItems.Add(menuItem);
             }
-        }
-
-        /// <summary>
-        /// Initializes the VOI LUT mouse move direction options.
-        /// </summary>
-        private void InitVoiLutMouseMoveDirection()
-        {
-            _toolStripMenuItemToMouseMoveDirection.Clear();
-
-            _toolStripMenuItemToMouseMoveDirection.Add(
-                widthHorizontalCenterVerticalToolStripMenuItem,
-                DicomImageVoiLutMouseMoveDirection.WidthHorizontalCenterVertical);
-            _toolStripMenuItemToMouseMoveDirection.Add(
-                widthVerticalCenterHorizontalToolStripMenuItem,
-                DicomImageVoiLutMouseMoveDirection.WidthVerticalCenterHorizontal);
         }
 
         #endregion

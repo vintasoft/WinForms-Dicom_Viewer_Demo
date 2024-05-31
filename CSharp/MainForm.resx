@@ -132,19 +132,31 @@
   <metadata name="dicomAnnotatedViewerToolStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 56</value>
   </metadata>
+  <metadata name="annotationsToolStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>310, 19</value>
+  </metadata>
+  <metadata name="annotationInteractionModeToolStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>599, 23</value>
+  </metadata>
+  <metadata name="imageViewerToolStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>127, 20</value>
+  </metadata>
+  <metadata name="dicomAnnotatedViewerToolStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 56</value>
+  </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="voiLutsToolStripSplitButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHISURBVDhPhZJPSFRBHMfHgn1vCrx6z7yIByFki1bWQ9Sx
-        LhqKZrF7s4uXlCSiW8cg6NohiBLbN0soCiKChwgPpp22DruXtVjW3WV1/be+36+Znz/3jb1d/MKXN7/h
-        9/3MvJkRPX1D2MokJVFYQhRtPDyVHXj4aPpCACyIdkg717kMABubGdyr7eNY8kVLAKTd276Snw7mnBJP
-        BYAfWxnq932f6uHHzzEaH0dIX+1AzxkwvSdKrhngiXK+46y4fA5gvLT8DWdevcP+u0kslasaBrilpH+o
-        IkXwnASoSPexkjlIuXF8KS6FAMYjT2awVjug3ZD0ig178gF4bv+5g/wfsFOqcJJlAfaU3OVYIG4jGQAA
-        cMWyAGS9ul2HACFZzRUl9+GzkPZc6Bf+/C1ykmU117/I37zxQHZ4cPQZfY+OjjmtxWF9EwWcc66hd+UG
-        R091Fu69NYzzi2vkwbEpLFeqdB7Z97Jurg5Tbsz33Le1j7IKaXmT4wEgm8vTgvntAtWxOwn6wtdIF6Sc
-        TtOrAW/Mboof5GHjKs8AK6vruPnzF967/5RqY5IOUCNLv4VZ/ZyXmr7EicnXjbFxM4ARKBkN7aCZWwEC
-        CfEPRmUFVJbFCjIAAAAASUVORK5CYII=
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHISURBVDhPhZJPSFRBHMengn1vErp6z7yIByFii3ZZD1FH
+        vayxomXorS5eMpKIbh2DoGsHQVLWfbOEoiAieIjokNZp66CXrVjW3WXb9d/6fr9mfv7cN/Z28Qtf3vyG
+        3/cz82ZG9N4YwnYmKYnCEqK4wMMT2YH7D56dC4AlcQWyzjUuA8DXrRzW6ns4OvGiLQCy7m1fyQ/7aafE
+        UwFg81uO+n3fpzo19hyjiYcI2Y5O9Jx+03us5IYBHivnM86LS2cAxiurn3D61TuM353AUrmqYYCbSvoH
+        KlIEzxkHFek5UnIHMm4CX4qLIYDx8KNprNf3aTckvWLTnhwEz42fOcj/AbulCidZFqCm5F+OBeI2kgEA
+        AFcsC0DWq9t1CBCS1VxRcg/mhLTnQr/w+0+RkyyrubEgf/LGA9nh5MhT+h4eHnFai8P6JgqYdq6id/k6
+        R090Gu67lcLF5Q1ycnQKy5Uqncf2e9kwV4cZN+Z77tv6rKxCVt7keADY3snTgvlfBapjd8bpCx8j3ZBx
+        ukyvBrwxuynOyIPmVZ4C1ta/4Nb3H3hv4AnVxiQdoEaWfgvz+jmvtHyJjydfN8fGrQBGoGQ0tINWbgcI
+        JMQ/QI8FUruO+lgAAAAASUVORK5CYII=
 </value>
   </data>
   <metadata name="annotationsToolStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
@@ -468,11 +480,11 @@
         gB///wAA///AH///AAD//8B///8AAA==
 </value>
   </data>
-  <data name="voiLutsToolStripSplitButton.Text" xml:space="preserve">
-    <value>Value of interest lookup tables</value>
-  </data>
   <data name="toolStripLabel1.Text" xml:space="preserve">
     <value>Annotation Interaction Mode</value>
+  </data>
+  <data name="voiLutsToolStripSplitButton.Text" xml:space="preserve">
+    <value>Value of interest lookup tables</value>
   </data>
   <data name="actionLabel.Text" xml:space="preserve">
     <value>Action Label</value>
@@ -584,6 +596,9 @@
   </data>
   <data name="widthHorizontalCenterVerticalToolStripMenuItem.Text" xml:space="preserve">
     <value>Width Horizontal, Center Vertical</value>
+  </data>
+  <data name="widthHorizontalInvertedCenterVerticalToolStripMenuItem.Text" xml:space="preserve">
+    <value>Width Horizontal Inverted, Center Vertical</value>
   </data>
   <data name="rulersUnitOfMeasureToolStripMenuItem.Text" xml:space="preserve">
     <value>Rulers Unit Of Measure</value>

@@ -117,11 +117,11 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="voiLutsToolStripSplitButton.Text" xml:space="preserve">
-    <value>Wert der interessierenden Nachschlagetabellen</value>
-  </data>
   <data name="toolStripLabel1.Text" xml:space="preserve">
     <value>Anmerkungsinteraktionsmodus</value>
+  </data>
+  <data name="voiLutsToolStripSplitButton.Text" xml:space="preserve">
+    <value>Wert der interessierenden Nachschlagetabellen</value>
   </data>
   <data name="actionLabel.Text" xml:space="preserve">
     <value>Aktionsbezeichnung</value>
@@ -233,6 +233,10 @@
   </data>
   <data name="widthHorizontalCenterVerticalToolStripMenuItem.Text" xml:space="preserve">
     <value>Breite horizontal, Mitte vertikal</value>
+  </data>
+  <data name="widthHorizontalInvertedCenterVerticalToolStripMenuItem.Text" xml:space="preserve">
+    <value>Breite Horizontal Invertiert, Mitte Vertikal
+</value>
   </data>
   <data name="rulersUnitOfMeasureToolStripMenuItem.Text" xml:space="preserve">
     <value>Maßeinheit des Lineals</value>
