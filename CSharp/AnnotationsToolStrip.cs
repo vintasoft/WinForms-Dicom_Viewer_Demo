@@ -5,9 +5,11 @@ using System.Windows.Forms;
 
 using DemosCommonCode.Imaging;
 
+#if !REMOVE_ANNOTATION_PLUGIN
 using Vintasoft.Imaging.Annotation.Dicom;
 using Vintasoft.Imaging.Annotation.UI;
-using Vintasoft.Imaging.Annotation.UI.VisualTools;
+using Vintasoft.Imaging.Annotation.UI.VisualTools; 
+#endif
 using Vintasoft.Imaging.UI.VisualTools;
 using Vintasoft.Imaging.UI;
 
@@ -66,7 +68,9 @@ namespace DicomViewerDemo
             TextButtonName,
         };
 
-        AnnotationVisualTool _annotationTool;
+#if !REMOVE_ANNOTATION_PLUGIN
+        AnnotationVisualTool _annotationTool; 
+#endif
 
         #endregion
 
@@ -124,6 +128,7 @@ namespace DicomViewerDemo
             }
             set
             {
+#if !REMOVE_ANNOTATION_PLUGIN
                 if (_annotationTool != null)
                 {
                     _annotationTool.AnnotationBuildingFinished -= viewer_AnnotationBuildingFinished;
@@ -139,7 +144,8 @@ namespace DicomViewerDemo
                 {
                     _annotationTool.AnnotationBuildingFinished += new EventHandler<AnnotationViewEventArgs>(viewer_AnnotationBuildingFinished);
                     _annotationTool.AnnotationBuildingCanceled += new EventHandler<AnnotationViewEventArgs>(viewer_AnnotationBuildingCanceled);
-                }
+                } 
+#endif
             }
         }
 
@@ -149,6 +155,7 @@ namespace DicomViewerDemo
 
         #region Methods
 
+#if !REMOVE_ANNOTATION_PLUGIN
         /// <summary>
         /// Returns an annotation object by the annotation type name.
         /// </summary>
@@ -222,13 +229,15 @@ namespace DicomViewerDemo
             }
 
             return AnnotationViewFactory.CreateView(data);
-        }
+        } 
+#endif
 
         /// <summary>
         /// The annotation building is started.
         /// </summary>
         private void buildAnnotationButton_Click(object sender, EventArgs e)
         {
+#if !REMOVE_ANNOTATION_PLUGIN
             ToolStripButton annotationButton = (ToolStripButton)sender;
             annotationButton.Checked = true;
 
@@ -255,9 +264,11 @@ namespace DicomViewerDemo
                     _buildingAnnotationButton = annotationButton;
                 else
                     _buildingAnnotationButton = null;
-            }
+            } 
+#endif
         }
 
+#if !REMOVE_ANNOTATION_PLUGIN
         /// <summary>
         /// Adds an annotation to an image and starts building of annotation.
         /// </summary>
@@ -328,7 +339,8 @@ namespace DicomViewerDemo
             }
 
             return visualTool as AnnotationVisualTool;
-        }
+        } 
+#endif
 
         #endregion
 

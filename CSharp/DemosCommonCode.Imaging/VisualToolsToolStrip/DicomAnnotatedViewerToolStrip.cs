@@ -1,6 +1,8 @@
 ﻿using System.Collections.Generic;
 
-using Vintasoft.Imaging.Annotation.Dicom.UI.VisualTools;
+#if !REMOVE_ANNOTATION_PLUGIN
+using Vintasoft.Imaging.Annotation.Dicom.UI.VisualTools; 
+#endif
 using Vintasoft.Imaging.UI.VisualTools;
 
 
@@ -73,6 +75,41 @@ namespace DemosCommonCode.Imaging
             }
         }
 
+#if REMOVE_ANNOTATION_PLUGIN
+        Vintasoft.Imaging.Dicom.UI.VisualTools.DicomViewerTool _dicomAnnotatedViewerTool;
+        /// <summary>
+        /// Gets or sets the <see cref="DicomViewerTool"/>.
+        /// </summary>
+        /// <value>
+        /// Default value is <b>null</b>.
+        /// </value>
+        public Vintasoft.Imaging.Dicom.UI.VisualTools.DicomViewerTool DicomAnnotatedViewerTool
+        {
+            get
+            {
+                return _dicomAnnotatedViewerTool;
+            }
+            set
+            {
+                if (_dicomAnnotatedViewerTool != value)
+                {
+                    _dicomAnnotatedViewerTool = value;
+
+                    if (_mainVisualTool == null)
+                    {
+                        _mainVisualTool = _dicomAnnotatedViewerTool;
+                    }
+                    else
+                    {
+                        // update main visual tool
+                        List<VisualTool> tools = new List<VisualTool>(_additionalVisualTools);
+                        tools.Add(_dicomAnnotatedViewerTool);
+                        _mainVisualTool = new CompositeVisualTool(tools.ToArray());
+                    }
+                }
+            }
+        }
+#else
         DicomAnnotatedViewerTool _dicomAnnotatedViewerTool = null;
         /// <summary>
         /// Gets or sets the <see cref="DicomAnnotatedViewerTool"/>.
@@ -105,7 +142,8 @@ namespace DemosCommonCode.Imaging
                     }
                 }
             }
-        }
+        } 
+#endif
 
         #endregion
 
@@ -138,7 +176,7 @@ namespace DemosCommonCode.Imaging
 
             // add action to tool strip
             base.AddAction(visualToolAction);
-            
+
             _additionalVisualTools.Add(visualToolAction.VisualTool);
 
             // update main visual tool

@@ -254,6 +254,7 @@ namespace DicomViewerDemo
             _supportedItems.Add(new DicomImageVoiLutTextOverlay());
             _supportedItems.Add(new PatientOrientationTextOverlay());
             _supportedItems.Add(new CompressionInfoTextOverlay());
+            _supportedItems.Add(new RuntimeInfoTextOverlay("Im: {SeriesImageNumber}/{SeriesImageCount}"));
 
 
             _supportedItems.Sort(TextOverlayComparer);

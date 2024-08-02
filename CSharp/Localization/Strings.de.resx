@@ -145,12 +145,6 @@
   <data name="DEMOSCOMMONCODE_CUSTOMCONTROLS_VALUE_NAME" xml:space="preserve">
     <value>Wertname</value>
   </data>
-  <data name="DEMOSCOMMONCODE_DICOM_THE_FILE_CAN_NOT_BE_ADDED_TO_THE_SERIES_BECAUSE_THE_FILE_DOES_NOT_BELONG_CURRENT_STUDY" xml:space="preserve">
-    <value>Die Datei kann nicht zur Serie hinzugefügt werden, da die Datei nicht zur aktuellen Studie gehört.</value>
-  </data>
-  <data name="DEMOSCOMMONCODE_DICOM_THE_FILE_CAN_NOT_BE_ADDED_TO_THE_SERIES_BECAUSE_THE_FILE_DOES_NOT_BELONG_CURRENT_SERIES" xml:space="preserve">
-    <value>Die Datei kann nicht zur Serie hinzugefügt werden, da die Datei nicht zur aktuellen Serie gehört.</value>
-  </data>
   <data name="DEMOSCOMMONCODE_IMAGING_CODECS_NDPI" xml:space="preserve">
     <value>Ndpi</value>
   </data>
@@ -468,21 +462,6 @@
   <data name="DICOMVIEWERDEMO_BUILDING_ANNOTATION" xml:space="preserve">
     <value>Gebäudeanmerkung</value>
   </data>
-  <data name="DICOMVIEWERDEMO_COMPRESSION_INFO" xml:space="preserve">
-    <value>Komprimierungsinformationen</value>
-  </data>
-  <data name="DICOMVIEWERDEMO_LOSSLESS" xml:space="preserve">
-    <value>Verlustfrei</value>
-  </data>
-  <data name="DICOMVIEWERDEMO_LOSSY" xml:space="preserve">
-    <value>Verlustbehaftet</value>
-  </data>
-  <data name="DICOMVIEWERDEMO_UNCOMPRESSED" xml:space="preserve">
-    <value>Unkomprimiert</value>
-  </data>
-  <data name="DICOMVIEWERDEMO_UNKNOWN" xml:space="preserve">
-    <value>Unbekannt</value>
-  </data>
   <data name="DEMOSCOMMONCODE_IMAGING_ADD_DICOMANNOTATEDVIEWERTOOL_FIRST" xml:space="preserve">
     <value>Fügen Sie zuerst DicomAnnotatedViewerTool hinzu.</value>
   </data>
@@ -504,17 +483,11 @@
   <data name="DICOMVIEWERDEMO_TIFF_FILESTIFTIFFJPEG_FILESJPGJPEGPNG_FILESPNG" xml:space="preserve">
     <value>TIFF-Dateien|*.tif;*.tiff|JPEG-Dateien|*.jpg;*.jpeg|PNG-Dateien|.png</value>
   </data>
-  <data name="DICOMVIEWERDEMO_ANNOTATION_DATA_COLLECTION_NARG0" xml:space="preserve">
-    <value>Annotation Data Collection N{0}</value>
-  </data>
-  <data name="DICOMVIEWERDEMO_UNKNOWN_ALT1" xml:space="preserve">
-    <value>Unbekannt</value>
-  </data>
-  <data name="DICOMVIEWERDEMO_UNKNOWN_ALT2" xml:space="preserve">
-    <value>Unbekannt</value>
-  </data>
   <data name="DICOMVIEWERDEMO_CALCULATED_ARG0" xml:space="preserve">
     <value>Berechnet {0}</value>
+  </data>
+  <data name="DICOMVIEWERDEMO_MOUSE_WHEEL" xml:space="preserve">
+    <value>Mausrad</value>
   </data>
   <data name="DICOMVIEWERDEMO_MAGNIFIER_TOOL" xml:space="preserve">
     <value>Lupe-Werkzeug</value>
@@ -522,20 +495,8 @@
   <data name="DICOMVIEWERDEMO_MAGNIFIER" xml:space="preserve">
     <value>Lupe</value>
   </data>
-  <data name="DICOMVIEWERDEMO_PAN_TOOL" xml:space="preserve">
-    <value>Pan-Werkzeug</value>
-  </data>
-  <data name="DICOMVIEWERDEMO_PAN" xml:space="preserve">
-    <value>Schwenken</value>
-  </data>
-  <data name="DICOMVIEWERDEMO_DEMOSCOMMONCODEIMAGINGVISUALTOOLSTOOLSTRIPVISUALTOOLSZOOMVISUALTOOLSRESOURCESPANTOOLPNG" xml:space="preserve">
-    <value>DemosCommonCode.Imaging.VisualToolsToolStrip.VisualTools.ZoomVisualTools.Resources.PanTool.png</value>
-  </data>
   <data name="DICOMVIEWERDEMO_DEFAULT_VOI_LUT" xml:space="preserve">
     <value>Standard-VOI-LUT</value>
-  </data>
-  <data name="DICOMVIEWERDEMO_UNTITLED" xml:space="preserve">
-    <value>(Ohne Titel)</value>
   </data>
   <data name="DICOMVIEWERDEMO_DICOM_ANNOTATIONS_CANNOT_BE_CONVERTED_INTO_VINTASOFT_ANNOTATIONS_BUT_ANNOTATIONS_CAN_BE_BURNED_ON_IMAGERN" xml:space="preserve">
     <value>DICOM-Anmerkungen können nicht in Vintasoft-Anmerkungen umgewandelt werden, Anmerkungen können jedoch auf das Bild gebrannt werden.
@@ -558,6 +519,9 @@
   </data>
   <data name="DICOMVIEWERDEMO_ANNOTATIONS" xml:space="preserve">
     <value>Anmerkungen</value>
+  </data>
+  <data name="DICOMVIEWERDEMO_DICOM_FILESDCM" xml:space="preserve">
+    <value>DICOM-Dateien|*.dcm</value>
   </data>
   <data name="DICOMVIEWERDEMO_DICOM_ANNOTATIONS_CANNOT_BE_CONVERTED_INTO_VINTASOFT_ANNOTATIONS_BUT_ANNOTATIONS_CAN_BE_BURNED_ON_IMAGERN_ALT1" xml:space="preserve">
     <value>DICOM-Anmerkungen können nicht in Vintasoft-Anmerkungen umgewandelt werden, Anmerkungen können jedoch auf das Bild gebrannt werden.
@@ -596,6 +560,9 @@
   <data name="DICOMVIEWERDEMO_XMP_ANNOTATIONSXMPXMP" xml:space="preserve">
     <value>XMP-Anmerkungen(*.xmp)|*.xmp</value>
   </data>
+  <data name="DICOMVIEWERDEMO_ANNOTATION_PROPERTIES" xml:space="preserve">
+    <value>Anmerkungseigenschaften</value>
+  </data>
   <data name="DICOMVIEWERDEMO_SIZEARG0XARG1_PIXELFORMATARG2_RESOLUTIONARG3" xml:space="preserve">
     <value>Größe={0}x{1}; PixelFormat={2}; Auflösung={3}</value>
   </data>
@@ -614,40 +581,11 @@
   <data name="DICOMVIEWERDEMO_DELETE_ALL" xml:space="preserve">
     <value>Alle löschen</value>
   </data>
-  <data name="DICOMVIEWERDEMO_LOADING_ARG0" xml:space="preserve">
-    <value>Laden {0}</value>
-  </data>
-  <data name="DICOMVIEWERDEMO_THE_SERIES_ALREADY_CONTAINS_DICOM_FILE_ARG0" xml:space="preserve">
-    <value>Die Serie enthält bereits die DICOM-Datei \"{0}\".</value>
-  </data>
-  <data name="DICOMVIEWERDEMO_THE_DICOM_DIRECTORY_CANNOT_BE_ADDED_TO_THE_SERIES_OF_DICOM_IMAGES" xml:space="preserve">
-    <value>Das DICOM-Verzeichnis kann nicht zur Serie von DICOM-Bildern hinzugefügt werden.</value>
-  </data>
-  <data name="DICOMVIEWERDEMO_THE_DICOM_FILE_CANNOT_BE_ADDED_TO_THE_SERIES_OF_DICOM_IMAGES_BECAUSE_THE_DICOM_FILE_DOES_NOT_CONTAIN_IMAGE" xml:space="preserve">
-    <value>Die DICOM-Datei kann nicht zur Serie von DICOM-Bildern hinzugefügt werden, da die DICOM-Datei kein Bild enthält.</value>
-  </data>
-  <data name="DICOMVIEWERDEMO_DICOM_FILE_DOES_NOT_CONTAIN_IMAGE" xml:space="preserve">
-    <value>DICOM-Datei enthält kein Bild.</value>
-  </data>
-  <data name="DICOMVIEWERDEMO_THE_FILE_ARG0_CAN_NOT_BE_OPENEDRNARG1RNDO_YOU_WANT_TO_CONTINUE_ANYWAY" xml:space="preserve">
-    <value>Die Datei '{0}' kann nicht geöffnet werden:
-\"{1}\"
-Möchten Sie trotzdem fortfahren?</value>
-  </data>
-  <data name="DICOMVIEWERDEMO_ERROR_ALT1" xml:space="preserve">
-    <value>Fehler</value>
-  </data>
-  <data name="DICOMVIEWERDEMO_UNTITLED_ALT1" xml:space="preserve">
-    <value>(Ohne Titel)</value>
-  </data>
   <data name="DICOMVIEWERDEMO_BINARY_ANNOTATIONSVSABVSAB_ALT1" xml:space="preserve">
     <value>Binäre Anmerkungen(*.vsab)|*.vsab</value>
   </data>
   <data name="DICOMVIEWERDEMO_XMP_ANNOTATIONSXMPXMP_ALT1" xml:space="preserve">
     <value>XMP-Anmerkungen(*.xmp)|*.xmp</value>
-  </data>
-  <data name="DICOMVIEWERDEMO_SCANNING_ARG0" xml:space="preserve">
-    <value>Scannen von {0}</value>
   </data>
   <data name="DICOMVIEWERDEMO_CENTER_20_WIDTH_40" xml:space="preserve">
     <value>Mitte 20 Breite 40</value>

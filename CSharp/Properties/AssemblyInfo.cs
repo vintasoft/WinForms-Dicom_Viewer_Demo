@@ -1,12 +1,8 @@
 ﻿using System.Reflection;
-using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
 #if REMOVE_DICOM_PLUGIN
 #error DicomViewerDemo project cannot be used without VintaSoft DICOM .NET Plug-in.
-#endif
-#if REMOVE_ANNOTATION_PLUGIN
-#error DicomViewerDemo project cannot be used without VintaSoft Annotation .NET Plug-in.
 #endif
 
 // General Information about an assembly is controlled through the following 
@@ -36,5 +32,5 @@ using System.Runtime.InteropServices;
 //      Build Number
 //      Revision
 //
-[assembly: AssemblyVersion("12.4.10.1")]
-[assembly: AssemblyFileVersion("12.4.10.1")]
+[assembly: AssemblyVersion("12.5.0.1")]
+[assembly: AssemblyFileVersion("12.5.0.1")]

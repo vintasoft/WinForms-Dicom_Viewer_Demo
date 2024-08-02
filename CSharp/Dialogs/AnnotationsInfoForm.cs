@@ -1,7 +1,9 @@
 ﻿using System.Windows.Forms;
 
+#if !REMOVE_ANNOTATION_PLUGIN
 using Vintasoft.Imaging.Annotation;
-using Vintasoft.Imaging.Annotation.Dicom;
+using Vintasoft.Imaging.Annotation.Dicom; 
+#endif
 
 
 namespace DicomViewerDemo
@@ -12,6 +14,7 @@ namespace DicomViewerDemo
     public partial class AnnotationsInfoForm : Form
     {
 
+#if !REMOVE_ANNOTATION_PLUGIN
         public AnnotationsInfoForm(DicomAnnotationDataController annotations)
         {
             InitializeComponent();
@@ -27,7 +30,8 @@ namespace DicomViewerDemo
                     item.SubItems.Add(annot.Location.ToString());
                 }
             }
-        }
+        } 
+#endif
 
     }
 }

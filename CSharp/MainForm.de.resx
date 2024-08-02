@@ -123,14 +123,14 @@
   <data name="voiLutsToolStripSplitButton.Text" xml:space="preserve">
     <value>Wert der interessierenden Nachschlagetabellen</value>
   </data>
-  <data name="actionLabel.Text" xml:space="preserve">
-    <value>Aktionsbezeichnung</value>
-  </data>
   <data name="aboutToolStripMenuItem.Text" xml:space="preserve">
     <value>Über das Programm...</value>
   </data>
   <data name="helpToolStripMenuItem.Text" xml:space="preserve">
     <value>Hilfe</value>
+  </data>
+  <data name="propertiesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Eigenschaften...</value>
   </data>
   <data name="crosshairToolStripMenuItem.Text" xml:space="preserve">
     <value>Fadenkreuz</value>
@@ -164,9 +164,6 @@
   </data>
   <data name="binaryFormatToolStripMenuItem.Text" xml:space="preserve">
     <value>Binärformat</value>
-  </data>
-  <data name="presentationStateLoadAutomaticallyToolStripMenuItem.Text" xml:space="preserve">
-    <value>Automatisch laden</value>
   </data>
   <data name="presentationStateSaveToToolStripMenuItem.Text" xml:space="preserve">
     <value>Speichern unter...</value>
@@ -235,8 +232,7 @@
     <value>Breite horizontal, Mitte vertikal</value>
   </data>
   <data name="widthHorizontalInvertedCenterVerticalToolStripMenuItem.Text" xml:space="preserve">
-    <value>Breite Horizontal Invertiert, Mitte Vertikal
-</value>
+    <value>Breite horizontal invertiert, Mitte vertikal</value>
   </data>
   <data name="rulersUnitOfMeasureToolStripMenuItem.Text" xml:space="preserve">
     <value>Maßeinheit des Lineals</value>
@@ -277,9 +273,6 @@
   <data name="imageViewerSettingsToolStripMenuItem.Text" xml:space="preserve">
     <value>Bildbetrachter-Einstellungen...</value>
   </data>
-  <data name="thumbnailViewerSettingsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Einstellungen für die Miniaturansichtsansicht...</value>
-  </data>
   <data name="viewToolStripMenuItem.Text" xml:space="preserve">
     <value>Anzeigen</value>
   </data>
@@ -304,14 +297,20 @@
   <data name="exitToolStripMenuItem.Text" xml:space="preserve">
     <value>Beenden</value>
   </data>
-  <data name="closeDicomFileToolStripMenuItem.Text" xml:space="preserve">
-    <value>DICOM-Datei schließen</value>
+  <data name="closeFilesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Dateien schließen</value>
   </data>
-  <data name="saveDicomFileToImageFileToolStripMenuItem.Text" xml:space="preserve">
-    <value>DICOM-Datei in Bilddatei speichern...</value>
+  <data name="burnAndSaveToDICOMFileToolStripMenuItem.Text" xml:space="preserve">
+    <value>Brennen und in DICOM-Datei speichern...</value>
   </data>
-  <data name="openDicomFilesToolStripMenuItem.Text" xml:space="preserve">
-    <value>DICOM-Datei öffnen...</value>
+  <data name="saveImagesAsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Bilder speichern unter...</value>
+  </data>
+  <data name="openDirectoryToolStripMenuItem.Text" xml:space="preserve">
+    <value>Verzeichnis öffnen...</value>
+  </data>
+  <data name="addFilesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Dateien hinzufügen...</value>
   </data>
   <data name="fileToolStripMenuItem.Text" xml:space="preserve">
     <value>Datei</value>

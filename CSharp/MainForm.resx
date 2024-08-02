@@ -126,21 +126,6 @@
   <metadata name="openDicomFileDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>253, 56</value>
   </metadata>
-  <metadata name="imageViewerToolStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>127, 20</value>
-  </metadata>
-  <metadata name="dicomAnnotatedViewerToolStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 56</value>
-  </metadata>
-  <metadata name="annotationsToolStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>310, 19</value>
-  </metadata>
-  <metadata name="annotationInteractionModeToolStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>599, 23</value>
-  </metadata>
-  <metadata name="imageViewerToolStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>127, 20</value>
-  </metadata>
   <metadata name="dicomAnnotatedViewerToolStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 56</value>
   </metadata>
@@ -148,17 +133,23 @@
   <data name="voiLutsToolStripSplitButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHISURBVDhPhZJPSFRBHMengn1vErp6z7yIByFii3ZZD1FH
-        vayxomXorS5eMpKIbh2DoGsHQVLWfbOEoiAieIjokNZp66CXrVjW3WXb9d/6fr9mfv7cN/Z28Qtf3vyG
-        3/cz82ZG9N4YwnYmKYnCEqK4wMMT2YH7D56dC4AlcQWyzjUuA8DXrRzW6ns4OvGiLQCy7m1fyQ/7aafE
-        UwFg81uO+n3fpzo19hyjiYcI2Y5O9Jx+03us5IYBHivnM86LS2cAxiurn3D61TuM353AUrmqYYCbSvoH
-        KlIEzxkHFek5UnIHMm4CX4qLIYDx8KNprNf3aTckvWLTnhwEz42fOcj/AbulCidZFqCm5F+OBeI2kgEA
-        AFcsC0DWq9t1CBCS1VxRcg/mhLTnQr/w+0+RkyyrubEgf/LGA9nh5MhT+h4eHnFai8P6JgqYdq6id/k6
-        R090Gu67lcLF5Q1ycnQKy5Uqncf2e9kwV4cZN+Z77tv6rKxCVt7keADY3snTgvlfBapjd8bpCx8j3ZBx
-        ukyvBrwxuynOyIPmVZ4C1ta/4Nb3H3hv4AnVxiQdoEaWfgvz+jmvtHyJjydfN8fGrQBGoGQ0tINWbgcI
-        JMQ/QI8FUruO+lgAAAAASUVORK5CYII=
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHGSURBVDhPhZI/SBxBFMYnEW53FNKm19iIhSBBJXdoEWKZ
+        NConagzaaWOjooSQLqUgpE0hiBFzO4coHogKFhJSqLFSi7PxD3Kex+n55+72PWfG5+3o3uEHHztveN9v
+        ZmeG1b5tx1LWEhyZIUT2gob3MgMdPaPPAmCRvYKo9YZKD7C5vYuXmSvs7v9aEgBR+50r+Mz1nJWkKQ+w
+        9X9X97uuq+tw7xg2NH9GiFa8RsdqUb15wdcVMC+svzjLyh4BlGPLGzj+/SeGPvRj8jwtYYCrgrs3IpAA
+        x+oDEajJCn4AEbsZv7GXPoBy55dxzGSu9W605IoFO/wTOHbo0UE+BZwlU5QkGYBLwS8o5onatBQAAKgi
+        GQBtubpZ+wA+Gc0pwa/gN+PmnO8Xjk8SlCQZzbk/fJ827skMt3UN6+/tbZbSUhSWN3GKc1YlOuX1FL3X
+        Q7iuKYwLS+vabd0jeJ5K6/OI/+I5dXUYsYOuY09mpnkaoryR4h4gfnCoFzw8OtV18H2f/sJ8oBoiVpXq
+        lYAJtZvEFL8pXOUDYGXtH27v7GHrx0FdK2vJgG4kybcwK59zrOhLHBj6URgrFwMogeANvh0UcymAJ8bu
+        AA70BUHr3Yk0AAAAAElFTkSuQmCC
 </value>
   </data>
+  <metadata name="dicomViewerToolInteractionButtonToolStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>184, 94</value>
+  </metadata>
+  <metadata name="imageViewerToolStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>474, 94</value>
+  </metadata>
   <metadata name="annotationsToolStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>310, 19</value>
   </metadata>
@@ -179,6 +170,9 @@
   </metadata>
   <metadata name="saveFileDialog2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>548, 56</value>
+  </metadata>
+  <metadata name="folderBrowserDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 94</value>
   </metadata>
   <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>153</value>
@@ -486,14 +480,14 @@
   <data name="voiLutsToolStripSplitButton.Text" xml:space="preserve">
     <value>Value of interest lookup tables</value>
   </data>
-  <data name="actionLabel.Text" xml:space="preserve">
-    <value>Action Label</value>
-  </data>
   <data name="aboutToolStripMenuItem.Text" xml:space="preserve">
     <value>About...</value>
   </data>
   <data name="helpToolStripMenuItem.Text" xml:space="preserve">
     <value>Help</value>
+  </data>
+  <data name="propertiesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Properties...</value>
   </data>
   <data name="crosshairToolStripMenuItem.Text" xml:space="preserve">
     <value>Crosshair</value>
@@ -527,9 +521,6 @@
   </data>
   <data name="binaryFormatToolStripMenuItem.Text" xml:space="preserve">
     <value>Binary Format</value>
-  </data>
-  <data name="presentationStateLoadAutomaticallyToolStripMenuItem.Text" xml:space="preserve">
-    <value>Load Automatically</value>
   </data>
   <data name="presentationStateSaveToToolStripMenuItem.Text" xml:space="preserve">
     <value>Save To...</value>
@@ -598,7 +589,7 @@
     <value>Width Horizontal, Center Vertical</value>
   </data>
   <data name="widthHorizontalInvertedCenterVerticalToolStripMenuItem.Text" xml:space="preserve">
-    <value>Width Horizontal Inverted, Center Vertical</value>
+    <value>Width Horizontal Inverted,Center Vertical</value>
   </data>
   <data name="rulersUnitOfMeasureToolStripMenuItem.Text" xml:space="preserve">
     <value>Rulers Unit Of Measure</value>
@@ -639,9 +630,6 @@
   <data name="imageViewerSettingsToolStripMenuItem.Text" xml:space="preserve">
     <value>Image Viewer Settings...</value>
   </data>
-  <data name="thumbnailViewerSettingsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Thumbnail Viewer Settings...</value>
-  </data>
   <data name="viewToolStripMenuItem.Text" xml:space="preserve">
     <value>View</value>
   </data>
@@ -666,14 +654,20 @@
   <data name="exitToolStripMenuItem.Text" xml:space="preserve">
     <value>Exit</value>
   </data>
-  <data name="closeDicomFileToolStripMenuItem.Text" xml:space="preserve">
-    <value>Close DICOM File</value>
+  <data name="closeFilesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Close Files</value>
   </data>
-  <data name="saveDicomFileToImageFileToolStripMenuItem.Text" xml:space="preserve">
-    <value>Save DICOM File To Image File...</value>
+  <data name="burnAndSaveToDICOMFileToolStripMenuItem.Text" xml:space="preserve">
+    <value>Burn And Save To DICOM file...</value>
   </data>
-  <data name="openDicomFilesToolStripMenuItem.Text" xml:space="preserve">
-    <value>Open DICOM File...</value>
+  <data name="saveImagesAsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Save Images As...</value>
+  </data>
+  <data name="openDirectoryToolStripMenuItem.Text" xml:space="preserve">
+    <value>Open Directory...</value>
+  </data>
+  <data name="addFilesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Add Files...</value>
   </data>
   <data name="fileToolStripMenuItem.Text" xml:space="preserve">
     <value>File</value>

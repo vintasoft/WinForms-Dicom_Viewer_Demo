@@ -165,26 +165,6 @@ namespace DicomViewerDemo.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The file can not be added to the series because the file does not belong current series..
-        /// </summary>
-        internal static string DEMOSCOMMONCODE_DICOM_THE_FILE_CAN_NOT_BE_ADDED_TO_THE_SERIES_BECAUSE_THE_FILE_DOES_NOT_BELONG_CURRENT_SERIES {
-            get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_DICOM_THE_FILE_CAN_NOT_BE_ADDED_TO_THE_SERIES_BECAUSE_THE_FILE_DO" +
-                        "ES_NOT_BELONG_CURRENT_SERIES", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to The file can not be added to the series because the file does not belong current study..
-        /// </summary>
-        internal static string DEMOSCOMMONCODE_DICOM_THE_FILE_CAN_NOT_BE_ADDED_TO_THE_SERIES_BECAUSE_THE_FILE_DOES_NOT_BELONG_CURRENT_STUDY {
-            get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_DICOM_THE_FILE_CAN_NOT_BE_ADDED_TO_THE_SERIES_BECAUSE_THE_FILE_DO" +
-                        "ES_NOT_BELONG_CURRENT_STUDY", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Error.
         /// </summary>
         internal static string DEMOSCOMMONCODE_ERROR {
@@ -1087,11 +1067,11 @@ namespace DicomViewerDemo.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Annotation Data Collection N{0}.
+        ///   Looks up a localized string similar to Annotation Properties.
         /// </summary>
-        internal static string DICOMVIEWERDEMO_ANNOTATION_DATA_COLLECTION_NARG0 {
+        internal static string DICOMVIEWERDEMO_ANNOTATION_PROPERTIES {
             get {
-                return ResourceManager.GetString("DICOMVIEWERDEMO_ANNOTATION_DATA_COLLECTION_NARG0", resourceCulture);
+                return ResourceManager.GetString("DICOMVIEWERDEMO_ANNOTATION_PROPERTIES", resourceCulture);
             }
         }
         
@@ -1296,15 +1276,6 @@ namespace DicomViewerDemo.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Compression Info.
-        /// </summary>
-        internal static string DICOMVIEWERDEMO_COMPRESSION_INFO {
-            get {
-                return ResourceManager.GetString("DICOMVIEWERDEMO_COMPRESSION_INFO", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Copy.
         /// </summary>
         internal static string DICOMVIEWERDEMO_COPY {
@@ -1368,16 +1339,6 @@ namespace DicomViewerDemo.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to DemosCommonCode.Imaging.VisualToolsToolStrip.VisualTools.ZoomVisualTools.Resources.PanTool.png.
-        /// </summary>
-        internal static string DICOMVIEWERDEMO_DEMOSCOMMONCODEIMAGINGVISUALTOOLSTOOLSTRIPVISUALTOOLSZOOMVISUALTOOLSRESOURCESPANTOOLPNG {
-            get {
-                return ResourceManager.GetString("DICOMVIEWERDEMO_DEMOSCOMMONCODEIMAGINGVISUALTOOLSTOOLSTRIPVISUALTOOLSZOOMVISUALTO" +
-                        "OLSRESOURCESPANTOOLPNG", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to DICOM annotations cannot be converted into Vintasoft annotations but annotations can be burned on image.
         ///.
         /// </summary>
@@ -1400,11 +1361,11 @@ namespace DicomViewerDemo.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to DICOM file does not contain image..
+        ///   Looks up a localized string similar to DICOM files|*.dcm.
         /// </summary>
-        internal static string DICOMVIEWERDEMO_DICOM_FILE_DOES_NOT_CONTAIN_IMAGE {
+        internal static string DICOMVIEWERDEMO_DICOM_FILESDCM {
             get {
-                return ResourceManager.GetString("DICOMVIEWERDEMO_DICOM_FILE_DOES_NOT_CONTAIN_IMAGE", resourceCulture);
+                return ResourceManager.GetString("DICOMVIEWERDEMO_DICOM_FILESDCM", resourceCulture);
             }
         }
         
@@ -1414,42 +1375,6 @@ namespace DicomViewerDemo.Localization {
         internal static string DICOMVIEWERDEMO_ERROR {
             get {
                 return ResourceManager.GetString("DICOMVIEWERDEMO_ERROR", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Error.
-        /// </summary>
-        internal static string DICOMVIEWERDEMO_ERROR_ALT1 {
-            get {
-                return ResourceManager.GetString("DICOMVIEWERDEMO_ERROR_ALT1", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Loading {0}.
-        /// </summary>
-        internal static string DICOMVIEWERDEMO_LOADING_ARG0 {
-            get {
-                return ResourceManager.GetString("DICOMVIEWERDEMO_LOADING_ARG0", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Lossless.
-        /// </summary>
-        internal static string DICOMVIEWERDEMO_LOSSLESS {
-            get {
-                return ResourceManager.GetString("DICOMVIEWERDEMO_LOSSLESS", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Lossy.
-        /// </summary>
-        internal static string DICOMVIEWERDEMO_LOSSY {
-            get {
-                return ResourceManager.GetString("DICOMVIEWERDEMO_LOSSY", resourceCulture);
             }
         }
         
@@ -1468,6 +1393,15 @@ namespace DicomViewerDemo.Localization {
         internal static string DICOMVIEWERDEMO_MAGNIFIER_TOOL {
             get {
                 return ResourceManager.GetString("DICOMVIEWERDEMO_MAGNIFIER_TOOL", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Mouse Wheel.
+        /// </summary>
+        internal static string DICOMVIEWERDEMO_MOUSE_WHEEL {
+            get {
+                return ResourceManager.GetString("DICOMVIEWERDEMO_MOUSE_WHEEL", resourceCulture);
             }
         }
         
@@ -1495,24 +1429,6 @@ namespace DicomViewerDemo.Localization {
         internal static string DICOMVIEWERDEMO_PAGE {
             get {
                 return ResourceManager.GetString("DICOMVIEWERDEMO_PAGE", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Pan.
-        /// </summary>
-        internal static string DICOMVIEWERDEMO_PAN {
-            get {
-                return ResourceManager.GetString("DICOMVIEWERDEMO_PAN", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Pan Tool.
-        /// </summary>
-        internal static string DICOMVIEWERDEMO_PAN_TOOL {
-            get {
-                return ResourceManager.GetString("DICOMVIEWERDEMO_PAN_TOOL", resourceCulture);
             }
         }
         
@@ -1611,15 +1527,6 @@ namespace DicomViewerDemo.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Scanning {0}.
-        /// </summary>
-        internal static string DICOMVIEWERDEMO_SCANNING_ARG0 {
-            get {
-                return ResourceManager.GetString("DICOMVIEWERDEMO_SCANNING_ARG0", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Size={0}x{1}; PixelFormat={2}; Resolution={3}.
         /// </summary>
         internal static string DICOMVIEWERDEMO_SIZEARG0XARG1_PIXELFORMATARG2_RESOLUTIONARG3 {
@@ -1629,106 +1536,11 @@ namespace DicomViewerDemo.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The DICOM directory cannot be added to the series of DICOM images..
-        /// </summary>
-        internal static string DICOMVIEWERDEMO_THE_DICOM_DIRECTORY_CANNOT_BE_ADDED_TO_THE_SERIES_OF_DICOM_IMAGES {
-            get {
-                return ResourceManager.GetString("DICOMVIEWERDEMO_THE_DICOM_DIRECTORY_CANNOT_BE_ADDED_TO_THE_SERIES_OF_DICOM_IMAGES" +
-                        "", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to The DICOM file cannot be added to the series of DICOM images because the DICOM file does not contain image..
-        /// </summary>
-        internal static string DICOMVIEWERDEMO_THE_DICOM_FILE_CANNOT_BE_ADDED_TO_THE_SERIES_OF_DICOM_IMAGES_BECAUSE_THE_DICOM_FILE_DOES_NOT_CONTAIN_IMAGE {
-            get {
-                return ResourceManager.GetString("DICOMVIEWERDEMO_THE_DICOM_FILE_CANNOT_BE_ADDED_TO_THE_SERIES_OF_DICOM_IMAGES_BECA" +
-                        "USE_THE_DICOM_FILE_DOES_NOT_CONTAIN_IMAGE", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to The file &apos;{0}&apos; can not be opened:
-        ///\&quot;{1}\&quot;
-        ///Do you want to continue anyway?.
-        /// </summary>
-        internal static string DICOMVIEWERDEMO_THE_FILE_ARG0_CAN_NOT_BE_OPENEDRNARG1RNDO_YOU_WANT_TO_CONTINUE_ANYWAY {
-            get {
-                return ResourceManager.GetString("DICOMVIEWERDEMO_THE_FILE_ARG0_CAN_NOT_BE_OPENEDRNARG1RNDO_YOU_WANT_TO_CONTINUE_AN" +
-                        "YWAY", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to The series already contains DICOM file \&quot;{0}\&quot;..
-        /// </summary>
-        internal static string DICOMVIEWERDEMO_THE_SERIES_ALREADY_CONTAINS_DICOM_FILE_ARG0 {
-            get {
-                return ResourceManager.GetString("DICOMVIEWERDEMO_THE_SERIES_ALREADY_CONTAINS_DICOM_FILE_ARG0", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to TIFF Files|*.tif;*.tiff|JPEG Files|*.jpg;*.jpeg|PNG Files|.png.
         /// </summary>
         internal static string DICOMVIEWERDEMO_TIFF_FILESTIFTIFFJPEG_FILESJPGJPEGPNG_FILESPNG {
             get {
                 return ResourceManager.GetString("DICOMVIEWERDEMO_TIFF_FILESTIFTIFFJPEG_FILESJPGJPEGPNG_FILESPNG", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Uncompressed.
-        /// </summary>
-        internal static string DICOMVIEWERDEMO_UNCOMPRESSED {
-            get {
-                return ResourceManager.GetString("DICOMVIEWERDEMO_UNCOMPRESSED", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Unknown.
-        /// </summary>
-        internal static string DICOMVIEWERDEMO_UNKNOWN {
-            get {
-                return ResourceManager.GetString("DICOMVIEWERDEMO_UNKNOWN", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Unknown.
-        /// </summary>
-        internal static string DICOMVIEWERDEMO_UNKNOWN_ALT1 {
-            get {
-                return ResourceManager.GetString("DICOMVIEWERDEMO_UNKNOWN_ALT1", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Unknown.
-        /// </summary>
-        internal static string DICOMVIEWERDEMO_UNKNOWN_ALT2 {
-            get {
-                return ResourceManager.GetString("DICOMVIEWERDEMO_UNKNOWN_ALT2", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to (Untitled).
-        /// </summary>
-        internal static string DICOMVIEWERDEMO_UNTITLED {
-            get {
-                return ResourceManager.GetString("DICOMVIEWERDEMO_UNTITLED", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to (Untitled).
-        /// </summary>
-        internal static string DICOMVIEWERDEMO_UNTITLED_ALT1 {
-            get {
-                return ResourceManager.GetString("DICOMVIEWERDEMO_UNTITLED_ALT1", resourceCulture);
             }
         }
         
