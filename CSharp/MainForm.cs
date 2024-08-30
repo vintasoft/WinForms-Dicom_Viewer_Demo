@@ -25,6 +25,7 @@ using Vintasoft.Imaging.Metadata;
 using Vintasoft.Imaging.UI;
 using Vintasoft.Imaging.UI.VisualTools;
 using Vintasoft.Imaging.UIActions;
+using Vintasoft.Primitives;
 
 using DemosCommonCode;
 using DemosCommonCode.Imaging;
@@ -273,6 +274,12 @@ namespace DicomViewerDemo
             annotationsToolStrip1.Viewer = imageViewer1;
             imageViewer1.IsFastScrollingEnabled = false;
             imageViewer1.ImageDecodingSettings = (DecodingSettings)_dicomFrameDecodingSettings.Clone();
+
+            DicomSrRenderingSettings dicomSrRenderingSettings = new DicomSrRenderingSettings();
+            dicomSrRenderingSettings.BackgroundColor = VintasoftColor.Black;
+            dicomSrRenderingSettings.ReportHeaderTextColor = VintasoftColor.White;
+            dicomSrRenderingSettings.ItemTextColor = VintasoftColor.White;
+            imageViewer1.ImageRenderingSettings = dicomSrRenderingSettings;
 
             dicomViewerToolInteractionButtonToolStrip1.Tool = _dicomViewerTool;
 
