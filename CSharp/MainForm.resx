@@ -657,6 +657,9 @@
   <data name="closeFilesToolStripMenuItem.Text" xml:space="preserve">
     <value>Close Files</value>
   </data>
+  <data name="saveViewerScreenshotToolStripMenuItem.Text" xml:space="preserve">
+    <value>Save Viewer Screenshot...</value>
+  </data>
   <data name="burnAndSaveToDICOMFileToolStripMenuItem.Text" xml:space="preserve">
     <value>Burn And Save To DICOM file...</value>
   </data>

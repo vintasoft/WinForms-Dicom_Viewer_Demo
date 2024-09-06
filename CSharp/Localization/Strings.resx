@@ -523,6 +523,9 @@
   <data name="DICOMVIEWERDEMO_DICOM_FILESDCM" xml:space="preserve">
     <value>DICOM files|*.dcm</value>
   </data>
+  <data name="DICOMVIEWERDEMO_DICOM_IMAGES_CAN_CAN_BE_SAVED_TO_THE_SOURCE_FILE_IF_SOURCE_FILE_IS_FOCUSED_IN_VIEWER_OR_TO_A_NEW_FILE" xml:space="preserve">
+    <value>DICOM images can can be saved to the source file (if source file is focused in viewer) or to a new file.</value>
+  </data>
   <data name="DICOMVIEWERDEMO_DICOM_ANNOTATIONS_CANNOT_BE_CONVERTED_INTO_VINTASOFT_ANNOTATIONS_BUT_ANNOTATIONS_CAN_BE_BURNED_ON_IMAGERN_ALT1" xml:space="preserve">
     <value>DICOM annotations cannot be converted into Vintasoft annotations but annotations can be burned on image.
 </value>

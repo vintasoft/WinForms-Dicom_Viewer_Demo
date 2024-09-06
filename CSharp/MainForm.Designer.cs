@@ -41,6 +41,7 @@ namespace DicomViewerDemo
             this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
             this.saveImagesAsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.burnAndSaveToDICOMFileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.saveViewerScreenshotToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator12 = new System.Windows.Forms.ToolStripSeparator();
             this.closeFilesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
@@ -181,6 +182,7 @@ namespace DicomViewerDemo
             // 
             // dicomSeriesManagerControl1
             // 
+            this.dicomSeriesManagerControl1.AllowDrop = true;
             this.dicomSeriesManagerControl1.BackColor = System.Drawing.Color.Black;
             this.dicomSeriesManagerControl1.DicomViewer = this.imageViewer1;
             this.dicomSeriesManagerControl1.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -210,6 +212,9 @@ namespace DicomViewerDemo
             this.dicomSeriesManagerControl1.ThumbnailImageSize = new System.Drawing.Size(150, 150);
             this.dicomSeriesManagerControl1.AddedFileCountChanged += new System.EventHandler(this.dicomSeriesManagerControl1_AddedFileCountChanged);
             this.dicomSeriesManagerControl1.AddFilesException += new System.EventHandler<Vintasoft.Imaging.ImageSourceExceptionEventArgs>(this.dicomSeriesManagerControl1_AddFilesException);
+            this.dicomSeriesManagerControl1.DragDrop += new System.Windows.Forms.DragEventHandler(this.imageViewer1_DragDrop);
+            this.dicomSeriesManagerControl1.DragEnter += new System.Windows.Forms.DragEventHandler(this.imageViewer1_Dragging);
+            this.dicomSeriesManagerControl1.DragOver += new System.Windows.Forms.DragEventHandler(this.imageViewer1_Dragging);
             // 
             // imageViewer1
             // 
@@ -225,6 +230,7 @@ namespace DicomViewerDemo
             this.imageViewer1.FocusPointAnchor = Vintasoft.Imaging.AnchorType.None;
             this.imageViewer1.ImageRenderingSettings = renderingSettings1;
             this.imageViewer1.ImageRotationAngle = 0;
+            this.imageViewer1.IsFastScrollingEnabled = true;
             this.imageViewer1.IsFocusPointFixed = false;
             this.imageViewer1.IsKeyboardNavigationEnabled = true;
             this.imageViewer1.Location = new System.Drawing.Point(0, 0);
@@ -270,6 +276,7 @@ namespace DicomViewerDemo
             this.toolStripSeparator5,
             this.saveImagesAsToolStripMenuItem,
             this.burnAndSaveToDICOMFileToolStripMenuItem,
+            this.saveViewerScreenshotToolStripMenuItem,
             this.toolStripSeparator12,
             this.closeFilesToolStripMenuItem,
             this.toolStripSeparator2,
@@ -311,6 +318,13 @@ namespace DicomViewerDemo
             this.burnAndSaveToDICOMFileToolStripMenuItem.Size = new System.Drawing.Size(236, 22);
             resources.ApplyResources(this.burnAndSaveToDICOMFileToolStripMenuItem, "burnAndSaveToDICOMFileToolStripMenuItem");
             this.burnAndSaveToDICOMFileToolStripMenuItem.Click += new System.EventHandler(this.burnAndSaveToDICOMFileToolStripMenuItem_Click);
+            // 
+            // saveViewerScreenshotToolStripMenuItem
+            // 
+            this.saveViewerScreenshotToolStripMenuItem.Name = "saveViewerScreenshotToolStripMenuItem";
+            this.saveViewerScreenshotToolStripMenuItem.Size = new System.Drawing.Size(236, 22);
+            resources.ApplyResources(this.saveViewerScreenshotToolStripMenuItem, "saveViewerScreenshotToolStripMenuItem");
+            this.saveViewerScreenshotToolStripMenuItem.Click += new System.EventHandler(this.saveViewerScreenshotToolStripMenuItem_Click);
             // 
             // toolStripSeparator12
             // 
@@ -1047,7 +1061,7 @@ namespace DicomViewerDemo
             // toolStripStatusLabel1
             // 
             this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
-            this.toolStripStatusLabel1.Size = new System.Drawing.Size(571, 17);
+            this.toolStripStatusLabel1.Size = new System.Drawing.Size(815, 17);
             this.toolStripStatusLabel1.Spring = true;
             // 
             // imageInfoToolStripStatusLabel
@@ -1341,5 +1355,6 @@ namespace DicomViewerDemo
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator5;
         private System.Windows.Forms.ToolStripMenuItem burnAndSaveToDICOMFileToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator12;
+        private System.Windows.Forms.ToolStripMenuItem saveViewerScreenshotToolStripMenuItem;
     }
 }

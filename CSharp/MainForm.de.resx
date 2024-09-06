@@ -300,6 +300,9 @@
   <data name="closeFilesToolStripMenuItem.Text" xml:space="preserve">
     <value>Dateien schließen</value>
   </data>
+  <data name="saveViewerScreenshotToolStripMenuItem.Text" xml:space="preserve">
+    <value>Einen Viewer-Screenshot speichern...</value>
+  </data>
   <data name="burnAndSaveToDICOMFileToolStripMenuItem.Text" xml:space="preserve">
     <value>Brennen und in DICOM-Datei speichern...</value>
   </data>

@@ -1370,6 +1370,16 @@ namespace DicomViewerDemo.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to DICOM images can can be saved to the source file (if source file is focused in viewer) or to a new file..
+        /// </summary>
+        internal static string DICOMVIEWERDEMO_DICOM_IMAGES_CAN_CAN_BE_SAVED_TO_THE_SOURCE_FILE_IF_SOURCE_FILE_IS_FOCUSED_IN_VIEWER_OR_TO_A_NEW_FILE {
+            get {
+                return ResourceManager.GetString("DICOMVIEWERDEMO_DICOM_IMAGES_CAN_CAN_BE_SAVED_TO_THE_SOURCE_FILE_IF_SOURCE_FILE_I" +
+                        "S_FOCUSED_IN_VIEWER_OR_TO_A_NEW_FILE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Error.
         /// </summary>
         internal static string DICOMVIEWERDEMO_ERROR {

@@ -580,11 +580,102 @@ namespace DicomViewerDemo
 #if !REMOVE_ANNOTATION_PLUGIN
             saveFileDialog1.Filter = DicomViewerDemo.Localization.Strings.DICOMVIEWERDEMO_DICOM_FILESDCM;
 
-            if (saveFileDialog1.ShowDialog() == DialogResult.OK)
+            try
             {
-                _dicomAnnotatedViewerTool.BurnAndSaveToDicomFile(saveFileDialog1.FileName);
+                if (saveFileDialog1.ShowDialog() == DialogResult.OK)
+                {
+                    // destination file path
+                    string destFilePath = Path.GetFullPath(saveFileDialog1.FileName);
+
+                    bool needUpdateFocusedSeries = false;
+
+                    // get file path for focused image
+                    string focusedImageFilePath = Path.GetFullPath(imageViewer1.Image.SourceInfo.Filename);
+                    // if modified DICOM image must be saved to the source DICOM file
+                    if (focusedImageFilePath == destFilePath)
+                    {
+                        // specify that focused series must be updated
+                        needUpdateFocusedSeries = true;
+                    }
+                    // if modified DICOM image must be saved to a new DICOM file
+                    else
+                    {
+                        // for each DICOM image in image viewer
+                        foreach (VintasoftImage image in imageViewer1.Images)
+                        {
+                            // get file path for current image
+                            string currentImageFilePath = Path.GetFullPath(image.SourceInfo.Filename);
+                            // if DICOM image must be saved to the source DICOM file
+                            if (currentImageFilePath == destFilePath)
+                            {
+                                throw new InvalidOperationException(
+                                    DicomViewerDemo.Localization.Strings.DICOMVIEWERDEMO_DICOM_IMAGES_CAN_CAN_BE_SAVED_TO_THE_SOURCE_FILE_IF_SOURCE_FILE_IS_FOCUSED_IN_VIEWER_OR_TO_A_NEW_FILE);
+                            }
+                        }
+                    }
+
+                    // burn annotations and measurements on DICOM images and save DICOM images to a file
+                    _dicomAnnotatedViewerTool.BurnAndSaveToDicomFile(destFilePath);
+
+                    // if focused series must be updated
+                    if (needUpdateFocusedSeries)
+                    {
+                        // get identifier of focused image
+                        string focusedImageId = dicomSeriesManagerControl1.SeriesManager.GetImageIdentifierByImage(imageViewer1.Image);
+                        // get series identifier for focused image
+                        string focusedImageSeriesId = dicomSeriesManagerControl1.SeriesManager.GetSeriesIdentifierByImage(imageViewer1.Image);
+                        // get series images by series identifier
+                        VintasoftImage[] seriesImages = dicomSeriesManagerControl1.SeriesManager.GetSeriesImages(focusedImageSeriesId);
+
+                        // remove series images from image viewer
+                        imageViewer1.Images.RemoveRange(seriesImages);
+                        // for each series image
+                        foreach (VintasoftImage imageForDispose in seriesImages)
+                            // dispose image
+                            imageForDispose.Dispose();
+
+                        // load series images from file (we saved series images to the file in code above)
+                        imageViewer1.Images.Add(destFilePath);
+
+                        // get focused image by image identifier
+                        VintasoftImage focusedImage = dicomSeriesManagerControl1.SeriesManager.GetImage(focusedImageId);
+                        // if focused image is found
+                        if (focusedImage != null)
+                        {
+                            // find image index in image viewer
+                            int index = imageViewer1.Images.IndexOf(focusedImage);
+                            // if index is found
+                            if (index != -1)
+                            {
+                                // set focused image in image viewer
+                                imageViewer1.FocusedIndex = index;
+                            }
+                        }
+
+                        // update UI
+                        UpdateUI();
+                        UpdateUIWithInformationAboutDicomFile();
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                DemosTools.ShowErrorMessage(ex);
             }
 #endif
+        }
+
+        /// <summary>
+        /// Handles the Click event of saveViewerScreenshotToolStripMenuItem object.
+        /// </summary>
+        private void saveViewerScreenshotToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            // get image of image viewer
+            using (VintasoftImage image = imageViewer1.RenderViewerImage())
+            {
+                // save image to a file
+                SaveImageFileForm.SaveImageToFile(image, ImagingEncoderFactory.Default);
+            }
         }
 
         /// <summary>
@@ -2129,7 +2220,7 @@ namespace DicomViewerDemo
         /// <param name="filesPath">Files path.</param>
         private void AddDicomFiles(params string[] filesPath)
         {
-            dicomSeriesManagerControl1.AddFiles(filesPath);
+            dicomSeriesManagerControl1.AddFiles(filesPath, false);
         }
 
         /// <summary>
@@ -2149,7 +2240,7 @@ namespace DicomViewerDemo
         /// <param name="filesPath">Files path.</param>
         private void AddDicomFilesFromDirectory(string filesPath)
         {
-            dicomSeriesManagerControl1.AddDirectory(filesPath, true);
+            dicomSeriesManagerControl1.AddDirectory(filesPath, true, false);
         }
 
         /// <summary>
@@ -2926,19 +3017,20 @@ namespace DicomViewerDemo
                 // get image file names
                 string[] filenames = (string[])e.Data.GetData("FileDrop");
 
-                // close the previously opened DICOM files
-                CloseDicomFiles();
+                if (sender is ImageViewer)
+                    // close the previously opened DICOM files
+                    CloseDicomFiles();
 
-                // if is single directory
-                if (filenames.Length == 1 && Directory.Exists(filenames[0]))
+                foreach (string filename in filenames)
                 {
-                    // get files from directory
-                    filenames = Directory.GetFiles(filenames[0]);
+                    // if is directory
+                    if (Directory.Exists(filename))
+                        // add files from directory
+                        AddDicomFilesFromDirectory(filename);
+                    else
+                        // add DICOM files to the DICOM series
+                        AddDicomFiles(filename);
                 }
-
-                // add DICOM files to the DICOM series
-                AddDicomFiles(filenames);
-                _dicomViewerTool.DicomImageVoiLut = _dicomViewerTool.DefaultDicomImageVoiLut;
             }
         }
 
