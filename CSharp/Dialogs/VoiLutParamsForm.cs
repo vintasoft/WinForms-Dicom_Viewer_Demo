@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Windows.Forms;
 
 using Vintasoft.Imaging;
@@ -89,6 +90,7 @@ namespace DicomViewerDemo
         /// <summary>
         /// Gets or sets the DICOM frame.
         /// </summary>
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
         internal VintasoftImage DicomFrame
         {
             get

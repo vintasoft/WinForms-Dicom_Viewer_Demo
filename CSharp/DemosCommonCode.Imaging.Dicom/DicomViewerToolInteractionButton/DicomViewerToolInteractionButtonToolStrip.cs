@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Drawing;
 using System.IO;
 using System.Windows.Forms;
@@ -101,6 +102,7 @@ namespace DicomViewerDemo
         /// <value>
         /// Default value is <b>null</b>.
         /// </value>
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Visible)]
         public DicomViewerTool Tool
         {
             get
@@ -130,6 +132,7 @@ namespace DicomViewerDemo
         /// Gets or sets the supported interaction modes of toolbar.
         /// </summary>
         /// <exception cref="ArgumentNullException">Thrown if <i>value</i> is <b>null</b>.</exception>
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Visible)]
         public DicomViewerToolInteractionMode[] SupportedInteractionModes
         {
             get
@@ -159,6 +162,7 @@ namespace DicomViewerDemo
         /// <value>
         /// Default value is <b>null</b>.
         /// </value>
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Visible)]
         public DicomViewerToolInteractionMode[] DisabledInteractionModes
         {
             get

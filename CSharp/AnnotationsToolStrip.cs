@@ -120,6 +120,7 @@ namespace DicomViewerDemo
         /// Gets or sets the <see cref="AnnotationViewer"/> associated with
         /// this <see cref="AnnotationsToolStrip"/>.
         /// </summary>        
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Visible)]
         public ImageViewer Viewer
         {
             get

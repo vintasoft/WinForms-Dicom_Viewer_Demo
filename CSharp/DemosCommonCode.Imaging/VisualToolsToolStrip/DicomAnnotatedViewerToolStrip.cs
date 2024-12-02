@@ -1,4 +1,6 @@
 ﻿using System.Collections.Generic;
+using System.ComponentModel;
+
 
 #if !REMOVE_ANNOTATION_PLUGIN
 using Vintasoft.Imaging.Annotation.Dicom.UI.VisualTools; 
@@ -49,6 +51,7 @@ namespace DemosCommonCode.Imaging
         /// <remarks>
         /// The mandatory visual tool is always active because is always used in composition with selected visual tool.
         /// </remarks>
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Visible)]
         public override VisualTool MandatoryVisualTool
         {
             get
@@ -117,6 +120,7 @@ namespace DemosCommonCode.Imaging
         /// <value>
         /// Default value is <b>null</b>.
         /// </value>
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Visible)]
         public DicomAnnotatedViewerTool DicomAnnotatedViewerTool
         {
             get
