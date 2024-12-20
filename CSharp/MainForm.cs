@@ -829,12 +829,21 @@ namespace DicomViewerDemo
         }
 
         /// <summary>
-        /// Handles the CheckedChanged event of showScrollbarsToolStripMenuItem object.
+        /// Handles the CheckedChanged event of showViewerScrollbarsToolStripMenuItem object.
         /// </summary>
-        private void showScrollbarsToolStripMenuItem_CheckedChanged(object sender, EventArgs e)
+        private void showViewerScrollbarsToolStripMenuItem_CheckedChanged(object sender, EventArgs e)
         {
             // show/hide scrollbars in image viewer
-            imageViewer1.AutoScroll = showScrollbarsToolStripMenuItem.Checked;
+            imageViewer1.AutoScroll = showViewerScrollbarsToolStripMenuItem.Checked;
+        }
+
+        /// <summary>
+        /// Handles the CheckedChanged event of showBrowseScrollbarToolStripMenuItem object.
+        /// </summary>
+        private void showBrowseScrollbarToolStripMenuItem_CheckedChanged(object sender, EventArgs e)
+        {
+            if (_dicomViewerTool != null)
+                _dicomViewerTool.ScrollProperties.IsVisible = showBrowseScrollbarToolStripMenuItem.Checked;
         }
 
         #endregion

@@ -28,8 +28,6 @@ namespace DicomViewerDemo
         /// </summary>
         private void InitializeComponent()
         {
-            Vintasoft.Imaging.Utils.WinFormsSystemClipboard winFormsSystemClipboard1 = new Vintasoft.Imaging.Utils.WinFormsSystemClipboard();
-            Vintasoft.Imaging.Codecs.Decoders.RenderingSettings renderingSettings1 = new Vintasoft.Imaging.Codecs.Decoders.RenderingSettings();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.dicomSeriesManagerControl1 = new Vintasoft.Imaging.Dicom.UI.DicomSeriesManagerControl();
@@ -59,7 +57,8 @@ namespace DicomViewerDemo
             this.counterclockwiseToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.fullScreenToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.showScrollbarsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.showViewerScrollbarsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.showBrowseScrollbarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
             this.showOverlayImagesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.overlayColorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -186,7 +185,6 @@ namespace DicomViewerDemo
             this.dicomSeriesManagerControl1.BackColor = System.Drawing.Color.Black;
             this.dicomSeriesManagerControl1.DicomViewer = this.imageViewer1;
             this.dicomSeriesManagerControl1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dicomSeriesManagerControl1.FocusedSeriesIdentifier = null;
             this.dicomSeriesManagerControl1.IsKeyboardNavigationEnabled = true;
             this.dicomSeriesManagerControl1.Location = new System.Drawing.Point(0, 0);
             this.dicomSeriesManagerControl1.Name = "dicomSeriesManagerControl1";
@@ -220,17 +218,8 @@ namespace DicomViewerDemo
             // 
             this.imageViewer1.AllowDrop = true;
             this.imageViewer1.BackColor = System.Drawing.Color.Black;
-            this.imageViewer1.Clipboard = winFormsSystemClipboard1;
             this.imageViewer1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.imageViewer1.FastScrollingCursor = System.Windows.Forms.Cursors.SizeAll;
-            this.imageViewer1.FastScrollingInterval = 10;
-            this.imageViewer1.FastScrollingMinDistance = 5F;
-            this.imageViewer1.FastScrollingMouseButton = System.Windows.Forms.MouseButtons.Middle;
-            this.imageViewer1.FastScrollingScale = 0.5F;
             this.imageViewer1.FocusPointAnchor = Vintasoft.Imaging.AnchorType.None;
-            this.imageViewer1.ImageRenderingSettings = renderingSettings1;
-            this.imageViewer1.ImageRotationAngle = 0;
-            this.imageViewer1.IsFastScrollingEnabled = true;
             this.imageViewer1.IsFocusPointFixed = false;
             this.imageViewer1.IsKeyboardNavigationEnabled = true;
             this.imageViewer1.Location = new System.Drawing.Point(0, 0);
@@ -413,7 +402,8 @@ namespace DicomViewerDemo
             this.rotateViewToolStripMenuItem,
             this.toolStripSeparator1,
             this.fullScreenToolStripMenuItem,
-            this.showScrollbarsToolStripMenuItem,
+            this.showViewerScrollbarsToolStripMenuItem,
+            this.showBrowseScrollbarToolStripMenuItem,
             this.toolStripSeparator4,
             this.showOverlayImagesToolStripMenuItem,
             this.overlayColorToolStripMenuItem,
@@ -486,14 +476,24 @@ namespace DicomViewerDemo
             // 
             // showScrollbarsToolStripMenuItem
             // 
-            this.showScrollbarsToolStripMenuItem.Checked = true;
-            this.showScrollbarsToolStripMenuItem.CheckOnClick = true;
-            this.showScrollbarsToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.showScrollbarsToolStripMenuItem.Name = "showScrollbarsToolStripMenuItem";
-            this.showScrollbarsToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F6;
-            this.showScrollbarsToolStripMenuItem.Size = new System.Drawing.Size(239, 22);
-            resources.ApplyResources(this.showScrollbarsToolStripMenuItem, "showScrollbarsToolStripMenuItem");
-            this.showScrollbarsToolStripMenuItem.CheckedChanged += new System.EventHandler(this.showScrollbarsToolStripMenuItem_CheckedChanged);
+            this.showViewerScrollbarsToolStripMenuItem.Checked = true;
+            this.showViewerScrollbarsToolStripMenuItem.CheckOnClick = true;
+            this.showViewerScrollbarsToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.showViewerScrollbarsToolStripMenuItem.Name = "showScrollbarsToolStripMenuItem";
+            this.showViewerScrollbarsToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F6;
+            this.showViewerScrollbarsToolStripMenuItem.Size = new System.Drawing.Size(239, 22);
+            resources.ApplyResources(this.showViewerScrollbarsToolStripMenuItem, "showViewerScrollbarsToolStripMenuItem");
+            this.showViewerScrollbarsToolStripMenuItem.CheckedChanged += new System.EventHandler(this.showViewerScrollbarsToolStripMenuItem_CheckedChanged);
+            // 
+            // showBrowseScrollbarToolStripMenuItem
+            // 
+            this.showBrowseScrollbarToolStripMenuItem.Checked = true;
+            this.showBrowseScrollbarToolStripMenuItem.CheckOnClick = true;
+            this.showBrowseScrollbarToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.showBrowseScrollbarToolStripMenuItem.Name = "showBrowseScrollbarToolStripMenuItem";
+            this.showBrowseScrollbarToolStripMenuItem.Size = new System.Drawing.Size(239, 22);
+            resources.ApplyResources(this.showBrowseScrollbarToolStripMenuItem, "showBrowseScrollbarToolStripMenuItem");
+            this.showBrowseScrollbarToolStripMenuItem.CheckedChanged += new System.EventHandler(this.showBrowseScrollbarToolStripMenuItem_CheckedChanged);
             // 
             // toolStripSeparator4
             // 
@@ -1139,12 +1139,10 @@ namespace DicomViewerDemo
             this.imageViewerToolStrip1.ImageViewer = this.imageViewer1;
             this.imageViewerToolStrip1.Location = new System.Drawing.Point(209, 0);
             this.imageViewerToolStrip1.Name = "imageViewerToolStrip1";
-            this.imageViewerToolStrip1.PageCount = 0;
             this.imageViewerToolStrip1.PrintButtonEnabled = true;
             this.imageViewerToolStrip1.ScanButtonEnabled = true;
             this.imageViewerToolStrip1.Size = new System.Drawing.Size(116, 25);
             this.imageViewerToolStrip1.TabIndex = 9;
-            this.imageViewerToolStrip1.UseImageViewerImages = true;
             // 
             // annotationsToolStrip1
             // 
@@ -1343,7 +1341,7 @@ namespace DicomViewerDemo
         private System.Windows.Forms.SaveFileDialog saveFileDialog2;
         private System.Windows.Forms.ToolStripMenuItem fullScreenToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
-        private System.Windows.Forms.ToolStripMenuItem showScrollbarsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem showViewerScrollbarsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem widthHorizontalInvertedCenterVerticalToolStripMenuItem;
         private Vintasoft.Imaging.Dicom.UI.DicomSeriesManagerControl dicomSeriesManagerControl1;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator3;
@@ -1356,5 +1354,6 @@ namespace DicomViewerDemo
         private System.Windows.Forms.ToolStripMenuItem burnAndSaveToDICOMFileToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator12;
         private System.Windows.Forms.ToolStripMenuItem saveViewerScreenshotToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem showBrowseScrollbarToolStripMenuItem;
     }
 }

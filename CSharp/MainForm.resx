@@ -612,8 +612,11 @@
   <data name="showOverlayImagesToolStripMenuItem.Text" xml:space="preserve">
     <value>Show Overlay Images</value>
   </data>
-  <data name="showScrollbarsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Show Scrollbars</value>
+  <data name="showBrowseScrollbarToolStripMenuItem.Text" xml:space="preserve">
+    <value>Show Browse Scrollbar</value>
+  </data>
+  <data name="showViewerScrollbarsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Show Viewer Scrollbars</value>
   </data>
   <data name="fullScreenToolStripMenuItem.Text" xml:space="preserve">
     <value>Full Screen</value>
