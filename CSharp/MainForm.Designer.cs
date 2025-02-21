@@ -150,6 +150,7 @@ namespace DicomViewerDemo
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
             this.saveFileDialog2 = new System.Windows.Forms.SaveFileDialog();
             this.folderBrowserDialog1 = new System.Windows.Forms.FolderBrowserDialog();
+            this.interactionPointsSettingsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
             this.splitContainer1.SuspendLayout();
@@ -400,6 +401,7 @@ namespace DicomViewerDemo
             this.viewToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.imageViewerSettingsToolStripMenuItem,
             this.rotateViewToolStripMenuItem,
+            this.interactionPointsSettingsToolStripMenuItem,
             this.toolStripSeparator1,
             this.fullScreenToolStripMenuItem,
             this.showViewerScrollbarsToolStripMenuItem,
@@ -1199,6 +1201,13 @@ namespace DicomViewerDemo
             // 
             this.folderBrowserDialog1.ShowNewFolderButton = false;
             // 
+            // interactionPointsSettingsToolStripMenuItem
+            // 
+            this.interactionPointsSettingsToolStripMenuItem.Name = "interactionPointsSettingsToolStripMenuItem";
+            this.interactionPointsSettingsToolStripMenuItem.Size = new System.Drawing.Size(239, 22);
+            resources.ApplyResources(this.interactionPointsSettingsToolStripMenuItem, "interactionPointsSettingsToolStripMenuItem");
+            this.interactionPointsSettingsToolStripMenuItem.Click += new System.EventHandler(this.interactionPointsAppearanceToolStripMenuItem_Click);
+            // 
             // MainForm
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -1355,5 +1364,6 @@ namespace DicomViewerDemo
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator12;
         private System.Windows.Forms.ToolStripMenuItem saveViewerScreenshotToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem showBrowseScrollbarToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem interactionPointsSettingsToolStripMenuItem;
     }
 }

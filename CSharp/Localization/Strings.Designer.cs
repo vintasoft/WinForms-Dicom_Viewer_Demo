@@ -109,6 +109,15 @@ namespace DicomViewerDemo.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Default.
+        /// </summary>
+        internal static string DEMOSCOMMONCODE_CUSTOMCONTROLS_DEFAULT {
+            get {
+                return ResourceManager.GetString("DEMOSCOMMONCODE_CUSTOMCONTROLS_DEFAULT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Double click on the panel if the current color must be changed..
         /// </summary>
         internal static string DEMOSCOMMONCODE_CUSTOMCONTROLS_DOUBLE_CLICK_ON_THE_PANEL_IF_THE_CURRENT_COLOR_MUST_BE_CHANGED {
@@ -124,6 +133,15 @@ namespace DicomViewerDemo.Localization {
         internal static string DEMOSCOMMONCODE_CUSTOMCONTROLS_FIND_REACHED_THE_STARTING_POINT_OF_THE_SEARCH {
             get {
                 return ResourceManager.GetString("DEMOSCOMMONCODE_CUSTOMCONTROLS_FIND_REACHED_THE_STARTING_POINT_OF_THE_SEARCH", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Help.
+        /// </summary>
+        internal static string DEMOSCOMMONCODE_CUSTOMCONTROLS_HELP {
+            get {
+                return ResourceManager.GetString("DEMOSCOMMONCODE_CUSTOMCONTROLS_HELP", resourceCulture);
             }
         }
         

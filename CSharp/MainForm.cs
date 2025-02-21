@@ -13,6 +13,7 @@ using Vintasoft.Imaging.Annotation.Dicom;
 using Vintasoft.Imaging.Annotation.Dicom.UI.VisualTools;
 using Vintasoft.Imaging.Annotation.Formatters;
 using Vintasoft.Imaging.Annotation.UI;
+using Vintasoft.Imaging.Annotation.UI.VisualTools;
 #endif
 using Vintasoft.Imaging.Codecs;
 using Vintasoft.Imaging.Codecs.Decoders;
@@ -24,6 +25,7 @@ using Vintasoft.Imaging.ImageColors;
 using Vintasoft.Imaging.Metadata;
 using Vintasoft.Imaging.UI;
 using Vintasoft.Imaging.UI.VisualTools;
+using Vintasoft.Imaging.UI.VisualTools.UserInteraction;
 using Vintasoft.Imaging.UIActions;
 using Vintasoft.Primitives;
 
@@ -73,6 +75,11 @@ namespace DicomViewerDemo
         /// The previous interaction mode in DICOM annotation tool.
         /// </summary>
         AnnotationInteractionMode _previousDicomAnnotationToolInteractionMode;
+
+        /// <summary>
+        /// Manager of interaction areas.
+        /// </summary>
+        InteractionAreaAppearanceManager _interactionAreaAppearanceManager;
 #endif
 
         /// <summary>
@@ -241,6 +248,9 @@ namespace DicomViewerDemo
                    new DicomAnnotationTool(),
                    (Vintasoft.Imaging.Annotation.Measurements.ImageMeasureTool)imageMeasureToolAction.VisualTool);
             _dicomAnnotatedViewerTool.InteractionMode = DicomAnnotatedViewerToolInteractionMode.None;
+
+            _interactionAreaAppearanceManager = new AnnotationInteractionAreaAppearanceManager();
+            _interactionAreaAppearanceManager.VisualTool = _dicomAnnotatedViewerTool.DicomAnnotationTool;
 #endif
 
             // add visual tools to tool strip
@@ -1127,6 +1137,26 @@ namespace DicomViewerDemo
 
             if (magnifierToolAction != null)
                 magnifierToolAction.ShowVisualToolSettings();
+        }
+
+        #endregion
+
+
+        #region Interaction Points
+
+        /// <summary>
+        /// Handles the Click event of interactionPointsAppearanceToolStripMenuItem object.
+        /// </summary>
+        private void interactionPointsAppearanceToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+#if !REMOVE_ANNOTATION_PLUGIN
+            // create  interaction area appearance manager form
+            using (InteractionAreaAppearanceManagerForm dialog = new InteractionAreaAppearanceManagerForm())
+            {
+                dialog.InteractionAreaSettings = _interactionAreaAppearanceManager;
+                dialog.ShowDialog();
+            }
+#endif
         }
 
         #endregion
@@ -3102,6 +3132,5 @@ namespace DicomViewerDemo
         delegate void SavingFinishedDelegate(object sender, EventArgs e);
 
         #endregion
-
     }
 }

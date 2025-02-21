@@ -129,6 +129,12 @@
   <data name="DEMOSCOMMONCODE_CUSTOMCONTROLS_CLICK_ON_THE_PANEL_IF_CURRENT_COLOR_MUST_BE_CHANGED" xml:space="preserve">
     <value>Klicken Sie auf das Bedienfeld, wenn die aktuelle Farbe geändert werden muss.</value>
   </data>
+  <data name="DEMOSCOMMONCODE_CUSTOMCONTROLS_DEFAULT" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_CUSTOMCONTROLS_HELP" xml:space="preserve">
+    <value>Hilfe</value>
+  </data>
   <data name="DEMOSCOMMONCODE_CUSTOMCONTROLS_FIND_REACHED_THE_STARTING_POINT_OF_THE_SEARCH" xml:space="preserve">
     <value>Suche hat den Startpunkt der Suche erreicht.</value>
   </data>

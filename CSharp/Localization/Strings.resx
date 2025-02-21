@@ -129,6 +129,12 @@
   <data name="DEMOSCOMMONCODE_CUSTOMCONTROLS_CLICK_ON_THE_PANEL_IF_CURRENT_COLOR_MUST_BE_CHANGED" xml:space="preserve">
     <value>Click on the panel if current color must be changed.</value>
   </data>
+  <data name="DEMOSCOMMONCODE_CUSTOMCONTROLS_DEFAULT" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_CUSTOMCONTROLS_HELP" xml:space="preserve">
+    <value>Help</value>
+  </data>
   <data name="DEMOSCOMMONCODE_CUSTOMCONTROLS_FIND_REACHED_THE_STARTING_POINT_OF_THE_SEARCH" xml:space="preserve">
     <value>Find reached the starting point of the search.</value>
   </data>

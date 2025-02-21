@@ -82,16 +82,16 @@
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
-    <PackageReference Include="Vintasoft.Imaging" Version="14.0.5.1" />
-    <PackageReference Include="Vintasoft.Imaging.Gdi" Version="14.0.5.1" />
-    <PackageReference Include="Vintasoft.Imaging.Annotation" Version="14.0.5.1" />
-    <PackageReference Include="Vintasoft.Imaging.Annotation.Dicom" Version="14.0.5.1" />
-    <PackageReference Include="Vintasoft.Imaging.Annotation.Dicom.UI" Version="14.0.5.1" />
-    <PackageReference Include="Vintasoft.Imaging.Annotation.UI" Version="14.0.5.1" />
-    <PackageReference Include="Vintasoft.Imaging.Dicom" Version="7.0.5.1" />
-    <PackageReference Include="Vintasoft.Imaging.Dicom.UI" Version="7.0.5.1" />
-    <PackageReference Include="Vintasoft.Imaging.Jpeg2000Codec" Version="10.0.5.1" />
-    <PackageReference Include="Vintasoft.Imaging.UI" Version="14.0.5.1" />
+    <PackageReference Include="Vintasoft.Imaging" Version="14.0.6.1" />
+    <PackageReference Include="Vintasoft.Imaging.Gdi" Version="14.0.6.1" />
+    <PackageReference Include="Vintasoft.Imaging.Annotation" Version="14.0.6.1" />
+    <PackageReference Include="Vintasoft.Imaging.Annotation.Dicom" Version="14.0.6.1" />
+    <PackageReference Include="Vintasoft.Imaging.Annotation.Dicom.UI" Version="14.0.6.1" />
+    <PackageReference Include="Vintasoft.Imaging.Annotation.UI" Version="14.0.6.1" />
+    <PackageReference Include="Vintasoft.Imaging.Dicom" Version="7.0.6.1" />
+    <PackageReference Include="Vintasoft.Imaging.Dicom.UI" Version="7.0.6.1" />
+    <PackageReference Include="Vintasoft.Imaging.Jpeg2000Codec" Version="10.0.6.1" />
+    <PackageReference Include="Vintasoft.Imaging.UI" Version="14.0.6.1" />
     <PackageReference Include="Vintasoft.Shared" Version="4.4.0.1" />
   </ItemGroup>
   <ItemGroup>
@@ -121,6 +121,9 @@
     </Compile>
     <Compile Include="CustomControls\ColorSampleControl\ColorSampleControl.designer.cs">
       <DependentUpon>ColorSampleControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomControls\CursorPanelControl\CursorPanelControl.cs">
+      <SubType>Component</SubType>
     </Compile>
     <Compile Include="CustomControls\PaddingFEditorControl.cs">
       <SubType>UserControl</SubType>
@@ -326,6 +329,21 @@
     <Compile Include="DemosCommonCode.Imaging\VisualTools\MagnifierToolSettingsForm.designer.cs">
       <DependentUpon>MagnifierToolSettingsForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="DemosCommonCode.Imaging\VisualTools\UserInteraction\InteractionAreaAppearanceManagerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DemosCommonCode.Imaging\VisualTools\UserInteraction\InteractionAreaAppearanceManagerForm.Designer.cs">
+    </Compile>
+    <Compile Include="DemosCommonCode.Imaging\VisualTools\UserInteraction\SpellCheckManagerViewSettingsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DemosCommonCode.Imaging\VisualTools\UserInteraction\SpellCheckManagerViewSettingsControl.Designer.cs">
+    </Compile>
+    <Compile Include="DemosCommonCode.Imaging\VisualTools\UserInteraction\SpellCheckManagerViewSettingsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DemosCommonCode.Imaging\VisualTools\UserInteraction\SpellCheckManagerViewSettingsForm.Designer.cs">
+    </Compile>
     <Compile Include="DemosCommonCode\AboutBoxBaseForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -513,6 +531,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="DemosCommonCode.Imaging\VisualTools\MagnifierToolSettingsForm.resx">
       <DependentUpon>MagnifierToolSettingsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DemosCommonCode.Imaging\VisualTools\UserInteraction\InteractionAreaAppearanceManagerForm.de.resx">
+      <DependentUpon>InteractionAreaAppearanceManagerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DemosCommonCode.Imaging\VisualTools\UserInteraction\InteractionAreaAppearanceManagerForm.resx">
+    </EmbeddedResource>
+    <EmbeddedResource Include="DemosCommonCode.Imaging\VisualTools\UserInteraction\SpellCheckManagerViewSettingsControl.de.resx">
+      <DependentUpon>SpellCheckManagerViewSettingsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DemosCommonCode.Imaging\VisualTools\UserInteraction\SpellCheckManagerViewSettingsControl.resx">
+    </EmbeddedResource>
+    <EmbeddedResource Include="DemosCommonCode.Imaging\VisualTools\UserInteraction\SpellCheckManagerViewSettingsForm.de.resx">
+      <DependentUpon>SpellCheckManagerViewSettingsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DemosCommonCode.Imaging\VisualTools\UserInteraction\SpellCheckManagerViewSettingsForm.resx">
     </EmbeddedResource>
     <EmbeddedResource Include="DemosCommonCode\AboutBoxBaseForm.de.resx">
       <DependentUpon>AboutBoxBaseForm.cs</DependentUpon>
