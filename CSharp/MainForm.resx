@@ -129,21 +129,6 @@
   <metadata name="dicomAnnotatedViewerToolStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 56</value>
   </metadata>
-  <metadata name="dicomViewerToolInteractionButtonToolStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>184, 94</value>
-  </metadata>
-  <metadata name="imageViewerToolStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>474, 94</value>
-  </metadata>
-  <metadata name="annotationsToolStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>310, 19</value>
-  </metadata>
-  <metadata name="annotationInteractionModeToolStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>599, 23</value>
-  </metadata>
-  <metadata name="dicomAnnotatedViewerToolStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 56</value>
-  </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="voiLutsToolStripSplitButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -489,9 +474,6 @@
         gB///wAA///AH///AAD//8B///8AAA==
 </value>
   </data>
-  <data name="interactionPointsSettingsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Interaction Points Settings...</value>
-  </data>
   <data name="toolStripLabel1.Text" xml:space="preserve">
     <value>Annotation Interaction Mode</value>
   </data>
@@ -554,6 +536,9 @@
   </data>
   <data name="presentationStateToolStripMenuItem.Text" xml:space="preserve">
     <value>Presentation State</value>
+  </data>
+  <data name="interactionMode_annotationEraserToolStripMenuItem.Text" xml:space="preserve">
+    <value>Annotation eraser</value>
   </data>
   <data name="interactionMode_authorToolStripMenuItem.Text" xml:space="preserve">
     <value>Author</value>
@@ -639,6 +624,9 @@
   <data name="fullScreenToolStripMenuItem.Text" xml:space="preserve">
     <value>Full Screen</value>
   </data>
+  <data name="interactionPointsSettingsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Interaction Points Settings...</value>
+  </data>
   <data name="counterclockwiseToolStripMenuItem.Text" xml:space="preserve">
     <value>Counterclockwise</value>
   </data>
@@ -683,6 +671,9 @@
   </data>
   <data name="burnAndSaveToDICOMFileToolStripMenuItem.Text" xml:space="preserve">
     <value>Burn And Save To DICOM file...</value>
+  </data>
+  <data name="saveImageAsCurrentVOILUTToolStripMenuItem.Text" xml:space="preserve">
+    <value>Save Displayed Image...</value>
   </data>
   <data name="saveImagesAsToolStripMenuItem.Text" xml:space="preserve">
     <value>Save Images As...</value>

@@ -585,6 +585,47 @@ namespace DicomViewerDemo
         }
 
         /// <summary>
+        /// Handles the Click event of saveDisplayedImageToolStripMenuItem object.
+        /// </summary>
+        private void saveDisplayedImageToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CodecsFileFilters.SetSaveFileDialogFilter(saveFileDialog1, false, false);
+            // if file is selected in "Save file" dialog
+            if (saveFileDialog1.ShowDialog() == DialogResult.OK)
+            {
+                string saveFilename = Path.GetFullPath(saveFileDialog1.FileName);
+
+                using (EncoderBase imageEncoder = GetEncoder(saveFilename))
+                {
+                    if (imageEncoder != null)
+                    {
+                        VintasoftImage image = _dicomViewerTool.GetDisplayedImage();
+                        if (image == null)
+                            image = imageViewer1.Image;
+
+                        IsFileSaving = true;
+                        try
+                        {
+                            // save images to a file
+                            image.Save(saveFilename, imageEncoder);
+                        }
+                        catch (Exception ex)
+                        {
+                            DemosTools.ShowErrorMessage(ex);
+                        }
+                        finally
+                        {
+                            IsFileSaving = false;
+
+                            if (image != imageViewer1.Image)
+                                image.Dispose();
+                        }
+                    }
+                }
+            }
+        }
+
+        /// <summary>
         /// Handles the Click event of burnAndSaveToDICOMFileToolStripMenuItem object.
         /// </summary>
         private void burnAndSaveToDICOMFileToolStripMenuItem_Click(object sender, EventArgs e)
@@ -1363,6 +1404,16 @@ namespace DicomViewerDemo
         }
 
         /// <summary>
+        /// Handles the annotationEraserToolStripMenuItem_Click event of interactionMode object.
+        /// </summary>
+        private void interactionMode_annotationEraserToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+#if !REMOVE_ANNOTATION_PLUGIN
+            _dicomAnnotatedViewerTool.DicomAnnotationTool.AnnotationInteractionMode = AnnotationInteractionMode.AnnotationEraser;
+#endif
+        }
+
+        /// <summary>
         /// Handles the Click event of loadToolStripMenuItem object.
         /// </summary>
         private void loadToolStripMenuItem_Click(object sender, EventArgs e)
@@ -1823,6 +1874,7 @@ namespace DicomViewerDemo
             interactionMode_noneToolStripMenuItem.Checked = false;
             interactionMode_viewToolStripMenuItem.Checked = false;
             interactionMode_authorToolStripMenuItem.Checked = false;
+            interactionMode_annotationEraserToolStripMenuItem.Checked = false;
 
             AnnotationInteractionMode annotationInteractionMode = e.NewValue;
             switch (annotationInteractionMode)
@@ -1837,6 +1889,10 @@ namespace DicomViewerDemo
 
                 case AnnotationInteractionMode.Author:
                     interactionMode_authorToolStripMenuItem.Checked = true;
+                    break;
+
+                case AnnotationInteractionMode.AnnotationEraser:
+                    interactionMode_annotationEraserToolStripMenuItem.Checked = true;
                     break;
             }
 
@@ -2054,7 +2110,9 @@ namespace DicomViewerDemo
             //
             addFilesToolStripMenuItem.Enabled = !isDicomFileOpening && !isFileSaving;
             saveImagesAsToolStripMenuItem.Enabled = isDicomFileLoaded && !isDicomFileOpening && !isFileSaving && hasImages;
+            saveImageAsCurrentVOILUTToolStripMenuItem.Enabled = isDicomFileLoaded && !isDicomFileOpening && !isFileSaving && hasImages;
             burnAndSaveToDICOMFileToolStripMenuItem.Enabled = isDicomFileLoaded && !isDicomFileOpening && !isFileSaving && hasImages;
+            saveViewerScreenshotToolStripMenuItem.Enabled = isDicomFileLoaded && !isDicomFileOpening && !isFileSaving && hasImages;
             closeFilesToolStripMenuItem.Enabled = isDicomFileLoaded && !isFileSaving;
 
             // 'View' menu
@@ -2979,6 +3037,7 @@ namespace DicomViewerDemo
             annotationInteractionModeToolStripComboBox.Items.Add(AnnotationInteractionMode.None);
             annotationInteractionModeToolStripComboBox.Items.Add(AnnotationInteractionMode.View);
             annotationInteractionModeToolStripComboBox.Items.Add(AnnotationInteractionMode.Author);
+            annotationInteractionModeToolStripComboBox.Items.Add(AnnotationInteractionMode.AnnotationEraser);
             // set interaction mode to the View 
             annotationInteractionModeToolStripComboBox.SelectedItem = AnnotationInteractionMode.None;
 #endif
@@ -3132,5 +3191,6 @@ namespace DicomViewerDemo
         delegate void SavingFinishedDelegate(object sender, EventArgs e);
 
         #endregion
+
     }
 }

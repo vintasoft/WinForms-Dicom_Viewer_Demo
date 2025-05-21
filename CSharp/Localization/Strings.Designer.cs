@@ -283,6 +283,15 @@ namespace DicomViewerDemo.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to BMP Files|*.bmp|.
+        /// </summary>
+        internal static string DEMOSCOMMONCODE_IMAGING_CODECS_BMP_FILESBMP {
+            get {
+                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_CODECS_BMP_FILESBMP", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Can not find encoder for &apos;{0}&apos;..
         /// </summary>
         internal static string DEMOSCOMMONCODE_IMAGING_CODECS_CAN_NOT_FIND_ENCODER_FOR_ARG0 {
@@ -306,6 +315,15 @@ namespace DicomViewerDemo.Localization {
         internal static string DEMOSCOMMONCODE_IMAGING_CODECS_CONFIRM_OVERWRITE {
             get {
                 return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_CODECS_CONFIRM_OVERWRITE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Cursor Files|*.cur|.
+        /// </summary>
+        internal static string DEMOSCOMMONCODE_IMAGING_CODECS_CURSOR_FILESCUR {
+            get {
+                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_CODECS_CURSOR_FILESCUR", resourceCulture);
             }
         }
         
@@ -446,6 +464,15 @@ namespace DicomViewerDemo.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to EMF Files|*.emf|.
+        /// </summary>
+        internal static string DEMOSCOMMONCODE_IMAGING_CODECS_EMF_FILESEMF {
+            get {
+                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_CODECS_EMF_FILESEMF", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to File &apos;{0}&apos; already exists. Overwrite it?.
         /// </summary>
         internal static string DEMOSCOMMONCODE_IMAGING_CODECS_FILE_ARG0_ALREADY_EXISTS_OVERWRITE_IT {
@@ -455,11 +482,128 @@ namespace DicomViewerDemo.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to GIF Files|*.gif|.
+        /// </summary>
+        internal static string DEMOSCOMMONCODE_IMAGING_CODECS_GIF_FILESGIF {
+            get {
+                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_CODECS_GIF_FILESGIF", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Icon Files|*.ico|.
+        /// </summary>
+        internal static string DEMOSCOMMONCODE_IMAGING_CODECS_ICON_FILESICO {
+            get {
+                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_CODECS_ICON_FILESICO", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to JPEG Files|*.jpg;*.jpeg;*.jfif|.
+        /// </summary>
+        internal static string DEMOSCOMMONCODE_IMAGING_CODECS_JPEG_FILESJPGJPEGJFIF {
+            get {
+                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_CODECS_JPEG_FILESJPGJPEGJFIF", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to JPEG-LS Files|*.jls|.
+        /// </summary>
+        internal static string DEMOSCOMMONCODE_IMAGING_CODECS_JPEGLS_FILESJLS {
+            get {
+                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_CODECS_JPEGLS_FILESJLS", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Ndpi.
         /// </summary>
         internal static string DEMOSCOMMONCODE_IMAGING_CODECS_NDPI {
             get {
                 return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_CODECS_NDPI", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to PBM/PGM/PPM files|*.pbm;*.pgm;*.ppm|.
+        /// </summary>
+        internal static string DEMOSCOMMONCODE_IMAGING_CODECS_PBMPGMPPM_FILESPBMPGMPPM {
+            get {
+                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_CODECS_PBMPGMPPM_FILESPBMPGMPPM", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to PCX Files|*.pcx.
+        /// </summary>
+        internal static string DEMOSCOMMONCODE_IMAGING_CODECS_PCX_FILESPCX {
+            get {
+                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_CODECS_PCX_FILESPCX", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to PNG Files|*.png|.
+        /// </summary>
+        internal static string DEMOSCOMMONCODE_IMAGING_CODECS_PNG_FILESPNG {
+            get {
+                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_CODECS_PNG_FILESPNG", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to PSD Files|*.psd|.
+        /// </summary>
+        internal static string DEMOSCOMMONCODE_IMAGING_CODECS_PSD_FILESPSD {
+            get {
+                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_CODECS_PSD_FILESPSD", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to PSD Files|*.psd|.
+        /// </summary>
+        internal static string DEMOSCOMMONCODE_IMAGING_CODECS_PSD_FILESPSD_ALT1 {
+            get {
+                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_CODECS_PSD_FILESPSD_ALT1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to SVG Files|*.svg|.
+        /// </summary>
+        internal static string DEMOSCOMMONCODE_IMAGING_CODECS_SVG_FILESSVG {
+            get {
+                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_CODECS_SVG_FILESSVG", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to TGA files|*.tga|.
+        /// </summary>
+        internal static string DEMOSCOMMONCODE_IMAGING_CODECS_TGA_FILESTGA {
+            get {
+                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_CODECS_TGA_FILESTGA", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to TIFF Files|*.tif;*.tiff|.
+        /// </summary>
+        internal static string DEMOSCOMMONCODE_IMAGING_CODECS_TIFF_FILESTIFTIFF {
+            get {
+                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_CODECS_TIFF_FILESTIFTIFF", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to WMF Files|*.wmf.
+        /// </summary>
+        internal static string DEMOSCOMMONCODE_IMAGING_CODECS_WMF_FILESWMF {
+            get {
+                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_CODECS_WMF_FILESWMF", resourceCulture);
             }
         }
         
@@ -507,6 +651,33 @@ namespace DicomViewerDemo.Localization {
         internal static string DEMOSCOMMONCODE_IMAGING_ELLIPSE_MEASURE {
             get {
                 return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_ELLIPSE_MEASURE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Emf.
+        /// </summary>
+        internal static string DEMOSCOMMONCODE_IMAGING_EMF {
+            get {
+                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_EMF", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Emf.
+        /// </summary>
+        internal static string DEMOSCOMMONCODE_IMAGING_EMF_ALT1 {
+            get {
+                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_EMF_ALT1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Emf.
+        /// </summary>
+        internal static string DEMOSCOMMONCODE_IMAGING_EMF_ALT2 {
+            get {
+                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_EMF_ALT2", resourceCulture);
             }
         }
         
@@ -886,6 +1057,15 @@ namespace DicomViewerDemo.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Psd.
+        /// </summary>
+        internal static string DEMOSCOMMONCODE_IMAGING_PSD {
+            get {
+                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_PSD", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Refresh all measurements of focused image.
         /// </summary>
         internal static string DEMOSCOMMONCODE_IMAGING_REFRESH_ALL_MEASUREMENTS_OF_FOCUSED_IMAGE {
@@ -981,6 +1161,15 @@ namespace DicomViewerDemo.Localization {
         internal static string DEMOSCOMMONCODE_IMAGING_STARTS_THE_MEASUREMENT_USING_LINES {
             get {
                 return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_STARTS_THE_MEASUREMENT_USING_LINES", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Svg.
+        /// </summary>
+        internal static string DEMOSCOMMONCODE_IMAGING_SVG {
+            get {
+                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_SVG", resourceCulture);
             }
         }
         

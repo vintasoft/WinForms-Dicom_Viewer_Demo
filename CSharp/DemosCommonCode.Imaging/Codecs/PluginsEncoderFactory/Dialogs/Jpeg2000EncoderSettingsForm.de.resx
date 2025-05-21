@@ -120,6 +120,12 @@
   <data name="$this.Text" xml:space="preserve">
     <value>JPEG 2000-Encoder-Einstellungen</value>
   </data>
+  <data name="annotationsTabPage.Text" xml:space="preserve">
+    <value>Anmerkungsformat</value>
+  </data>
+  <data name="compressionTabPage.Text" xml:space="preserve">
+    <value>Komprimierung</value>
+  </data>
   <data name="waveletTransformCheckBox.Text" xml:space="preserve">
     <value>Wavelet-Transformation</value>
   </data>

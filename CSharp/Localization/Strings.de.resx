@@ -151,6 +151,54 @@
   <data name="DEMOSCOMMONCODE_CUSTOMCONTROLS_VALUE_NAME" xml:space="preserve">
     <value>Wertname</value>
   </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_CODECS_BMP_FILESBMP" xml:space="preserve">
+    <value>BMP-Dateien|*.bmp|</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_CODECS_JPEG_FILESJPGJPEGJFIF" xml:space="preserve">
+    <value>JPEG-Dateien|*.jpg;*.jpeg;*.jfif|</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_CODECS_PBMPGMPPM_FILESPBMPGMPPM" xml:space="preserve">
+    <value>PBM/PGM/PPM-Dateien|*.pbm;*.pgm;*.ppm|</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_CODECS_PNG_FILESPNG" xml:space="preserve">
+    <value>PNG-Dateien|*.png|</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_CODECS_PSD_FILESPSD" xml:space="preserve">
+    <value>PSD-Dateien|*.psd|</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_CODECS_SVG_FILESSVG" xml:space="preserve">
+    <value>SVG-Dateien|*.svg|</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_CODECS_TGA_FILESTGA" xml:space="preserve">
+    <value>TGA-Dateien|*.tga|</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_CODECS_TIFF_FILESTIFTIFF" xml:space="preserve">
+    <value>TIFF-Dateien|*.tif;*.tiff|</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_CODECS_GIF_FILESGIF" xml:space="preserve">
+    <value>GIF-Dateien|*.gif|</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_CODECS_PCX_FILESPCX" xml:space="preserve">
+    <value>PCX-Dateien|*.pcx</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_CODECS_PSD_FILESPSD_ALT1" xml:space="preserve">
+    <value>PSD-Dateien|*.psd|</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_CODECS_CURSOR_FILESCUR" xml:space="preserve">
+    <value>Cursor-Dateien|*.cur|</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_CODECS_EMF_FILESEMF" xml:space="preserve">
+    <value>EMF-Dateien|*.emf|</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_CODECS_ICON_FILESICO" xml:space="preserve">
+    <value>Icon-Dateien|*.ico|</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_CODECS_JPEGLS_FILESJLS" xml:space="preserve">
+    <value>JPEG-LS-Dateien|*.jls|</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_CODECS_WMF_FILESWMF" xml:space="preserve">
+    <value>WMF-Dateien|*.wmf</value>
+  </data>
   <data name="DEMOSCOMMONCODE_IMAGING_CODECS_NDPI" xml:space="preserve">
     <value>Ndpi</value>
   </data>
@@ -210,6 +258,21 @@
   </data>
   <data name="DEMOSCOMMONCODE_IMAGING_CODECS_CONFIRM_OVERWRITE" xml:space="preserve">
     <value>Überschreiben bestätigen</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_EMF" xml:space="preserve">
+    <value>Emf</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_EMF_ALT1" xml:space="preserve">
+    <value>Emf</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_PSD" xml:space="preserve">
+    <value>Psd</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_SVG" xml:space="preserve">
+    <value>Svg</value>
+  </data>
+  <data name="DEMOSCOMMONCODE_IMAGING_EMF_ALT2" xml:space="preserve">
+    <value>Emf</value>
   </data>
   <data name="DEMOSCOMMONCODE_IMAGING_MEGAPIXELS" xml:space="preserve">
     <value>Megapixel</value>
