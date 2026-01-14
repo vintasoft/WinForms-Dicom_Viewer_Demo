@@ -1,4 +1,4 @@
-# VintaSoft WinForms DICOM Viewer Demo
+﻿# VintaSoft WinForms DICOM Viewer Demo
 
 This C# project uses <a href="https://www.vintasoft.com/vsimaging-dotnet-index.html">VintaSoft Imaging .NET SDK</a> and demonstrates how to view and annotate DICOM images in WinForms:
 * Preview single- and multipage DICOM files.
@@ -22,9 +22,9 @@ This C# project uses <a href="https://www.vintasoft.com/vsimaging-dotnet-index.h
    Vintasoft.Imaging.ImagingGlobalSettings.Register("REG_USER", "REG_EMAIL", "EXPIRATION_DATE", "REG_CODE");
    ```
 
-3. Build the project ("DicomViewerDemo.Net8.csproj" file) in Visual Studio or using .NET CLI:
+3. Build the project ("DicomViewerDemo.Net10.csproj" file) in Visual Studio or using .NET CLI:
    ```
-   dotnet build DicomViewerDemo.Net8.csproj
+   dotnet build DicomViewerDemo.Net10.csproj
    ```
 
 4. Run compiled application and try to view and annotate DICOM images.
