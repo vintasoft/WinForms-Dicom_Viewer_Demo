@@ -59,7 +59,7 @@ namespace DicomViewerDemo
         /// Initializes a new instance of the <see cref="DicomViewerToolInteractionButtonToolStrip"/> class.
         /// </summary>
         public DicomViewerToolInteractionButtonToolStrip()
-            :base()
+            : base()
         {
             InitializeComponent();
 
@@ -68,7 +68,8 @@ namespace DicomViewerDemo
                         DicomViewerToolInteractionMode.Browse,
                         DicomViewerToolInteractionMode.Pan,
                         DicomViewerToolInteractionMode.Zoom,
-                        DicomViewerToolInteractionMode.WindowLevel};
+                        DicomViewerToolInteractionMode.WindowLevel,
+                        DicomViewerToolInteractionMode.ViewProcessing};
 
             // initilize name of icons
 
@@ -84,6 +85,8 @@ namespace DicomViewerDemo
                 iconsDir + "WindowLevel_{0}{1}{2}.png");
             _interactionModeToIconNameFormat.Add(DicomViewerToolInteractionMode.Zoom,
                 iconsDir + "Zoom_{0}{1}{2}.png");
+            _interactionModeToIconNameFormat.Add(DicomViewerToolInteractionMode.ViewProcessing,
+                iconsDir + "ViewProcessing_{0}{1}{2}.png");
 
             // initialize buttons
             InitButtons();
@@ -490,25 +493,11 @@ namespace DicomViewerDemo
         /// </returns>
         private MouseButtons GetMouseButtonsForInteractionMode(DicomViewerToolInteractionMode interactionMode)
         {
-            // the result mouse buttons
-            MouseButtons resultMouseButton = MouseButtons.None;
-
             // if tool exists
             if (Tool != null)
-            {
-                // for each available mouse button
-                foreach (MouseButtons button in _availableMouseButtons)
-                {
-                    // get an interaction mode for mouse button
-                    DicomViewerToolInteractionMode mouseButtonInteractionMode = Tool.GetInteractionMode(button);
-                    // if interaction mode for mouse button equals to the analyzing interaction mode
-                    if (mouseButtonInteractionMode == interactionMode)
-                        // add mouse button to the result
-                        resultMouseButton |= button;
-                }
-            }
+                return Tool.GetMouseButtonsForInteractionMode(interactionMode);
 
-            return resultMouseButton;
+            return MouseButtons.None;
         }
 
         /// <summary>

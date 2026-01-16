@@ -228,6 +228,9 @@
   <data name="magnifierSettingsToolStripMenuItem.Text" xml:space="preserve">
     <value>Lupeneinstellungen...</value>
   </data>
+  <data name="processingToolStripMenuItem.Text" xml:space="preserve">
+    <value>Verarbeitung</value>
+  </data>
   <data name="widthVerticalCenterHorizontalToolStripMenuItem.Text" xml:space="preserve">
     <value>Breite vertikal, Mitte horizontal</value>
   </data>

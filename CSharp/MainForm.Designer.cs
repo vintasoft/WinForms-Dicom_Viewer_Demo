@@ -78,6 +78,9 @@ namespace DicomViewerDemo
             this.widthHorizontalInvertedCenterVerticalToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.widthHorizontalCenterVerticalToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.widthVerticalCenterHorizontalToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator13 = new System.Windows.Forms.ToolStripSeparator();
+            this.processingToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.processingToolStripComboBox = new System.Windows.Forms.ToolStripComboBox();
             this.toolStripSeparator23 = new System.Windows.Forms.ToolStripSeparator();
             this.magnifierSettingsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.metadataToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -141,8 +144,8 @@ namespace DicomViewerDemo
             this.toolStripPanel1 = new System.Windows.Forms.ToolStripPanel();
             this.dicomAnnotatedViewerToolStrip1 = new DemosCommonCode.Imaging.DicomAnnotatedViewerToolStrip();
             this.voiLutsToolStripSplitButton = new System.Windows.Forms.ToolStripSplitButton();
-            this.dicomViewerToolInteractionButtonToolStrip1 = new DicomViewerDemo.DicomViewerToolInteractionButtonToolStrip();
             this.imageViewerToolStrip1 = new DemosCommonCode.Imaging.ImageViewerToolStrip();
+            this.dicomViewerToolInteractionButtonToolStrip1 = new DicomViewerDemo.DicomViewerToolInteractionButtonToolStrip();
             this.annotationsToolStrip1 = new DicomViewerDemo.AnnotationsToolStrip();
             this.annotationInteractionModeToolStrip = new System.Windows.Forms.ToolStrip();
             this.toolStripLabel1 = new System.Windows.Forms.ToolStripLabel();
@@ -430,6 +433,8 @@ namespace DicomViewerDemo
             this.voiLutToolStripMenuItem,
             this.negativeImageToolStripMenuItem,
             this.voiLutMouseMoveDirectionToolStripMenuItem,
+            this.toolStripSeparator13,
+            this.processingToolStripMenuItem,
             this.toolStripSeparator23,
             this.magnifierSettingsToolStripMenuItem});
             this.viewToolStripMenuItem.Name = "viewToolStripMenuItem";
@@ -634,6 +639,26 @@ namespace DicomViewerDemo
             this.widthVerticalCenterHorizontalToolStripMenuItem.Size = new System.Drawing.Size(289, 22);
             resources.ApplyResources(this.widthVerticalCenterHorizontalToolStripMenuItem, "widthVerticalCenterHorizontalToolStripMenuItem");
             this.widthVerticalCenterHorizontalToolStripMenuItem.Click += new System.EventHandler(this.widthVerticalCenterHorizontalToolStripMenuItem_Click);
+            // 
+            // toolStripSeparator13
+            // 
+            this.toolStripSeparator13.Name = "toolStripSeparator13";
+            this.toolStripSeparator13.Size = new System.Drawing.Size(236, 6);
+            // 
+            // processingToolStripMenuItem
+            // 
+            this.processingToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.processingToolStripComboBox});
+            this.processingToolStripMenuItem.Name = "processingToolStripMenuItem";
+            this.processingToolStripMenuItem.Size = new System.Drawing.Size(239, 22);
+            resources.ApplyResources(this.processingToolStripMenuItem, "processingToolStripMenuItem");
+            // 
+            // processingToolStripComboBox
+            // 
+            this.processingToolStripComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.processingToolStripComboBox.Name = "processingToolStripComboBox";
+            this.processingToolStripComboBox.Size = new System.Drawing.Size(121, 23);
+            this.processingToolStripComboBox.SelectedIndexChanged += new System.EventHandler(this.processingToolStripComboBox_SelectedIndexChanged);
             // 
             // toolStripSeparator23
             // 
@@ -1104,8 +1129,8 @@ namespace DicomViewerDemo
             // toolStripPanel1
             // 
             this.toolStripPanel1.Controls.Add(this.dicomAnnotatedViewerToolStrip1);
-            this.toolStripPanel1.Controls.Add(this.dicomViewerToolInteractionButtonToolStrip1);
             this.toolStripPanel1.Controls.Add(this.imageViewerToolStrip1);
+            this.toolStripPanel1.Controls.Add(this.dicomViewerToolInteractionButtonToolStrip1);
             this.toolStripPanel1.Controls.Add(this.annotationsToolStrip1);
             this.toolStripPanel1.Controls.Add(this.annotationInteractionModeToolStrip);
             this.toolStripPanel1.Dock = System.Windows.Forms.DockStyle.Top;
@@ -1120,7 +1145,7 @@ namespace DicomViewerDemo
             this.dicomAnnotatedViewerToolStrip1.DicomAnnotatedViewerTool = null;
             this.dicomAnnotatedViewerToolStrip1.Dock = System.Windows.Forms.DockStyle.None;
             this.dicomAnnotatedViewerToolStrip1.Enabled = false;
-            this.dicomAnnotatedViewerToolStrip1.ImageViewer = this.imageViewer1;
+            this.dicomAnnotatedViewerToolStrip1.ImageViewer = null;
             this.dicomAnnotatedViewerToolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.voiLutsToolStripSplitButton});
             this.dicomAnnotatedViewerToolStrip1.Location = new System.Drawing.Point(3, 0);
@@ -1139,21 +1164,6 @@ namespace DicomViewerDemo
             this.voiLutsToolStripSplitButton.Size = new System.Drawing.Size(32, 22);
             resources.ApplyResources(this.voiLutsToolStripSplitButton, "voiLutsToolStripSplitButton");
             // 
-            // dicomViewerToolInteractionButtonToolStrip1
-            // 
-            this.dicomViewerToolInteractionButtonToolStrip1.DisabledInteractionModes = null;
-            this.dicomViewerToolInteractionButtonToolStrip1.Dock = System.Windows.Forms.DockStyle.None;
-            this.dicomViewerToolInteractionButtonToolStrip1.Location = new System.Drawing.Point(70, 0);
-            this.dicomViewerToolInteractionButtonToolStrip1.Name = "dicomViewerToolInteractionButtonToolStrip1";
-            this.dicomViewerToolInteractionButtonToolStrip1.Size = new System.Drawing.Size(139, 25);
-            this.dicomViewerToolInteractionButtonToolStrip1.SupportedInteractionModes = new Vintasoft.Imaging.Dicom.UI.VisualTools.DicomViewerToolInteractionMode[] {
-        Vintasoft.Imaging.Dicom.UI.VisualTools.DicomViewerToolInteractionMode.Browse,
-        Vintasoft.Imaging.Dicom.UI.VisualTools.DicomViewerToolInteractionMode.Pan,
-        Vintasoft.Imaging.Dicom.UI.VisualTools.DicomViewerToolInteractionMode.Zoom,
-        Vintasoft.Imaging.Dicom.UI.VisualTools.DicomViewerToolInteractionMode.WindowLevel};
-            this.dicomViewerToolInteractionButtonToolStrip1.TabIndex = 8;
-            this.dicomViewerToolInteractionButtonToolStrip1.Tool = null;
-            // 
             // imageViewerToolStrip1
             // 
             this.imageViewerToolStrip1.AssociatedZoomTrackBar = null;
@@ -1163,13 +1173,29 @@ namespace DicomViewerDemo
             this.imageViewerToolStrip1.CanSaveFile = false;
             this.imageViewerToolStrip1.CaptureFromCameraButtonEnabled = true;
             this.imageViewerToolStrip1.Dock = System.Windows.Forms.DockStyle.None;
-            this.imageViewerToolStrip1.ImageViewer = this.imageViewer1;
-            this.imageViewerToolStrip1.Location = new System.Drawing.Point(209, 0);
+            this.imageViewerToolStrip1.ImageViewer = null;
+            this.imageViewerToolStrip1.Location = new System.Drawing.Point(70, 0);
             this.imageViewerToolStrip1.Name = "imageViewerToolStrip1";
             this.imageViewerToolStrip1.PrintButtonEnabled = true;
             this.imageViewerToolStrip1.ScanButtonEnabled = true;
             this.imageViewerToolStrip1.Size = new System.Drawing.Size(116, 25);
             this.imageViewerToolStrip1.TabIndex = 9;
+            // 
+            // dicomViewerToolInteractionButtonToolStrip1
+            // 
+            this.dicomViewerToolInteractionButtonToolStrip1.DisabledInteractionModes = null;
+            this.dicomViewerToolInteractionButtonToolStrip1.Dock = System.Windows.Forms.DockStyle.None;
+            this.dicomViewerToolInteractionButtonToolStrip1.Location = new System.Drawing.Point(186, 0);
+            this.dicomViewerToolInteractionButtonToolStrip1.Name = "dicomViewerToolInteractionButtonToolStrip1";
+            this.dicomViewerToolInteractionButtonToolStrip1.Size = new System.Drawing.Size(162, 25);
+            this.dicomViewerToolInteractionButtonToolStrip1.SupportedInteractionModes = new Vintasoft.Imaging.Dicom.UI.VisualTools.DicomViewerToolInteractionMode[] {
+        Vintasoft.Imaging.Dicom.UI.VisualTools.DicomViewerToolInteractionMode.Browse,
+        Vintasoft.Imaging.Dicom.UI.VisualTools.DicomViewerToolInteractionMode.Pan,
+        Vintasoft.Imaging.Dicom.UI.VisualTools.DicomViewerToolInteractionMode.Zoom,
+        Vintasoft.Imaging.Dicom.UI.VisualTools.DicomViewerToolInteractionMode.WindowLevel,
+        Vintasoft.Imaging.Dicom.UI.VisualTools.DicomViewerToolInteractionMode.ViewProcessing};
+            this.dicomViewerToolInteractionButtonToolStrip1.TabIndex = 8;
+            this.dicomViewerToolInteractionButtonToolStrip1.Tool = null;
             // 
             // annotationsToolStrip1
             // 
@@ -1385,5 +1411,8 @@ namespace DicomViewerDemo
         private System.Windows.Forms.ToolStripMenuItem interactionPointsSettingsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem interactionMode_annotationEraserToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem saveImageAsCurrentVOILUTToolStripMenuItem;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator13;
+        private System.Windows.Forms.ToolStripMenuItem processingToolStripMenuItem;
+        private System.Windows.Forms.ToolStripComboBox processingToolStripComboBox;
     }
 }

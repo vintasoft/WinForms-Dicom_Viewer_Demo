@@ -30,10 +30,11 @@
         {
             this.SuspendLayout();
             // 
-            // DicomMprToolInteractionModeToolStrip
+            // DicomViewerToolInteractionButtonToolStrip
             // 
-            this.Size = new System.Drawing.Size(287, 122);
+            this.Size = new System.Drawing.Size(350, 122);
             this.ResumeLayout(false);
+
         }
 
         #endregion

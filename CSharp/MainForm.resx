@@ -144,11 +144,11 @@
         AA70BUHr3Yk0AAAAAElFTkSuQmCC
 </value>
   </data>
-  <metadata name="dicomViewerToolInteractionButtonToolStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>184, 94</value>
-  </metadata>
   <metadata name="imageViewerToolStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>474, 94</value>
+  </metadata>
+  <metadata name="dicomViewerToolInteractionButtonToolStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>184, 94</value>
   </metadata>
   <metadata name="annotationsToolStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>310, 19</value>
@@ -584,6 +584,9 @@
   </data>
   <data name="magnifierSettingsToolStripMenuItem.Text" xml:space="preserve">
     <value>Magnifier Settings...</value>
+  </data>
+  <data name="processingToolStripMenuItem.Text" xml:space="preserve">
+    <value>Processing</value>
   </data>
   <data name="widthVerticalCenterHorizontalToolStripMenuItem.Text" xml:space="preserve">
     <value>Width Vertical, Center Horizontal</value>

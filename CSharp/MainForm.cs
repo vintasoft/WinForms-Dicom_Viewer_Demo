@@ -22,6 +22,9 @@ using Vintasoft.Imaging.Codecs.ImageFiles.Dicom;
 using Vintasoft.Imaging.Dicom.UI;
 using Vintasoft.Imaging.Dicom.UI.VisualTools;
 using Vintasoft.Imaging.ImageColors;
+using Vintasoft.Imaging.ImageProcessing.Color;
+using Vintasoft.Imaging.ImageProcessing;
+using Vintasoft.Imaging.ImageProcessing.Filters;
 using Vintasoft.Imaging.Metadata;
 using Vintasoft.Imaging.UI;
 using Vintasoft.Imaging.UI.VisualTools;
@@ -130,6 +133,17 @@ namespace DicomViewerDemo
         /// </summary>
         DicomDecodingSettings _dicomFrameDecodingSettings = new DicomDecodingSettings(false);
 
+        /// <summary>
+        /// The processing commands, which can be applied to an image region of DICOM MPR viewer.
+        /// </summary>
+        ProcessingCommandBase[] _processingCommands = new ProcessingCommandBase[]
+        {
+            null,
+            new InvertCommand(),
+            new BlurCommand(7),
+            new SharpenCommand(),
+            new Vintasoft.Imaging.ImageProcessing.Fft.Filters.ImageSharpeningCommand()
+        };
 
         #region VOI LUT
 
@@ -310,6 +324,18 @@ namespace DicomViewerDemo
             _defaultVoiLutToolStripMenuItem.Click += new EventHandler(voiLutMenuItem_Click);
 
             this.Text = "VintaSoft DICOM Viewer Demo v" + ImagingGlobalSettings.ProductVersion;
+
+
+            foreach (ProcessingCommandBase processingCommand in _processingCommands)
+            {
+                string processingCommandName = "None";
+
+                if (processingCommand != null)
+                    processingCommandName = processingCommand.Name;
+
+                processingToolStripComboBox.Items.Add(processingCommandName);
+            }
+            processingToolStripComboBox.SelectedIndex = 0;
 
             // update the UI
             UpdateUI();
@@ -2292,6 +2318,22 @@ namespace DicomViewerDemo
         }
 
         #endregion
+
+        /// <summary>
+        /// Handles the SelectedIndexChanged event of processingToolStripComboBox object.
+        /// </summary>
+        private void processingToolStripComboBox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            ProcessingCommandBase command = _processingCommands[processingToolStripComboBox.SelectedIndex];
+
+            if (_dicomViewerTool.ViewProcessingCommand == command)
+                return;
+
+            if (_dicomViewerTool.GetMouseButtonsForInteractionMode(DicomViewerToolInteractionMode.ViewProcessing) == MouseButtons.None)
+                _dicomViewerTool.SetInteractionMode(MouseButtons.Left, DicomViewerToolInteractionMode.ViewProcessing);
+
+            _dicomViewerTool.ViewProcessingCommand = command;
+        }
 
         #endregion
 
