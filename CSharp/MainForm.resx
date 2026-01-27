@@ -585,8 +585,11 @@
   <data name="magnifierSettingsToolStripMenuItem.Text" xml:space="preserve">
     <value>Magnifier Settings...</value>
   </data>
-  <data name="processingToolStripMenuItem.Text" xml:space="preserve">
-    <value>Processing</value>
+  <data name="viewerProcessingToolStripMenuItem.Text" xml:space="preserve">
+    <value>Viewer Processing</value>
+  </data>
+  <data name="viewProcessingToolStripMenuItem.Text" xml:space="preserve">
+    <value>View Processing</value>
   </data>
   <data name="widthVerticalCenterHorizontalToolStripMenuItem.Text" xml:space="preserve">
     <value>Width Vertical, Center Horizontal</value>

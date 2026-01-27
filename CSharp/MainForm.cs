@@ -333,9 +333,11 @@ namespace DicomViewerDemo
                 if (processingCommand != null)
                     processingCommandName = processingCommand.Name;
 
-                processingToolStripComboBox.Items.Add(processingCommandName);
+                viewProcessingToolStripComboBox.Items.Add(processingCommandName);
+                viewerProcessingToolStripComboBox.Items.Add(processingCommandName);
             }
-            processingToolStripComboBox.SelectedIndex = 0;
+            viewProcessingToolStripComboBox.SelectedIndex = 0;
+            viewerProcessingToolStripComboBox.SelectedIndex = 0;
 
             // update the UI
             UpdateUI();
@@ -2320,11 +2322,11 @@ namespace DicomViewerDemo
         #endregion
 
         /// <summary>
-        /// Handles the SelectedIndexChanged event of processingToolStripComboBox object.
+        /// Handles the SelectedIndexChanged event of viewProcessingToolStripComboBox object.
         /// </summary>
-        private void processingToolStripComboBox_SelectedIndexChanged(object sender, EventArgs e)
+        private void viewProcessingToolStripComboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
-            ProcessingCommandBase command = _processingCommands[processingToolStripComboBox.SelectedIndex];
+            ProcessingCommandBase command = _processingCommands[viewProcessingToolStripComboBox.SelectedIndex];
 
             if (_dicomViewerTool.ViewProcessingCommand == command)
                 return;
@@ -2333,6 +2335,19 @@ namespace DicomViewerDemo
                 _dicomViewerTool.SetInteractionMode(MouseButtons.Left, DicomViewerToolInteractionMode.ViewProcessing);
 
             _dicomViewerTool.ViewProcessingCommand = command;
+        }
+
+        /// <summary>
+        /// Handles the SelectedIndexChanged event of viewerProcessingToolStripComboBox object.
+        /// </summary>
+        private void viewerProcessingToolStripComboBox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            ProcessingCommandBase command = _processingCommands[viewerProcessingToolStripComboBox.SelectedIndex];
+
+            if (_dicomViewerTool.DisplayedImageProcessing == command)
+                return;
+
+            _dicomViewerTool.DisplayedImageProcessing = command;
         }
 
         #endregion

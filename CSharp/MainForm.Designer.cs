@@ -79,8 +79,10 @@ namespace DicomViewerDemo
             this.widthHorizontalCenterVerticalToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.widthVerticalCenterHorizontalToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator13 = new System.Windows.Forms.ToolStripSeparator();
-            this.processingToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.processingToolStripComboBox = new System.Windows.Forms.ToolStripComboBox();
+            this.viewProcessingToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.viewProcessingToolStripComboBox = new System.Windows.Forms.ToolStripComboBox();
+            this.viewerProcessingToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.viewerProcessingToolStripComboBox = new System.Windows.Forms.ToolStripComboBox();
             this.toolStripSeparator23 = new System.Windows.Forms.ToolStripSeparator();
             this.magnifierSettingsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.metadataToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -434,7 +436,8 @@ namespace DicomViewerDemo
             this.negativeImageToolStripMenuItem,
             this.voiLutMouseMoveDirectionToolStripMenuItem,
             this.toolStripSeparator13,
-            this.processingToolStripMenuItem,
+            this.viewProcessingToolStripMenuItem,
+            this.viewerProcessingToolStripMenuItem,
             this.toolStripSeparator23,
             this.magnifierSettingsToolStripMenuItem});
             this.viewToolStripMenuItem.Name = "viewToolStripMenuItem";
@@ -645,20 +648,35 @@ namespace DicomViewerDemo
             this.toolStripSeparator13.Name = "toolStripSeparator13";
             this.toolStripSeparator13.Size = new System.Drawing.Size(236, 6);
             // 
-            // processingToolStripMenuItem
+            // viewProcessingToolStripMenuItem
             // 
-            this.processingToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.processingToolStripComboBox});
-            this.processingToolStripMenuItem.Name = "processingToolStripMenuItem";
-            this.processingToolStripMenuItem.Size = new System.Drawing.Size(239, 22);
-            resources.ApplyResources(this.processingToolStripMenuItem, "processingToolStripMenuItem");
+            this.viewProcessingToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.viewProcessingToolStripComboBox});
+            this.viewProcessingToolStripMenuItem.Name = "viewProcessingToolStripMenuItem";
+            this.viewProcessingToolStripMenuItem.Size = new System.Drawing.Size(239, 22);
+            resources.ApplyResources(this.viewProcessingToolStripMenuItem, "viewProcessingToolStripMenuItem");
             // 
-            // processingToolStripComboBox
+            // viewProcessingToolStripComboBox
             // 
-            this.processingToolStripComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.processingToolStripComboBox.Name = "processingToolStripComboBox";
-            this.processingToolStripComboBox.Size = new System.Drawing.Size(121, 23);
-            this.processingToolStripComboBox.SelectedIndexChanged += new System.EventHandler(this.processingToolStripComboBox_SelectedIndexChanged);
+            this.viewProcessingToolStripComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.viewProcessingToolStripComboBox.Name = "viewProcessingToolStripComboBox";
+            this.viewProcessingToolStripComboBox.Size = new System.Drawing.Size(121, 23);
+            this.viewProcessingToolStripComboBox.SelectedIndexChanged += new System.EventHandler(this.viewProcessingToolStripComboBox_SelectedIndexChanged);
+            // 
+            // viewerProcessingToolStripMenuItem
+            // 
+            this.viewerProcessingToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.viewerProcessingToolStripComboBox});
+            this.viewerProcessingToolStripMenuItem.Name = "viewerProcessingToolStripMenuItem";
+            this.viewerProcessingToolStripMenuItem.Size = new System.Drawing.Size(239, 22);
+            resources.ApplyResources(this.viewerProcessingToolStripMenuItem, "viewerProcessingToolStripMenuItem");
+            // 
+            // viewerProcessingToolStripComboBox
+            // 
+            this.viewerProcessingToolStripComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.viewerProcessingToolStripComboBox.Name = "viewerProcessingToolStripComboBox";
+            this.viewerProcessingToolStripComboBox.Size = new System.Drawing.Size(121, 23);
+            this.viewerProcessingToolStripComboBox.SelectedIndexChanged += new System.EventHandler(this.viewerProcessingToolStripComboBox_SelectedIndexChanged);
             // 
             // toolStripSeparator23
             // 
@@ -1412,7 +1430,9 @@ namespace DicomViewerDemo
         private System.Windows.Forms.ToolStripMenuItem interactionMode_annotationEraserToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem saveImageAsCurrentVOILUTToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator13;
-        private System.Windows.Forms.ToolStripMenuItem processingToolStripMenuItem;
-        private System.Windows.Forms.ToolStripComboBox processingToolStripComboBox;
+        private System.Windows.Forms.ToolStripMenuItem viewProcessingToolStripMenuItem;
+        private System.Windows.Forms.ToolStripComboBox viewProcessingToolStripComboBox;
+        private System.Windows.Forms.ToolStripMenuItem viewerProcessingToolStripMenuItem;
+        private System.Windows.Forms.ToolStripComboBox viewerProcessingToolStripComboBox;
     }
 }
