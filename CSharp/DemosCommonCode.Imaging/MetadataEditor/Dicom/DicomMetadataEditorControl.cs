@@ -10,7 +10,7 @@ using Vintasoft.Imaging.Codecs.ImageFiles.Dicom;
 using Vintasoft.Imaging.Metadata;
 
 
-namespace DemosCommonCode.Imaging
+namespace CommonCode.Imaging
 {
     /// <summary>
     /// A control that allows to edit the DICOM frame metadata.
@@ -131,7 +131,7 @@ namespace DemosCommonCode.Imaging
             ShowMetadataNodeProperties(metadataNode);
 
             string selectedNodeDescription = string.Empty;
-            string addButtonText = DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_ADD_DICOM_DATA_ELEMENT;
+            string addButtonText = DicomViewerDemo.Localization.Strings.COMMONCODE_IMAGING_ADD_DICOM_DATA_ELEMENT;
 
             // if metadata node is selected
             if (metadataNode != null)
@@ -142,7 +142,7 @@ namespace DemosCommonCode.Imaging
 #if !REMOVE_DICOM_PLUGIN
                 if (metadataNode is DicomDataElementMetadata &&
                            ((DicomDataElementMetadata)metadataNode).ValueRepresentation == DicomValueRepresentation.SQ)
-                    addButtonText = DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_ADD_DICOM_SEQUENCE_ITEM;
+                    addButtonText = DicomViewerDemo.Localization.Strings.COMMONCODE_IMAGING_ADD_DICOM_SEQUENCE_ITEM;
 #endif
             }
 

@@ -4,7 +4,7 @@
 using Vintasoft.Imaging.Annotation.Measurements;
 #endif
 
-namespace DemosCommonCode.Imaging
+namespace CommonCode.Imaging
 {
     /// <summary>
     /// Creates visual tool action, which allows to enable/disable visual tool <see cref="ImageMeasureTool"/> in image viewer, and adds action to the toolstrip.
@@ -26,8 +26,8 @@ namespace DemosCommonCode.Imaging
             // create action, which allows to measure objects on image in image viewer
             ImageMeasureToolAction imageMeasureToolAction = new ImageMeasureToolAction(
                  new ImageMeasureTool(),
-                 DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_IMAGE_MEASURE_TOOL,
-                 DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_IMAGE_MEASURE_TOOL_ALT1,
+                 DicomViewerDemo.Localization.Strings.COMMONCODE_IMAGING_IMAGE_MEASURE_TOOL,
+                 DicomViewerDemo.Localization.Strings.COMMONCODE_IMAGING_IMAGE_MEASURE_TOOL_ALT1,
                  GetIcon("ImageMeasureTool.png"));
             // add the action to the toolstrip
             toolStrip.AddAction(imageMeasureToolAction);

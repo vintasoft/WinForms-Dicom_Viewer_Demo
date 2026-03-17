@@ -117,421 +117,421 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="DEMOSCOMMONCODE_CUSTOMCONTROLS_CLICK_THE_BUTTON_IF_THE_CURRENT_COLOR_MUST_BE_CHANGED" xml:space="preserve">
+  <data name="COMMONCODE_CUSTOMCONTROLS_CLICK_THE_BUTTON_IF_THE_CURRENT_COLOR_MUST_BE_CHANGED" xml:space="preserve">
     <value>Klicken Sie auf die Schaltfläche, wenn die aktuelle Farbe geändert werden muss.</value>
   </data>
-  <data name="DEMOSCOMMONCODE_CUSTOMCONTROLS_CLICK_THE_BUTTON_IF_THE_CURRENT_COLOR_MUST_BE_SET_TO_THE_DEFAULT_COLOR" xml:space="preserve">
+  <data name="COMMONCODE_CUSTOMCONTROLS_CLICK_THE_BUTTON_IF_THE_CURRENT_COLOR_MUST_BE_SET_TO_THE_DEFAULT_COLOR" xml:space="preserve">
     <value>Klicken Sie auf die Schaltfläche, wenn die aktuelle Farbe auf die Standardfarbe gesetzt werden soll.</value>
   </data>
-  <data name="DEMOSCOMMONCODE_CUSTOMCONTROLS_DOUBLE_CLICK_ON_THE_PANEL_IF_THE_CURRENT_COLOR_MUST_BE_CHANGED" xml:space="preserve">
+  <data name="COMMONCODE_CUSTOMCONTROLS_DOUBLE_CLICK_ON_THE_PANEL_IF_THE_CURRENT_COLOR_MUST_BE_CHANGED" xml:space="preserve">
     <value>Doppelklicken Sie auf das Panel, wenn die aktuelle Farbe geändert werden muss.</value>
   </data>
-  <data name="DEMOSCOMMONCODE_CUSTOMCONTROLS_CLICK_ON_THE_PANEL_IF_CURRENT_COLOR_MUST_BE_CHANGED" xml:space="preserve">
+  <data name="COMMONCODE_CUSTOMCONTROLS_CLICK_ON_THE_PANEL_IF_CURRENT_COLOR_MUST_BE_CHANGED" xml:space="preserve">
     <value>Klicken Sie auf das Bedienfeld, wenn die aktuelle Farbe geändert werden muss.</value>
   </data>
-  <data name="DEMOSCOMMONCODE_CUSTOMCONTROLS_DEFAULT" xml:space="preserve">
+  <data name="COMMONCODE_CUSTOMCONTROLS_DEFAULT" xml:space="preserve">
     <value>Standard</value>
   </data>
-  <data name="DEMOSCOMMONCODE_CUSTOMCONTROLS_HELP" xml:space="preserve">
+  <data name="COMMONCODE_CUSTOMCONTROLS_HELP" xml:space="preserve">
     <value>Hilfe</value>
   </data>
-  <data name="DEMOSCOMMONCODE_CUSTOMCONTROLS_FIND_REACHED_THE_STARTING_POINT_OF_THE_SEARCH" xml:space="preserve">
+  <data name="COMMONCODE_CUSTOMCONTROLS_FIND_REACHED_THE_STARTING_POINT_OF_THE_SEARCH" xml:space="preserve">
     <value>Suche hat den Startpunkt der Suche erreicht.</value>
   </data>
-  <data name="DEMOSCOMMONCODE_CUSTOMCONTROLS_TREE_VIEW_SEARCH_CONTROL" xml:space="preserve">
+  <data name="COMMONCODE_CUSTOMCONTROLS_TREE_VIEW_SEARCH_CONTROL" xml:space="preserve">
     <value>Suchsteuerung in der Baumansicht</value>
   </data>
-  <data name="DEMOSCOMMONCODE_CUSTOMCONTROLS_THE_SPECIFIED_TEXT_WAS_NOT_FOUNDRNARG0" xml:space="preserve">
+  <data name="COMMONCODE_CUSTOMCONTROLS_THE_SPECIFIED_TEXT_WAS_NOT_FOUNDRNARG0" xml:space="preserve">
     <value>Der angegebene Text wurde nicht gefunden:
 {0}</value>
   </data>
-  <data name="DEMOSCOMMONCODE_CUSTOMCONTROLS_TREE_VIEW_SEARCH_CONTROL_ALT1" xml:space="preserve">
+  <data name="COMMONCODE_CUSTOMCONTROLS_TREE_VIEW_SEARCH_CONTROL_ALT1" xml:space="preserve">
     <value>Suchsteuerung in der Baumansicht</value>
   </data>
-  <data name="DEMOSCOMMONCODE_CUSTOMCONTROLS_VALUE_NAME" xml:space="preserve">
+  <data name="COMMONCODE_CUSTOMCONTROLS_VALUE_NAME" xml:space="preserve">
     <value>Wertname</value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_CODECS_BMP_FILESBMP" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_CODECS_BMP_FILESBMP" xml:space="preserve">
     <value>BMP-Dateien|*.bmp|</value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_CODECS_JPEG_FILESJPGJPEGJFIF" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_CODECS_JPEG_FILESJPGJPEGJFIF" xml:space="preserve">
     <value>JPEG-Dateien|*.jpg;*.jpeg;*.jfif|</value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_CODECS_PBMPGMPPM_FILESPBMPGMPPM" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_CODECS_PBMPGMPPM_FILESPBMPGMPPM" xml:space="preserve">
     <value>PBM/PGM/PPM-Dateien|*.pbm;*.pgm;*.ppm|</value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_CODECS_PNG_FILESPNG" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_CODECS_PNG_FILESPNG" xml:space="preserve">
     <value>PNG-Dateien|*.png|</value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_CODECS_PSD_FILESPSD" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_CODECS_PSD_FILESPSD" xml:space="preserve">
     <value>PSD-Dateien|*.psd|</value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_CODECS_SVG_FILESSVG" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_CODECS_SVG_FILESSVG" xml:space="preserve">
     <value>SVG-Dateien|*.svg|</value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_CODECS_TGA_FILESTGA" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_CODECS_TGA_FILESTGA" xml:space="preserve">
     <value>TGA-Dateien|*.tga|</value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_CODECS_TIFF_FILESTIFTIFF" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_CODECS_TIFF_FILESTIFTIFF" xml:space="preserve">
     <value>TIFF-Dateien|*.tif;*.tiff|</value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_CODECS_GIF_FILESGIF" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_CODECS_GIF_FILESGIF" xml:space="preserve">
     <value>GIF-Dateien|*.gif|</value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_CODECS_PCX_FILESPCX" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_CODECS_PCX_FILESPCX" xml:space="preserve">
     <value>PCX-Dateien|*.pcx</value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_CODECS_PSD_FILESPSD_ALT1" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_CODECS_PSD_FILESPSD_ALT1" xml:space="preserve">
     <value>PSD-Dateien|*.psd|</value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_CODECS_CURSOR_FILESCUR" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_CODECS_CURSOR_FILESCUR" xml:space="preserve">
     <value>Cursor-Dateien|*.cur|</value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_CODECS_EMF_FILESEMF" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_CODECS_EMF_FILESEMF" xml:space="preserve">
     <value>EMF-Dateien|*.emf|</value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_CODECS_ICON_FILESICO" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_CODECS_ICON_FILESICO" xml:space="preserve">
     <value>Icon-Dateien|*.ico|</value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_CODECS_JPEGLS_FILESJLS" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_CODECS_JPEGLS_FILESJLS" xml:space="preserve">
     <value>JPEG-LS-Dateien|*.jls|</value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_CODECS_WMF_FILESWMF" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_CODECS_WMF_FILESWMF" xml:space="preserve">
     <value>WMF-Dateien|*.wmf</value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_CODECS_NDPI" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_CODECS_NDPI" xml:space="preserve">
     <value>Ndpi</value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_VALUE" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_CODECS_DIALOGS_VALUE" xml:space="preserve">
     <value>Wert</value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_VALUE_ALT1" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_CODECS_DIALOGS_VALUE_ALT1" xml:space="preserve">
     <value>Wert</value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_FAST" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_CODECS_DIALOGS_FAST" xml:space="preserve">
     <value>Schnell</value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_BEST_SPEED" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_CODECS_DIALOGS_BEST_SPEED" xml:space="preserve">
     <value>Beste Geschwindigkeit</value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_NORMAL" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_CODECS_DIALOGS_NORMAL" xml:space="preserve">
     <value>Normal</value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_BEST_COMPRESSION" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_CODECS_DIALOGS_BEST_COMPRESSION" xml:space="preserve">
     <value>Beste Komprimierung</value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_VALUE_ALT2" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_CODECS_DIALOGS_VALUE_ALT2" xml:space="preserve">
     <value>Wert</value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_NORMAL_ALT1" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_CODECS_DIALOGS_NORMAL_ALT1" xml:space="preserve">
     <value>Normal</value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_NORMAL_ALT2" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_CODECS_DIALOGS_NORMAL_ALT2" xml:space="preserve">
     <value>Normal</value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_VALUE_ALT3" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_CODECS_DIALOGS_VALUE_ALT3" xml:space="preserve">
     <value>Wert</value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_TILE_WIDTH_MUST_BE_MULTIPLE_16" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_CODECS_DIALOGS_TILE_WIDTH_MUST_BE_MULTIPLE_16" xml:space="preserve">
     <value>Kachelbreite muss ein Vielfaches von 16 sein.</value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_TILE_HEIGHT_MUST_BE_MULTIPLE_16" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_CODECS_DIALOGS_TILE_HEIGHT_MUST_BE_MULTIPLE_16" xml:space="preserve">
     <value>Kachelhöhe muss ein Vielfaches von 16 sein.</value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_IMPORTANT_SOME_DATA_FROM_ANNOTATIONS_WILL_BE_LOST_DO_YOU_WANT_TO_CONTINUE_ANYWAY" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_CODECS_DIALOGS_IMPORTANT_SOME_DATA_FROM_ANNOTATIONS_WILL_BE_LOST_DO_YOU_WANT_TO_CONTINUE_ANYWAY" xml:space="preserve">
     <value>Wichtig: Einige Daten aus Anmerkungen gehen verloren. Möchtest du trotzdem weitermachen?</value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_WARNING" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_CODECS_DIALOGS_WARNING" xml:space="preserve">
     <value>Warnung</value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_VALUE_ALT4" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_CODECS_DIALOGS_VALUE_ALT4" xml:space="preserve">
     <value>Wert</value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_CODECS_CAN_NOT_FIND_ENCODER_FOR_ARG0" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_CODECS_CAN_NOT_FIND_ENCODER_FOR_ARG0" xml:space="preserve">
     <value>Encoder für "{0}" konnte nicht gefunden werden.</value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_CODECS_CAN_NOT_FIND_ENCODER_FOR_ARG0_ALT1" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_CODECS_CAN_NOT_FIND_ENCODER_FOR_ARG0_ALT1" xml:space="preserve">
     <value>Encoder für "{0}" konnte nicht gefunden werden.</value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_CODECS_FILE_ARG0_ALREADY_EXISTS_OVERWRITE_IT" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_CODECS_FILE_ARG0_ALREADY_EXISTS_OVERWRITE_IT" xml:space="preserve">
     <value>Datei "{0}" existiert bereits. Überschreibe es?</value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_CODECS_CONFIRM_OVERWRITE" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_CODECS_CONFIRM_OVERWRITE" xml:space="preserve">
     <value>Überschreiben bestätigen</value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_EMF" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_EMF" xml:space="preserve">
     <value>Emf</value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_EMF_ALT1" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_EMF_ALT1" xml:space="preserve">
     <value>Emf</value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_PSD" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_PSD" xml:space="preserve">
     <value>Psd</value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_SVG" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_SVG" xml:space="preserve">
     <value>Svg</value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_EMF_ALT2" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_EMF_ALT2" xml:space="preserve">
     <value>Emf</value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_MEGAPIXELS" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_MEGAPIXELS" xml:space="preserve">
     <value>Megapixel</value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_MEGABYTES" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_MEGABYTES" xml:space="preserve">
     <value>Megabyte</value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_NOT_FOCUSED_IMAGE_APPEARANCE_SETTINGS" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_NOT_FOCUSED_IMAGE_APPEARANCE_SETTINGS" xml:space="preserve">
     <value>Einstellungen für das Erscheinungsbild nicht fokussierter Bilder</value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_FOCUSED_IMAGE_APPEARANCE_SETTINGS" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_FOCUSED_IMAGE_APPEARANCE_SETTINGS" xml:space="preserve">
     <value>Einstellungen für die Darstellung fokussierter Bilder</value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_VALUE" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_VALUE" xml:space="preserve">
     <value>Wert</value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_ENTER_STRING_VALUES_VALUE_PER_LINE" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_ENTER_STRING_VALUES_VALUE_PER_LINE" xml:space="preserve">
     <value>Zeichenfolgenwerte eingeben (Wert pro Zeile)</value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_ERROR" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_ERROR" xml:space="preserve">
     <value>Fehler</value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_SEQUENCE" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_SEQUENCE" xml:space="preserve">
     <value>Sequenz</value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_THIS_DEMO_APPLICATION_CAN_EDIT_ARRAY_ONLY_IF_ARRAY_LENGTH_DOES_NOT_EXCEED_ARG0" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_THIS_DEMO_APPLICATION_CAN_EDIT_ARRAY_ONLY_IF_ARRAY_LENGTH_DOES_NOT_EXCEED_ARG0" xml:space="preserve">
     <value>Diese Demoanwendung kann Arrays nur bearbeiten, wenn die Array-Länge {0} nicht überschreitet.</value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_THIS_NODE_IS_READONLY" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_THIS_NODE_IS_READONLY" xml:space="preserve">
     <value>Dieser Knoten ist schreibgeschützt.</value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_INVALID_DICOMDATETIME_FORMAT" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_INVALID_DICOMDATETIME_FORMAT" xml:space="preserve">
     <value>Ungültiges DicomDateTime-Format.</value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_ERROR_ALT1" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_ERROR_ALT1" xml:space="preserve">
     <value>Fehler</value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_ADD_DICOM_DATA_ELEMENT" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_ADD_DICOM_DATA_ELEMENT" xml:space="preserve">
     <value>DICOM-Datenelement hinzufügen...</value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_ADD_DICOM_SEQUENCE_ITEM" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_ADD_DICOM_SEQUENCE_ITEM" xml:space="preserve">
     <value>DICOM-Sequenzelement hinzufügen</value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_DICOM_METADATA_EDITOR" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_DICOM_METADATA_EDITOR" xml:space="preserve">
     <value>DICOM-Metadaten-Editor</value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_DICOM_METADATA_VIEWER" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_DICOM_METADATA_VIEWER" xml:space="preserve">
     <value>DICOM-Metadaten-Viewer</value>
   </data>
-  <data name="DEMOSCOMMONCODE_RESOURCE_ARG0_WAS_NOT_FOUND" xml:space="preserve">
+  <data name="COMMONCODE_RESOURCE_ARG0_WAS_NOT_FOUND" xml:space="preserve">
     <value>Ressource „{0}“ wurde nicht gefunden.</value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_ERROR_ALT2" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_ERROR_ALT2" xml:space="preserve">
     <value>Fehler</value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_ERROR_ALT3" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_ERROR_ALT3" xml:space="preserve">
     <value>Fehler</value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_NORMAL" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_NORMAL" xml:space="preserve">
     <value>Normal</value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_FOCUSED" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_FOCUSED" xml:space="preserve">
     <value>Konzentriert</value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_HOVERED" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_HOVERED" xml:space="preserve">
     <value>Bewegt</value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_SELECTED" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_SELECTED" xml:space="preserve">
     <value>Ausgewählt</value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_NOT_READY" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_NOT_READY" xml:space="preserve">
     <value>Nicht bereit</value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_EXAMPLESRN" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_EXAMPLESRN" xml:space="preserve">
     <value>Beispiele:
 </value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_FILE_FILENAME_PAGE_PAGENUMBERRN" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_FILE_FILENAME_PAGE_PAGENUMBERRN" xml:space="preserve">
     <value>'Datei {Dateiname}, Seite {Seitennummer}'
 </value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_LIST_OF_PREDEFINED_FORMAT_VARIABLESRN" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_LIST_OF_PREDEFINED_FORMAT_VARIABLESRN" xml:space="preserve">
     <value>Liste vordefinierter Formatvariablen:
 </value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_PAGELABEL_PAGE_LABELRN" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_PAGELABEL_PAGE_LABELRN" xml:space="preserve">
     <value>{PageLabel} – Seitenbezeichnung
 </value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_PAGENUMBER_PAGE_NUMBER_IN_SOURCE_IMAGE_FILERN" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_PAGENUMBER_PAGE_NUMBER_IN_SOURCE_IMAGE_FILERN" xml:space="preserve">
     <value>{PageNumber} – Seitenzahl in der Quellbilddatei
 </value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_PAGEINDEX_PAGE_INDEX_IN_SOURCE_IMAGE_FILERN" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_PAGEINDEX_PAGE_INDEX_IN_SOURCE_IMAGE_FILERN" xml:space="preserve">
     <value>{PageIndex} – Seitenindex, in der Quellbilddatei
 </value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_IMAGENUMBER_IMAGE_NUMBER_IN_IMAGE_COLLECTIONRN" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_IMAGENUMBER_IMAGE_NUMBER_IN_IMAGE_COLLECTIONRN" xml:space="preserve">
     <value>{ImageNumber} – Bildnummer in der Bildersammlung
 </value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_IMAGEINDEX_IMAGE_INDEX_IN_IMAGE_COLLECTIONRN" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_IMAGEINDEX_IMAGE_INDEX_IN_IMAGE_COLLECTIONRN" xml:space="preserve">
     <value>{ImageIndex} – Bildindex, in der Bildersammlung
 </value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_FILENAME_FILENAME_WITHOUT_DIRECTORYRN" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_FILENAME_FILENAME_WITHOUT_DIRECTORYRN" xml:space="preserve">
     <value>{Dateiname} – Dateiname ohne Verzeichnis
 </value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_FULLFILENAME_FULL_FILENAMERN" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_FULLFILENAME_FULL_FILENAMERN" xml:space="preserve">
     <value>{FullFilename} – vollständiger Dateiname
 </value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_DIRECTORYNAME_DIRECTORY_NAMERN" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_DIRECTORYNAME_DIRECTORY_NAMERN" xml:space="preserve">
     <value>{DirectoryName} – Verzeichnisname
 </value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_DECODERNAME_DECODER_NAMERN" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_DECODERNAME_DECODER_NAMERN" xml:space="preserve">
     <value>{DecoderName} – Decodername
 </value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_IMAGEWIDTHPX_SOURCE_IMAGE_WIDTH_IN_PIXELSRN" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_IMAGEWIDTHPX_SOURCE_IMAGE_WIDTH_IN_PIXELSRN" xml:space="preserve">
     <value>{ImageWidthPx} – Breite des Quellbilds in Pixel
 </value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_IMAGEHEIGHTPX_SOURCE_IMAGE_HEIGHT_IN_PIXELSRN" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_IMAGEHEIGHTPX_SOURCE_IMAGE_HEIGHT_IN_PIXELSRN" xml:space="preserve">
     <value>{ImageHeightPx} – Höhe des Quellbilds in Pixel
 </value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_IMAGESIZEMPX_SOURCE_IMAGE_SIZE_IN_MEGAPIXELSRN" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_IMAGESIZEMPX_SOURCE_IMAGE_SIZE_IN_MEGAPIXELSRN" xml:space="preserve">
     <value>{ImageSizeMpx} – Quellbildgröße in Megapixeln
 </value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_IMAGEHRES_SOURCE_IMAGE_HORIZONTAL_RESOLUTION_IN_DPIRN" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_IMAGEHRES_SOURCE_IMAGE_HORIZONTAL_RESOLUTION_IN_DPIRN" xml:space="preserve">
     <value>{ImageHRes} – horizontale Auflösung des Quellbilds, in DPI
 </value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_IMAGEVRES_SOURCE_IMAGE_VERTICAL_RESOLUTION_IN_DPIRN" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_IMAGEVRES_SOURCE_IMAGE_VERTICAL_RESOLUTION_IN_DPIRN" xml:space="preserve">
     <value>{ImageVRes} – vertikale Auflösung des Quellbilds, in DPI
 </value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_IMAGEBITSPERPIXEL_SOURCE_IMAGE_BITS_PER_PIXEL" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_IMAGEBITSPERPIXEL_SOURCE_IMAGE_BITS_PER_PIXEL" xml:space="preserve">
     <value>{ImageBitsPerPixel} – Quellbildbits pro Pixel</value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_THUMBNAILCAPTIONCAPTIONFORMAT_PROPERTY" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_THUMBNAILCAPTIONCAPTIONFORMAT_PROPERTY" xml:space="preserve">
     <value>ThumbnailCaption.CaptionFormat-Eigenschaft</value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_VISUAL_TOOL" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_VISUAL_TOOL" xml:space="preserve">
     <value>Visuelles Werkzeug</value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_LINE_MEASURE" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_LINE_MEASURE" xml:space="preserve">
     <value>Linienmaß</value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_STARTS_THE_MEASUREMENT_USING_LINE" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_STARTS_THE_MEASUREMENT_USING_LINE" xml:space="preserve">
     <value>Startet die Messung mithilfe der Linie</value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_LINES_MEASURE" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_LINES_MEASURE" xml:space="preserve">
     <value>Linienmaß</value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_STARTS_THE_MEASUREMENT_USING_LINES" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_STARTS_THE_MEASUREMENT_USING_LINES" xml:space="preserve">
     <value>Startet die Messung anhand von Linien</value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_ELLIPSE_MEASURE" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_ELLIPSE_MEASURE" xml:space="preserve">
     <value>Ellipsenmaß</value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_STARTS_THE_MEASUREMENT_USING_ELLIPSE" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_STARTS_THE_MEASUREMENT_USING_ELLIPSE" xml:space="preserve">
     <value>Startet die Messung mittels Ellipse</value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_ANGLE_MEASURE" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_ANGLE_MEASURE" xml:space="preserve">
     <value>Winkelmaß</value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_STARTS_THE_MEASUREMENT_USING_ANGLE" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_STARTS_THE_MEASUREMENT_USING_ANGLE" xml:space="preserve">
     <value>Startet die Messung anhand des Winkels</value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_UNITS_OF_MEASURE" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_UNITS_OF_MEASURE" xml:space="preserve">
     <value>Maßeinheiten</value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_UNITS_OF_MEASURE_ALT1" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_UNITS_OF_MEASURE_ALT1" xml:space="preserve">
     <value>Maßeinheiten</value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_PROPERTIES" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_PROPERTIES" xml:space="preserve">
     <value>Eigenschaften...</value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_SHOW_PROPERTIES_FORM_FOR_IMAGE_MEASURE_TOOL" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_SHOW_PROPERTIES_FORM_FOR_IMAGE_MEASURE_TOOL" xml:space="preserve">
     <value>Eigenschaftenformular für Bildmesstool anzeigen</value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_MEASUREMENT_PROPERTIES" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_MEASUREMENT_PROPERTIES" xml:space="preserve">
     <value>Messungseigenschaften...</value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_SHOW_PROPERTIES_FORM_FOR_FOCUSED_MEASUREMENT_ANNOTATION" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_SHOW_PROPERTIES_FORM_FOR_FOCUSED_MEASUREMENT_ANNOTATION" xml:space="preserve">
     <value>Eigenschaftenformular für fokussierte Messanmerkung anzeigen</value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_IMAGE_MEASURE_TOOL_SETTINGS" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_IMAGE_MEASURE_TOOL_SETTINGS" xml:space="preserve">
     <value>Einstellungen des Bildmesswerkzeugs</value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_MEASUREMENT_SETTINGS" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_MEASUREMENT_SETTINGS" xml:space="preserve">
     <value>Messeinstellungen</value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_LOAD_MEASUREMENTS" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_LOAD_MEASUREMENTS" xml:space="preserve">
     <value>Messungen laden...</value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_LOAD_THE_MEASUREMENT_ANNOTATIONS_FROM_A_FILE" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_LOAD_THE_MEASUREMENT_ANNOTATIONS_FROM_A_FILE" xml:space="preserve">
     <value>Laden Sie die Messanmerkungen aus einer Datei</value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_SAVE_MEASUREMENTS" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_SAVE_MEASUREMENTS" xml:space="preserve">
     <value>Messungen speichern...</value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING__SAVE_THE_MEASUREMENT_ANNOTATIONS_TO_A_FILE" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING__SAVE_THE_MEASUREMENT_ANNOTATIONS_TO_A_FILE" xml:space="preserve">
     <value> Speichern Sie die Messanmerkungen in einer Datei</value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_BINARY_ANNOTATIONSVSABMVSABMXMP_ANNOTATIONSXMPMXMPMALL_FORMATSVSABMXMPMVSABMXMPM" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_BINARY_ANNOTATIONSVSABMVSABMXMP_ANNOTATIONSXMPMXMPMALL_FORMATSVSABMXMPMVSABMXMPM" xml:space="preserve">
     <value>Binäre Anmerkungen(*.vsabm)|*.vsabm|XMP-Anmerkungen(*.xmpm)|*.xmpm|Alle Formate(*.vsabm;*.xmpm)|*.vsabm;*.xmpm</value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_BINARY_ANNOTATIONSVSABMXMP_ANNOTATIONSXMPM" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_BINARY_ANNOTATIONSVSABMXMP_ANNOTATIONSXMPM" xml:space="preserve">
     <value>Binäre Anmerkungen|*.vsabm|XMP-Anmerkungen|*.xmpm</value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_REFRESH_MEASUREMENTS" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_REFRESH_MEASUREMENTS" xml:space="preserve">
     <value>Messungen aktualisieren</value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_REFRESH_ALL_MEASUREMENTS_OF_FOCUSED_IMAGE" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_REFRESH_ALL_MEASUREMENTS_OF_FOCUSED_IMAGE" xml:space="preserve">
     <value>Alle Messungen des fokussierten Bildes aktualisieren</value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_IMAGE_MEASURE_TOOL" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_IMAGE_MEASURE_TOOL" xml:space="preserve">
     <value>Bildmesswerkzeug</value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_IMAGE_MEASURE_TOOL_ALT1" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_IMAGE_MEASURE_TOOL_ALT1" xml:space="preserve">
     <value>Bildmesswerkzeug</value>
   </data>
-  <data name="DEMOSCOMMONCODE_ABOUT" xml:space="preserve">
+  <data name="COMMONCODE_ABOUT" xml:space="preserve">
     <value>Über das Programm...</value>
   </data>
-  <data name="DEMOSCOMMONCODE_ARG0_HAS_INVALID_FORMAT" xml:space="preserve">
+  <data name="COMMONCODE_ARG0_HAS_INVALID_FORMAT" xml:space="preserve">
     <value>{0} hat ein ungültiges Format.</value>
   </data>
-  <data name="DEMOSCOMMONCODE_ERROR" xml:space="preserve">
+  <data name="COMMONCODE_ERROR" xml:space="preserve">
     <value>Fehler</value>
   </data>
-  <data name="DEMOSCOMMONCODE_ERROR_ALT1" xml:space="preserve">
+  <data name="COMMONCODE_ERROR_ALT1" xml:space="preserve">
     <value>Fehler</value>
   </data>
-  <data name="DEMOSCOMMONCODE_ERROR_ALT2" xml:space="preserve">
+  <data name="COMMONCODE_ERROR_ALT2" xml:space="preserve">
     <value>Fehler</value>
   </data>
-  <data name="DEMOSCOMMONCODE_WARNING" xml:space="preserve">
+  <data name="COMMONCODE_WARNING" xml:space="preserve">
     <value>Warnung</value>
   </data>
-  <data name="DEMOSCOMMONCODE_INFORMATION" xml:space="preserve">
+  <data name="COMMONCODE_INFORMATION" xml:space="preserve">
     <value>Informationen</value>
   </data>
-  <data name="DEMOSCOMMONCODE_INNER_EXCEPTION_ARG0" xml:space="preserve">
+  <data name="COMMONCODE_INNER_EXCEPTION_ARG0" xml:space="preserve">
     <value>Innere Ausnahme: {0}</value>
   </data>
-  <data name="DEMOSCOMMONCODE_ERROR_ALT3" xml:space="preserve">
+  <data name="COMMONCODE_ERROR_ALT3" xml:space="preserve">
     <value>Fehler</value>
   </data>
   <data name="DICOMVIEWERDEMO_BUILDING_ANNOTATION" xml:space="preserve">
     <value>Gebäudeanmerkung</value>
   </data>
-  <data name="DEMOSCOMMONCODE_IMAGING_ADD_DICOMANNOTATEDVIEWERTOOL_FIRST" xml:space="preserve">
+  <data name="COMMONCODE_IMAGING_ADD_DICOMANNOTATEDVIEWERTOOL_FIRST" xml:space="preserve">
     <value>Fügen Sie zuerst DicomAnnotatedViewerTool hinzu.</value>
   </data>
   <data name="DICOMVIEWERDEMO_PAGE" xml:space="preserve">

@@ -1,5 +1,5 @@
 
-namespace DemosCommonCode.Imaging
+namespace CommonCode.Imaging
 {
     partial class ColorPickerDialogForm
     {
@@ -32,7 +32,7 @@ namespace DemosCommonCode.Imaging
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ColorPickerDialogForm));
             this.buttonOk = new System.Windows.Forms.Button();
             this.buttonCancel = new System.Windows.Forms.Button();
-            this.colorPickerControl1 = new DemosCommonCode.CustomControls.ColorPickerControl();
+            this.colorPickerControl1 = new CommonCode.CustomControls.ColorPickerControl();
             this.SuspendLayout();
             // 
             // buttonOk

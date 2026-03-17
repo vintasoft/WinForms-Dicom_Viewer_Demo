@@ -7,7 +7,7 @@ using Vintasoft.Imaging.ImageRendering;
 using Vintasoft.Imaging.Codecs.Decoders;
 using Vintasoft.Imaging.UI;
 
-namespace DemosCommonCode.Imaging
+namespace CommonCode.Imaging
 {
     /// <summary>
     /// A form that allows to view and change settings of the image viewer.
@@ -171,7 +171,7 @@ namespace DemosCommonCode.Imaging
 
             // create image appearance settings form
             using (ThumbnailAppearanceSettingsForm dialog =
-                new ThumbnailAppearanceSettingsForm(_imageAppearance, DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_NOT_FOCUSED_IMAGE_APPEARANCE_SETTINGS))
+                new ThumbnailAppearanceSettingsForm(_imageAppearance, DicomViewerDemo.Localization.Strings.COMMONCODE_IMAGING_NOT_FOCUSED_IMAGE_APPEARANCE_SETTINGS))
             {
                 // show dialog
                 dialog.ShowDialog();
@@ -190,7 +190,7 @@ namespace DemosCommonCode.Imaging
 
             // create image appearance settings form
             using (ThumbnailAppearanceSettingsForm dialog =
-                new ThumbnailAppearanceSettingsForm(_focusedImageAppearance, DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_FOCUSED_IMAGE_APPEARANCE_SETTINGS))
+                new ThumbnailAppearanceSettingsForm(_focusedImageAppearance, DicomViewerDemo.Localization.Strings.COMMONCODE_IMAGING_FOCUSED_IMAGE_APPEARANCE_SETTINGS))
             {
                 // show dialog
                 dialog.ShowDialog();

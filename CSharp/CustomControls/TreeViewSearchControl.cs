@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Windows.Forms;
 
-namespace DemosCommonCode.CustomControls
+namespace CommonCode.CustomControls
 {
     /// <summary>
     /// A control that allows to search <see cref="System.Windows.Forms.TreeNode"/> in the <see cref="System.Windows.Forms.TreeView"/>.
@@ -164,8 +164,8 @@ namespace DemosCommonCode.CustomControls
             if (isAllNodesSelected)
             {
                 MessageBox.Show(
-                    DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_CUSTOMCONTROLS_FIND_REACHED_THE_STARTING_POINT_OF_THE_SEARCH,
-                    DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_CUSTOMCONTROLS_TREE_VIEW_SEARCH_CONTROL,
+                    DicomViewerDemo.Localization.Strings.COMMONCODE_CUSTOMCONTROLS_FIND_REACHED_THE_STARTING_POINT_OF_THE_SEARCH,
+                    DicomViewerDemo.Localization.Strings.COMMONCODE_CUSTOMCONTROLS_TREE_VIEW_SEARCH_CONTROL,
                     MessageBoxButtons.OK,
                     MessageBoxIcon.Information);
             }
@@ -199,8 +199,8 @@ namespace DemosCommonCode.CustomControls
                 if (_foundTreeNodes.Count == 0)
                 {
                     MessageBox.Show(
-                        string.Format(DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_CUSTOMCONTROLS_THE_SPECIFIED_TEXT_WAS_NOT_FOUNDRNARG0, searchPattern),
-                        DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_CUSTOMCONTROLS_TREE_VIEW_SEARCH_CONTROL_ALT1,
+                        string.Format(DicomViewerDemo.Localization.Strings.COMMONCODE_CUSTOMCONTROLS_THE_SPECIFIED_TEXT_WAS_NOT_FOUNDRNARG0, searchPattern),
+                        DicomViewerDemo.Localization.Strings.COMMONCODE_CUSTOMCONTROLS_TREE_VIEW_SEARCH_CONTROL_ALT1,
                         MessageBoxButtons.OK,
                         MessageBoxIcon.Information);
                 }

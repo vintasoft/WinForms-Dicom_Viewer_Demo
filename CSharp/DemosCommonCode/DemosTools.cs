@@ -13,7 +13,7 @@ using Vintasoft.Imaging.UI.VisualTools;
 using Vintasoft.Imaging.UIActions;
 
 
-namespace DemosCommonCode
+namespace CommonCode
 {
     /// <summary>
     /// Contains collection of helper-algorithms for demo applications.
@@ -46,7 +46,7 @@ namespace DemosCommonCode
         {
             if (ParseFloat(text, out value))
                 return true;
-            ShowErrorMessage(string.Format(DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_ARG0_HAS_INVALID_FORMAT, fieldName));
+            ShowErrorMessage(string.Format(DicomViewerDemo.Localization.Strings.COMMONCODE_ARG0_HAS_INVALID_FORMAT, fieldName));
             return false;
         }
 
@@ -137,7 +137,7 @@ namespace DemosCommonCode
         /// <param name="message">The text of error.</param>
         public static void ShowErrorMessage(string message)
         {
-            ShowErrorMessage(DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_ERROR, message);
+            ShowErrorMessage(DicomViewerDemo.Localization.Strings.COMMONCODE_ERROR, message);
         }
 
         /// <summary>
@@ -146,7 +146,7 @@ namespace DemosCommonCode
         /// <param name="ex">The exception.</param>
         public static void ShowErrorMessage(Exception ex)
         {
-            ShowErrorMessage(DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_ERROR_ALT1, ex);
+            ShowErrorMessage(DicomViewerDemo.Localization.Strings.COMMONCODE_ERROR_ALT1, ex);
         }
 
         /// <summary>
@@ -156,7 +156,7 @@ namespace DemosCommonCode
         /// <param name="filename">A filename.</param>
         public static void ShowErrorMessage(Exception ex, string filename)
         {
-            MessageBox.Show(string.Format("{0} ({1})", ex.Message, Path.GetFileName(filename)), DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_ERROR_ALT2, MessageBoxButtons.OK, MessageBoxIcon.Error);
+            MessageBox.Show(string.Format("{0} ({1})", ex.Message, Path.GetFileName(filename)), DicomViewerDemo.Localization.Strings.COMMONCODE_ERROR_ALT2, MessageBoxButtons.OK, MessageBoxIcon.Error);
         }
 
         /// <summary>
@@ -175,7 +175,7 @@ namespace DemosCommonCode
         /// <param name="message">The message.</param>
         public static void ShowWarningMessage(string message)
         {
-            ShowWarningMessage(DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_WARNING, message);
+            ShowWarningMessage(DicomViewerDemo.Localization.Strings.COMMONCODE_WARNING, message);
         }
 
         /// <summary>
@@ -194,7 +194,7 @@ namespace DemosCommonCode
         /// <param name="message">The message.</param>
         public static void ShowInfoMessage(string message)
         {
-            ShowInfoMessage(DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_INFORMATION, message);
+            ShowInfoMessage(DicomViewerDemo.Localization.Strings.COMMONCODE_INFORMATION, message);
         }
 
 
@@ -318,7 +318,7 @@ namespace DemosCommonCode
             while (innerException != null)
             {
                 if (ex.Message != innerException.Message)
-                    sb.AppendLine(string.Format(DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_INNER_EXCEPTION_ARG0, innerException.Message));
+                    sb.AppendLine(string.Format(DicomViewerDemo.Localization.Strings.COMMONCODE_INNER_EXCEPTION_ARG0, innerException.Message));
                 innerException = innerException.InnerException;
             }
 
@@ -448,7 +448,7 @@ namespace DemosCommonCode
             if (licenseException != null)
             {
                 // show information about licensing exception
-                MessageBox.Show(string.Format("{0}: {1}", licenseException.GetType().Name, licenseException.Message), DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_ERROR_ALT3, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(string.Format("{0}: {1}", licenseException.GetType().Name, licenseException.Message), DicomViewerDemo.Localization.Strings.COMMONCODE_ERROR_ALT3, MessageBoxButtons.OK, MessageBoxIcon.Error);
 
                 // open article with information about usage of evaluation license
                 System.Diagnostics.Process process = new System.Diagnostics.Process();

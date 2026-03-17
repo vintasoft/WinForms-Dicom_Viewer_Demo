@@ -3,7 +3,7 @@
 using Vintasoft.Imaging.Codecs.Decoders;
 using Vintasoft.Imaging.Codecs.Encoders;
 
-namespace DemosCommonCode.Imaging.Codecs
+namespace CommonCode.Imaging.Codecs
 {
     /// <summary>
     /// Contains filters for Open/Save dialogs.
@@ -18,16 +18,16 @@ namespace DemosCommonCode.Imaging.Codecs
         /// The file filter for image files.
         /// </summary>
         static string IMAGE_FILES_DIALOG_FILTER =
-            DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_CODECS_BMP_FILESBMP +
-            DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_CODECS_JPEG_FILESJPGJPEGJFIF +
-            DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_CODECS_PBMPGMPPM_FILESPBMPGMPPM +
-            DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_CODECS_PNG_FILESPNG +
-            DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_CODECS_PSD_FILESPSD +
-            DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_CODECS_SVG_FILESSVG +
-            DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_CODECS_TGA_FILESTGA +
-            DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_CODECS_TIFF_FILESTIFTIFF +
-            DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_CODECS_GIF_FILESGIF +
-            DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_CODECS_PCX_FILESPCX;
+            DicomViewerDemo.Localization.Strings.COMMONCODE_IMAGING_CODECS_BMP_FILESBMP +
+            DicomViewerDemo.Localization.Strings.COMMONCODE_IMAGING_CODECS_JPEG_FILESJPGJPEGJFIF +
+            DicomViewerDemo.Localization.Strings.COMMONCODE_IMAGING_CODECS_PBMPGMPPM_FILESPBMPGMPPM +
+            DicomViewerDemo.Localization.Strings.COMMONCODE_IMAGING_CODECS_PNG_FILESPNG +
+            DicomViewerDemo.Localization.Strings.COMMONCODE_IMAGING_CODECS_PSD_FILESPSD +
+            DicomViewerDemo.Localization.Strings.COMMONCODE_IMAGING_CODECS_SVG_FILESSVG +
+            DicomViewerDemo.Localization.Strings.COMMONCODE_IMAGING_CODECS_TGA_FILESTGA +
+            DicomViewerDemo.Localization.Strings.COMMONCODE_IMAGING_CODECS_TIFF_FILESTIFTIFF +
+            DicomViewerDemo.Localization.Strings.COMMONCODE_IMAGING_CODECS_GIF_FILESGIF +
+            DicomViewerDemo.Localization.Strings.COMMONCODE_IMAGING_CODECS_PCX_FILESPCX;
 
         /// <summary>
         /// The file filter for all image files.
@@ -43,12 +43,12 @@ namespace DemosCommonCode.Imaging.Codecs
         /// The file filter for other image files.
         /// </summary>
         static string OTHER_IMAGE_FILES_DIALOG_FILTER = 
-            DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_CODECS_PSD_FILESPSD_ALT1 +
-            DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_CODECS_CURSOR_FILESCUR +
-            DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_CODECS_EMF_FILESEMF +
-            DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_CODECS_ICON_FILESICO +
-            DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_CODECS_JPEGLS_FILESJLS +
-            DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_CODECS_WMF_FILESWMF;
+            DicomViewerDemo.Localization.Strings.COMMONCODE_IMAGING_CODECS_PSD_FILESPSD_ALT1 +
+            DicomViewerDemo.Localization.Strings.COMMONCODE_IMAGING_CODECS_CURSOR_FILESCUR +
+            DicomViewerDemo.Localization.Strings.COMMONCODE_IMAGING_CODECS_EMF_FILESEMF +
+            DicomViewerDemo.Localization.Strings.COMMONCODE_IMAGING_CODECS_ICON_FILESICO +
+            DicomViewerDemo.Localization.Strings.COMMONCODE_IMAGING_CODECS_JPEGLS_FILESJLS +
+            DicomViewerDemo.Localization.Strings.COMMONCODE_IMAGING_CODECS_WMF_FILESWMF;
 
         /// <summary>
         /// The file filter for TIFF files.
@@ -617,7 +617,7 @@ namespace DemosCommonCode.Imaging.Codecs
             }
 
             // if WSI decoders (NDPI) is available
-            if (AvailableDecoders.IsDecoderAvailable(DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_CODECS_NDPI))
+            if (AvailableDecoders.IsDecoderAvailable(DicomViewerDemo.Localization.Strings.COMMONCODE_IMAGING_CODECS_NDPI))
             {
                 filter1 += "|" + WSI_FILE_DIALOG_FILTER;
                 filter2 += WSI_FILE_EXTENSIONS + ";";

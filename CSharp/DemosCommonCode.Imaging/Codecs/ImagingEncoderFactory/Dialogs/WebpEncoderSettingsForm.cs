@@ -7,7 +7,7 @@ using Vintasoft.Imaging.Codecs.Encoders;
 using Vintasoft.Imaging.Codecs.Webp;
 #endif
 
-namespace DemosCommonCode.Imaging.Codecs.Dialogs
+namespace CommonCode.Imaging.Codecs.Dialogs
 {
     /// <summary>
     /// A form that allows to view and edit the WEBP encoder settings.
@@ -65,7 +65,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             set
             {
                 if (value == null)
-                    throw new ArgumentNullException(DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_VALUE_ALT4);
+                    throw new ArgumentNullException(DicomViewerDemo.Localization.Strings.COMMONCODE_IMAGING_CODECS_DIALOGS_VALUE_ALT4);
 
                 if (!object.Equals(_encoderSettings, value))
                 {

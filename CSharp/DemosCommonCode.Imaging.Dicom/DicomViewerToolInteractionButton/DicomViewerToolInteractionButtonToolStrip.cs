@@ -5,7 +5,7 @@ using System.Drawing;
 using System.IO;
 using System.Windows.Forms;
 
-using DemosCommonCode;
+using CommonCode;
 
 using Vintasoft.Imaging.Dicom.UI.VisualTools;
 

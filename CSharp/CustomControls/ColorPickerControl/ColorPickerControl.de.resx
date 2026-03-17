@@ -117,18 +117,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="channelAlphaValueEditorControl.ValueName" xml:space="preserve">
-    <value>Alpha</value>
-  </data>
-  <data name="channelBlueValueEditorControl.ValueName" xml:space="preserve">
-    <value>Blau</value>
-  </data>
-  <data name="channelGreenValueEditorControl.ValueName" xml:space="preserve">
-    <value>Grün</value>
-  </data>
-  <data name="channelRedValueEditorControl.ValueName" xml:space="preserve">
-    <value>Rot</value>
-  </data>
   <data name="lockRgbCheckBox.Text" xml:space="preserve">
     <value>RGB-Kanäle sperren</value>
   </data>

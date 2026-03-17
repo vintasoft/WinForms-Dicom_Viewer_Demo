@@ -3,7 +3,7 @@ using System.ComponentModel;
 using System.Reflection;
 using System.Windows.Forms;
 
-namespace DemosCommonCode
+namespace CommonCode
 {
     /// <summary>
     /// A base form for the application "About" dialog.
@@ -142,7 +142,7 @@ namespace DemosCommonCode
         /// </summary>
         protected override void OnLoad(EventArgs e)
         {
-            Text = DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_ABOUT;
+            Text = DicomViewerDemo.Localization.Strings.COMMONCODE_ABOUT;
             base.OnLoad(e);
         }
 

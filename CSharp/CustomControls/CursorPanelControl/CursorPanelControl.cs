@@ -5,7 +5,7 @@ using System.Windows.Forms;
 using Vintasoft.Imaging.UI.VisualTools;
 
 
-namespace DemosCommonCode.CustomControls
+namespace CommonCode.CustomControls
 {
     /// <summary>
     /// A panel that allows to show the selected cursor and change the selected cursor.
@@ -43,12 +43,12 @@ namespace DemosCommonCode.CustomControls
             AddCursor("RotateCursor (VintaSoft)", ToolCursors.RotateCursor);
             AddCursor("ZoomCursor (VintaSoft)", ToolCursors.ZoomCursor);
 
-            AddCursor(DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_CUSTOMCONTROLS_DEFAULT, Cursors.Default);
+            AddCursor(DicomViewerDemo.Localization.Strings.COMMONCODE_CUSTOMCONTROLS_DEFAULT, Cursors.Default);
             AddCursor("AppStarting", Cursors.AppStarting);
             AddCursor("Arrow", Cursors.Arrow);
             AddCursor("Cross", Cursors.Cross);
             AddCursor("Hand", Cursors.Hand);
-            AddCursor(DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_CUSTOMCONTROLS_HELP, Cursors.Help);
+            AddCursor(DicomViewerDemo.Localization.Strings.COMMONCODE_CUSTOMCONTROLS_HELP, Cursors.Help);
             AddCursor("HSplit", Cursors.HSplit);
             AddCursor("IBeam", Cursors.IBeam);
             AddCursor("No", Cursors.No);

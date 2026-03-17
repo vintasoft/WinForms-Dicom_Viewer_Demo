@@ -1,5 +1,5 @@
 
-namespace DemosCommonCode.CustomControls
+namespace CommonCode.CustomControls
 {
     partial class ColorPickerControl
     {
@@ -31,11 +31,11 @@ namespace DemosCommonCode.CustomControls
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ColorPickerControl));
             this.lockRgbCheckBox = new System.Windows.Forms.CheckBox();
-            this.colorSampleControl = new DemosCommonCode.CustomControls.ColorSampleControl();
-            this.channelRedValueEditorControl = new DemosCommonCode.CustomControls.ValueEditorControl();
-            this.channelGreenValueEditorControl = new DemosCommonCode.CustomControls.ValueEditorControl();
-            this.channelBlueValueEditorControl = new DemosCommonCode.CustomControls.ValueEditorControl();
-            this.channelAlphaValueEditorControl = new DemosCommonCode.CustomControls.ValueEditorControl();
+            this.colorSampleControl = new CommonCode.CustomControls.ColorSampleControl();
+            this.channelRedValueEditorControl = new CommonCode.CustomControls.ValueEditorControl();
+            this.channelGreenValueEditorControl = new CommonCode.CustomControls.ValueEditorControl();
+            this.channelBlueValueEditorControl = new CommonCode.CustomControls.ValueEditorControl();
+            this.channelAlphaValueEditorControl = new CommonCode.CustomControls.ValueEditorControl();
             this.colorDialog = new System.Windows.Forms.ColorDialog();
             this.hexValueTextBox = new System.Windows.Forms.TextBox();
             this.hexValueLabel = new System.Windows.Forms.Label();
@@ -71,8 +71,8 @@ namespace DemosCommonCode.CustomControls
             this.channelRedValueEditorControl.Name = "channelRedValueEditorControl";
             this.channelRedValueEditorControl.Size = new System.Drawing.Size(364, 76);
             this.channelRedValueEditorControl.TabIndex = 42;
-            resources.ApplyResources(this.channelRedValueEditorControl, "channelRedValueEditorControl");
-            
+            this.channelRedValueEditorControl.ValueName = "Red";
+            this.channelRedValueEditorControl.ValueUnitOfMeasure = "";
             this.channelRedValueEditorControl.ValueChanged += new System.EventHandler(this.channelValueEditorControl_ValueChanged);
             // 
             // channelGreenValueEditorControl
@@ -84,8 +84,8 @@ namespace DemosCommonCode.CustomControls
             this.channelGreenValueEditorControl.Name = "channelGreenValueEditorControl";
             this.channelGreenValueEditorControl.Size = new System.Drawing.Size(364, 76);
             this.channelGreenValueEditorControl.TabIndex = 43;
-            resources.ApplyResources(this.channelGreenValueEditorControl, "channelGreenValueEditorControl");
-            
+            this.channelGreenValueEditorControl.ValueName = "Green";
+            this.channelGreenValueEditorControl.ValueUnitOfMeasure = "";
             this.channelGreenValueEditorControl.ValueChanged += new System.EventHandler(this.channelValueEditorControl_ValueChanged);
             // 
             // channelBlueValueEditorControl
@@ -97,8 +97,8 @@ namespace DemosCommonCode.CustomControls
             this.channelBlueValueEditorControl.Name = "channelBlueValueEditorControl";
             this.channelBlueValueEditorControl.Size = new System.Drawing.Size(364, 76);
             this.channelBlueValueEditorControl.TabIndex = 44;
-            resources.ApplyResources(this.channelBlueValueEditorControl, "channelBlueValueEditorControl");
-            
+            this.channelBlueValueEditorControl.ValueName = "Blue";
+            this.channelBlueValueEditorControl.ValueUnitOfMeasure = "";
             this.channelBlueValueEditorControl.ValueChanged += new System.EventHandler(this.channelValueEditorControl_ValueChanged);
             // 
             // channelAlphaValueEditorControl
@@ -110,8 +110,8 @@ namespace DemosCommonCode.CustomControls
             this.channelAlphaValueEditorControl.Name = "channelAlphaValueEditorControl";
             this.channelAlphaValueEditorControl.Size = new System.Drawing.Size(364, 76);
             this.channelAlphaValueEditorControl.TabIndex = 45;
-            resources.ApplyResources(this.channelAlphaValueEditorControl, "channelAlphaValueEditorControl");
-            
+            this.channelAlphaValueEditorControl.ValueName = "Alpha";
+            this.channelAlphaValueEditorControl.ValueUnitOfMeasure = "";
             this.channelAlphaValueEditorControl.ValueChanged += new System.EventHandler(this.channelValueEditorControl_ValueChanged);
             // 
             // hexValueTextBox

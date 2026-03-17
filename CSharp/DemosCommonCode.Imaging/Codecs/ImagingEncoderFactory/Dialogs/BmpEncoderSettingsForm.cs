@@ -6,7 +6,7 @@ using Vintasoft.Imaging.Codecs.Encoders;
 using Vintasoft.Imaging.Codecs.ImageFiles.Bmp;
 
 
-namespace DemosCommonCode.Imaging.Codecs.Dialogs
+namespace CommonCode.Imaging.Codecs.Dialogs
 {
     /// <summary>
     /// A form that allows to view and edit the BMP encoder settings.
@@ -54,7 +54,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             set
             {
                 if (value == null)
-                    throw new ArgumentNullException(DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_VALUE);
+                    throw new ArgumentNullException(DicomViewerDemo.Localization.Strings.COMMONCODE_IMAGING_CODECS_DIALOGS_VALUE);
 
                 if (_encoderSettings != value)
                 {

@@ -9,7 +9,7 @@ using Vintasoft.Imaging.Codecs.ImageFiles.Dicom;
 using Vintasoft.Imaging.Metadata;
 
 
-namespace DemosCommonCode.Imaging
+namespace CommonCode.Imaging
 {
     /// <summary>
     /// A form that allows to edit the DICOM frame metadata.
@@ -101,11 +101,11 @@ namespace DemosCommonCode.Imaging
 
             if (CanEdit)
             {
-                this.Text = DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_DICOM_METADATA_EDITOR;
+                this.Text = DicomViewerDemo.Localization.Strings.COMMONCODE_IMAGING_DICOM_METADATA_EDITOR;
             }
             else
             {
-                this.Text = DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_DICOM_METADATA_VIEWER;
+                this.Text = DicomViewerDemo.Localization.Strings.COMMONCODE_IMAGING_DICOM_METADATA_VIEWER;
             }
         }
 

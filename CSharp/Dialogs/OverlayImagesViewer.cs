@@ -8,7 +8,7 @@ using Vintasoft.Imaging.Codecs.Encoders;
 using Vintasoft.Imaging.Codecs.ImageFiles.Dicom;
 using Vintasoft.Imaging.Metadata;
 
-using DemosCommonCode;
+using CommonCode;
 
 
 namespace DicomViewerDemo

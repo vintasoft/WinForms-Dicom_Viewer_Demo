@@ -144,9 +144,9 @@ namespace DicomViewerDemo
             this.imageInfoToolStripStatusLabel = new System.Windows.Forms.ToolStripStatusLabel();
             this.openDicomFileDialog = new System.Windows.Forms.OpenFileDialog();
             this.toolStripPanel1 = new System.Windows.Forms.ToolStripPanel();
-            this.dicomAnnotatedViewerToolStrip1 = new DemosCommonCode.Imaging.DicomAnnotatedViewerToolStrip();
+            this.dicomAnnotatedViewerToolStrip1 = new CommonCode.Imaging.DicomAnnotatedViewerToolStrip();
             this.voiLutsToolStripSplitButton = new System.Windows.Forms.ToolStripSplitButton();
-            this.imageViewerToolStrip1 = new DemosCommonCode.Imaging.ImageViewerToolStrip();
+            this.imageViewerToolStrip1 = new CommonCode.Imaging.ImageViewerToolStrip();
             this.dicomViewerToolInteractionButtonToolStrip1 = new DicomViewerDemo.DicomViewerToolInteractionButtonToolStrip();
             this.annotationsToolStrip1 = new DicomViewerDemo.AnnotationsToolStrip();
             this.annotationInteractionModeToolStrip = new System.Windows.Forms.ToolStrip();
@@ -1400,7 +1400,7 @@ namespace DicomViewerDemo
         private System.Windows.Forms.ToolStripMenuItem pasteToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem deleteToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem deleteAllToolStripMenuItem;
-        private DemosCommonCode.Imaging.DicomAnnotatedViewerToolStrip dicomAnnotatedViewerToolStrip1;
+        private CommonCode.Imaging.DicomAnnotatedViewerToolStrip dicomAnnotatedViewerToolStrip1;
         private System.Windows.Forms.ToolStripSplitButton voiLutsToolStripSplitButton;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator23;
         private System.Windows.Forms.ToolStripMenuItem magnifierSettingsToolStripMenuItem;
@@ -1420,7 +1420,7 @@ namespace DicomViewerDemo
         private System.Windows.Forms.ToolStripMenuItem openDirectoryToolStripMenuItem;
         private System.Windows.Forms.FolderBrowserDialog folderBrowserDialog1;
         private DicomViewerToolInteractionButtonToolStrip dicomViewerToolInteractionButtonToolStrip1;
-        private DemosCommonCode.Imaging.ImageViewerToolStrip imageViewerToolStrip1;
+        private CommonCode.Imaging.ImageViewerToolStrip imageViewerToolStrip1;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator5;
         private System.Windows.Forms.ToolStripMenuItem burnAndSaveToDICOMFileToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator12;

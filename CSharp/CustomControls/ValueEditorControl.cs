@@ -3,7 +3,7 @@ using System.ComponentModel;
 using System.Globalization;
 using System.Windows.Forms;
 
-namespace DemosCommonCode.CustomControls
+namespace CommonCode.CustomControls
 {
     /// <summary>
     /// A control that allows to edit value in image processing configuration form.
@@ -29,7 +29,7 @@ namespace DemosCommonCode.CustomControls
 
         #region Properties
 
-        string _valueName = DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_CUSTOMCONTROLS_VALUE_NAME;
+        string _valueName = DicomViewerDemo.Localization.Strings.COMMONCODE_CUSTOMCONTROLS_VALUE_NAME;
         /// <summary>
         /// Gets or sets name of the value.
         /// </summary>

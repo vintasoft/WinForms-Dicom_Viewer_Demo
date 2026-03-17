@@ -5,7 +5,7 @@ using System.Windows.Forms;
 using Vintasoft.Imaging.Codecs.Encoders;
 using Vintasoft.Imaging.Codecs.ImageFiles.Pbm;
 
-namespace DemosCommonCode.Imaging.Codecs.Dialogs
+namespace CommonCode.Imaging.Codecs.Dialogs
 {
     /// <summary>
     /// A form that allows to view and edit the PBM encoder settings.
@@ -50,7 +50,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             set
             {
                 if (value == null)
-                    throw new ArgumentNullException(DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_VALUE_ALT1);
+                    throw new ArgumentNullException(DicomViewerDemo.Localization.Strings.COMMONCODE_IMAGING_CODECS_DIALOGS_VALUE_ALT1);
 
                 if (_encoderSettings != value)
                 {

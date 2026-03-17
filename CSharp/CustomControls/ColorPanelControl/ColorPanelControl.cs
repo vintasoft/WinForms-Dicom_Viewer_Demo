@@ -3,9 +3,9 @@ using System.ComponentModel;
 using System.Drawing;
 using System.Windows.Forms;
 
-using DemosCommonCode.Imaging;
+using CommonCode.Imaging;
 
-namespace DemosCommonCode.CustomControls
+namespace CommonCode.CustomControls
 {
     /// <summary>
     /// A panel that allows to show the selected color and change the selected color.
@@ -25,8 +25,8 @@ namespace DemosCommonCode.CustomControls
             InitializeComponent();
 
             CanSetColor = true;
-            toolTip1.SetToolTip(colorButton, DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_CUSTOMCONTROLS_CLICK_THE_BUTTON_IF_THE_CURRENT_COLOR_MUST_BE_CHANGED);
-            toolTip1.SetToolTip(defaultColorButton, DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_CUSTOMCONTROLS_CLICK_THE_BUTTON_IF_THE_CURRENT_COLOR_MUST_BE_SET_TO_THE_DEFAULT_COLOR);
+            toolTip1.SetToolTip(colorButton, DicomViewerDemo.Localization.Strings.COMMONCODE_CUSTOMCONTROLS_CLICK_THE_BUTTON_IF_THE_CURRENT_COLOR_MUST_BE_CHANGED);
+            toolTip1.SetToolTip(defaultColorButton, DicomViewerDemo.Localization.Strings.COMMONCODE_CUSTOMCONTROLS_CLICK_THE_BUTTON_IF_THE_CURRENT_COLOR_MUST_BE_SET_TO_THE_DEFAULT_COLOR);
         }
 
         #endregion
@@ -101,7 +101,7 @@ namespace DemosCommonCode.CustomControls
                 string toolTip = string.Empty;
                 if (value)
                 {
-                    toolTip = DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_CUSTOMCONTROLS_DOUBLE_CLICK_ON_THE_PANEL_IF_THE_CURRENT_COLOR_MUST_BE_CHANGED;
+                    toolTip = DicomViewerDemo.Localization.Strings.COMMONCODE_CUSTOMCONTROLS_DOUBLE_CLICK_ON_THE_PANEL_IF_THE_CURRENT_COLOR_MUST_BE_CHANGED;
                     cursor = Cursors.Hand;
                 }
 

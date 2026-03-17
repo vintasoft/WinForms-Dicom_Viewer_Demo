@@ -1,5 +1,5 @@
 
-namespace DemosCommonCode.Imaging
+namespace CommonCode.Imaging
 {
     partial class DicomMetadataEditorControl
     {
@@ -31,9 +31,9 @@ namespace DemosCommonCode.Imaging
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DicomMetadataEditorControl));
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
-            this.metadataTreeView = new DemosCommonCode.Imaging.DicomMetadataTreeView();
+            this.metadataTreeView = new CommonCode.Imaging.DicomMetadataTreeView();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.treeViewSearchControl1 = new DemosCommonCode.CustomControls.TreeViewSearchControl();
+            this.treeViewSearchControl1 = new CommonCode.CustomControls.TreeViewSearchControl();
             this.selectedNodeGroupBox = new System.Windows.Forms.GroupBox();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.removeButton = new System.Windows.Forms.Button();

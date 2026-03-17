@@ -3,7 +3,7 @@ using System.ComponentModel;
 using System.Drawing;
 using System.Windows.Forms;
 
-using DemosCommonCode.Imaging;
+using CommonCode.Imaging;
 
 #if !REMOVE_ANNOTATION_PLUGIN
 using Vintasoft.Imaging.Annotation.Dicom;

@@ -2,7 +2,7 @@
 using System.Globalization;
 using System.Windows.Forms;
 
-namespace DemosCommonCode.Imaging
+namespace CommonCode.Imaging
 {
     /// <summary>
     /// A form that allows to add an image rendering requirement.
@@ -19,7 +19,7 @@ namespace DemosCommonCode.Imaging
         {
             InitializeComponent();
 
-            string[] codes = new string[] { "Bmp", "Jpeg", "Jpeg2000", "Tiff", "Png", "Pdf", "Docx", "Xlsx", "Wmf", DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_EMF };
+            string[] codes = new string[] { "Bmp", "Jpeg", "Jpeg2000", "Tiff", "Png", "Pdf", "Docx", "Xlsx", "Wmf", DicomViewerDemo.Localization.Strings.COMMONCODE_IMAGING_EMF };
 
             codecComboBox.Items.AddRange(codes);
 
@@ -90,7 +90,7 @@ namespace DemosCommonCode.Imaging
                      codecComboBox.SelectedItem.ToString() == "Docx" ||
                      codecComboBox.SelectedItem.ToString() == "Xlsx" ||
                      codecComboBox.SelectedItem.ToString() == "Wmf" ||
-                     codecComboBox.SelectedItem.ToString() == DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_EMF_ALT1)
+                     codecComboBox.SelectedItem.ToString() == DicomViewerDemo.Localization.Strings.COMMONCODE_IMAGING_EMF_ALT1)
                 imageSizeComboBox.Text = "0";
             else
                 imageSizeComboBox.Text = "50";

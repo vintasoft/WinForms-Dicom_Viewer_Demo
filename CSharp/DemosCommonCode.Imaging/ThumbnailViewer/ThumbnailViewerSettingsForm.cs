@@ -5,7 +5,7 @@ using System.Windows.Forms;
 using Vintasoft.Imaging.UI;
 
 
-namespace DemosCommonCode.Imaging
+namespace CommonCode.Imaging
 {
     /// <summary>
     /// A form that allows to edit the thumbnail viewer settings.
@@ -87,11 +87,11 @@ namespace DemosCommonCode.Imaging
             thumbnailScaleComboBox.Items.Add(ThumbnailScale.Normal);
             thumbnailScaleComboBox.Items.Add(ThumbnailScale.Large);
 
-            thumbnailAppearanceComboBox.Items.Add(DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_NORMAL);
-            thumbnailAppearanceComboBox.Items.Add(DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_FOCUSED);
-            thumbnailAppearanceComboBox.Items.Add(DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_HOVERED);
-            thumbnailAppearanceComboBox.Items.Add(DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_SELECTED);
-            thumbnailAppearanceComboBox.Items.Add(DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_NOT_READY);
+            thumbnailAppearanceComboBox.Items.Add(DicomViewerDemo.Localization.Strings.COMMONCODE_IMAGING_NORMAL);
+            thumbnailAppearanceComboBox.Items.Add(DicomViewerDemo.Localization.Strings.COMMONCODE_IMAGING_FOCUSED);
+            thumbnailAppearanceComboBox.Items.Add(DicomViewerDemo.Localization.Strings.COMMONCODE_IMAGING_HOVERED);
+            thumbnailAppearanceComboBox.Items.Add(DicomViewerDemo.Localization.Strings.COMMONCODE_IMAGING_SELECTED);
+            thumbnailAppearanceComboBox.Items.Add(DicomViewerDemo.Localization.Strings.COMMONCODE_IMAGING_NOT_READY);
         }
 
         #endregion
@@ -184,27 +184,27 @@ namespace DemosCommonCode.Imaging
         {
             // show information about ThumbnailCaption.CaptionFormat property
             MessageBox.Show(
-                DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_EXAMPLESRN +
-                DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_FILE_FILENAME_PAGE_PAGENUMBERRN +
+                DicomViewerDemo.Localization.Strings.COMMONCODE_IMAGING_EXAMPLESRN +
+                DicomViewerDemo.Localization.Strings.COMMONCODE_IMAGING_FILE_FILENAME_PAGE_PAGENUMBERRN +
                 "'{ImageSizeMpx:f2} MPX'\n" +
                 "\n" +
-                DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_LIST_OF_PREDEFINED_FORMAT_VARIABLESRN +
-                DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_PAGELABEL_PAGE_LABELRN +
-                DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_PAGENUMBER_PAGE_NUMBER_IN_SOURCE_IMAGE_FILERN +
-                DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_PAGEINDEX_PAGE_INDEX_IN_SOURCE_IMAGE_FILERN +
-                DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_IMAGENUMBER_IMAGE_NUMBER_IN_IMAGE_COLLECTIONRN +
-                DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_IMAGEINDEX_IMAGE_INDEX_IN_IMAGE_COLLECTIONRN +
-                DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_FILENAME_FILENAME_WITHOUT_DIRECTORYRN +
-                DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_FULLFILENAME_FULL_FILENAMERN +
-                DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_DIRECTORYNAME_DIRECTORY_NAMERN +
-                DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_DECODERNAME_DECODER_NAMERN +
-                DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_IMAGEWIDTHPX_SOURCE_IMAGE_WIDTH_IN_PIXELSRN +
-                DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_IMAGEHEIGHTPX_SOURCE_IMAGE_HEIGHT_IN_PIXELSRN +
-                DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_IMAGESIZEMPX_SOURCE_IMAGE_SIZE_IN_MEGAPIXELSRN +
-                DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_IMAGEHRES_SOURCE_IMAGE_HORIZONTAL_RESOLUTION_IN_DPIRN +
-                DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_IMAGEVRES_SOURCE_IMAGE_VERTICAL_RESOLUTION_IN_DPIRN +
-                DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_IMAGEBITSPERPIXEL_SOURCE_IMAGE_BITS_PER_PIXEL,
-                DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_THUMBNAILCAPTIONCAPTIONFORMAT_PROPERTY);
+                DicomViewerDemo.Localization.Strings.COMMONCODE_IMAGING_LIST_OF_PREDEFINED_FORMAT_VARIABLESRN +
+                DicomViewerDemo.Localization.Strings.COMMONCODE_IMAGING_PAGELABEL_PAGE_LABELRN +
+                DicomViewerDemo.Localization.Strings.COMMONCODE_IMAGING_PAGENUMBER_PAGE_NUMBER_IN_SOURCE_IMAGE_FILERN +
+                DicomViewerDemo.Localization.Strings.COMMONCODE_IMAGING_PAGEINDEX_PAGE_INDEX_IN_SOURCE_IMAGE_FILERN +
+                DicomViewerDemo.Localization.Strings.COMMONCODE_IMAGING_IMAGENUMBER_IMAGE_NUMBER_IN_IMAGE_COLLECTIONRN +
+                DicomViewerDemo.Localization.Strings.COMMONCODE_IMAGING_IMAGEINDEX_IMAGE_INDEX_IN_IMAGE_COLLECTIONRN +
+                DicomViewerDemo.Localization.Strings.COMMONCODE_IMAGING_FILENAME_FILENAME_WITHOUT_DIRECTORYRN +
+                DicomViewerDemo.Localization.Strings.COMMONCODE_IMAGING_FULLFILENAME_FULL_FILENAMERN +
+                DicomViewerDemo.Localization.Strings.COMMONCODE_IMAGING_DIRECTORYNAME_DIRECTORY_NAMERN +
+                DicomViewerDemo.Localization.Strings.COMMONCODE_IMAGING_DECODERNAME_DECODER_NAMERN +
+                DicomViewerDemo.Localization.Strings.COMMONCODE_IMAGING_IMAGEWIDTHPX_SOURCE_IMAGE_WIDTH_IN_PIXELSRN +
+                DicomViewerDemo.Localization.Strings.COMMONCODE_IMAGING_IMAGEHEIGHTPX_SOURCE_IMAGE_HEIGHT_IN_PIXELSRN +
+                DicomViewerDemo.Localization.Strings.COMMONCODE_IMAGING_IMAGESIZEMPX_SOURCE_IMAGE_SIZE_IN_MEGAPIXELSRN +
+                DicomViewerDemo.Localization.Strings.COMMONCODE_IMAGING_IMAGEHRES_SOURCE_IMAGE_HORIZONTAL_RESOLUTION_IN_DPIRN +
+                DicomViewerDemo.Localization.Strings.COMMONCODE_IMAGING_IMAGEVRES_SOURCE_IMAGE_VERTICAL_RESOLUTION_IN_DPIRN +
+                DicomViewerDemo.Localization.Strings.COMMONCODE_IMAGING_IMAGEBITSPERPIXEL_SOURCE_IMAGE_BITS_PER_PIXEL,
+                DicomViewerDemo.Localization.Strings.COMMONCODE_IMAGING_THUMBNAILCAPTIONCAPTIONFORMAT_PROPERTY);
         }
 
         #endregion

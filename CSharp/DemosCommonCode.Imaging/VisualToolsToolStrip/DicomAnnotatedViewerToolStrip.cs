@@ -8,7 +8,7 @@ using Vintasoft.Imaging.Annotation.Dicom.UI.VisualTools;
 using Vintasoft.Imaging.UI.VisualTools;
 
 
-namespace DemosCommonCode.Imaging
+namespace CommonCode.Imaging
 {
     /// <summary>
     /// A tool strip that shows buttons, which allow to enable/disable the <see cref="DicomAnnotatedViewerTool"/> in image viewer.
@@ -176,7 +176,7 @@ namespace DemosCommonCode.Imaging
         public void AddVisualToolAction(VisualToolAction visualToolAction)
         {
             if (_mainVisualTool == null)
-                throw new System.Exception(DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_ADD_DICOMANNOTATEDVIEWERTOOL_FIRST);
+                throw new System.Exception(DicomViewerDemo.Localization.Strings.COMMONCODE_IMAGING_ADD_DICOMANNOTATEDVIEWERTOOL_FIRST);
 
             // add action to tool strip
             base.AddAction(visualToolAction);

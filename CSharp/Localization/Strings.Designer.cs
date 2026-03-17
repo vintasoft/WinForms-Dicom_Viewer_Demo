@@ -63,85 +63,83 @@ namespace DicomViewerDemo.Localization {
         /// <summary>
         ///   Looks up a localized string similar to About....
         /// </summary>
-        internal static string DEMOSCOMMONCODE_ABOUT {
+        internal static string COMMONCODE_ABOUT {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_ABOUT", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_ABOUT", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to {0} has invalid format..
         /// </summary>
-        internal static string DEMOSCOMMONCODE_ARG0_HAS_INVALID_FORMAT {
+        internal static string COMMONCODE_ARG0_HAS_INVALID_FORMAT {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_ARG0_HAS_INVALID_FORMAT", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_ARG0_HAS_INVALID_FORMAT", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Click on the panel if current color must be changed..
         /// </summary>
-        internal static string DEMOSCOMMONCODE_CUSTOMCONTROLS_CLICK_ON_THE_PANEL_IF_CURRENT_COLOR_MUST_BE_CHANGED {
+        internal static string COMMONCODE_CUSTOMCONTROLS_CLICK_ON_THE_PANEL_IF_CURRENT_COLOR_MUST_BE_CHANGED {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_CUSTOMCONTROLS_CLICK_ON_THE_PANEL_IF_CURRENT_COLOR_MUST_BE_CHANGE" +
-                        "D", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_CUSTOMCONTROLS_CLICK_ON_THE_PANEL_IF_CURRENT_COLOR_MUST_BE_CHANGED", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Click the button if the current color must be changed..
         /// </summary>
-        internal static string DEMOSCOMMONCODE_CUSTOMCONTROLS_CLICK_THE_BUTTON_IF_THE_CURRENT_COLOR_MUST_BE_CHANGED {
+        internal static string COMMONCODE_CUSTOMCONTROLS_CLICK_THE_BUTTON_IF_THE_CURRENT_COLOR_MUST_BE_CHANGED {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_CUSTOMCONTROLS_CLICK_THE_BUTTON_IF_THE_CURRENT_COLOR_MUST_BE_CHAN" +
-                        "GED", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_CUSTOMCONTROLS_CLICK_THE_BUTTON_IF_THE_CURRENT_COLOR_MUST_BE_CHANGED", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Click the button if the current color must be set to the default color..
         /// </summary>
-        internal static string DEMOSCOMMONCODE_CUSTOMCONTROLS_CLICK_THE_BUTTON_IF_THE_CURRENT_COLOR_MUST_BE_SET_TO_THE_DEFAULT_COLOR {
+        internal static string COMMONCODE_CUSTOMCONTROLS_CLICK_THE_BUTTON_IF_THE_CURRENT_COLOR_MUST_BE_SET_TO_THE_DEFAULT_COLOR {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_CUSTOMCONTROLS_CLICK_THE_BUTTON_IF_THE_CURRENT_COLOR_MUST_BE_SET_" +
-                        "TO_THE_DEFAULT_COLOR", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_CUSTOMCONTROLS_CLICK_THE_BUTTON_IF_THE_CURRENT_COLOR_MUST_BE_SET_TO_TH" +
+                        "E_DEFAULT_COLOR", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Default.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_CUSTOMCONTROLS_DEFAULT {
+        internal static string COMMONCODE_CUSTOMCONTROLS_DEFAULT {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_CUSTOMCONTROLS_DEFAULT", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_CUSTOMCONTROLS_DEFAULT", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Double click on the panel if the current color must be changed..
         /// </summary>
-        internal static string DEMOSCOMMONCODE_CUSTOMCONTROLS_DOUBLE_CLICK_ON_THE_PANEL_IF_THE_CURRENT_COLOR_MUST_BE_CHANGED {
+        internal static string COMMONCODE_CUSTOMCONTROLS_DOUBLE_CLICK_ON_THE_PANEL_IF_THE_CURRENT_COLOR_MUST_BE_CHANGED {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_CUSTOMCONTROLS_DOUBLE_CLICK_ON_THE_PANEL_IF_THE_CURRENT_COLOR_MUS" +
-                        "T_BE_CHANGED", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_CUSTOMCONTROLS_DOUBLE_CLICK_ON_THE_PANEL_IF_THE_CURRENT_COLOR_MUST_BE_" +
+                        "CHANGED", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Find reached the starting point of the search..
         /// </summary>
-        internal static string DEMOSCOMMONCODE_CUSTOMCONTROLS_FIND_REACHED_THE_STARTING_POINT_OF_THE_SEARCH {
+        internal static string COMMONCODE_CUSTOMCONTROLS_FIND_REACHED_THE_STARTING_POINT_OF_THE_SEARCH {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_CUSTOMCONTROLS_FIND_REACHED_THE_STARTING_POINT_OF_THE_SEARCH", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_CUSTOMCONTROLS_FIND_REACHED_THE_STARTING_POINT_OF_THE_SEARCH", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Help.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_CUSTOMCONTROLS_HELP {
+        internal static string COMMONCODE_CUSTOMCONTROLS_HELP {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_CUSTOMCONTROLS_HELP", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_CUSTOMCONTROLS_HELP", resourceCulture);
             }
         }
         
@@ -149,461 +147,461 @@ namespace DicomViewerDemo.Localization {
         ///   Looks up a localized string similar to The specified text was not found:
         ///{0}.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_CUSTOMCONTROLS_THE_SPECIFIED_TEXT_WAS_NOT_FOUNDRNARG0 {
+        internal static string COMMONCODE_CUSTOMCONTROLS_THE_SPECIFIED_TEXT_WAS_NOT_FOUNDRNARG0 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_CUSTOMCONTROLS_THE_SPECIFIED_TEXT_WAS_NOT_FOUNDRNARG0", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_CUSTOMCONTROLS_THE_SPECIFIED_TEXT_WAS_NOT_FOUNDRNARG0", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Tree View Search Control.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_CUSTOMCONTROLS_TREE_VIEW_SEARCH_CONTROL {
+        internal static string COMMONCODE_CUSTOMCONTROLS_TREE_VIEW_SEARCH_CONTROL {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_CUSTOMCONTROLS_TREE_VIEW_SEARCH_CONTROL", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_CUSTOMCONTROLS_TREE_VIEW_SEARCH_CONTROL", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Tree View Search Control.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_CUSTOMCONTROLS_TREE_VIEW_SEARCH_CONTROL_ALT1 {
+        internal static string COMMONCODE_CUSTOMCONTROLS_TREE_VIEW_SEARCH_CONTROL_ALT1 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_CUSTOMCONTROLS_TREE_VIEW_SEARCH_CONTROL_ALT1", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_CUSTOMCONTROLS_TREE_VIEW_SEARCH_CONTROL_ALT1", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Value Name.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_CUSTOMCONTROLS_VALUE_NAME {
+        internal static string COMMONCODE_CUSTOMCONTROLS_VALUE_NAME {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_CUSTOMCONTROLS_VALUE_NAME", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_CUSTOMCONTROLS_VALUE_NAME", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Error.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_ERROR {
+        internal static string COMMONCODE_ERROR {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_ERROR", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_ERROR", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Error.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_ERROR_ALT1 {
+        internal static string COMMONCODE_ERROR_ALT1 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_ERROR_ALT1", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_ERROR_ALT1", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Error.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_ERROR_ALT2 {
+        internal static string COMMONCODE_ERROR_ALT2 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_ERROR_ALT2", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_ERROR_ALT2", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Error.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_ERROR_ALT3 {
+        internal static string COMMONCODE_ERROR_ALT3 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_ERROR_ALT3", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_ERROR_ALT3", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to  Save the measurement annotations to a file.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING__SAVE_THE_MEASUREMENT_ANNOTATIONS_TO_A_FILE {
+        internal static string COMMONCODE_IMAGING__SAVE_THE_MEASUREMENT_ANNOTATIONS_TO_A_FILE {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING__SAVE_THE_MEASUREMENT_ANNOTATIONS_TO_A_FILE", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING__SAVE_THE_MEASUREMENT_ANNOTATIONS_TO_A_FILE", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Add DICOM Data Element....
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_ADD_DICOM_DATA_ELEMENT {
+        internal static string COMMONCODE_IMAGING_ADD_DICOM_DATA_ELEMENT {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_ADD_DICOM_DATA_ELEMENT", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_ADD_DICOM_DATA_ELEMENT", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Add DICOM Sequence Item.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_ADD_DICOM_SEQUENCE_ITEM {
+        internal static string COMMONCODE_IMAGING_ADD_DICOM_SEQUENCE_ITEM {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_ADD_DICOM_SEQUENCE_ITEM", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_ADD_DICOM_SEQUENCE_ITEM", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Add DicomAnnotatedViewerTool first..
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_ADD_DICOMANNOTATEDVIEWERTOOL_FIRST {
+        internal static string COMMONCODE_IMAGING_ADD_DICOMANNOTATEDVIEWERTOOL_FIRST {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_ADD_DICOMANNOTATEDVIEWERTOOL_FIRST", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_ADD_DICOMANNOTATEDVIEWERTOOL_FIRST", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Angle Measure.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_ANGLE_MEASURE {
+        internal static string COMMONCODE_IMAGING_ANGLE_MEASURE {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_ANGLE_MEASURE", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_ANGLE_MEASURE", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Binary Annotations(*.vsabm)|*.vsabm|XMP Annotations(*.xmpm)|*.xmpm|All Formats(*.vsabm;*.xmpm)|*.vsabm;*.xmpm.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_BINARY_ANNOTATIONSVSABMVSABMXMP_ANNOTATIONSXMPMXMPMALL_FORMATSVSABMXMPMVSABMXMPM {
+        internal static string COMMONCODE_IMAGING_BINARY_ANNOTATIONSVSABMVSABMXMP_ANNOTATIONSXMPMXMPMALL_FORMATSVSABMXMPMVSABMXMPM {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_BINARY_ANNOTATIONSVSABMVSABMXMP_ANNOTATIONSXMPMXMPMALL_FO" +
-                        "RMATSVSABMXMPMVSABMXMPM", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_BINARY_ANNOTATIONSVSABMVSABMXMP_ANNOTATIONSXMPMXMPMALL_FORMATS" +
+                        "VSABMXMPMVSABMXMPM", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Binary Annotations|*.vsabm|XMP Annotations|*.xmpm.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_BINARY_ANNOTATIONSVSABMXMP_ANNOTATIONSXMPM {
+        internal static string COMMONCODE_IMAGING_BINARY_ANNOTATIONSVSABMXMP_ANNOTATIONSXMPM {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_BINARY_ANNOTATIONSVSABMXMP_ANNOTATIONSXMPM", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_BINARY_ANNOTATIONSVSABMXMP_ANNOTATIONSXMPM", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to BMP Files|*.bmp|.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_CODECS_BMP_FILESBMP {
+        internal static string COMMONCODE_IMAGING_CODECS_BMP_FILESBMP {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_CODECS_BMP_FILESBMP", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_CODECS_BMP_FILESBMP", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Can not find encoder for &apos;{0}&apos;..
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_CODECS_CAN_NOT_FIND_ENCODER_FOR_ARG0 {
+        internal static string COMMONCODE_IMAGING_CODECS_CAN_NOT_FIND_ENCODER_FOR_ARG0 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_CODECS_CAN_NOT_FIND_ENCODER_FOR_ARG0", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_CODECS_CAN_NOT_FIND_ENCODER_FOR_ARG0", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Can not find encoder for &apos;{0}&apos;..
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_CODECS_CAN_NOT_FIND_ENCODER_FOR_ARG0_ALT1 {
+        internal static string COMMONCODE_IMAGING_CODECS_CAN_NOT_FIND_ENCODER_FOR_ARG0_ALT1 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_CODECS_CAN_NOT_FIND_ENCODER_FOR_ARG0_ALT1", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_CODECS_CAN_NOT_FIND_ENCODER_FOR_ARG0_ALT1", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Confirm overwrite.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_CODECS_CONFIRM_OVERWRITE {
+        internal static string COMMONCODE_IMAGING_CODECS_CONFIRM_OVERWRITE {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_CODECS_CONFIRM_OVERWRITE", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_CODECS_CONFIRM_OVERWRITE", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Cursor Files|*.cur|.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_CODECS_CURSOR_FILESCUR {
+        internal static string COMMONCODE_IMAGING_CODECS_CURSOR_FILESCUR {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_CODECS_CURSOR_FILESCUR", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_CODECS_CURSOR_FILESCUR", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Best Compression.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_BEST_COMPRESSION {
+        internal static string COMMONCODE_IMAGING_CODECS_DIALOGS_BEST_COMPRESSION {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_BEST_COMPRESSION", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_CODECS_DIALOGS_BEST_COMPRESSION", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Best Speed.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_BEST_SPEED {
+        internal static string COMMONCODE_IMAGING_CODECS_DIALOGS_BEST_SPEED {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_BEST_SPEED", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_CODECS_DIALOGS_BEST_SPEED", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Fast.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_FAST {
+        internal static string COMMONCODE_IMAGING_CODECS_DIALOGS_FAST {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_FAST", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_CODECS_DIALOGS_FAST", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Important: some data from annotations will be lost. Do you want to continue anyway?.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_IMPORTANT_SOME_DATA_FROM_ANNOTATIONS_WILL_BE_LOST_DO_YOU_WANT_TO_CONTINUE_ANYWAY {
+        internal static string COMMONCODE_IMAGING_CODECS_DIALOGS_IMPORTANT_SOME_DATA_FROM_ANNOTATIONS_WILL_BE_LOST_DO_YOU_WANT_TO_CONTINUE_ANYWAY {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_IMPORTANT_SOME_DATA_FROM_ANNOTATIONS_WILL_" +
-                        "BE_LOST_DO_YOU_WANT_TO_CONTINUE_ANYWAY", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_CODECS_DIALOGS_IMPORTANT_SOME_DATA_FROM_ANNOTATIONS_WILL_BE_LO" +
+                        "ST_DO_YOU_WANT_TO_CONTINUE_ANYWAY", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Normal.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_NORMAL {
+        internal static string COMMONCODE_IMAGING_CODECS_DIALOGS_NORMAL {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_NORMAL", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_CODECS_DIALOGS_NORMAL", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Normal.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_NORMAL_ALT1 {
+        internal static string COMMONCODE_IMAGING_CODECS_DIALOGS_NORMAL_ALT1 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_NORMAL_ALT1", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_CODECS_DIALOGS_NORMAL_ALT1", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Normal.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_NORMAL_ALT2 {
+        internal static string COMMONCODE_IMAGING_CODECS_DIALOGS_NORMAL_ALT2 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_NORMAL_ALT2", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_CODECS_DIALOGS_NORMAL_ALT2", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Tile height must be multiple 16..
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_TILE_HEIGHT_MUST_BE_MULTIPLE_16 {
+        internal static string COMMONCODE_IMAGING_CODECS_DIALOGS_TILE_HEIGHT_MUST_BE_MULTIPLE_16 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_TILE_HEIGHT_MUST_BE_MULTIPLE_16", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_CODECS_DIALOGS_TILE_HEIGHT_MUST_BE_MULTIPLE_16", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Tile width must be multiple 16..
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_TILE_WIDTH_MUST_BE_MULTIPLE_16 {
+        internal static string COMMONCODE_IMAGING_CODECS_DIALOGS_TILE_WIDTH_MUST_BE_MULTIPLE_16 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_TILE_WIDTH_MUST_BE_MULTIPLE_16", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_CODECS_DIALOGS_TILE_WIDTH_MUST_BE_MULTIPLE_16", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to value.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_VALUE {
+        internal static string COMMONCODE_IMAGING_CODECS_DIALOGS_VALUE {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_VALUE", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_CODECS_DIALOGS_VALUE", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to value.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_VALUE_ALT1 {
+        internal static string COMMONCODE_IMAGING_CODECS_DIALOGS_VALUE_ALT1 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_VALUE_ALT1", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_CODECS_DIALOGS_VALUE_ALT1", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to value.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_VALUE_ALT2 {
+        internal static string COMMONCODE_IMAGING_CODECS_DIALOGS_VALUE_ALT2 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_VALUE_ALT2", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_CODECS_DIALOGS_VALUE_ALT2", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to value.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_VALUE_ALT3 {
+        internal static string COMMONCODE_IMAGING_CODECS_DIALOGS_VALUE_ALT3 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_VALUE_ALT3", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_CODECS_DIALOGS_VALUE_ALT3", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to value.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_VALUE_ALT4 {
+        internal static string COMMONCODE_IMAGING_CODECS_DIALOGS_VALUE_ALT4 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_VALUE_ALT4", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_CODECS_DIALOGS_VALUE_ALT4", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Warning.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_WARNING {
+        internal static string COMMONCODE_IMAGING_CODECS_DIALOGS_WARNING {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_WARNING", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_CODECS_DIALOGS_WARNING", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to EMF Files|*.emf|.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_CODECS_EMF_FILESEMF {
+        internal static string COMMONCODE_IMAGING_CODECS_EMF_FILESEMF {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_CODECS_EMF_FILESEMF", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_CODECS_EMF_FILESEMF", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to File &apos;{0}&apos; already exists. Overwrite it?.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_CODECS_FILE_ARG0_ALREADY_EXISTS_OVERWRITE_IT {
+        internal static string COMMONCODE_IMAGING_CODECS_FILE_ARG0_ALREADY_EXISTS_OVERWRITE_IT {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_CODECS_FILE_ARG0_ALREADY_EXISTS_OVERWRITE_IT", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_CODECS_FILE_ARG0_ALREADY_EXISTS_OVERWRITE_IT", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to GIF Files|*.gif|.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_CODECS_GIF_FILESGIF {
+        internal static string COMMONCODE_IMAGING_CODECS_GIF_FILESGIF {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_CODECS_GIF_FILESGIF", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_CODECS_GIF_FILESGIF", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Icon Files|*.ico|.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_CODECS_ICON_FILESICO {
+        internal static string COMMONCODE_IMAGING_CODECS_ICON_FILESICO {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_CODECS_ICON_FILESICO", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_CODECS_ICON_FILESICO", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to JPEG Files|*.jpg;*.jpeg;*.jfif|.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_CODECS_JPEG_FILESJPGJPEGJFIF {
+        internal static string COMMONCODE_IMAGING_CODECS_JPEG_FILESJPGJPEGJFIF {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_CODECS_JPEG_FILESJPGJPEGJFIF", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_CODECS_JPEG_FILESJPGJPEGJFIF", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to JPEG-LS Files|*.jls|.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_CODECS_JPEGLS_FILESJLS {
+        internal static string COMMONCODE_IMAGING_CODECS_JPEGLS_FILESJLS {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_CODECS_JPEGLS_FILESJLS", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_CODECS_JPEGLS_FILESJLS", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Ndpi.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_CODECS_NDPI {
+        internal static string COMMONCODE_IMAGING_CODECS_NDPI {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_CODECS_NDPI", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_CODECS_NDPI", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to PBM/PGM/PPM files|*.pbm;*.pgm;*.ppm|.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_CODECS_PBMPGMPPM_FILESPBMPGMPPM {
+        internal static string COMMONCODE_IMAGING_CODECS_PBMPGMPPM_FILESPBMPGMPPM {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_CODECS_PBMPGMPPM_FILESPBMPGMPPM", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_CODECS_PBMPGMPPM_FILESPBMPGMPPM", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to PCX Files|*.pcx.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_CODECS_PCX_FILESPCX {
+        internal static string COMMONCODE_IMAGING_CODECS_PCX_FILESPCX {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_CODECS_PCX_FILESPCX", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_CODECS_PCX_FILESPCX", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to PNG Files|*.png|.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_CODECS_PNG_FILESPNG {
+        internal static string COMMONCODE_IMAGING_CODECS_PNG_FILESPNG {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_CODECS_PNG_FILESPNG", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_CODECS_PNG_FILESPNG", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to PSD Files|*.psd|.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_CODECS_PSD_FILESPSD {
+        internal static string COMMONCODE_IMAGING_CODECS_PSD_FILESPSD {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_CODECS_PSD_FILESPSD", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_CODECS_PSD_FILESPSD", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to PSD Files|*.psd|.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_CODECS_PSD_FILESPSD_ALT1 {
+        internal static string COMMONCODE_IMAGING_CODECS_PSD_FILESPSD_ALT1 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_CODECS_PSD_FILESPSD_ALT1", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_CODECS_PSD_FILESPSD_ALT1", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to SVG Files|*.svg|.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_CODECS_SVG_FILESSVG {
+        internal static string COMMONCODE_IMAGING_CODECS_SVG_FILESSVG {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_CODECS_SVG_FILESSVG", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_CODECS_SVG_FILESSVG", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to TGA files|*.tga|.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_CODECS_TGA_FILESTGA {
+        internal static string COMMONCODE_IMAGING_CODECS_TGA_FILESTGA {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_CODECS_TGA_FILESTGA", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_CODECS_TGA_FILESTGA", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to TIFF Files|*.tif;*.tiff|.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_CODECS_TIFF_FILESTIFTIFF {
+        internal static string COMMONCODE_IMAGING_CODECS_TIFF_FILESTIFTIFF {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_CODECS_TIFF_FILESTIFTIFF", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_CODECS_TIFF_FILESTIFTIFF", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to WMF Files|*.wmf.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_CODECS_WMF_FILESWMF {
+        internal static string COMMONCODE_IMAGING_CODECS_WMF_FILESWMF {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_CODECS_WMF_FILESWMF", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_CODECS_WMF_FILESWMF", resourceCulture);
             }
         }
         
@@ -611,27 +609,27 @@ namespace DicomViewerDemo.Localization {
         ///   Looks up a localized string similar to {DecoderName} - decoder name
         ///.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_DECODERNAME_DECODER_NAMERN {
+        internal static string COMMONCODE_IMAGING_DECODERNAME_DECODER_NAMERN {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_DECODERNAME_DECODER_NAMERN", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_DECODERNAME_DECODER_NAMERN", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to DICOM Metadata Editor.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_DICOM_METADATA_EDITOR {
+        internal static string COMMONCODE_IMAGING_DICOM_METADATA_EDITOR {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_DICOM_METADATA_EDITOR", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_DICOM_METADATA_EDITOR", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to DICOM Metadata Viewer.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_DICOM_METADATA_VIEWER {
+        internal static string COMMONCODE_IMAGING_DICOM_METADATA_VIEWER {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_DICOM_METADATA_VIEWER", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_DICOM_METADATA_VIEWER", resourceCulture);
             }
         }
         
@@ -639,90 +637,90 @@ namespace DicomViewerDemo.Localization {
         ///   Looks up a localized string similar to {DirectoryName} - directory name
         ///.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_DIRECTORYNAME_DIRECTORY_NAMERN {
+        internal static string COMMONCODE_IMAGING_DIRECTORYNAME_DIRECTORY_NAMERN {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_DIRECTORYNAME_DIRECTORY_NAMERN", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_DIRECTORYNAME_DIRECTORY_NAMERN", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Ellipse Measure.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_ELLIPSE_MEASURE {
+        internal static string COMMONCODE_IMAGING_ELLIPSE_MEASURE {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_ELLIPSE_MEASURE", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_ELLIPSE_MEASURE", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Emf.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_EMF {
+        internal static string COMMONCODE_IMAGING_EMF {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_EMF", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_EMF", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Emf.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_EMF_ALT1 {
+        internal static string COMMONCODE_IMAGING_EMF_ALT1 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_EMF_ALT1", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_EMF_ALT1", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Emf.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_EMF_ALT2 {
+        internal static string COMMONCODE_IMAGING_EMF_ALT2 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_EMF_ALT2", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_EMF_ALT2", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Enter string values (value per line).
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_ENTER_STRING_VALUES_VALUE_PER_LINE {
+        internal static string COMMONCODE_IMAGING_ENTER_STRING_VALUES_VALUE_PER_LINE {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_ENTER_STRING_VALUES_VALUE_PER_LINE", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_ENTER_STRING_VALUES_VALUE_PER_LINE", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Error.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_ERROR {
+        internal static string COMMONCODE_IMAGING_ERROR {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_ERROR", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_ERROR", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Error.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_ERROR_ALT1 {
+        internal static string COMMONCODE_IMAGING_ERROR_ALT1 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_ERROR_ALT1", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_ERROR_ALT1", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Error.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_ERROR_ALT2 {
+        internal static string COMMONCODE_IMAGING_ERROR_ALT2 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_ERROR_ALT2", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_ERROR_ALT2", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Error.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_ERROR_ALT3 {
+        internal static string COMMONCODE_IMAGING_ERROR_ALT3 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_ERROR_ALT3", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_ERROR_ALT3", resourceCulture);
             }
         }
         
@@ -730,9 +728,9 @@ namespace DicomViewerDemo.Localization {
         ///   Looks up a localized string similar to Examples:
         ///.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_EXAMPLESRN {
+        internal static string COMMONCODE_IMAGING_EXAMPLESRN {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_EXAMPLESRN", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_EXAMPLESRN", resourceCulture);
             }
         }
         
@@ -740,9 +738,9 @@ namespace DicomViewerDemo.Localization {
         ///   Looks up a localized string similar to &apos;File {Filename}, page {PageNumber}&apos;
         ///.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_FILE_FILENAME_PAGE_PAGENUMBERRN {
+        internal static string COMMONCODE_IMAGING_FILE_FILENAME_PAGE_PAGENUMBERRN {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_FILE_FILENAME_PAGE_PAGENUMBERRN", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_FILE_FILENAME_PAGE_PAGENUMBERRN", resourceCulture);
             }
         }
         
@@ -750,27 +748,27 @@ namespace DicomViewerDemo.Localization {
         ///   Looks up a localized string similar to {Filename} - filename without directory
         ///.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_FILENAME_FILENAME_WITHOUT_DIRECTORYRN {
+        internal static string COMMONCODE_IMAGING_FILENAME_FILENAME_WITHOUT_DIRECTORYRN {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_FILENAME_FILENAME_WITHOUT_DIRECTORYRN", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_FILENAME_FILENAME_WITHOUT_DIRECTORYRN", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Focused.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_FOCUSED {
+        internal static string COMMONCODE_IMAGING_FOCUSED {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_FOCUSED", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_FOCUSED", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Focused Image Appearance Settings.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_FOCUSED_IMAGE_APPEARANCE_SETTINGS {
+        internal static string COMMONCODE_IMAGING_FOCUSED_IMAGE_APPEARANCE_SETTINGS {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_FOCUSED_IMAGE_APPEARANCE_SETTINGS", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_FOCUSED_IMAGE_APPEARANCE_SETTINGS", resourceCulture);
             }
         }
         
@@ -778,54 +776,54 @@ namespace DicomViewerDemo.Localization {
         ///   Looks up a localized string similar to {FullFilename} - full filename
         ///.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_FULLFILENAME_FULL_FILENAMERN {
+        internal static string COMMONCODE_IMAGING_FULLFILENAME_FULL_FILENAMERN {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_FULLFILENAME_FULL_FILENAMERN", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_FULLFILENAME_FULL_FILENAMERN", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Hovered.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_HOVERED {
+        internal static string COMMONCODE_IMAGING_HOVERED {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_HOVERED", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_HOVERED", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Image Measure Tool.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_IMAGE_MEASURE_TOOL {
+        internal static string COMMONCODE_IMAGING_IMAGE_MEASURE_TOOL {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_IMAGE_MEASURE_TOOL", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_IMAGE_MEASURE_TOOL", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Image Measure Tool.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_IMAGE_MEASURE_TOOL_ALT1 {
+        internal static string COMMONCODE_IMAGING_IMAGE_MEASURE_TOOL_ALT1 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_IMAGE_MEASURE_TOOL_ALT1", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_IMAGE_MEASURE_TOOL_ALT1", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Image measure tool settings.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_IMAGE_MEASURE_TOOL_SETTINGS {
+        internal static string COMMONCODE_IMAGING_IMAGE_MEASURE_TOOL_SETTINGS {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_IMAGE_MEASURE_TOOL_SETTINGS", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_IMAGE_MEASURE_TOOL_SETTINGS", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to {ImageBitsPerPixel} - source image bits per pixel.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_IMAGEBITSPERPIXEL_SOURCE_IMAGE_BITS_PER_PIXEL {
+        internal static string COMMONCODE_IMAGING_IMAGEBITSPERPIXEL_SOURCE_IMAGE_BITS_PER_PIXEL {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_IMAGEBITSPERPIXEL_SOURCE_IMAGE_BITS_PER_PIXEL", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_IMAGEBITSPERPIXEL_SOURCE_IMAGE_BITS_PER_PIXEL", resourceCulture);
             }
         }
         
@@ -833,9 +831,9 @@ namespace DicomViewerDemo.Localization {
         ///   Looks up a localized string similar to {ImageHeightPx} - source image height, in pixels
         ///.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_IMAGEHEIGHTPX_SOURCE_IMAGE_HEIGHT_IN_PIXELSRN {
+        internal static string COMMONCODE_IMAGING_IMAGEHEIGHTPX_SOURCE_IMAGE_HEIGHT_IN_PIXELSRN {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_IMAGEHEIGHTPX_SOURCE_IMAGE_HEIGHT_IN_PIXELSRN", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_IMAGEHEIGHTPX_SOURCE_IMAGE_HEIGHT_IN_PIXELSRN", resourceCulture);
             }
         }
         
@@ -843,9 +841,9 @@ namespace DicomViewerDemo.Localization {
         ///   Looks up a localized string similar to {ImageHRes} - source image horizontal resolution, in DPI
         ///.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_IMAGEHRES_SOURCE_IMAGE_HORIZONTAL_RESOLUTION_IN_DPIRN {
+        internal static string COMMONCODE_IMAGING_IMAGEHRES_SOURCE_IMAGE_HORIZONTAL_RESOLUTION_IN_DPIRN {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_IMAGEHRES_SOURCE_IMAGE_HORIZONTAL_RESOLUTION_IN_DPIRN", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_IMAGEHRES_SOURCE_IMAGE_HORIZONTAL_RESOLUTION_IN_DPIRN", resourceCulture);
             }
         }
         
@@ -853,9 +851,9 @@ namespace DicomViewerDemo.Localization {
         ///   Looks up a localized string similar to {ImageIndex} - image index, in image collection
         ///.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_IMAGEINDEX_IMAGE_INDEX_IN_IMAGE_COLLECTIONRN {
+        internal static string COMMONCODE_IMAGING_IMAGEINDEX_IMAGE_INDEX_IN_IMAGE_COLLECTIONRN {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_IMAGEINDEX_IMAGE_INDEX_IN_IMAGE_COLLECTIONRN", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_IMAGEINDEX_IMAGE_INDEX_IN_IMAGE_COLLECTIONRN", resourceCulture);
             }
         }
         
@@ -863,9 +861,9 @@ namespace DicomViewerDemo.Localization {
         ///   Looks up a localized string similar to {ImageNumber} - image number, in image collection
         ///.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_IMAGENUMBER_IMAGE_NUMBER_IN_IMAGE_COLLECTIONRN {
+        internal static string COMMONCODE_IMAGING_IMAGENUMBER_IMAGE_NUMBER_IN_IMAGE_COLLECTIONRN {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_IMAGENUMBER_IMAGE_NUMBER_IN_IMAGE_COLLECTIONRN", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_IMAGENUMBER_IMAGE_NUMBER_IN_IMAGE_COLLECTIONRN", resourceCulture);
             }
         }
         
@@ -873,9 +871,9 @@ namespace DicomViewerDemo.Localization {
         ///   Looks up a localized string similar to {ImageSizeMpx} - source image size, in megapixels
         ///.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_IMAGESIZEMPX_SOURCE_IMAGE_SIZE_IN_MEGAPIXELSRN {
+        internal static string COMMONCODE_IMAGING_IMAGESIZEMPX_SOURCE_IMAGE_SIZE_IN_MEGAPIXELSRN {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_IMAGESIZEMPX_SOURCE_IMAGE_SIZE_IN_MEGAPIXELSRN", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_IMAGESIZEMPX_SOURCE_IMAGE_SIZE_IN_MEGAPIXELSRN", resourceCulture);
             }
         }
         
@@ -883,9 +881,9 @@ namespace DicomViewerDemo.Localization {
         ///   Looks up a localized string similar to {ImageVRes} - source image vertical resolution, in DPI
         ///.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_IMAGEVRES_SOURCE_IMAGE_VERTICAL_RESOLUTION_IN_DPIRN {
+        internal static string COMMONCODE_IMAGING_IMAGEVRES_SOURCE_IMAGE_VERTICAL_RESOLUTION_IN_DPIRN {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_IMAGEVRES_SOURCE_IMAGE_VERTICAL_RESOLUTION_IN_DPIRN", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_IMAGEVRES_SOURCE_IMAGE_VERTICAL_RESOLUTION_IN_DPIRN", resourceCulture);
             }
         }
         
@@ -893,36 +891,36 @@ namespace DicomViewerDemo.Localization {
         ///   Looks up a localized string similar to {ImageWidthPx} - source image width, in pixels
         ///.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_IMAGEWIDTHPX_SOURCE_IMAGE_WIDTH_IN_PIXELSRN {
+        internal static string COMMONCODE_IMAGING_IMAGEWIDTHPX_SOURCE_IMAGE_WIDTH_IN_PIXELSRN {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_IMAGEWIDTHPX_SOURCE_IMAGE_WIDTH_IN_PIXELSRN", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_IMAGEWIDTHPX_SOURCE_IMAGE_WIDTH_IN_PIXELSRN", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Invalid DicomDateTime format..
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_INVALID_DICOMDATETIME_FORMAT {
+        internal static string COMMONCODE_IMAGING_INVALID_DICOMDATETIME_FORMAT {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_INVALID_DICOMDATETIME_FORMAT", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_INVALID_DICOMDATETIME_FORMAT", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Line Measure.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_LINE_MEASURE {
+        internal static string COMMONCODE_IMAGING_LINE_MEASURE {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_LINE_MEASURE", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_LINE_MEASURE", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Lines Measure.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_LINES_MEASURE {
+        internal static string COMMONCODE_IMAGING_LINES_MEASURE {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_LINES_MEASURE", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_LINES_MEASURE", resourceCulture);
             }
         }
         
@@ -930,90 +928,90 @@ namespace DicomViewerDemo.Localization {
         ///   Looks up a localized string similar to List of predefined format variables:
         ///.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_LIST_OF_PREDEFINED_FORMAT_VARIABLESRN {
+        internal static string COMMONCODE_IMAGING_LIST_OF_PREDEFINED_FORMAT_VARIABLESRN {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_LIST_OF_PREDEFINED_FORMAT_VARIABLESRN", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_LIST_OF_PREDEFINED_FORMAT_VARIABLESRN", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Load Measurements....
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_LOAD_MEASUREMENTS {
+        internal static string COMMONCODE_IMAGING_LOAD_MEASUREMENTS {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_LOAD_MEASUREMENTS", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_LOAD_MEASUREMENTS", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Load the measurement annotations from a file.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_LOAD_THE_MEASUREMENT_ANNOTATIONS_FROM_A_FILE {
+        internal static string COMMONCODE_IMAGING_LOAD_THE_MEASUREMENT_ANNOTATIONS_FROM_A_FILE {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_LOAD_THE_MEASUREMENT_ANNOTATIONS_FROM_A_FILE", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_LOAD_THE_MEASUREMENT_ANNOTATIONS_FROM_A_FILE", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Measurement Properties....
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_MEASUREMENT_PROPERTIES {
+        internal static string COMMONCODE_IMAGING_MEASUREMENT_PROPERTIES {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_MEASUREMENT_PROPERTIES", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_MEASUREMENT_PROPERTIES", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Measurement settings.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_MEASUREMENT_SETTINGS {
+        internal static string COMMONCODE_IMAGING_MEASUREMENT_SETTINGS {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_MEASUREMENT_SETTINGS", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_MEASUREMENT_SETTINGS", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Megabytes.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_MEGABYTES {
+        internal static string COMMONCODE_IMAGING_MEGABYTES {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_MEGABYTES", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_MEGABYTES", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Megapixels.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_MEGAPIXELS {
+        internal static string COMMONCODE_IMAGING_MEGAPIXELS {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_MEGAPIXELS", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_MEGAPIXELS", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Normal.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_NORMAL {
+        internal static string COMMONCODE_IMAGING_NORMAL {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_NORMAL", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_NORMAL", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Not Focused Image Appearance Settings.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_NOT_FOCUSED_IMAGE_APPEARANCE_SETTINGS {
+        internal static string COMMONCODE_IMAGING_NOT_FOCUSED_IMAGE_APPEARANCE_SETTINGS {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_NOT_FOCUSED_IMAGE_APPEARANCE_SETTINGS", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_NOT_FOCUSED_IMAGE_APPEARANCE_SETTINGS", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Not ready.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_NOT_READY {
+        internal static string COMMONCODE_IMAGING_NOT_READY {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_NOT_READY", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_NOT_READY", resourceCulture);
             }
         }
         
@@ -1021,9 +1019,9 @@ namespace DicomViewerDemo.Localization {
         ///   Looks up a localized string similar to {PageIndex} - page index, in source image file
         ///.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_PAGEINDEX_PAGE_INDEX_IN_SOURCE_IMAGE_FILERN {
+        internal static string COMMONCODE_IMAGING_PAGEINDEX_PAGE_INDEX_IN_SOURCE_IMAGE_FILERN {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_PAGEINDEX_PAGE_INDEX_IN_SOURCE_IMAGE_FILERN", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_PAGEINDEX_PAGE_INDEX_IN_SOURCE_IMAGE_FILERN", resourceCulture);
             }
         }
         
@@ -1031,9 +1029,9 @@ namespace DicomViewerDemo.Localization {
         ///   Looks up a localized string similar to {PageLabel} - page label
         ///.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_PAGELABEL_PAGE_LABELRN {
+        internal static string COMMONCODE_IMAGING_PAGELABEL_PAGE_LABELRN {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_PAGELABEL_PAGE_LABELRN", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_PAGELABEL_PAGE_LABELRN", resourceCulture);
             }
         }
         
@@ -1041,235 +1039,235 @@ namespace DicomViewerDemo.Localization {
         ///   Looks up a localized string similar to {PageNumber} - page number, in source image file
         ///.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_PAGENUMBER_PAGE_NUMBER_IN_SOURCE_IMAGE_FILERN {
+        internal static string COMMONCODE_IMAGING_PAGENUMBER_PAGE_NUMBER_IN_SOURCE_IMAGE_FILERN {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_PAGENUMBER_PAGE_NUMBER_IN_SOURCE_IMAGE_FILERN", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_PAGENUMBER_PAGE_NUMBER_IN_SOURCE_IMAGE_FILERN", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Properties....
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_PROPERTIES {
+        internal static string COMMONCODE_IMAGING_PROPERTIES {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_PROPERTIES", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_PROPERTIES", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Psd.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_PSD {
+        internal static string COMMONCODE_IMAGING_PSD {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_PSD", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_PSD", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Refresh all measurements of focused image.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_REFRESH_ALL_MEASUREMENTS_OF_FOCUSED_IMAGE {
+        internal static string COMMONCODE_IMAGING_REFRESH_ALL_MEASUREMENTS_OF_FOCUSED_IMAGE {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_REFRESH_ALL_MEASUREMENTS_OF_FOCUSED_IMAGE", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_REFRESH_ALL_MEASUREMENTS_OF_FOCUSED_IMAGE", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Refresh Measurements.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_REFRESH_MEASUREMENTS {
+        internal static string COMMONCODE_IMAGING_REFRESH_MEASUREMENTS {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_REFRESH_MEASUREMENTS", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_REFRESH_MEASUREMENTS", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Save Measurements....
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_SAVE_MEASUREMENTS {
+        internal static string COMMONCODE_IMAGING_SAVE_MEASUREMENTS {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_SAVE_MEASUREMENTS", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_SAVE_MEASUREMENTS", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Selected.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_SELECTED {
+        internal static string COMMONCODE_IMAGING_SELECTED {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_SELECTED", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_SELECTED", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Sequence.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_SEQUENCE {
+        internal static string COMMONCODE_IMAGING_SEQUENCE {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_SEQUENCE", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_SEQUENCE", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Show properties form for focused measurement annotation.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_SHOW_PROPERTIES_FORM_FOR_FOCUSED_MEASUREMENT_ANNOTATION {
+        internal static string COMMONCODE_IMAGING_SHOW_PROPERTIES_FORM_FOR_FOCUSED_MEASUREMENT_ANNOTATION {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_SHOW_PROPERTIES_FORM_FOR_FOCUSED_MEASUREMENT_ANNOTATION", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_SHOW_PROPERTIES_FORM_FOR_FOCUSED_MEASUREMENT_ANNOTATION", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Show properties form for image measure tool.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_SHOW_PROPERTIES_FORM_FOR_IMAGE_MEASURE_TOOL {
+        internal static string COMMONCODE_IMAGING_SHOW_PROPERTIES_FORM_FOR_IMAGE_MEASURE_TOOL {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_SHOW_PROPERTIES_FORM_FOR_IMAGE_MEASURE_TOOL", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_SHOW_PROPERTIES_FORM_FOR_IMAGE_MEASURE_TOOL", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Starts the measurement using angle.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_STARTS_THE_MEASUREMENT_USING_ANGLE {
+        internal static string COMMONCODE_IMAGING_STARTS_THE_MEASUREMENT_USING_ANGLE {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_STARTS_THE_MEASUREMENT_USING_ANGLE", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_STARTS_THE_MEASUREMENT_USING_ANGLE", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Starts the measurement using ellipse.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_STARTS_THE_MEASUREMENT_USING_ELLIPSE {
+        internal static string COMMONCODE_IMAGING_STARTS_THE_MEASUREMENT_USING_ELLIPSE {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_STARTS_THE_MEASUREMENT_USING_ELLIPSE", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_STARTS_THE_MEASUREMENT_USING_ELLIPSE", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Starts the measurement using line.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_STARTS_THE_MEASUREMENT_USING_LINE {
+        internal static string COMMONCODE_IMAGING_STARTS_THE_MEASUREMENT_USING_LINE {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_STARTS_THE_MEASUREMENT_USING_LINE", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_STARTS_THE_MEASUREMENT_USING_LINE", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Starts the measurement using lines.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_STARTS_THE_MEASUREMENT_USING_LINES {
+        internal static string COMMONCODE_IMAGING_STARTS_THE_MEASUREMENT_USING_LINES {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_STARTS_THE_MEASUREMENT_USING_LINES", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_STARTS_THE_MEASUREMENT_USING_LINES", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Svg.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_SVG {
+        internal static string COMMONCODE_IMAGING_SVG {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_SVG", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_SVG", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to This demo application can edit array only if array length does not exceed {0}..
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_THIS_DEMO_APPLICATION_CAN_EDIT_ARRAY_ONLY_IF_ARRAY_LENGTH_DOES_NOT_EXCEED_ARG0 {
+        internal static string COMMONCODE_IMAGING_THIS_DEMO_APPLICATION_CAN_EDIT_ARRAY_ONLY_IF_ARRAY_LENGTH_DOES_NOT_EXCEED_ARG0 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_THIS_DEMO_APPLICATION_CAN_EDIT_ARRAY_ONLY_IF_ARRAY_LENGTH" +
-                        "_DOES_NOT_EXCEED_ARG0", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_THIS_DEMO_APPLICATION_CAN_EDIT_ARRAY_ONLY_IF_ARRAY_LENGTH_DOES" +
+                        "_NOT_EXCEED_ARG0", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to This node is read-only..
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_THIS_NODE_IS_READONLY {
+        internal static string COMMONCODE_IMAGING_THIS_NODE_IS_READONLY {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_THIS_NODE_IS_READONLY", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_THIS_NODE_IS_READONLY", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to ThumbnailCaption.CaptionFormat property.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_THUMBNAILCAPTIONCAPTIONFORMAT_PROPERTY {
+        internal static string COMMONCODE_IMAGING_THUMBNAILCAPTIONCAPTIONFORMAT_PROPERTY {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_THUMBNAILCAPTIONCAPTIONFORMAT_PROPERTY", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_THUMBNAILCAPTIONCAPTIONFORMAT_PROPERTY", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Units Of Measure.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_UNITS_OF_MEASURE {
+        internal static string COMMONCODE_IMAGING_UNITS_OF_MEASURE {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_UNITS_OF_MEASURE", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_UNITS_OF_MEASURE", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Units Of Measure.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_UNITS_OF_MEASURE_ALT1 {
+        internal static string COMMONCODE_IMAGING_UNITS_OF_MEASURE_ALT1 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_UNITS_OF_MEASURE_ALT1", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_UNITS_OF_MEASURE_ALT1", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Value.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_VALUE {
+        internal static string COMMONCODE_IMAGING_VALUE {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_VALUE", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_VALUE", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Visual tool.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_IMAGING_VISUAL_TOOL {
+        internal static string COMMONCODE_IMAGING_VISUAL_TOOL {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_IMAGING_VISUAL_TOOL", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_IMAGING_VISUAL_TOOL", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Information.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_INFORMATION {
+        internal static string COMMONCODE_INFORMATION {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_INFORMATION", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_INFORMATION", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Inner exception: {0}.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_INNER_EXCEPTION_ARG0 {
+        internal static string COMMONCODE_INNER_EXCEPTION_ARG0 {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_INNER_EXCEPTION_ARG0", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_INNER_EXCEPTION_ARG0", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Resource &apos;{0}&apos; was not found..
         /// </summary>
-        internal static string DEMOSCOMMONCODE_RESOURCE_ARG0_WAS_NOT_FOUND {
+        internal static string COMMONCODE_RESOURCE_ARG0_WAS_NOT_FOUND {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_RESOURCE_ARG0_WAS_NOT_FOUND", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_RESOURCE_ARG0_WAS_NOT_FOUND", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Warning.
         /// </summary>
-        internal static string DEMOSCOMMONCODE_WARNING {
+        internal static string COMMONCODE_WARNING {
             get {
-                return ResourceManager.GetString("DEMOSCOMMONCODE_WARNING", resourceCulture);
+                return ResourceManager.GetString("COMMONCODE_WARNING", resourceCulture);
             }
         }
         

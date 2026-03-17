@@ -4,10 +4,10 @@ using System.Windows.Forms;
 
 using Vintasoft.Imaging.Codecs.Encoders;
 
-using DemosCommonCode.Imaging.Codecs.Dialogs;
+using CommonCode.Imaging.Codecs.Dialogs;
 using Vintasoft.Imaging.Codecs.Decoders;
 
-namespace DemosCommonCode.Imaging.Codecs
+namespace CommonCode.Imaging.Codecs
 {
     /// <summary>
     /// Provides the ability to create the encoder (<see cref="EncoderBase"/> or 
@@ -121,7 +121,7 @@ namespace DemosCommonCode.Imaging.Codecs
 
             // if encoder is not found
             if (encoder == null)
-                throw new NotSupportedException(string.Format(DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_CODECS_CAN_NOT_FIND_ENCODER_FOR_ARG0, filename));
+                throw new NotSupportedException(string.Format(DicomViewerDemo.Localization.Strings.COMMONCODE_IMAGING_CODECS_CAN_NOT_FIND_ENCODER_FOR_ARG0, filename));
 
             // set encoder settings
             return ShowEncoderSettingsDialogAndCheckOverwrite(
@@ -147,7 +147,7 @@ namespace DemosCommonCode.Imaging.Codecs
 
             // if encoder is not found
             if (encoder == null)
-                throw new NotSupportedException(string.Format(DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_CODECS_CAN_NOT_FIND_ENCODER_FOR_ARG0_ALT1, name));
+                throw new NotSupportedException(string.Format(DicomViewerDemo.Localization.Strings.COMMONCODE_IMAGING_CODECS_CAN_NOT_FIND_ENCODER_FOR_ARG0_ALT1, name));
 
             // set encoder settings
             return ShowEncoderSettingsDialogAndCheckOverwrite(name, ref encoder, false, false);
@@ -422,11 +422,11 @@ namespace DemosCommonCode.Imaging.Codecs
         /// <returns><b>True</b> - file must be overwritten; otherwise, <b>false</b>.</returns>
         private bool ShowDialogAndAskIfFileMustBeOverwritten(string filename)
         {
-            string message = string.Format(DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_CODECS_FILE_ARG0_ALREADY_EXISTS_OVERWRITE_IT, Path.GetFileName(filename));
+            string message = string.Format(DicomViewerDemo.Localization.Strings.COMMONCODE_IMAGING_CODECS_FILE_ARG0_ALREADY_EXISTS_OVERWRITE_IT, Path.GetFileName(filename));
 
             if (MessageBox.Show(
                 message,
-                DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_CODECS_CONFIRM_OVERWRITE,
+                DicomViewerDemo.Localization.Strings.COMMONCODE_IMAGING_CODECS_CONFIRM_OVERWRITE,
                 MessageBoxButtons.YesNo,
                 MessageBoxIcon.Warning) == DialogResult.No)
             {

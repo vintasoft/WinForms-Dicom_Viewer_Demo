@@ -8,7 +8,7 @@ using Vintasoft.Imaging.Codecs.Encoders;
 using Vintasoft.Imaging.Codecs.ImageFiles.Tiff;
 using Vintasoft.Imaging.ImageProcessing;
 
-namespace DemosCommonCode.Imaging.Codecs.Dialogs
+namespace CommonCode.Imaging.Codecs.Dialogs
 {
     /// <summary>
     /// A form that allows to view and edit the TIFF encoder settings.
@@ -163,7 +163,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             if ((tileWidthNumericUpDown.Value % 16) != 0)
             {
                 // show message
-                MessageBox.Show(DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_TILE_WIDTH_MUST_BE_MULTIPLE_16);
+                MessageBox.Show(DicomViewerDemo.Localization.Strings.COMMONCODE_IMAGING_CODECS_DIALOGS_TILE_WIDTH_MUST_BE_MULTIPLE_16);
                 // calculate corrent tile width
                 tileWidthNumericUpDown.Value = (int)(tileWidthNumericUpDown.Value / 16) * 16;
             }
@@ -178,7 +178,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             if ((tileHeightNumericUpDown.Value % 16) != 0)
             {
                 // show message
-                MessageBox.Show(DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_TILE_HEIGHT_MUST_BE_MULTIPLE_16);
+                MessageBox.Show(DicomViewerDemo.Localization.Strings.COMMONCODE_IMAGING_CODECS_DIALOGS_TILE_HEIGHT_MUST_BE_MULTIPLE_16);
                 // calculate corrent tile width
                 tileHeightNumericUpDown.Value = (int)(tileHeightNumericUpDown.Value / 16) * 16;
             }
@@ -226,8 +226,8 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             {
                 // if dialog closing must be canceled
                 if (MessageBox.Show(
-                    DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_IMPORTANT_SOME_DATA_FROM_ANNOTATIONS_WILL_BE_LOST_DO_YOU_WANT_TO_CONTINUE_ANYWAY,
-                    DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_WARNING,
+                    DicomViewerDemo.Localization.Strings.COMMONCODE_IMAGING_CODECS_DIALOGS_IMPORTANT_SOME_DATA_FROM_ANNOTATIONS_WILL_BE_LOST_DO_YOU_WANT_TO_CONTINUE_ANYWAY,
+                    DicomViewerDemo.Localization.Strings.COMMONCODE_IMAGING_CODECS_DIALOGS_WARNING,
                     MessageBoxButtons.OKCancel,
                     MessageBoxIcon.Warning) != DialogResult.OK)
                 {

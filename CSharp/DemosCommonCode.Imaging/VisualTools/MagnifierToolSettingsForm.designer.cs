@@ -1,4 +1,4 @@
-namespace DemosCommonCode.Imaging
+namespace CommonCode.Imaging
 {
     partial class MagnifierToolSettingsForm
     {
@@ -35,7 +35,7 @@ namespace DemosCommonCode.Imaging
             this.heightNumericUpDown = new System.Windows.Forms.NumericUpDown();
             this.zoomNumericUpDown = new System.Windows.Forms.NumericUpDown();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.borderColorPanelControl = new DemosCommonCode.CustomControls.ColorPanelControl();
+            this.borderColorPanelControl = new CommonCode.CustomControls.ColorPanelControl();
             this.borderWidthNumericUpDown = new System.Windows.Forms.NumericUpDown();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -518,7 +518,7 @@ namespace DemosCommonCode.Imaging
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
-        private DemosCommonCode.CustomControls.ColorPanelControl borderColorPanelControl;
+        private CommonCode.CustomControls.ColorPanelControl borderColorPanelControl;
         private System.Windows.Forms.NumericUpDown borderWidthNumericUpDown;
         private System.Windows.Forms.CheckBox oilPaintingCheckBox;
         private System.Windows.Forms.CheckBox posterizeCheckBox;

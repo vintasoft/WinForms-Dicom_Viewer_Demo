@@ -6,7 +6,7 @@ using Vintasoft.Imaging;
 using Vintasoft.Imaging.UI.VisualTools;
 
 
-namespace DemosCommonCode.Imaging
+namespace CommonCode.Imaging
 {
     /// <summary>
     /// Stores information about an action of <see cref="VisualTool"/>.
@@ -455,7 +455,7 @@ namespace DemosCommonCode.Imaging
         /// </summary>
         private void Tool_ImageLoadingException(object sender, ExceptionEventArgs e)
         {
-            MessageBox.Show(e.Exception.Message, DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_VISUAL_TOOL);
+            MessageBox.Show(e.Exception.Message, DicomViewerDemo.Localization.Strings.COMMONCODE_IMAGING_VISUAL_TOOL);
         }
 
         #endregion

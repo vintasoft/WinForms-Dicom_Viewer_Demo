@@ -4,10 +4,10 @@ using System.Windows.Forms;
 using Vintasoft.Imaging;
 using Vintasoft.Imaging.Codecs.Encoders;
 
-using DemosCommonCode.Imaging.Codecs;
+using CommonCode.Imaging.Codecs;
 
 
-namespace DemosCommonCode.Imaging
+namespace CommonCode.Imaging
 {
     /// <summary>
     /// Allows to show a file save dialog and save an image to a file.
@@ -62,7 +62,7 @@ namespace DemosCommonCode.Imaging
                     }
                     catch (Exception e)
                     {
-                        MessageBox.Show(e.Message, DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_ERROR_ALT2, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        MessageBox.Show(e.Message, DicomViewerDemo.Localization.Strings.COMMONCODE_IMAGING_ERROR_ALT2, MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }
                     return DialogResult.OK;
                 }
@@ -104,7 +104,7 @@ namespace DemosCommonCode.Imaging
                     }
                     catch (Exception e)
                     {
-                        MessageBox.Show(e.Message, DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_ERROR_ALT3, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        MessageBox.Show(e.Message, DicomViewerDemo.Localization.Strings.COMMONCODE_IMAGING_ERROR_ALT3, MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }
                     return DialogResult.OK;
                 }

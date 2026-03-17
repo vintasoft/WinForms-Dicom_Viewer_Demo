@@ -9,7 +9,7 @@ using Vintasoft.Imaging.Codecs.ImageFiles.Dicom;
 #endif
 using Vintasoft.Imaging.Metadata;
 
-namespace DemosCommonCode.Imaging
+namespace CommonCode.Imaging
 {
     /// <summary>
     /// Represents a form that allows to add a DICOM data element to a DICOM data set of DICOM file.
@@ -84,7 +84,7 @@ namespace DemosCommonCode.Imaging
             // reset the user interface
 
             valueLabel.Visible = true;
-            valueLabel.Text = DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_VALUE;
+            valueLabel.Text = DicomViewerDemo.Localization.Strings.COMMONCODE_IMAGING_VALUE;
 
             valueTextBox.Visible = false;
             valueTextBox.Text = string.Empty;
@@ -136,7 +136,7 @@ namespace DemosCommonCode.Imaging
 
                 default:
                     valueTextBox.Visible = true;
-                    valueLabel.Text = DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_ENTER_STRING_VALUES_VALUE_PER_LINE;
+                    valueLabel.Text = DicomViewerDemo.Localization.Strings.COMMONCODE_IMAGING_ENTER_STRING_VALUES_VALUE_PER_LINE;
                     break;
 
             }
@@ -333,7 +333,7 @@ namespace DemosCommonCode.Imaging
             }
             catch (Exception exc)
             {
-                MessageBox.Show(exc.Message, DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_ERROR, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(exc.Message, DicomViewerDemo.Localization.Strings.COMMONCODE_IMAGING_ERROR, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 #endif
         }

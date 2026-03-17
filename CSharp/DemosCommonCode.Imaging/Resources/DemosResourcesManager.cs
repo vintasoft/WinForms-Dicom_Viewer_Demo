@@ -8,7 +8,7 @@ using System.Windows.Forms;
 using Vintasoft.Imaging;
 
 
-namespace DemosCommonCode
+namespace CommonCode
 {
     /// <summary>
     /// Provides access to the resources of this demo.
@@ -77,7 +77,7 @@ namespace DemosCommonCode
 
             // if resource is not found
             if (stream == null)
-                throw new FileNotFoundException(string.Format(DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_RESOURCE_ARG0_WAS_NOT_FOUND, filename));
+                throw new FileNotFoundException(string.Format(DicomViewerDemo.Localization.Strings.COMMONCODE_RESOURCE_ARG0_WAS_NOT_FOUND, filename));
 
             return stream;
         }

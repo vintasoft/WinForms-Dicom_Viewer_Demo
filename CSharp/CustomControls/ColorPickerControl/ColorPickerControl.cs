@@ -4,7 +4,7 @@ using System.Drawing;
 using System.Globalization;
 using System.Windows.Forms;
 
-namespace DemosCommonCode.CustomControls
+namespace CommonCode.CustomControls
 {
     /// <summary>
     /// A panel that allows to show the selected color and change the selected color.
@@ -37,7 +37,7 @@ namespace DemosCommonCode.CustomControls
             Color = Color.White;
             CanEditAlphaChannel = true;
 
-            colorSampleControl.ToolTip = DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_CUSTOMCONTROLS_CLICK_ON_THE_PANEL_IF_CURRENT_COLOR_MUST_BE_CHANGED;
+            colorSampleControl.ToolTip = DicomViewerDemo.Localization.Strings.COMMONCODE_CUSTOMCONTROLS_CLICK_ON_THE_PANEL_IF_CURRENT_COLOR_MUST_BE_CHANGED;
         }
 
         #endregion

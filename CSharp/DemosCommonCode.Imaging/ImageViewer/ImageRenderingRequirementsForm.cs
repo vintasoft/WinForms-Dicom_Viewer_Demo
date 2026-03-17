@@ -6,7 +6,7 @@ using System.Windows.Forms;
 using Vintasoft.Imaging.ImageRendering;
 
 
-namespace DemosCommonCode.Imaging
+namespace CommonCode.Imaging
 {
     /// <summary>
     /// A form that allows to view and edit the image rendering requirements.
@@ -29,7 +29,7 @@ namespace DemosCommonCode.Imaging
         /// <summary>
         /// The available codec names.
         /// </summary>
-        string[] _codecNames = new string[] { "Bmp", "Jpeg", "Jpeg2000", "Tiff", "Png", "Pdf", DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_PSD, DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_SVG, "Docx", "Xlsx", "Wmf", DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_EMF_ALT2 };
+        string[] _codecNames = new string[] { "Bmp", "Jpeg", "Jpeg2000", "Tiff", "Png", "Pdf", DicomViewerDemo.Localization.Strings.COMMONCODE_IMAGING_PSD, DicomViewerDemo.Localization.Strings.COMMONCODE_IMAGING_SVG, "Docx", "Xlsx", "Wmf", DicomViewerDemo.Localization.Strings.COMMONCODE_IMAGING_EMF_ALT2 };
 
         #endregion
 
@@ -275,12 +275,12 @@ namespace DemosCommonCode.Imaging
             if (_codecNameToImageSizeInMegapixels.ContainsKey(codecName))
             {
                 imageSizeComboBox.Text = _codecNameToImageSizeInMegapixels[codecName].ToString(CultureInfo.InvariantCulture);
-                sizeTypeLabel.Text = DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_MEGAPIXELS;
+                sizeTypeLabel.Text = DicomViewerDemo.Localization.Strings.COMMONCODE_IMAGING_MEGAPIXELS;
             }
             else if (_codecNameToImageSizeInMegabytes.ContainsKey(codecName))
             {
                 imageSizeComboBox.Text = _codecNameToImageSizeInMegabytes[codecName].ToString(CultureInfo.InvariantCulture);
-                sizeTypeLabel.Text = DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_MEGABYTES;
+                sizeTypeLabel.Text = DicomViewerDemo.Localization.Strings.COMMONCODE_IMAGING_MEGABYTES;
             }
         }
 

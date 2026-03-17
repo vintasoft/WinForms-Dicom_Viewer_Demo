@@ -5,7 +5,7 @@ using System.Windows.Forms;
 using Vintasoft.Imaging.Codecs.Encoders;
 
 
-namespace DemosCommonCode.Imaging.Codecs.Dialogs
+namespace CommonCode.Imaging.Codecs.Dialogs
 {
     /// <summary>
     /// A form that allows to view and edit the SVG encoder settings.
@@ -28,10 +28,10 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             encoderNameComboBox.Items.Add("PNG");
             encoderNameComboBox.Items.Add("JPEG");
 
-            pngSettingsComboBox.Items.Add(DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_FAST);
-            pngSettingsComboBox.Items.Add(DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_BEST_SPEED);
-            pngSettingsComboBox.Items.Add(DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_NORMAL);
-            pngSettingsComboBox.Items.Add(DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_BEST_COMPRESSION);
+            pngSettingsComboBox.Items.Add(DicomViewerDemo.Localization.Strings.COMMONCODE_IMAGING_CODECS_DIALOGS_FAST);
+            pngSettingsComboBox.Items.Add(DicomViewerDemo.Localization.Strings.COMMONCODE_IMAGING_CODECS_DIALOGS_BEST_SPEED);
+            pngSettingsComboBox.Items.Add(DicomViewerDemo.Localization.Strings.COMMONCODE_IMAGING_CODECS_DIALOGS_NORMAL);
+            pngSettingsComboBox.Items.Add(DicomViewerDemo.Localization.Strings.COMMONCODE_IMAGING_CODECS_DIALOGS_BEST_COMPRESSION);
         }
 
         #endregion
@@ -54,7 +54,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             set
             {
                 if (value == null)
-                    throw new ArgumentNullException(DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_VALUE_ALT2);
+                    throw new ArgumentNullException(DicomViewerDemo.Localization.Strings.COMMONCODE_IMAGING_CODECS_DIALOGS_VALUE_ALT2);
 
                 if (_encoderSettings != value)
                 {
@@ -135,7 +135,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
             {
                 pngEncoderSettingsGroupBox.Visible = true;
                 jpegEncoderSettingsGroupBox.Visible = false;
-                pngSettingsComboBox.SelectedItem = DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_NORMAL_ALT1;
+                pngSettingsComboBox.SelectedItem = DicomViewerDemo.Localization.Strings.COMMONCODE_IMAGING_CODECS_DIALOGS_NORMAL_ALT1;
             }
             else if (selectedEncoder == "JPEG")
             {
@@ -187,7 +187,7 @@ namespace DemosCommonCode.Imaging.Codecs.Dialogs
                     return PngEncoderSettings.BestCompression;
             }
 
-            encoderNameComboBox.SelectedItem = DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_CODECS_DIALOGS_NORMAL_ALT2;
+            encoderNameComboBox.SelectedItem = DicomViewerDemo.Localization.Strings.COMMONCODE_IMAGING_CODECS_DIALOGS_NORMAL_ALT2;
             return PngEncoderSettings.Normal;
         }
 

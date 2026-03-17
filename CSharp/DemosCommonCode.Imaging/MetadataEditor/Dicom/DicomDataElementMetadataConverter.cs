@@ -8,7 +8,7 @@ using Vintasoft.Imaging.Codecs.ImageFiles.Dicom;
 using Vintasoft.Imaging.Metadata;
 
 
-namespace DemosCommonCode.Imaging
+namespace CommonCode.Imaging
 {
     /// <summary>
     /// Represent the metadata converter of DICOM data element.
@@ -265,7 +265,7 @@ namespace DemosCommonCode.Imaging
                 {
                     if (_dataElement.ValueRepresentation == DicomValueRepresentation.SQ)
                     {
-                        return DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_SEQUENCE;
+                        return DicomViewerDemo.Localization.Strings.COMMONCODE_IMAGING_SEQUENCE;
                     }
                     else
                     {
@@ -312,7 +312,7 @@ namespace DemosCommonCode.Imaging
                 if (!CanEditValue)
                 {
                     string message = string.Format(
-                        DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_THIS_DEMO_APPLICATION_CAN_EDIT_ARRAY_ONLY_IF_ARRAY_LENGTH_DOES_NOT_EXCEED_ARG0,
+                        DicomViewerDemo.Localization.Strings.COMMONCODE_IMAGING_THIS_DEMO_APPLICATION_CAN_EDIT_ARRAY_ONLY_IF_ARRAY_LENGTH_DOES_NOT_EXCEED_ARG0,
                         MAX_ARRAY_LENGTH);
                     result = new string[] { message };
                 }
@@ -340,7 +340,7 @@ namespace DemosCommonCode.Imaging
                         return;
 
                     if (_dataElement.IsReadOnly)
-                        throw new Exception(DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_THIS_NODE_IS_READONLY);
+                        throw new Exception(DicomViewerDemo.Localization.Strings.COMMONCODE_IMAGING_THIS_NODE_IS_READONLY);
 
                     try
                     {
@@ -367,7 +367,7 @@ namespace DemosCommonCode.Imaging
                                         string[] splitedValue = value[i].Split(' ');
 
                                         if (splitedValue.Length != 2 && splitedValue.Length != 3)
-                                            throw new FormatException(DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_INVALID_DICOMDATETIME_FORMAT);
+                                            throw new FormatException(DicomViewerDemo.Localization.Strings.COMMONCODE_IMAGING_INVALID_DICOMDATETIME_FORMAT);
 
                                         DateTime utcDateTime = DateTime.Parse(splitedValue[0] + " " + splitedValue[1]);
 
@@ -412,7 +412,7 @@ namespace DemosCommonCode.Imaging
                     }
                     catch (Exception exc)
                     {
-                        MessageBox.Show(exc.Message, DicomViewerDemo.Localization.Strings.DEMOSCOMMONCODE_IMAGING_ERROR_ALT1, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        MessageBox.Show(exc.Message, DicomViewerDemo.Localization.Strings.COMMONCODE_IMAGING_ERROR_ALT1, MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }
                 }
             }
