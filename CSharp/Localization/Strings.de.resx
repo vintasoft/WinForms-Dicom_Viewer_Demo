@@ -199,6 +199,12 @@
   <data name="COMMONCODE_IMAGING_CODECS_WMF_FILESWMF" xml:space="preserve">
     <value>WMF-Dateien|*.wmf</value>
   </data>
+  <data name="COMMONCODE_IMAGING_CODECS_PPTX" xml:space="preserve">
+    <value>Pptx</value>
+  </data>
+  <data name="COMMONCODE_IMAGING_CODECS_CAD" xml:space="preserve">
+    <value>Cad</value>
+  </data>
   <data name="COMMONCODE_IMAGING_CODECS_NDPI" xml:space="preserve">
     <value>Ndpi</value>
   </data>

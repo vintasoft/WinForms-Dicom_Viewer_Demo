@@ -290,6 +290,15 @@ namespace DicomViewerDemo.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Cad.
+        /// </summary>
+        internal static string COMMONCODE_IMAGING_CODECS_CAD {
+            get {
+                return ResourceManager.GetString("COMMONCODE_IMAGING_CODECS_CAD", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Can not find encoder for &apos;{0}&apos;..
         /// </summary>
         internal static string COMMONCODE_IMAGING_CODECS_CAN_NOT_FIND_ENCODER_FOR_ARG0 {
@@ -548,6 +557,15 @@ namespace DicomViewerDemo.Localization {
         internal static string COMMONCODE_IMAGING_CODECS_PNG_FILESPNG {
             get {
                 return ResourceManager.GetString("COMMONCODE_IMAGING_CODECS_PNG_FILESPNG", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Pptx.
+        /// </summary>
+        internal static string COMMONCODE_IMAGING_CODECS_PPTX {
+            get {
+                return ResourceManager.GetString("COMMONCODE_IMAGING_CODECS_PPTX", resourceCulture);
             }
         }
         

@@ -216,6 +216,14 @@ namespace DicomViewerDemo
         #region Constructors
 
         /// <summary>
+        /// Initializes the <see cref="MainForm"/> class.
+        /// </summary>
+        static MainForm()
+        {
+            Jpeg2000AssemblyLoader.Load();
+        }
+
+        /// <summary>
         /// Initializes a new instance of the <see cref="MainForm"/> class.
         /// </summary>
         public MainForm()
@@ -226,8 +234,6 @@ namespace DicomViewerDemo
             InitializeComponent();
 
             MoveDicomCodecToFirstPosition();
-
-            Jpeg2000AssemblyLoader.Load();
 
             AnnotationTypeEditorRegistrator.Register();
 
