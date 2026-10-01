@@ -471,6 +471,15 @@ namespace DicomViewerDemo.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Email.
+        /// </summary>
+        internal static string COMMONCODE_IMAGING_CODECS_EMAIL {
+            get {
+                return ResourceManager.GetString("COMMONCODE_IMAGING_CODECS_EMAIL", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to EMF Files|*.emf|.
         /// </summary>
         internal static string COMMONCODE_IMAGING_CODECS_EMF_FILESEMF {
@@ -494,6 +503,15 @@ namespace DicomViewerDemo.Localization {
         internal static string COMMONCODE_IMAGING_CODECS_GIF_FILESGIF {
             get {
                 return ResourceManager.GetString("COMMONCODE_IMAGING_CODECS_GIF_FILESGIF", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Html.
+        /// </summary>
+        internal static string COMMONCODE_IMAGING_CODECS_HTML {
+            get {
+                return ResourceManager.GetString("COMMONCODE_IMAGING_CODECS_HTML", resourceCulture);
             }
         }
         
